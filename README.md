@@ -10,6 +10,8 @@ And enjoy Ukrainian or Russian voices while having all the texts in your native 
 
 This mod is an evolution of my previous mod [auto_ZONA_translator](https://github.com/peurKe/auto_ZONA_translator)
 
+![apocalyptic_translatorZ](./images/apocalyptic_translatorZ.png)
+
 <!-- TOC -->
 - [Discord](#Discord)
 - [Prerequisites](#Prerequisites)
