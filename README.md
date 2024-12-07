@@ -61,8 +61,13 @@ This mod is an evolution of my previous mod [auto_ZONA_translator](https://githu
 
 The '**apocalyptic_translatorZ_installer.exe**' installer can be used for **CONVRGENCE**, **Paradox of Hope**, **Z.O.N.A Origin**, **Z.O.N.A Project X** games.
 
-Choose the default installer for all latin languages:
+Choose the default installer for all Latin languages:
 - **apocalyptic_translatorZ_installer.exe** embedding texts and subtitles for **all supported languages**
+
+Or choose the installer for the following Asian languages:
+- **auto_ZONA_translator_installer_ZH.exe** embedding texts and subtitles for **中国語（簡体字）** (Simplified Chinese) only
+- **auto_ZONA_translator_installer_JA.exe** embedding texts and subtitles for **日本語（ひらがな）** (Japanese Hiragana) only
+- **auto_ZONA_translator_installer_KO.exe** embedding texts and subtitles for **한국어** (Korean) only
 
 ## Copy the downloaded EXE installer into game folder
 
