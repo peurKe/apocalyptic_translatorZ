@@ -203,7 +203,9 @@ class apocalyptic_translatorZ:
 
                 self.logs.log(f" • [Translations for '{self.translator.lang_source}' to '{self.translator.lang_target}'] ...", force=True)
 
-                self.file_handler.set_translation_dir(f"{self.translations_dir}/{self.translator.lang_source}_to_{self.translator.lang_target}")
+                # # Same language code for DeepL or Google Translators
+                # self.file_handler.set_translation_dir(f"{self.translations_dir}/{self.translator.lang_source}_to_{self.translator.lang_target}")
+                self.file_handler.set_translation_dir(f"{self.translations_dir}/{lang_source}_to_{lang_target}")
 
                 # Is translation already done ? + Create translation directory if not exists
                 translation_done = self.file_handler.check_translation_done()
@@ -229,10 +231,10 @@ class apocalyptic_translatorZ:
                 self.db.initialize_database(
                     self.database_fixed_dir,
                     self.translator_name,
-                    self.translator.lang_source,
-                    self.translator.lang_target,
-                    self.language_support.get_source_language_name(lang_source),
-                    self.language_support.get_target_language_name(lang_target)
+                    lang_source,  # Same language code for DeepL or Google Translators
+                    lang_target,  # Same language code for DeepL or Google Translators
+                    self.language_support.get_source_language_name(lang_source),  # Same language name for DeepL or Google Translators
+                    self.language_support.get_target_language_name(lang_target)   # Same language name for DeepL or Google Translators
                 )
                 self.logs.log(f" [DEBUG] self.db.database_fullpath: {self.db.database_fullpath}", c='DEBUG')
 
