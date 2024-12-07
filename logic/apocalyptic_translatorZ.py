@@ -119,7 +119,8 @@ class apocalyptic_translatorZ:
         # Set data game dir
         self.data_dir = f"{self.game_dir}/{self.params.game.get('data_dir_name')}"
         # Set Project directory
-        self.project_dir = f"{self.game_dir}/{self.params.game.get('safe_name')}_{self.project_name}"
+        # self.project_dir = f"{self.game_dir}/{self.params.game.get('safe_name')}_{self.project_name}"
+        self.project_dir = f"{self.game_dir}/{self.project_name}"
         # Set Project directories based on Game buildid
         self.working_dir = f"{self.project_dir}/{self.buildid}"
         # self.database_dir = f"{self.working_dir}/DB/{self.db_type}/{self.translator_name}"

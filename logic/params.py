@@ -6,9 +6,6 @@ class Params :
     game_exec = None
     game = None
     default_games = {
-        "steam": {
-            "log_path": "C:\\Program Files (x86)\\Steam\\logs\\content_log.txt"
-        },
         "backup_dir_name": "BACKUP",
         "translations_dir_name": "translations",
         "watermark_in_binary": "THIS_FILE_IS_TRANSLATED",
@@ -45,6 +42,7 @@ class Params :
     games = {
         "Paradox of Hope.exe": {
             "steam": {
+                "name": "Paradox of Hope",
                 "log_path": default_games.get('steam').get('log_path'),
                 "app_id": None,
                 "manifest_acf_file": None
@@ -90,6 +88,7 @@ class Params :
         },
         "CONVRGENCE.exe": {
             "steam": {
+                "name": "CONVRGENCE",
                 "log_path": default_games.get('steam').get('log_path'),
                 "app_id": 2609610,  # https://store.steampowered.com/app/2609610/CONVRGENCE/
                 "manifest_acf_file": f"..\\..\\appmanifest_2609610.acf"
@@ -151,6 +150,7 @@ class Params :
         },
         "ZONA.exe": {
             "steam": {
+                "name": "Z.O.N.A Project X",
                 "log_path": default_games.get('steam').get('log_path'),
                 "app_id": 2142450, # https://store.steampowered.com/app/2142450/ZONA_Project_X_VR/
                 "manifest_acf_file": f"..\\..\\appmanifest_2142450.acf"
@@ -200,6 +200,7 @@ class Params :
         },
         "ZONAORIGIN.exe": {
             "steam": {
+                "name": "Z.O.N.A Origin",
                 "log_path": default_games.get('steam').get('log_path'),
                 "app_id": 2539520, # https://store.steampowered.com/app/2539520/ZONA_Origin/
                 "manifest_acf_file": f"..\\..\\appmanifest_2539520.acf"
