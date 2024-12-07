@@ -1,10 +1,10 @@
 # apocalyptic_translatorZ
 
 Mod for translating all Ukrainian or Russian texts of the following Steam games:
-- 'CONVRGENCE' by NikZ
-- 'Paradox of Hope' by NikZ
-- 'Z.O.N.A Origin' by AGaming+
-- 'Z.O.N.A Project X' by AGaming+
+- '**CONVRGENCE**' by NikZ
+- '**Paradox of Hope**' by NikZ
+- '**Z.O.N.A Origin**' by AGaming+
+- '**Z.O.N.A Project X**' by AGaming+
 
 And enjoy Ukrainian or Russian voices while having all the texts in your native language!
 
@@ -25,9 +25,9 @@ This mod is an evolution of my previous mod [auto_ZONA_translator](https://githu
 
 # Prerequisites
 
-- Your 'CONVRGENCE', 'Z.O.N.A Origin' or 'Z.O.N.A Project X' games must be up to date
+- Your '**CONVRGENCE**', '**Z.O.N.A Origin**' or '**Z.O.N.A Project X**' games must be up to date
 
-  (As 'Paradox of Hope' is no longer hosted by Steam, you need to make sure you have an updated version yourself.)
+  (As '**Paradox of Hope**' is no longer hosted by Steam, you need to make sure you have an updated version yourself.)
 
 - Your PC must have an Internet connection for API requests from online translators when the new game texts are not yet present and translated inside the mod.
 
