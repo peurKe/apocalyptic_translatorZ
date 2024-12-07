@@ -6,6 +6,9 @@ class Params :
     game_exec = None
     game = None
     default_games = {
+        "steam": {
+            "log_path": "C:\\Program Files (x86)\\Steam\\logs\\content_log.txt"
+        },
         "backup_dir_name": "BACKUP",
         "translations_dir_name": "translations",
         "watermark_in_binary": "THIS_FILE_IS_TRANSLATED",
