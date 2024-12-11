@@ -37,7 +37,7 @@ class apocalyptic_translatorZ:
         self.params = Params()
         if self.params.game is None:
             # Raise an error if the 'game' property' does not exist
-            raise ValueError(f" No game found in directory '{self.working_directory}'.")
+            raise RuntimeError(f" No game found in directory '{self.working_directory}'.")
 
         # Show prerequisites
         self.show_prerequisites()
@@ -262,17 +262,17 @@ class apocalyptic_translatorZ:
                     # Get all binay texts from file to translate
                     self.file_handler.get_binary_content()
 
-                    # Show file information
-                    self.logs.log(
-                        f" ------------------ \n" + \
-                        f" [DEBUG] file_to_translate: {file_to_translate}\n" + \
-                        f" [DEBUG] self.translator.lang_source: {self.translator.lang_source}\n" + \
-                        f" [DEBUG] self.translator.lang_target: {self.translator.lang_target}\n" + \
-                        f" [DEBUG] self.file_handler.current_allowed_range: {self.file_handler.current_allowed_ranges}\n" + \
-                        f" [DEBUG] self.file_handler.bytes_to_translate[:5]: {self.file_handler.bytes_to_translate[:5]}\n" + \
-                        f" [DEBUG] self.file_handler.all_bytes_to_translate[:5]: {self.file_handler.all_bytes_to_translate[:5]}",
-                        c='DEBUG'
-                    )
+                    # # Show file information
+                    # self.logs.log(
+                    #     f" ------------------ \n" + \
+                    #     f" [DEBUG] file_to_translate: {file_to_translate}\n" + \
+                    #     f" [DEBUG] self.translator.lang_source: {self.translator.lang_source}\n" + \
+                    #     f" [DEBUG] self.translator.lang_target: {self.translator.lang_target}\n" + \
+                    #     f" [DEBUG] self.file_handler.current_allowed_range: {self.file_handler.current_allowed_ranges}\n" + \
+                    #     f" [DEBUG] self.file_handler.bytes_to_translate[:5]: {self.file_handler.bytes_to_translate[:5]}\n" + \
+                    #     f" [DEBUG] self.file_handler.all_bytes_to_translate[:5]: {self.file_handler.all_bytes_to_translate[:5]}",
+                    #     c='DEBUG'
+                    # )
                     
                     # Process all binay strings from file to translate
                     for b_string in self.file_handler.extract_cyrillic_sequences():
