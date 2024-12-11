@@ -34,11 +34,14 @@ class Params :
         "translator": {
             "google": {},
             "deepl": {
+                "model_type": "prefer_quality_optimized",
                 "formality": "prefer_less",
                 "split_sentences": "nonewlines",
+                "preserve_formatting": True,
                 "context": "",
                 "tag_handling": "xml",
-                "ignore_tags": ["x"]
+                "ignore_tags": ["x"],
+                "non_splitting_tags": ["w"] 
             }
         }
     }
