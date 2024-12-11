@@ -43,16 +43,8 @@ class DBManagerJSON:
         # self.logs.log(f"[DEBUG] self.database_fullpath: '{self.database_fullpath}'", c='DEBUG')
         # self.logs.input("Press enter to continue...", c='ASK')
 
-        # # Open the file for reading and writing
-        # mode = "r+" if os.path.exists(self.database_fullpath) else "w+"
-        # self.file_descriptor = open(self.database_fullpath, mode, encoding="utf-8")
-
         # Open the file for reading and writing
-        db_file_already_exists = False
-        mode = "w+"
-        if os.path.exists(self.database_fullpath):
-            db_file_already_exists = True
-            mode = "r+"            
+        mode = "r+" if os.path.exists(self.database_fullpath) else "w+"
         self.file_descriptor = open(self.database_fullpath, mode, encoding="utf-8")
 
         # Load or create the database
@@ -61,19 +53,14 @@ class DBManagerJSON:
             self.next_id = self.database.get("next_id", 0)  # Get last ID used
             self.fix_list = self.database.get("fix_list", [])  # Get fix list to be used
         except json.JSONDecodeError as e:
-            if not db_file_already_exists:
-                # If file was fresly created, initialize a new structure
-                self.database = {
-                    "source": {"code": lang_source, "name": lang_source_name},
-                    "target": {"code": lang_target, "name": lang_target_name},
-                    "fix_list": [],  # Initialise fix list
-                    "translations": [],
-                    "next_id": self.next_id  # Initialise ID counter
-                }
-            else:
-                self.logs.log(f"Problem with the JSON formatting or syntax in '{self.database_fullpath}' file. \nException '{type(e).__name__}': '{e}'", c='FAIL', force=True)
-                self.logs.input("Press enter to continue...", c='ASK')
-                sys_exit(-2)
+            self.database = {
+                "source": {"code": lang_source, "name": lang_source_name},
+                "target": {"code": lang_target, "name": lang_target_name},
+                "fix_list": [],  # Initialise fix list
+                "translations": [],
+                "next_id": self.next_id  # Initialise ID counter
+            }
+
         else:
             # Update the database with provided source and target
             self.database["source"]["code"] = lang_source
@@ -92,9 +79,10 @@ class DBManagerJSON:
             if not required_keys.issubset(d.keys())
         ]
         if len(missing_ids):
-            self.logs.log(f"Problem with '__from_text' and/or '____to_text' keys for following IDs: {missing_ids} in '{self.database_fullpath}' file.", c='FAIL', force=True)
+            error_msg = f"Problem with '__from_text' and/or '____to_text' keys for following IDs: {missing_ids} in '{self.database_fullpath}' file."
+            self.logs.log(error_msg, c='FAIL', force=True)
             self.logs.input("Press enter to continue...", c='ASK')
-            sys_exit(-2)
+            raise RuntimeError(error_msg)
 
 
     def add_translation(self, from_text: str, to_text: str):
