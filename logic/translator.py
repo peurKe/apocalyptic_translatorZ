@@ -2,54 +2,145 @@ import deepl
 import googletrans
 from time import sleep
 from sys import exit as sys_exit
+from colorama import Fore, Style
 # import re  # inject_line_breaks_dot_priority_2
 
 class Translator:
 
-    def __init__(self, logs, params_game, translator_name, translator_api_key, language_support):
+    def __init__(self, logs, params_game, translators, translator_api_key, language_support):
         # Get logs object instance
         self.logs = logs
         # Get params_game
         self.params_game = params_game
 
-        # Initialize translator
-        self.translator_name = translator_name        
+        # Initialize translators list in order of preference
+        self.translators_preferred = translators
+        self.translators = []
         self.translator_api_key = translator_api_key
-        self.translator_args = self.params_game.get('translator').get(self.translator_name)
 
         # Get language support
         self.language_support = language_support
         
         # Initialize lang source and target
-        self.lang_source = 'unknown'
-        self.lang_target = 'unknown'
+        self.lang_source = dict(deepl='ru', google='ru')
+        self.lang_target = dict(deepl='en', google='en')
 
-        try:
-            if self.translator_name == 'google':
-                self.translator = googletrans.Translator()
-            elif self.translator_name in 'deepl':
-                self.translator = deepl.Translator(self.translator_api_key)
-            else:
-                # Raise an error if the method does not exist
-                raise ValueError(f"Translate method '{self.translator_name}' is not supported.")
+        # Allow to set the first available translator in the list as the preferred one
+        is_preferred_for_online_not_already_set = True
+        # Allow to known if failback translator (currently Google one) is set
+        is_failback_not_already_set = True
 
-        except Exception as e:
-            raise RuntimeError(f"Translation initialization error: {type(e).__name__}: {e}")
+        # All translator in order of preference
+        for translator in translators:
+
+            # Select the translator to use
+            try:
+
+                # Google translator
+                if translator == 'google':
+                    # If failback is not alreday set
+                    if is_failback_not_already_set:
+                        # Attempt to instanciate the Google translator
+                        t = googletrans.Translator()
+                        self.translators.append(
+                            dict(
+                                translator=t,
+                                translator_name=translator,
+                                translator_args=self.params_game.get('translator').get(translator),
+                                # Set 'preferred_for_online' flag
+                                preferred_for_online=is_preferred_for_online_not_already_set
+                            )
+                        )
+                        # Reset preferred and failback flags (Google is the failback translator)
+                        is_preferred_for_online_not_already_set = False
+                        is_failback_not_already_set = False
+
+                # DeepL translator
+                elif translator == 'deepl':
+                    try:
+                        # Attempt to use the DeepL translator only when an API authentication key is defined
+                        if self.translator_api_key:
+                            t = deepl.Translator(
+                                self.translator_api_key,  # DeepL API Authentication key (secret)
+                                send_platform_info=False  # without sending any platform info to DeepL python
+                            )
+                            self.translators.append(
+                                dict(
+                                    translator=t,
+                                    translator_name=translator,
+                                    translator_args=self.params_game.get('translator').get(translator),
+                                    # Set 'preferred_for_online' flag
+                                    preferred_for_online=is_preferred_for_online_not_already_set
+                                )
+                            )
+                            # Reset preferred flags (DeepL is not the failback translator)
+                            is_preferred_for_online_not_already_set = False
+
+                        # API authentication key is not defined
+                        else:
+                            # raise an exception to force Google failback
+                            raise ValueError(f"A DeepL API key is required for DeepL API authentication.")
+
+                    except Exception as e:
+                        self.logs.log(f" [WARN] DeepL translator failed. Check your DeepL API key and your DeepL API usage. Google translator will be used as failback.", c='FAIL', force=True)
+ 
+                        # Attempting to use the Google translator as a failback solution
+                        if is_failback_not_already_set:
+                            t = googletrans.Translator()
+                            self.translators.append(
+                                dict(
+                                    translator=t,
+                                    translator_name='google',
+                                    translator_args=self.params_game.get('translator').get('google'),
+                                    # Set 'preferred_for_online' flag
+                                    preferred_for_online=is_preferred_for_online_not_already_set
+                                )
+                            ),
+                            is_preferred_for_online_not_already_set = False
+                            is_failback_not_already_set = False
+
+                # Unsupported translator
+                else:
+                    # Raise an error if translator is not supported
+                    raise ValueError(f"Translator '{translator}' is not supported.")
+
+            except Exception as e:
+                raise RuntimeError(f"Translation initialization error: {type(e).__name__}: {e}")
+
+        self.logs.log(f" [DEBUG] self.translators: {self.translators}", c='DEBUG', force=True)
+        # input("Press any key to exit...")
+        # sys_exit(0)
+
         pass
+
+
+    def get_translators_preferred(self):
+        """
+        Get translators names form translators list.
+        """
+        return self.translators_preferred
+
+
+    def get_translators_available(self):
+        """
+        Get translators names form translators list.
+        """
+        return list(map(lambda d: d.get('translator_name', None), self.translators))
 
 
     def set_langs(self, lang_source, lang_target):
         """
-        Set source and target langs accordingly to supported languages.
+        Set source and target langs accordingly to supported languages for all available translators.
         """
-        self.lang_source = self.language_support.get_source_language_name_by_translator(
-            lang_source,
-            self.translator_name
-        )
-        self.lang_target = self.language_support.get_target_language_name_by_translator(
-            lang_target,
-            self.translator_name
-        )
+        for available_translator in self.get_translators_available():
+            self.lang_source[available_translator] = self.language_support.get_source_language_name_by_translator(
+                code=lang_source,
+                translator_name=available_translator
+            )
+            self.lang_target[available_translator] = self.language_support.get_target_language_name_by_translator(
+                code=lang_target,
+                translator_name=available_translator
+            )
 
 
     def inject_line_breaks(self, source, translated):
@@ -208,15 +299,16 @@ class Translator:
     #     return final_text
 
 
-    def google_translate(self, text):
+    def google_translate(self, text, translator, translator_args):
         """
         Translate using Google Translate.
+        Args in 'translator_args' for Google's translator are not yet in use
         """
         # text = "Схватить                       Схватить"
         # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
         # text = "Сразитесь с новыми противниками \n- волками и используйте новые \nмеханики, такие как разделка."
         # text = "Схватить                       Схватить"
-        text = "Онлайн рейтинги\n- Страховка снаряжения\n- Химический источник света\n- Шприц с адреналином\n- Патроны теперь можно перекладывать из одного \nмагазина в другой, зажав триггер, по аналогии с \nкоробкой патронов.\r\n- При продаже предметов торговцу, на экране \nкомпьютера теперь высвечивается их название и \nстоимость.\r\n- На часы добавлена полоска ХП."
+        # text = "Онлайн рейтинги\n- Страховка снаряжения\n- Химический источник света\n- Шприц с адреналином\n- Патроны теперь можно перекладывать из одного \nмагазина в другой, зажав триггер, по аналогии с \nкоробкой патронов.\r\n- При продаже предметов торговцу, на экране \nкомпьютера теперь высвечивается их название и \nстоимость.\r\n- На часы добавлена полоска ХП."
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{text}", c='ASK', force=True)
@@ -226,10 +318,10 @@ class Translator:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
         text = text.replace("\n", "<LF>").replace("  ", "\u00A0\u00A0").replace("\r", "")
 
-        translated = self.translator.translate(
+        translated = translator.translate(
             text,
-            src=self.lang_source,
-            dest=self.lang_target
+            src=self.lang_source['google'],
+            dest=self.lang_target['google']
         ).text
 
         # Google specific:
@@ -247,7 +339,7 @@ class Translator:
         return translated
 
 
-    def deepl_translate(self, text):
+    def deepl_translate(self, text, translator, translator_args):
         """
         Translator using Deepl.
         """
@@ -286,19 +378,18 @@ class Translator:
         # self.logs.log(f"{repr(text)}", c='ASK', force=True)
         # # END TESTING PURPOSE ONLY
 
-        translated = self.translator.translate_text(
+        translated = translator.translate_text(
             text,
-            source_lang=self.lang_source,
-            # target_lang=self.lang_target,
-            target_lang='zh-hans',
-            model_type=self.translator_args.get('model_type'),
-            formality=self.translator_args.get('formality'),
-            split_sentences=self.translator_args.get('split_sentences'),
-            preserve_formatting=self.translator_args.get('preserve_formatting'),
-            context=self.translator_args.get('context'),
-            tag_handling=self.translator_args.get('tag_handling'),
-            ignore_tags=self.translator_args.get('ignore_tags'),
-            non_splitting_tags=self.translator_args.get('non_splitting_tags'),
+            source_lang=self.lang_source['deepl'],
+            target_lang=self.lang_target['deepl'],
+            model_type=translator_args.get('model_type'),
+            formality=translator_args.get('formality'),
+            split_sentences=translator_args.get('split_sentences'),
+            preserve_formatting=translator_args.get('preserve_formatting'),
+            context=translator_args.get('context'),
+            tag_handling=translator_args.get('tag_handling'),
+            ignore_tags=translator_args.get('ignore_tags'),
+            non_splitting_tags=translator_args.get('non_splitting_tags'),
         ).text
 
         # # BEGIN TESTING PURPOSE ONLY
@@ -319,7 +410,7 @@ class Translator:
         # translated = translated.replace("<w><x>LF</x></w>", "\n").replace("<w><x>WS</x></w>", "  ")
         # translated = translated.replace(" __L1__ ", "\n ").replace(" __L2__ ", " \n").replace(" __C1__ ", "\r ").replace(" __C2__ ", " \r").replace("__W__ ", "  ")
         # translated = translated.replace("<br>", "\n")
-        translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ")
+        translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__ ", "  ").replace("__ws__", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{translated}\n", c='ASK', force=True)
@@ -328,7 +419,7 @@ class Translator:
         # BEGIN Inject '\n' from text to translated (Produces translation errors)
         if '<w><x>LF</x></w>' in translated:
             # print("'<w><x>LF</x></w>' FOUND")
-            translated = translated.replace("<w><x>LF</x></w> ", "\n").replace("<w><x>LF</x></w>", "\n")
+            translated = translated.replace("<w><x>LF</x></w> ", "\n").replace("<w><x>LF</x></w>", "\n").replace("<LF >", "\n").replace("< LF>", "\n")
         elif '\n' in text:
             # print("'<w><x>LF</x></w>' NOT FOUND")
             translated = self.inject_line_breaks(text, translated)
@@ -347,28 +438,33 @@ class Translator:
         return translated
 
 
-    def translate(self, text):
+    def translate(self, translator, text):
         """
         Dynamically calls the translation method based on self.name.
         """
         # Build the method name dynamically
-        method_name = f"{self.translator_name}_translate"
+        method_name = f"{translator.get('translator_name')}_translate"
         # Dynamically retrieve the corresponding method
         translate_method = getattr(self, method_name, None)
         
         # Call the retrieved method
         try:
-            return translate_method(text)
+            return translate_method(
+                text=text,
+                translator=translator.get('translator'),
+                translator_args=translator.get('translator_args')
+            )
         except Exception as e:
             try:
-                self.logs.log(f"Translation error with {self.translator_name}. New attemp in 1s.", c='WARN')
+                self.logs.log(f" [WARN] First translation error with {translator.get('translator_name')}. New attemp in 1s.", c='WARN')
                 sleep(1)
                 return translate_method(text)
             except Exception as e:
                 try:
-                    self.logs.log(f"Translation error with {self.translator_name}. New attemp in 1s.", c='WARN')
+                    self.logs.log(f" [WARN] Second translation error with {translator.get('translator_name')}. New attemp in 1s.", c='WARN')
                     sleep(1)
                     return translate_method(text)
                 except Exception as e:
-                    self.logs.log(f"Translation error: {type(e).__name__}: {e}", c='FAIL')
-                    return text
+                    error_msg = f" [ERROR] Third Translation error with {translator.get('translator_name')}. No more attempt. {type(e).__name__}: {e}"
+                    self.logs.log(error_msg, c='FAIL')
+                    raise RuntimeError(error_msg)

@@ -1,4 +1,6 @@
 import re
+from colorama import Fore, Style
+from sys import exit as sys_exit
 from unicodedata import normalize as unicodedata_normalize, category as unicodedata_category
 # from apocalyptic_translatorZ.logic.utils.restore import RESTORE_SPECIFIC_WORDS
 
@@ -16,6 +18,10 @@ class TextProcessor:
         self.need_replace_special_ponctuations = self.params_game.get('need_replace_special_ponctuations')
         # Need to replace asian ponctuations ?
         self.need_replace_asian_ponctuations = self.params_game.get('need_replace_asian_ponctuations')
+        # Need to replace asian ponctuations but only specifics ?
+        self.need_replace_asian_ponctuations_specifics = self.params_game.get('need_replace_asian_ponctuations_specifics')
+        # Replace specific asian ponctuations keys
+        self.need_replace_asian_ponctuations_specifics_keys = self.params_game.get('need_replace_asian_ponctuations_specifics_keys')
         # Need to remove specials ?
         self.need_remove_specials = self.params_game.get('need_remove_specials')
 
@@ -148,17 +154,21 @@ class TextProcessor:
             self.translated_text = self.translated_text.replace(original, new)
 
 
-    def replace_asian_ponctuations(self):
-        # to_replace = {
-        #     '。': '.', '，': ',', '、': ',', '：': ':', '；': ';', '？': '?', '！': '!', '（': '(', '）': ')', '【': '[', 
-        #     '】': ']', '「': '"', '」': '"', '『': '"', '』': '"', '〈': '<', '〉': '>', '《': '<', '》': '>', '“': '"', 
-        #     '”': '"', '‘': "'", '’': "'", '—': '-', '–': '-', '．': '.', '‥': '..', '…': '...', '゛': '', '゜': '', 'ㅡ': '-', '·': '.', '﹏': '_'
-        # }
-        to_replace = {
-            '。': '.', '，': ',', '、': ',', '：': ':', '；': ';', '？': '?', '！': '!', '（': '(', '）': ')', '【': '[', 
-            '】': ']', '「': '"', '」': '"', '『': '"', '』': '"', '“': '"', '”': '"', '‘': "'", '’': "'", '—': '-', '–': '-', 
-            '．': '.', '‥': '..', '…': '...', '゛': '', '゜': '', 'ㅡ': '-', '·': '.', '﹏': '_'
-        }
+    def replace_asian_ponctuations(self, only_specifics=False, only_keys={}):
+        if only_specifics:
+            to_replace = only_keys
+        else:
+            # to_replace = {
+            #     '。': '.', '，': ',', '、': ',', '：': ':', '；': ';', '？': '?', '！': '!', '（': '(', '）': ')', '【': '[', 
+            #     '】': ']', '「': '"', '」': '"', '『': '"', '』': '"', '〈': '<', '〉': '>', '《': '<', '》': '>', '“': '"', 
+            #     '”': '"', '‘': "'", '’': "'", '—': '-', '–': '-', '．': '.', '‥': '..', '…': '...', '゛': '', '゜': '', 'ㅡ': '-', '·': '.', '﹏': '_'
+            # }
+            to_replace = {
+                '。': '.', '，': ',', '、': ',', '：': ':', '；': ';', '？': '?', '！': '!', '（': '(', '）': ')', '【': '[', 
+                '】': ']', '「': '"', '」': '"', '『': '"', '』': '"', '“': '"', '”': '"', '‘': "'", '’': "'", '—': '-', '–': '-', 
+                '．': '.', '‥': '..', '…': '...', '゛': '', '゜': '', 'ㅡ': '-', '·': '.', '﹏': '_'
+            }
+        
         for original, new in to_replace.items():
             self.translated_text = self.translated_text.replace(original, new)
 
@@ -203,9 +213,24 @@ class TextProcessor:
         if self.need_replace_special_ponctuations:
             self.replace_special_ponctuations()
 
+        # # BEGIN TESTING PURPOSE ONLY
+        # self.logs.log(f" [DEBUG] self.translated_text = '{self.translated_text}'", c='DEBUG', force=True)
+        # # END TESTING PURPOSE ONLY
+
         # Need to replace asian accentuations ?
         if self.need_replace_asian_ponctuations:
-            self.replace_asian_ponctuations()
+            self.replace_asian_ponctuations(
+                only_specifics=self.need_replace_asian_ponctuations_specifics,
+                only_keys=self.need_replace_asian_ponctuations_specifics_keys
+            )
+
+        # # BEGIN TESTING PURPOSE ONLY
+        # self.logs.log(f" [DEBUG] replace_asian_ponctuations = '{self.need_replace_asian_ponctuations}'", c='DEBUG', force=True)
+        # self.logs.log(f" [DEBUG] only_specifics = '{self.need_replace_asian_ponctuations_specifics}'", c='DEBUG', force=True)
+        # self.logs.log(f" [DEBUG] only_keys = '{self.need_replace_asian_ponctuations_specifics_keys}'", c='DEBUG', force=True)
+        # self.logs.log(f" [DEBUG] self.translated_text = '{self.translated_text}'", c='DEBUG', force=True)
+        # input(f"{Fore.CYAN}Press enter to exit...{Style.RESET_ALL}")
+        # # END TESTING PURPOSE ONLY
 
         # Need to remove specials ?
         if self.need_remove_specials:

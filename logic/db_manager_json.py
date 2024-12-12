@@ -1,5 +1,6 @@
 import json
 import os
+from apocalyptic_translatorZ.logic.translator import Translator
 from sys import exit as sys_exit
 
 class DBManagerJSON:
@@ -20,12 +21,12 @@ class DBManagerJSON:
         self.fix_list = []  # Fix list to be used
 
 
-    def initialize_database(self, database_fixed_dir: str, translator_name: str, lang_source: str, lang_target: str, lang_source_name: str, lang_target_name: str):
+    def initialize_database(self, database_fixed_dir: str, translators_preferred: list, lang_source: str, lang_target: str, lang_source_name: str, lang_target_name: str):
         """
         Initialize or create a database and set language codes and names.
         """
         self.database_fixed_dir = database_fixed_dir
-        self.translator_name = translator_name
+        self.translators_preferred = translators_preferred
         
         # initialize database file full path
         # self.database_fullpath = f"{self.database_dir}/{translator_name}_{lang_source}_{lang_target}_{self.db_file}"
@@ -72,29 +73,50 @@ class DBManagerJSON:
 
 
     def check_data_in_json(self):
+        # Check required keys '__from_text' and '____to_text' are not missing.
         required_keys = {"__from_text", "____to_text"}
         missing_ids = [
             d["_________id"] 
             for d in self.database["translations"]
             if not required_keys.issubset(d.keys())
         ]
+        
+        # Check required key '_________id' is not missing
+        required_keys = {"_________id"}
+        missing_from_texts = [
+            d["__from_text"] 
+            for d in self.database["translations"]
+            if not required_keys.issubset(d.keys())
+        ]
+
+        # Set error message when any required key is missing
+        error_msg = []
         if len(missing_ids):
-            error_msg = f"Problem with '__from_text' and/or '____to_text' keys for following IDs: {missing_ids} in '{self.database_fullpath}' file."
+            error_msg.append(f"Problem with '__from_text' and/or '____to_text' keys for following IDs: {missing_ids} in '{self.database_fullpath}' file.")
+        if len(missing_from_texts):
+            error_msg.append(f"Problem with '_________id' key for following '__from_text': {missing_from_texts} in '{self.database_fullpath}' file.")
+
+        # At least one required key is missing
+        if len(error_msg):
             self.logs.log(error_msg, c='FAIL', force=True)
             self.logs.input("Press enter to continue...", c='ASK')
             raise RuntimeError(error_msg)
 
 
-    def add_translation(self, from_text: str, to_text: str):
+    def add_translation(self, translator_name, from_text: str, to_text: str):
         """
         Add a translation to the database if it doesn't already exist.
         """
         translations = self.database.get("translations", [])
-        if not any(entry["__from_text"] == from_text for entry in translations):
+        if not any(
+            entry["__from_text"] == from_text and
+            entry["_translator"] == translator_name
+            for entry in translations
+        ):
             # Generate a unique ID
             translations.append({
                 "_________id": self.next_id,
-                "_translator": self.translator_name,
+                "_translator": translator_name,
                 "__from_text": from_text,
                 "____to_text": to_text
             })
@@ -110,9 +132,13 @@ class DBManagerJSON:
         translations = self.database.get("translations", [])
         
         # Quick search for 'from_text' entry
-        entry = next((t for t in translations if t["__from_text"] == from_text), None)
+        for translator in self.translators_preferred:
+            entry = next((t for t in translations if t["__from_text"] == from_text and t["_translator"] == translator), None)
+            if entry:
+                break
+        
         if not entry:
-            return None  # Return None if not found
+            return None, None  # Return None if not found
 
         # Check fixed translation in the 'fix_list'.
         # self.logs.log(f"[DEBUG] fix_list: {self.fix_list}", c='DEBUG')
@@ -120,13 +146,13 @@ class DBManagerJSON:
         for from_fix in self.fix_list:
             if fix := entry.get(from_fix):  # Finds and returns the first match
                 # self.logs.log(f"[DEBUG] fix: '{fix}'", c='DEBUG')
-                return fix
+                return fix, entry.get("_translator")
 
         # self.logs.log(f"[DEBUG] to_text: '{entry.get("____to_text")}'", c='DEBUG')
         # self.logs.input("Press enter to continue...", c='ASK')
 
         # Returns the default translation if no fixed translation is found
-        return entry.get("____to_text")
+        return entry.get("____to_text"), entry.get("_translator")
 
 
     def close(self):

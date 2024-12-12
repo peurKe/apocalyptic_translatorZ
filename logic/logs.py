@@ -1,5 +1,5 @@
 import re
-from colorama import init as colorama_init, Fore, Style
+from colorama import Fore, Style
 
 class Logs :
 
@@ -7,8 +7,8 @@ class Logs :
         INFO=Fore.LIGHTYELLOW_EX,
         DEBUG=Fore.MAGENTA,
         OK=Fore.GREEN,
-        WARN=Fore.YELLOW,
-        FAIL=Fore.RED,
+        WARN=Fore.RED,
+        FAIL=Fore.LIGHTRED_EX,
         ASK=Fore.CYAN,
         NOTIF=Fore.LIGHTGREEN_EX
     )

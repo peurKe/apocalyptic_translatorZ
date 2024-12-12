@@ -8,7 +8,7 @@ from apocalyptic_translatorZ.logic.db_manager_sqlite import DBManagerSQLITE
 from apocalyptic_translatorZ.logic.db_manager_json import DBManagerJSON
 from apocalyptic_translatorZ.logic.language_support import LanguageSupport
 from apocalyptic_translatorZ.logic.steam import Steam
-from colorama import init as colorama_init, Fore, Style
+from colorama import Fore, Style
 from inspect import currentframe
 from tqdm import tqdm
 from win32com.client import Dispatch as w32_dispatch
@@ -17,7 +17,7 @@ import os
 
 class apocalyptic_translatorZ:
 
-    def __init__(self, game_dir, lang_sources, lang_targets, translator_name, translator_api_key=None,
+    def __init__(self, game_dir, lang_sources, lang_targets, translators_preferred, translator_api_key=None,
                  restore=False, files=[], min_size=2, verbose=False, force=False):
 
         self.project_name = self.__class__.__name__
@@ -25,7 +25,7 @@ class apocalyptic_translatorZ:
         self.game_dir = game_dir
         self.lang_sources = lang_sources
         self.lang_targets = lang_targets
-        self.translator_name = translator_name
+        self.translators_preferred = translators_preferred
         self.translator_api_key = translator_api_key
         self.restore = restore
         self.files = files
@@ -47,7 +47,9 @@ class apocalyptic_translatorZ:
         self.logs.log(" • [Initializing apocalyptic_translatorZ] ...", force=True)
 
         self.language_support = LanguageSupport(self.logs, self.params.game)
-        self.translator = Translator(self.logs, self.params.game, self.translator_name, self.translator_api_key, self.language_support)
+        self.translators = Translator(self.logs, self.params.game, self.translators_preferred, self.translator_api_key, self.language_support)
+        self.translators_available = self.translators.get_translators_available()
+        self.translators_errors = 0
         self.text_processor = TextProcessor(self.logs, self.params.game)
         self.cyrillic = Cyrillic(self.logs, self.params.game)
         self.file_handler = FileHandler(self.logs, self.params.game, self.cyrillic)
@@ -104,14 +106,15 @@ class apocalyptic_translatorZ:
             auth_api_key = "********"
 
         show_msg = "    /// PARAMETERS:\n" + \
-                   f"    • Translator ........................ : {self.translator_name}\n" + \
-                   f"    • Translator authentication key...... : {auth_api_key}\n" + \
-                   f"    • Translate from .................... : {self.lang_sources}\n" + \
-                   f"    • Translate to ...................... : {self.lang_targets}\n" + \
-                   f"    • Minimum size string to translate... : {self.min_size}\n" + \
-                   f"    • Verbose mode ...................... : {self.verbose}\n" + \
-                   f"    • Force mode ........................ : {self.force}\n" + \
-                   f"    • Binary files to translate ......... : {self.file_handler.files_to_translate}\n"
+                   f"    • Available translators ..................... : {self.translators_available}\n" + \
+                   f"    • Order of preference to get translations ... : {self.translators_preferred}\n" + \
+                   f"    • Translator authentication key.............. : {auth_api_key}\n" + \
+                   f"    • Translate from ............................ : {self.lang_sources}\n" + \
+                   f"    • Translate to .............................. : {self.lang_targets}\n" + \
+                   f"    • Minimum size string to translate........... : {self.min_size}\n" + \
+                   f"    • Verbose mode .............................. : {self.verbose}\n" + \
+                   f"    • Force mode ................................ : {self.force}\n" + \
+                   f"    • Binary files to translate ................. : {self.file_handler.files_to_translate}\n"
         print(show_msg)
 
 
@@ -119,12 +122,9 @@ class apocalyptic_translatorZ:
         # Set data game dir
         self.data_dir = f"{self.game_dir}/{self.params.game.get('data_dir_name')}"
         # Set Project directory
-        # self.project_dir = f"{self.game_dir}/{self.params.game.get('safe_name')}_{self.project_name}"
         self.project_dir = f"{self.game_dir}/{self.project_name}"
         # Set Project directories based on Game buildid
         self.working_dir = f"{self.project_dir}/{self.buildid}"
-        # self.database_dir = f"{self.working_dir}/DB/{self.db_type}/{self.translator_name}"
-        # self.database_dir = f"{self.working_dir}/DB/{self.db_type}"
         self.database_dir = f"{self.project_dir}/DB/{self.db_type}"
         self.database_fixed_dir = f"{self.project_dir }.FIXED_DB"
         self.backup_dir = f"{self.working_dir}/{self.params.game.get('backup_dir_name')}"
@@ -196,16 +196,15 @@ class apocalyptic_translatorZ:
                 # Check source and target requested languages are supported
                 self.language_support.check_langs_supported(lang_source, lang_target)
 
+                # Set supported source and target languages for translators
+                self.translators.set_langs(lang_source, lang_target)
+                
                 # Restore backup files for next translations
                 self.file_handler.restore_files()
 
-                # Set source and target requested languages in translator
-                self.translator.set_langs(lang_source, lang_target)
-
-                self.logs.log(f" • [Translations for '{self.translator.lang_source}' to '{self.translator.lang_target}'] ...", force=True)
+                self.logs.log(f" • [Translations for '{lang_source}' to '{lang_target}'] ...", force=True)
 
                 # # Same language code for DeepL or Google Translators
-                # self.file_handler.set_translation_dir(f"{self.translations_dir}/{self.translator.lang_source}_to_{self.translator.lang_target}")
                 self.file_handler.set_translation_dir(f"{self.translations_dir}/{lang_source}_to_{lang_target}")
 
                 # Is translation already done ? + Create translation directory if not exists
@@ -216,41 +215,20 @@ class apocalyptic_translatorZ:
                     if translation_done:
                         # Restore translation dir
                         self.file_handler.restore_files(from_translation_dir=True)
-                        self.logs.log(f" • [Translations for '{self.translator.lang_source}' to '{self.translator.lang_target}'] OK (Already exists)\n", c='OK', force=True)
+                        self.logs.log(f" • [Translations for '{lang_source}' to '{lang_target}'] OK (Already exists)\n", c='OK', force=True)
                         continue
-
-                # # BEGIN TESTING PURPOSE ONLY
-                # # Restore backup dir
-                # self.file_handler.restore_files()
-                # # END TESTING PURPOSE ONLY
-
-                # # BEGIN TESTING PURPOSE ONLY
-                # input("Press enter to continue")
-                # # END TESTING PURPOSE ONLY
 
                 # Initialize database for the language pair
                 self.db.initialize_database(
-                    self.database_fixed_dir,
-                    self.translator_name,
-                    lang_source,  # Same language code for DeepL or Google Translators
-                    lang_target,  # Same language code for DeepL or Google Translators
-                    self.language_support.get_source_language_name(lang_source),  # Same language name for DeepL or Google Translators
-                    self.language_support.get_target_language_name(lang_target)   # Same language name for DeepL or Google Translators
+                    database_fixed_dir=self.database_fixed_dir,
+                    translators_preferred=self.translators_preferred,
+                    lang_source=lang_source,  # Same language code for DeepL or Google Translators
+                    lang_target=lang_target,  # Same language code for DeepL or Google Translators
+                    lang_source_name=self.language_support.get_source_language_name(lang_source),  # Same language name for DeepL or Google Translators
+                    lang_target_name=self.language_support.get_target_language_name(lang_target)   # Same language name for DeepL or Google Translators
                 )
                 self.logs.log(f" [DEBUG] self.db.database_fullpath: {self.db.database_fullpath}", c='DEBUG')
-
-                # # BEGIN Done in 'Initialize database for the language pair' above
-                # # Add source lang to DB
-                # self.db.add_lang_source(
-                #     lang_source,
-                #     self.language_support.get_source_language_name(lang_source)
-                # )
-                # # Add target lang to DB
-                # self.db.add_lang_target(
-                #     lang_target,
-                #     self.language_support.get_target_language_name(lang_target)
-                # )
-                # # END Done in 'Initialize database for the language pair' above
+                self.logs.log(f" [DEBUG] self.db.translators_preferred: {self.db.translators_preferred}", c='DEBUG')
 
                 # For each file to translate
                 for file_to_translate in tqdm(self.file_handler.files_to_translate):
@@ -262,23 +240,22 @@ class apocalyptic_translatorZ:
                     # Get all binay texts from file to translate
                     self.file_handler.get_binary_content()
 
-                    # # Show file information
-                    # self.logs.log(
-                    #     f" ------------------ \n" + \
-                    #     f" [DEBUG] file_to_translate: {file_to_translate}\n" + \
-                    #     f" [DEBUG] self.translator.lang_source: {self.translator.lang_source}\n" + \
-                    #     f" [DEBUG] self.translator.lang_target: {self.translator.lang_target}\n" + \
-                    #     f" [DEBUG] self.file_handler.current_allowed_range: {self.file_handler.current_allowed_ranges}\n" + \
-                    #     f" [DEBUG] self.file_handler.bytes_to_translate[:5]: {self.file_handler.bytes_to_translate[:5]}\n" + \
-                    #     f" [DEBUG] self.file_handler.all_bytes_to_translate[:5]: {self.file_handler.all_bytes_to_translate[:5]}",
-                    #     c='DEBUG'
-                    # )
+                    # Show file information
+                    self.logs.log(
+                        f" ------------------ \n" + \
+                        f" [DEBUG] file_to_translate: {file_to_translate}\n" + \
+                        f" [DEBUG] lang_source: {lang_source}\n" + \
+                        f" [DEBUG] self.translators.lang_source: {self.translators.lang_source}\n" + \
+                        f" [DEBUG] lang_target: {lang_target}\n" + \
+                        f" [DEBUG] self.translators.lang_target: {self.translators.lang_target}\n" + \
+                        f" [DEBUG] self.file_handler.current_allowed_range: {self.file_handler.current_allowed_ranges}\n" + \
+                        f" [DEBUG] self.file_handler.bytes_to_translate[:5]: {self.file_handler.bytes_to_translate[:5]}\n" + \
+                        f" [DEBUG] self.file_handler.all_bytes_to_translate[:5]: {self.file_handler.all_bytes_to_translate[:5]}",
+                        c='DEBUG'
+                    )
                     
                     # Process all binay strings from file to translate
                     for b_string in self.file_handler.extract_cyrillic_sequences():
-                        
-                        # Log binary string
-                        # self.logs.log(f" b_text={b_string}", c='DEBUG')
                         
                         # # /!\ BEGIN OPTIMIZED in self.file_handler.get_binary_content()
                         # # Check if in allowed ranges
@@ -290,50 +267,90 @@ class apocalyptic_translatorZ:
                         self.text_processor.set_original_text(b_string, origin = 'FILE')
 
                         # Get translated text from DB
-                        translated_text = self.db.get_translation_to_text_by_from_text(self.text_processor.original_text)
+                        (translated_text, translator_name) = self.db.get_translation_to_text_by_from_text(self.text_processor.original_text)
+
                         # Translated text found in DB
                         if translated_text:
-                            # Update text into text processor
+                            # Update text into text processoras DB origin
                             self.text_processor.set_translated_text(
                                 text=translated_text,
                                 alphabet=self.language_support.get_target_language_type(lang_target),
                                 origin='DB'
                             )
+
+                            # Display DB translation result
+                            log_msg = f"{Fore.CYAN}>> {translator_name:>6s}{Style.RESET_ALL};" + \
+                                f"{file_to_translate:s};" + \
+                                f"{Fore.RED}0x{self.text_processor.original_text_offset:x}{Style.RESET_ALL};" + \
+                                f"{Fore.CYAN}  DB  {Style.RESET_ALL};" + \
+                                f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_binary_len:d}{Style.RESET_ALL};" + \
+                                f"{Fore.GREEN}{self.text_processor.translated_text_binary_len:d}{Style.RESET_ALL};" + \
+                                f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_len:d}{Style.RESET_ALL};" + \
+                                f"{Fore.GREEN}{self.text_processor.translated_text_len:d}{Style.RESET_ALL};" + \
+                                f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text:s}{Style.RESET_ALL};" + \
+                                f"{Fore.GREEN}{self.text_processor.translated_text:s}{Style.RESET_ALL};"
+                            self.logs.log(log_msg)
+
                         # Translated text not found in DB
+                        # Go to ONLINE translators
                         else:
-                            # Get translation from ONLINE translator
-                            translated_text = self.translator.translate(self.text_processor.original_text)
-
-                            # # TESTING PURPOSE ONLY
-                            # self.logs.log(f"'{translated_text}'", c='NOTIF', force=True)
-
-                            # Update translated_text into text processor
-                            self.text_processor.set_translated_text(
-                                text=translated_text,
-                                alphabet=self.language_support.get_target_language_type(lang_target),
-                                origin='ONLINE'
-                            )
                             
-                            # # TESTING PURPOSE ONLY
-                            # self.logs.log(f"'{self.text_processor.translated_text}'", c='DEBUG', force=True)
+                            # Reversed loop allow to keep the first element as the priority last one processed by 'self.db' and 'self.text_processor'
+                            for translator in reversed(self.translators.translators):
+
+                                # Get translation from ONLINE translator
+                                try:
+                                    translated_text = self.translators.translate(translator, self.text_processor.original_text)
+                                except Exception as e:
+                                    translated_text = self.text_processor.original_text
+                                    # Display ONLINE error translation result
+                                    log_msg = f"{Fore.LIGHTRED_EX}/!\\{translator.get('translator_name'):>6s};" + \
+                                        f"{file_to_translate:s};" + \
+                                        f"{Fore.RED}0x{self.text_processor.original_text_offset:x}{Style.RESET_ALL};" + \
+                                        f"{Fore.LIGHTRED_EX}{type(e).__name__}{Style.RESET_ALL};" + \
+                                        f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_binary_len:d}{Style.RESET_ALL};" + \
+                                        f"{Fore.GREEN}{self.text_processor.translated_text_binary_len:d}{Style.RESET_ALL};" + \
+                                        f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_len:d}{Style.RESET_ALL};" + \
+                                        f"{Fore.GREEN}{self.text_processor.translated_text_len:d}{Style.RESET_ALL};" + \
+                                        f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text:s}{Style.RESET_ALL};" + \
+                                        f"{Fore.GREEN}{self.text_processor.translated_text:s}{Style.RESET_ALL};"
+                                    self.logs.log(log_msg)
+                                    self.translators_errors += 1 
+
+                                # Update translated_text into text processor
+                                self.text_processor.set_translated_text(
+                                    text=translated_text,
+                                    alphabet=self.language_support.get_target_language_type(lang_target),
+                                    origin='ONLINE'
+                                )
+                                
+                                # Add translated_text in DB
+                                self.db.add_translation(
+                                    translator_name=translator.get('translator_name'),
+                                    from_text=self.text_processor.original_text,
+                                    to_text=self.text_processor.translated_text
+                                )
+
+                                # Set the preferred translator for displaying results
+                                if translator.get('preferred_for_online'):  # is this translator the preferred one
+                                    translator_preferred_in_log = f"{Fore.MAGENTA}>> {translator.get('translator_name'):>6s}{Style.RESET_ALL}"
+                                    translator_online_in_log = f"{Fore.MAGENTA}ONLINE{Style.RESET_ALL}"
+                                else:
+                                    translator_preferred_in_log = f"{Fore.WHITE}   {translator.get('translator_name'):>6s}{Style.RESET_ALL}"
+                                    translator_online_in_log = f"{Fore.WHITE}ONLINE{Style.RESET_ALL}"
                             
-                            # Add translated_text in DB
-                            self.db.add_translation(self.text_processor.original_text, self.text_processor.translated_text)
-                        
-                        # self.logs.log(f" translated_text ({self.text_processor.translated_origin}): {self.text_processor.translated_text}", c='WARN')
-                        
-                        if self.text_processor.translated_text_binary_len != self.text_processor.original_text_binary_len:
-                            self.logs.log(" ### /!\\ THIS TRANSLATED DIALOG FINAL BYTES LENGTH BELOW DIFFER THAN ORIGINAL DIALOG BYTES LENGTH /!\\ ###", c='FAIL')
-                        log_msg = f"{Style.RESET_ALL} {file_to_translate:s};" + \
-                                  f"{Fore.RED}0x{self.text_processor.original_text_offset:x}{Style.RESET_ALL};" + \
-                                  f"{Fore.MAGENTA}{self.text_processor.translated_origin:s}{Style.RESET_ALL};" + \
-                                  f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_binary_len:d}{Style.RESET_ALL};" + \
-                                  f"{Fore.GREEN}{self.text_processor.translated_text_binary_len:d}{Style.RESET_ALL};" + \
-                                  f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_len:d}{Style.RESET_ALL};" + \
-                                  f"{Fore.GREEN}{self.text_processor.translated_text_len:d}{Style.RESET_ALL};" + \
-                                  f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text:s}{Style.RESET_ALL};" + \
-                                  f"{Fore.GREEN}{self.text_processor.translated_text:s}{Style.RESET_ALL};"
-                        self.logs.log(log_msg)
+                                # Display ONLINE translation result
+                                log_msg = f"{translator_preferred_in_log};" + \
+                                    f"{file_to_translate:s};" + \
+                                    f"{Fore.RED}0x{self.text_processor.original_text_offset:x}{Style.RESET_ALL};" + \
+                                    f"{translator_online_in_log};" + \
+                                    f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_binary_len:d}{Style.RESET_ALL};" + \
+                                    f"{Fore.GREEN}{self.text_processor.translated_text_binary_len:d}{Style.RESET_ALL};" + \
+                                    f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_len:d}{Style.RESET_ALL};" + \
+                                    f"{Fore.GREEN}{self.text_processor.translated_text_len:d}{Style.RESET_ALL};" + \
+                                    f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text:s}{Style.RESET_ALL};" + \
+                                    f"{Fore.GREEN}{self.text_processor.translated_text:s}{Style.RESET_ALL};"
+                                self.logs.log(log_msg)
 
                         # Inject translated bytes in all bytes array
                         self.file_handler.inject_bytes(
@@ -345,25 +362,24 @@ class apocalyptic_translatorZ:
                     # Inject all bytes array in translation file
                     self.file_handler.inject_bytes_in_file()
 
-                    # # BEGIN TESTING PURPOSE ONLY
-                    # input("Press enter to continue....")
-                    # END TESTING PURPOSE ONLY
-
                 # Close database
                 self.db.close()
 
                 # Create success file flag in translation dir
                 self.file_handler.set_translation_done()
 
-                self.logs.log(f" • [Translations for '{self.translator.lang_source}' to '{self.translator.lang_target}'] OK\n", c='OK', force=True)
+                self.logs.log(f" • [Translations for '{lang_source}' to '{lang_target}'] OK\n", c='OK', force=True)
         
         # Check done file in translation dir + Create translation dir if no done file
         if self.file_handler.check_translation_done():
             # Restore last translated files to default data dir
             self.file_handler.restore_files(from_translation_dir=True)
 
-        self.logs.log(" • [Running apocalyptic_translatorZ] OK\n", c='OK', force=True)
+        # Display end translation with number translation errors
+        c_color = 'OK'
+        if self.translators_errors:
+            c_color = 'FAIL'
+        self.logs.log(f" • [Running apocalyptic_translatorZ] OK with {self.translators_errors} translation error(s)\n", c=c_color, force=True)
 
-        # # BEGIN TESTING PURPOSE ONLY
+        # # Waiting for user input before exit
         # self.logs.input("Press enter to continue...")
-        # # END TESTING PURPOSE ONLY

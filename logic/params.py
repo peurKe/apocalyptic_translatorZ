@@ -26,6 +26,8 @@ class Params :
         "need_replace_accentuations": True,
         "need_replace_special_ponctuations": True,
         "need_replace_asian_ponctuations": False,
+        "need_replace_asian_ponctuations_specifics": False,  # Allow to overwrite all defaut replaces with 'need_replace_asian_ponctuations_specifics_keys' keys below
+        "need_replace_asian_ponctuations_specifics_keys": {},  # For characters are not interpreted by game's Asset Font
         "need_remove_specials": True,
         "database": {
             "type": "json",  # json|sqlite
@@ -79,6 +81,8 @@ class Params :
             "need_replace_accentuations": default_games.get('need_replace_accentuations'),
             "need_replace_special_ponctuations": default_games.get('need_replace_special_ponctuations'),
             "need_replace_asian_ponctuations": default_games.get('need_replace_asian_ponctuations'),
+            "need_replace_asian_ponctuations_specifics": default_games.get('need_replace_asian_ponctuations_specifics'),
+            "need_replace_asian_ponctuations_specifics_keys": default_games.get('need_replace_asian_ponctuations_specifics_keys'),
             "need_remove_specials": default_games.get('need_remove_specials'),
             "database": {
                 "type": "json",  # json|sqlite
@@ -125,7 +129,12 @@ class Params :
             # 0x38dfec
             "need_replace_accentuations": default_games.get('need_replace_accentuations'),
             "need_replace_special_ponctuations": default_games.get('need_replace_special_ponctuations'),
-            "need_replace_asian_ponctuations": default_games.get('need_replace_asian_ponctuations'),
+            "need_replace_asian_ponctuations": True,  # Just to allow activation of 'need_replace_asian_ponctuations_specifics' flag below
+            "need_replace_asian_ponctuations_specifics": True,  # Allow to overwrite all defaut replaces with 'need_replace_asian_ponctuations_specifics_keys' keys below
+            "need_replace_asian_ponctuations_specifics_keys": {
+                '。': '. ',  # '。' characters are not interpreted by game's Asset Font
+                '"': '',  # '"' characters are very often incorrectly positioned with certain LF characters
+            },
             "need_remove_specials": default_games.get('need_remove_specials'),
             "database": {
                 "type": "json",  # json|sqlite
@@ -191,6 +200,8 @@ class Params :
             "need_replace_accentuations": default_games.get('need_replace_accentuations'),
             "need_replace_special_ponctuations": default_games.get('need_replace_special_ponctuations'),
             "need_replace_asian_ponctuations": default_games.get('need_replace_asian_ponctuations'),
+            "need_replace_asian_ponctuations_specifics": default_games.get('need_replace_asian_ponctuations_specifics'),
+            "need_replace_asian_ponctuations_specifics_keys": default_games.get('need_replace_asian_ponctuations_specifics_keys'),
             "need_remove_specials": default_games.get('need_remove_specials'),
             "database": {
                 "type": "json",  # json|sqlite
@@ -241,6 +252,8 @@ class Params :
             "need_replace_accentuations": default_games.get('need_replace_accentuations'),
             "need_replace_special_ponctuations": default_games.get('need_replace_special_ponctuations'),
             "need_replace_asian_ponctuations": default_games.get('need_replace_asian_ponctuations'),
+            "need_replace_asian_ponctuations_specifics": default_games.get('need_replace_asian_ponctuations_specifics'),
+            "need_replace_asian_ponctuations_specifics_keys": default_games.get('need_replace_asian_ponctuations_specifics_keys'),
             "need_remove_specials": default_games.get('need_remove_specials'),
             "database": {
                 "type": "json",  # json|sqlite

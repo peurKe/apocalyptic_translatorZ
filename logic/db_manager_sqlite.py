@@ -184,7 +184,7 @@ class DBManagerSQLITE:
                 self.logs.log(f"An unexpected error occurred.", c='FAIL')
                 return None
 
-    def add_translation(self, from_text: str, to_text: str, verbose: Optional[bool] = False) -> Optional[int]:
+    def add_translation(self, translator_name, from_text: str, to_text: str, verbose: Optional[bool] = False) -> Optional[int]:
         # Set from and to lang id (set in 'add_lang_source' and 'add_lang_target' methods)
         from_lang_id = self.lang_source_id
         to_lang_id = self.lang_target_id
