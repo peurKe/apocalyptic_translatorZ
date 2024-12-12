@@ -176,3 +176,8 @@ Or choose the installer for the following Asian languages:
 
 - v0.1.0-alpha
   - Initial update
+
+- v0.1.1-alpha
+  - Update translators list in order of preference
+  - Fix Asian mod installer name
+  - Adding DeepL or Google translation service choice to the innosetup script
