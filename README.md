@@ -181,3 +181,7 @@ Or choose the installer for the following Asian languages:
   - Update translators list in order of preference
   - Fix Asian mod installer name
   - Adding DeepL or Google translation service choice to the innosetup script
+
+- v0.1.2-alpha
+  - Update ZH translation
+  - Update last ZH innosetup script
