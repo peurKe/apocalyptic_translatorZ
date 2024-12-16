@@ -304,11 +304,21 @@ class Translator:
         Translate using Google Translate.
         Args in 'translator_args' for Google's translator are not yet in use
         """
-        # text = "Схватить                       Схватить"
-        # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
-        # text = "Сразитесь с новыми противниками \n- волками и используйте новые \nмеханики, такие как разделка."
+        # # BEGIN TESTING PURPOSE ONLY
+        # text = "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб."
+        # text = "В этой демо-версии вы познакомитесь с Рейдами -\n" + \
+        #        "бесконечным игровым режимом с прогрессией и процедурной генерацией уровней (доступно только Убежище).\n" + \
+        #        "Присоединяйтесь к Discord, чтобы поделиться фидбэком, сообщить об ошибках и просто быть в курсе всех событий.\n" + \
+        #        "А также не забудьте добавить игру в свой список желаемого!"
         # text = "Схватить                       Схватить"
         # text = "Онлайн рейтинги\n- Страховка снаряжения\n- Химический источник света\n- Шприц с адреналином\n- Патроны теперь можно перекладывать из одного \nмагазина в другой, зажав триггер, по аналогии с \nкоробкой патронов.\r\n- При продаже предметов торговцу, на экране \nкомпьютера теперь высвечивается их название и \nстоимость.\r\n- На часы добавлена полоска ХП."
+        # text = "Отлично, все готово! \n\nПомните, что вы можете изменить эти параметры\nи настроить их более детально в любое время,\nвыбрав \"Управление\" в Меню."
+        # text = "штук.\nСовместимость: АКМ.\nЗажмите триггер для\nиспользования"
+        # text = "Сразитесь с новыми противниками \n- волками и используйте новые \nмеханики, такие как разделка."
+        # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
+        # text = "Отпустите рюкзак\r\nи он автоматически\r\nвернется на место"
+        # text = "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 10000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nМАКСИМАЛЬНАЯ РЕПУТАЦИЯ\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ"
+        # # END TESTING PURPOSE ONLY
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{text}", c='ASK', force=True)
@@ -316,7 +326,8 @@ class Translator:
 
         # Google specific:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
-        text = text.replace("\n", "<LF>").replace("  ", "\u00A0\u00A0").replace("\r", "")
+        # text = text.replace("\n", "<LF>").replace("  ", "\u00A0\u00A0").replace("\r", "")
+        text = text.replace("\n", "<lf />").replace("  ", "\u00A0\u00A0").replace("\r", "")
 
         translated = translator.translate(
             text,
@@ -326,7 +337,8 @@ class Translator:
 
         # Google specific:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
-        translated = translated.replace("<LF>", "\n").replace("\u00A0\u00A0", "  ")
+        # translated = translated.replace("<LF>", "\n").replace("\u00A0\u00A0", "  ")
+        translated = translated.replace("<lf />", "\n").replace("\u00A0\u00A0", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
@@ -344,15 +356,19 @@ class Translator:
         Translator using Deepl.
         """
         # # BEGIN TESTING PURPOSE ONLY
-        # text = "Схватить                       Схватить"
+        # text = "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб."
         # text = "В этой демо-версии вы познакомитесь с Рейдами -\n" + \
         #        "бесконечным игровым режимом с прогрессией и процедурной генерацией уровней (доступно только Убежище).\n" + \
         #        "Присоединяйтесь к Discord, чтобы поделиться фидбэком, сообщить об ошибках и просто быть в курсе всех событий.\n" + \
         #        "А также не забудьте добавить игру в свой список желаемого!"
-        # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
-        # text = "Сразитесь с новыми противниками \n- волками и используйте новые \nмеханики, такие как разделка."
         # text = "Схватить                       Схватить"
         # text = "Онлайн рейтинги\n- Страховка снаряжения\n- Химический источник света\n- Шприц с адреналином\n- Патроны теперь можно перекладывать из одного \nмагазина в другой, зажав триггер, по аналогии с \nкоробкой патронов.\r\n- При продаже предметов торговцу, на экране \nкомпьютера теперь высвечивается их название и \nстоимость.\r\n- На часы добавлена полоска ХП."
+        # text = "Отлично, все готово! \n\nПомните, что вы можете изменить эти параметры\nи настроить их более детально в любое время,\nвыбрав \"Управление\" в Меню."
+        # text = "штук.\nСовместимость: АКМ.\nЗажмите триггер для\nиспользования"
+        # text = "Сразитесь с новыми противниками \n- волками и используйте новые \nмеханики, такие как разделка."
+        # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
+        # text = "Отпустите рюкзак\r\nи он автоматически\r\nвернется на место"
+        # text = "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 10000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nМАКСИМАЛЬНАЯ РЕПУТАЦИЯ\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ"
         # # END TESTING PURPOSE ONLY
 
         # # BEGIN TESTING PURPOSE ONLY
@@ -364,20 +380,36 @@ class Translator:
         # text = text.replace("\n", "<w><x>LF</x></w> ").replace(" ", "<w><x>WS</x></w> ")
 
         # Replace all LF and double WhiteSpace characters with xml tag
-        # text = text.replace("  ", "<w><x>WS</x></w> ").replace("\n", "<w><x>LF</x></w> ")
         # text = text.replace("\n ", " __L1__ ").replace(" \n", " __L2__ ").replace("\r ", " __C1__ ").replace(" \r", " __C2__ ").replace("  ", "__W__ ")
-        # text = text.replace("\n", "<br>")
+        # text = text.replace("  ", " __WS__ ").replace("\n", " __LF__ ").replace("\r", "")
+        # text = text.replace("  ", " __WS__ ").replace("\n", "<LF>").replace("\r", "")
         
-        # Replace all double whitespaces with __LF__ placeholders + Remove all CR to have only LF characters
-        text = text.replace("  ", " __WS__ ").replace("\r", "")
-        # Exception for text with enumerated list
-        if text.count('\n- ') > 1:
-            text = text.replace("\n", "<w><x>LF</x></w> ")
+        # # Replace all double whitespaces with __LF__ placeholders + Remove all CR to have only LF characters
+        # text = text.replace("  ", " __WS__ ").replace("\r", "")
+        # # Exception for text with enumerated list
+        # if text.count('\n- ') > 1:
+        #     text = text.replace("\n", "<w><x>LF</x></w> ")
+
+        # text = text.replace("\r", "").replace("\n", "<w><x>LF</x></w>").replace("  ", " __WS__ ")
+        text = text.replace("\r", "").replace("\n", "<lf />").replace("  ", " <ws /> ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{repr(text)}", c='ASK', force=True)
         # # END TESTING PURPOSE ONLY
 
+        # translated = translator.translate_text(
+        #     text,
+        #     source_lang=self.lang_source['deepl'],
+        #     target_lang=self.lang_target['deepl'],
+        #     model_type=translator_args.get('model_type'),
+        #     formality=translator_args.get('formality'),
+        #     split_sentences=translator_args.get('split_sentences'),
+        #     preserve_formatting=translator_args.get('preserve_formatting'),
+        #     context=translator_args.get('context'),
+        #     tag_handling=translator_args.get('tag_handling'),
+        #     ignore_tags=translator_args.get('ignore_tags'),
+        #     non_splitting_tags=translator_args.get('non_splitting_tags'),
+        # ).text
         translated = translator.translate_text(
             text,
             source_lang=self.lang_source['deepl'],
@@ -386,10 +418,10 @@ class Translator:
             formality=translator_args.get('formality'),
             split_sentences=translator_args.get('split_sentences'),
             preserve_formatting=translator_args.get('preserve_formatting'),
-            context=translator_args.get('context'),
-            tag_handling=translator_args.get('tag_handling'),
-            ignore_tags=translator_args.get('ignore_tags'),
-            non_splitting_tags=translator_args.get('non_splitting_tags'),
+            context=translator_args.get('context')
+            # tag_handling=translator_args.get('tag_handling'),
+            # ignore_tags=translator_args.get('ignore_tags'),
+            # non_splitting_tags=translator_args.get('non_splitting_tags'),
         ).text
 
         # # BEGIN TESTING PURPOSE ONLY
@@ -407,25 +439,30 @@ class Translator:
         # # Restore all LF characters and double WhiteSpace characters
         # translated = translated.replace("<w><x>LF</x></w> ", "\n").replace("<w><x>WS</x></w> ", "  ")
         # # Restore all residual LF characters and double WhiteSpace characters
-        # translated = translated.replace("<w><x>LF</x></w>", "\n").replace("<w><x>WS</x></w>", "  ")
         # translated = translated.replace(" __L1__ ", "\n ").replace(" __L2__ ", " \n").replace(" __C1__ ", "\r ").replace(" __C2__ ", " \r").replace("__W__ ", "  ")
         # translated = translated.replace("<br>", "\n")
-        translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__ ", "  ").replace("__ws__", "  ")
+
+        # translated = translated.replace(" __LF__ ", "\n").replace("__LF__", "\n").replace("__lf__", "\n").replace("\n ", "\n").replace(" \n.", ".").replace(" .", ".").replace(" :", ":")
+        # translated = translated.replace("<LF>", "\n").replace("\n.", ".").replace(" :", ":")
+        # translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
+
+        # translated = translated.replace("<w><x>LF</x></w>", "\n").replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
+        translated = translated.replace("<lf />", "\n").replace(" <ws /> ", "  ").replace("<ws />", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{translated}\n", c='ASK', force=True)
         # # END TESTING PURPOSE ONLY
 
-        # BEGIN Inject '\n' from text to translated (Produces translation errors)
-        if '<w><x>LF</x></w>' in translated:
-            # print("'<w><x>LF</x></w>' FOUND")
-            translated = translated.replace("<w><x>LF</x></w> ", "\n").replace("<w><x>LF</x></w>", "\n").replace("<LF >", "\n").replace("< LF>", "\n")
-        elif '\n' in text:
-            # print("'<w><x>LF</x></w>' NOT FOUND")
-            translated = self.inject_line_breaks(text, translated)
-            # translated = self.inject_line_breaks_dot_priority(text, translated)
-            # translated = self.inject_line_breaks_dot_priority_2(text, translated)
-        # END Inject '\n' from text to translated (Produces translation errors)
+        # # BEGIN Inject '\n' from text to translated (Produces translation errors)
+        # if '<w><x>LF</x></w>' in translated:
+        #     # print("'<w><x>LF</x></w>' FOUND")
+        #     translated = translated.replace("<w><x>LF</x></w> ", "\n").replace("<w><x>LF</x></w>", "\n").replace("<LF >", "\n").replace("< LF>", "\n")
+        # elif '\n' in text:
+        #     # print("'<w><x>LF</x></w>' NOT FOUND")
+        #     translated = self.inject_line_breaks(text, translated)
+        #     # translated = self.inject_line_breaks_dot_priority(text, translated)
+        #     # translated = self.inject_line_breaks_dot_priority_2(text, translated)
+        # # END Inject '\n' from text to translated (Produces translation errors)
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{repr(translated)}", c='ASK', force=True)

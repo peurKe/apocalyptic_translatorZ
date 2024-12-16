@@ -185,3 +185,6 @@ Or choose the installer for the following Asian languages:
 - v0.1.2-alpha
   - Update ZH translation
   - Update last ZH innosetup script
+
+- v0.1.3-alpha
+  - Improve ZH translations
