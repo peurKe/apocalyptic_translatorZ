@@ -188,3 +188,6 @@ Or choose the installer for the following Asian languages:
 
 - v0.1.3-alpha
   - Improve ZH translations
+
+- v0.1.4-alpha
+  - Improve ZH translations

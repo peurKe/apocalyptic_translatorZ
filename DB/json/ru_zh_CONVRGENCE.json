@@ -1122,7 +1122,6 @@
       "____to_text": "Fire Mode/\n  Shutterstock           ",
       "_____peurKe": "火灾模式/\n   快门",
       "_comment_00": "Mode feu/\n              Obturateur"
-       
     },
     {
       "_________id": 180,
@@ -2429,7 +2428,7 @@
       "_translator": "google",
       "__from_text": "КАТАЛОГ - РЕП. 1",
       "____to_text": "目录 - 代表.  1       ",
-      "_____peurKe": "目录 - 声誉  1",
+      "_____peurKe": "目录 - 声誉. 1",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -2437,7 +2436,7 @@
       "_translator": "deepl",
       "__from_text": "КАТАЛОГ - РЕП. 1",
       "____to_text": "目录 - REP.1            ",
-      "_____peurKe": "目录 - 声誉  1",
+      "_____peurKe": "目录 - 声誉. 1",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -2457,7 +2456,7 @@
       "_translator": "google",
       "__from_text": "КАТАЛОГ - РЕП. 4",
       "____to_text": "目录 - 代表.  4       ",
-      "_____peurKe": "目录 - 声誉  4",
+      "_____peurKe": "目录 - 声誉. 4",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -2465,7 +2464,7 @@
       "_translator": "deepl",
       "__from_text": "КАТАЛОГ - РЕП. 4",
       "____to_text": "CATALOG - REP.4           ",
-      "_____peurKe": "目录 - 声誉  4",
+      "_____peurKe": "目录 - 声誉. 4",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -2643,7 +2642,7 @@
       "_translator": "google",
       "__from_text": "КАТАЛОГ - РЕП. 2",
       "____to_text": "目录 - 代表.  2       ",
-      "_____peurKe": "目录 - 声誉  2",
+      "_____peurKe": "目录 - 声誉. 2",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -2651,7 +2650,7 @@
       "_translator": "deepl",
       "__from_text": "КАТАЛОГ - РЕП. 2",
       "____to_text": "CATALOG - REP.2           ",
-      "_____peurKe": "目录 - 声誉  2",
+      "_____peurKe": "目录 - 声誉. 2",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -3200,7 +3199,9 @@
       "_________id": 518,
       "_translator": "google",
       "__from_text": "ЗВУК ВКЛ",
-      "____to_text": "声音打开   "
+      "____to_text": "声音打开   ",
+      "_____peurKe": "开启声音",
+      "_comment_00": "SON On"
     },
     {
       "_________id": 519,
@@ -3212,13 +3213,17 @@
       "_________id": 520,
       "_translator": "google",
       "__from_text": "Торговец:",
-      "____to_text": "经销商：     "
+      "____to_text": "经销商：     ",
+      "_____peurKe": "卖方：",
+      "_comment_00": "Marchand:"
     },
     {
       "_________id": 521,
       "_translator": "deepl",
       "__from_text": "Торговец:",
-      "____to_text": "商人           "
+      "____to_text": "商人           ",
+      "_____peurKe": "卖方：",
+      "_comment_00": "Marchand:"
     },
     {
       "_________id": 522,
@@ -3236,13 +3241,17 @@
       "_________id": 524,
       "_translator": "google",
       "__from_text": "БАЛАНС:                                     РУБ.",
-      "____to_text": "余额：                                     卢布.    "
+      "____to_text": "余额：                                     卢布.    ",
+      "_____peurKe": "现金：                                       卢布.",
+      "_comment_00": "SOLDE:                                      RUB."
     },
     {
       "_________id": 525,
       "_translator": "deepl",
       "__from_text": "БАЛАНС:                                     РУБ.",
-      "____to_text": "平衡：<WS /> <WS /> <WS /> <WS /> <WS /> <WS /> <WS /~"
+      "____to_text": "平衡：<WS /> <WS /> <WS /> <WS /> <WS /> <WS /> <WS /~",
+      "_____peurKe": "现金：                                       卢布.",
+      "_comment_00": "SOLDE:                                      RUB."
     },
     {
       "_________id": 526,
@@ -3349,7 +3358,7 @@
       "_translator": "google",
       "__from_text": "КАТАЛОГ - РЕП. 3",
       "____to_text": "目录 - 代表.  3       ",
-      "_____peurKe": "目录 - 声誉  3",
+      "_____peurKe": "目录 - 声誉. 3",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -3357,7 +3366,7 @@
       "_translator": "deepl",
       "__from_text": "КАТАЛОГ - РЕП. 3",
       "____to_text": "CATALOG - REP.3           ",
-      "_____peurKe": "目录 - 声誉  3",
+      "_____peurKe": "目录 - 声誉. 3",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -3485,7 +3494,7 @@
       "_translator": "google",
       "__from_text": "Требуется\nреп. 5",
       "____to_text": "需要\n代表.  5           ",
-      "_____peurKe": "所需\n声誉 5",
+      "_____peurKe": "所需\n声誉. 5",
       "_comment_00": "REP. 5\nrequise"
     },
     {
@@ -3493,7 +3502,7 @@
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 5",
       "____to_text": "要求：\nrep.5             ",
-      "_____peurKe": "所需\n声誉 5",
+      "_____peurKe": "所需\n声誉. 5",
       "_comment_00": "REP. 5\nrequise"
     },
     {
@@ -3817,7 +3826,7 @@
       "_translator": "google",
       "__from_text": "Требуется\nреп. 2",
       "____to_text": "需要\n代表.  2           ",
-      "_____peurKe": "所需\n声誉 2",
+      "_____peurKe": "所需\n声誉. 2",
       "_comment_00": "REP. 2\nrequise"
     },
     {
@@ -3825,7 +3834,7 @@
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 2",
       "____to_text": "要求：\nrep.2             ",
-      "_____peurKe": "所需\n声誉 2",
+      "_____peurKe": "所需\n声誉. 2",
       "_comment_00": "REP. 2\nrequise"
     },
     {
@@ -3861,7 +3870,7 @@
       "_translator": "google",
       "__from_text": "Требуется\nреп. 3",
       "____to_text": "需要\n代表.  3           ",
-      "_____peurKe": "所需\n声誉 3",
+      "_____peurKe": "所需\n声誉. 3",
       "_comment_00": "REP. 3\nrequise"
     },
     {
@@ -3869,7 +3878,7 @@
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 3",
       "____to_text": "要求：\nrep.3             ",
-      "_____peurKe": "所需\n声誉 3",
+      "_____peurKe": "所需\n声誉. 3",
       "_comment_00": "REP. 3\nrequise"
     },
     {
@@ -3994,7 +4003,9 @@
       "_________id": 645,
       "_translator": "deepl",
       "__from_text": "У меня тут завоз новый - \nхочешь поглядеть?",
-      "____to_text": "我这里有一份新的快递 - <lf/>想看看吗？                       "
+      "____to_text": "我这里有一份新的快递 - <lf/>想看看吗？                       ",
+      "_____peurKe": "我这里有一份新的快递 - \n想看看吗？",
+      "_comment_00": "J'ai une nouvelle livraison qui arrive. \nTu veux aller la voir?"
     },
     {
       "_________id": 646,
@@ -4126,13 +4137,18 @@
       "_________id": 666,
       "_translator": "google",
       "__from_text": "штук.\nСовместимость: АКМ.\nЗажмите триггер для\nиспользования",
-      "____to_text": "件数\n兼容性：AKM. \n按下扳机即可\n使用                                                           "
+      "____to_text": "件数\n兼容性：AKM. \n按下扳机即可\n使用                                                           ",
+      "_____peurKe": "备件\n兼容性：AKM. \n按下扳机即可\n使用",
+      "_comment_00": "pieces.\nCompatibilite: AKM.\nAppuie sur la gachette pour\nl'utiliser"
+      
     },
     {
       "_________id": 667,
       "_translator": "deepl",
       "__from_text": "штук.\nСовместимость: АКМ.\nЗажмите триггер для\nиспользования",
-      "____to_text": "部件.\n兼容性：AKM.\n按下扳机即可\n使用                                                           "
+      "____to_text": "部件.\n兼容性：AKM.\n按下扳机即可\n使用                                                           ",
+      "_____peurKe": "备件\n兼容性：AKM. \n按下扳机即可\n使用",
+      "_comment_00": "pieces.\nCompatibilite: AKM.\nAppuie sur la gachette pour\nl'utiliser"
     },
     {
       "_________id": 668,
@@ -4203,7 +4219,7 @@
       "_translator": "google",
       "__from_text": "КАТАЛОГ - РЕП. 5",
       "____to_text": "目录 - 代表.  5       ",
-      "_____peurKe": "目录 - 声誉  5",
+      "_____peurKe": "目录 - 声誉. 5",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -4211,7 +4227,7 @@
       "_translator": "deepl",
       "__from_text": "КАТАЛОГ - РЕП. 5",
       "____to_text": "CATALOG - REP.5           ",
-      "_____peurKe": "目录 - 声誉  5",
+      "_____peurKe": "目录 - 声誉. 5",
       "_comment_00": "CATALOGUE - REP."
     },
     {
@@ -4267,7 +4283,7 @@
       "_translator": "google",
       "__from_text": "Требуется\nреп. 4",
       "____to_text": "需要\n代表.  4           ",
-      "_____peurKe": "所需\n声誉 4",
+      "_____peurKe": "所需\n声誉. 4",
       "_comment_00": "REP. 4\nrequise"
     },
     {
@@ -4275,7 +4291,7 @@
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 4",
       "____to_text": "要求：\nrep.4             ",
-      "_____peurKe": "所需\n声誉 4",
+      "_____peurKe": "所需\n声誉. 4",
       "_comment_00": "REP. 4\nrequise"
     },
     {
@@ -4450,13 +4466,17 @@
       "_________id": 718,
       "_translator": "google",
       "__from_text": "штук.\nСовместимость:\nРЕВОЛЬВЕР.\nЗажмите триггер для\nиспользования",
-      "____to_text": "\n兼容性：\nREVOLVER. \n按下扳机即可\n使用                                                                       "
+      "____to_text": "\n兼容性：\nREVOLVER. \n按下扳机即可\n使用                                                                       ",
+      "_____peurKe": "部件\n兼容性：\n左轮手枪.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite:\nREVOLVER.\nAppuie sur la gachette pour\nl'utiliser"
     },
     {
       "_________id": 719,
       "_translator": "deepl",
       "__from_text": "штук.\nСовместимость:\nРЕВОЛЬВЕР.\nЗажмите триггер для\nиспользования",
-      "____to_text": "部件. \n兼容性：\nRevolver. \n按下触发器即可\n使用.                                                           "
+      "____to_text": "部件. \n兼容性：\nRevolver. \n按下触发器即可\n使用.                                                           ",
+      "_____peurKe": "部件\n兼容性：\n左轮手枪.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite:\nREVOLVER.\nAppuie sur la gachette pour\nl'utiliser"
     },
     {
       "_________id": 720,
@@ -4632,7 +4652,9 @@
       "_________id": 747,
       "_translator": "deepl",
       "__from_text": "Красная цена! Два автомата... \nпо цене двух!",
-      "____to_text": "红色价格两把突击步枪...<lf/>两支的价格！                    "
+      "____to_text": "红色价格两把突击步枪...<lf/>两支的价格！                    ",
+      "_____peurKe": "红色价格两把突击步枪...\n两支的价格！",
+      "_comment_00": "Prix rouge! Deux fusils d'assaut... \npour le prix de deux!"
     },
     {
       "_________id": 748,
@@ -4686,13 +4708,17 @@
       "_________id": 756,
       "_translator": "google",
       "__from_text": "Револьвер.\nприцел",
-      "____to_text": "左轮手枪. \n瞄准器        "
+      "____to_text": "左轮手枪. \n瞄准器        ",
+      "_____peurKe": "左轮手枪. \n取景器",
+      "_comment_00": "Revolver.\nViseur"
     },
     {
       "_________id": 757,
       "_translator": "deepl",
       "__from_text": "Револьвер.\nприцел",
-      "____to_text": "左轮手枪.                   "
+      "____to_text": "左轮手枪.                   ",
+      "_____peurKe": "左轮手枪. \n取景器",
+      "_comment_00": "Revolver.\nViseur"
     },
     {
       "_________id": 758,
@@ -5106,25 +5132,33 @@
       "_________id": 824,
       "_translator": "google",
       "__from_text": "Совместимость:\nРевольвер.\nкратность: 4х",
-      "____to_text": "兼容性：\n左轮手枪. \n多重：4x                                "
+      "____to_text": "兼容性：\n左轮手枪. \n多重：4x                                ",
+      "_____peurKe": "兼容性：\n左轮手枪.\n倍率：4倍",
+      "_comment_00": "Compatibilite:\nRevolver.\ngrossissement: 4x"
     },
     {
       "_________id": 825,
       "_translator": "deepl",
       "__from_text": "Совместимость:\nРевольвер.\nкратность: 4х",
-      "____to_text": "兼容性：\nRevolver.\n折叠：4x                                     "
+      "____to_text": "兼容性：\nRevolver.\n折叠：4x                                     ",
+      "_____peurKe": "兼容性：\n左轮手枪.\n倍率：4倍",
+      "_comment_00": "Compatibilite:\nRevolver.\ngrossissement: 4x"
     },
     {
       "_________id": 826,
       "_translator": "google",
       "__from_text": "Совместимость:\nАКМ.\nПерегревается при \nбезостановочной \nстрельбе",
-      "____to_text": "兼容性：\nAKM. \n\n不间断\n射击期间过热                                                                       "
+      "____to_text": "兼容性：\nAKM. \n\n不间断\n射击期间过热                                                                       ",
+      "_____peurKe": "兼容性 ：\nAKM.\n连续发射时过热",
+      "_comment_00": "Compatibilite:\nAKM.\nSurchauffe \nlors d'un tir \ncontinu"
     },
     {
       "_________id": 827,
       "_translator": "deepl",
       "__from_text": "Совместимость:\nАКМ.\nПерегревается при \nбезостановочной \nстрельбе",
-      "____to_text": "兼容性：\nACM.\n在\n停止\n开火时会过热.                                                                       "
+      "____to_text": "兼容性：\nACM.\n在\n停止\n开火时会过热.                                                                       ",
+      "_____peurKe": "兼容性 ：\nAKM.\n连续发射时过热",
+      "_comment_00": "Compatibilite:\nAKM.\nSurchauffe \nlors d'un tir \ncontinu"
     },
     {
       "_________id": 828,
@@ -5144,13 +5178,17 @@
       "_________id": 830,
       "_translator": "google",
       "__from_text": "Вместимость:\n10 патронов.\nЗажав триггер, можно\nперекладывать \nпатроны",
-      "____to_text": "容量：\n10发. \n按住扳机，可以\n移动\n弹药筒                                                                     "
+      "____to_text": "容量：\n10发. \n按住扳机，可以\n移动\n弹药筒                                                                     ",
+      "_____peurKe": "容量：10 墨盒\n按下扳机更换墨盒",
+      "_comment_00": "Capacite:\n10 balles.\nEn appuyant sur la gachette, tu peux\nrecharger les \nballes"
     },
     {
       "_________id": 831,
       "_translator": "deepl",
       "__from_text": "Вместимость:\n10 патронов.\nЗажав триггер, можно\nперекладывать \nпатроны",
-      "____to_text": "容量：\n10发子弹. \n扣动扳机可\n传送\n粒子.                                                                       "
+      "____to_text": "容量：\n10发子弹. \n扣动扳机可\n传送\n粒子.                                                                       ",
+      "_____peurKe": "容量：10 墨盒\n按下扳机更换墨盒",
+      "_comment_00": "Capacite:\n10 balles.\nEn appuyant sur la gachette, tu peux\nrecharger les \nballes"
     },
     {
       "_________id": 832,
@@ -5754,13 +5792,17 @@
       "_________id": 928,
       "_translator": "google",
       "__from_text": "Совместимость:\nАКМ, Сайга, СВД.\nкратность: 4х",
-      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n多重性：4x                                "
+      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n多重性：4x                                ",
+      "_____peurKe": "兼容性：\nAKM、Saiga、SVD.\n倍率：4倍",
+      "_comment_00": "Compatibilite:\nAKM, Saiga, SVD.\ngrossissement: 4x"
     },
     {
       "_________id": 929,
       "_translator": "deepl",
       "__from_text": "Совместимость:\nАКМ, Сайга, СВД.\nкратность: 4х",
-      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n倍率：4x.                                  "
+      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n倍率：4x.                                  ",
+      "_____peurKe": "兼容性：\nAKM、Saiga、SVD.\n倍率：4倍",
+      "_comment_00": "Compatibilite:\nAKM, Saiga, SVD.\ngrossissement: 4x"
     },
     {
       "_________id": 930,
@@ -5832,7 +5874,9 @@
       "_________id": 941,
       "_translator": "deepl",
       "__from_text": "Совместимость:\nРевольвер.",
-      "____to_text": "兼容性：\nRevolver.                         "
+      "____to_text": "兼容性：\nRevolver.                         ",
+      "_____peurKe": "兼容性：\n左轮手枪.",
+      "_comment_00": "Compatibilite:\nRevolver."
     },
     {
       "_________id": 942,
@@ -5926,25 +5970,33 @@
       "_________id": 956,
       "_translator": "google",
       "__from_text": "штук.\nСовместимость: СВД.\nЗажмите триггер для\nиспользования",
-      "____to_text": "\n兼容性：SVD. \n按下扳机即可\n使用                                                                 "
+      "____to_text": "\n兼容性：SVD. \n按下扳机即可\n使用                                                                 ",
+      "_____peurKe": "部件\n兼容性：SVD.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite: SVD.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 957,
       "_translator": "deepl",
       "__from_text": "штук.\nСовместимость: СВД.\nЗажмите триггер для\nиспользования",
-      "____to_text": "部件. \n兼容性：SVD. \n按下触发器即可\n使用.                                                     "
+      "____to_text": "部件. \n兼容性：SVD. \n按下触发器即可\n使用.                                                     ",
+      "_____peurKe": "部件\n兼容性：SVD.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite: SVD.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 958,
       "_translator": "google",
       "__from_text": "штук.\nСовместимость:\nПММ, КЛИН.\nЗажмите триггер для\nиспользования",
-      "____to_text": "\n兼容性：\nPMM、WEDGE. \n按下扳机即可使用\n                                                                  "
+      "____to_text": "\n兼容性：\nPMM、WEDGE. \n按下扳机即可使用\n                                                                  ",
+      "_____peurKe": "部件\n兼容性：PMM、CLIN.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite:\nPMM, CLIN.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 959,
       "_translator": "deepl",
       "__from_text": "штук.\nСовместимость:\nПММ, КЛИН.\nЗажмите триггер для\nиспользования",
-      "____to_text": "部件. \n兼容性：\nPMM、CLIN. \n按下触发器即可\n使用.                                                       "
+      "____to_text": "部件. \n兼容性：\nPMM、CLIN. \n按下触发器即可\n使用.                                                       ",
+      "_____peurKe": "部件\n兼容性：PMM、CLIN.\n夹住扳机使用",
+      "_comment_00": "pieces.\nCompatibilite:\nPMM, CLIN.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 960,
@@ -6174,19 +6226,25 @@
       "_________id": 996,
       "_translator": "google",
       "__from_text": "Совместимость:\nАКМ, Сайга, СВД.\nкратность: 1-3.5х",
-      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n多重性：1-3.5x                                "
+      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n多重性：1-3.5x                                ",
+      "_____peurKe": "兼容性：\nAKM、Saiga、SVD.\n倍率：1-3.5倍",
+      "_comment_00": "Compatibilite:\nAKM, Saiga, SVD.\ngrossissement: 1-3.5x"
     },
     {
       "_________id": 997,
       "_translator": "deepl",
       "__from_text": "Совместимость:\nАКМ, Сайга, СВД.\nкратность: 1-3.5х",
-      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n比例尺：1-3.5x.                               "
+      "____to_text": "兼容性：\nAKM、Saiga、SVD. \n比例尺：1-3.5x.                               ",
+      "_____peurKe": "兼容性：\nAKM、Saiga、SVD.\n倍率：1-3.5倍",
+      "_comment_00": "Compatibilite:\nAKM, Saiga, SVD.\ngrossissement: 1-3.5x"
     },
     {
       "_________id": 998,
       "_translator": "google",
       "__from_text": "СВД",
-      "____to_text": "奇~  "
+      "____to_text": "奇~  ",
+      "_____peurKe": "SVD",
+      "_comment_00": "SVD"
     },
     {
       "_________id": 999,
@@ -6210,13 +6268,17 @@
       "_________id": 1002,
       "_translator": "google",
       "__from_text": "Мда...",
-      "____to_text": "唔...   "
+      "____to_text": "唔...   ",
+      "_____peurKe": "嗯...",
+      "_comment_00": "Hmm..."
     },
     {
       "_________id": 1003,
       "_translator": "deepl",
       "__from_text": "Мда...",
-      "____to_text": "是啊..."
+      "____to_text": "是啊...",
+      "_____peurKe": "嗯...",
+      "_comment_00": "Hmm..."
     },
     {
       "_________id": 1004,
@@ -6596,7 +6658,8 @@
       "_________id": 1065,
       "_translator": "deepl",
       "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nВы потеряете все найденные вещи и вернетесь назад в убежище.",
-      "____to_text": "您确定要提前结束突袭吗？ <lf/>您将失去所有找到的物品并返回藏身处.                                                                                                       "
+      "____to_text": "您确定要提前结束突袭吗？ <lf/>您将失去所有找到的物品并返回藏身处.                                                                                                       ",
+      "_____peurKe": "您确定要提前结束突袭吗？\n您将失去所有找到的物品并返回藏身处."
     },
     {
       "_________id": 1066,
@@ -6614,13 +6677,17 @@
       "_________id": 1068,
       "_translator": "google",
       "__from_text": "штук.\nСовместимость: Сайга.\nЗажмите триггер для\nиспользования",
-      "____to_text": "\n兼容：赛加羚羊. \n按下扳机\n使用                                                                     "
+      "____to_text": "\n兼容：赛加羚羊. \n按下扳机\n使用                                                                     ",
+      "_____peurKe": "备件.\n兼容性：Saiga.\n按下扳机即可\n使用",
+      "_comment_00": "pieces.\nCompatibilite: Saiga.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 1069,
       "_translator": "deepl",
       "__from_text": "штук.\nСовместимость: Сайга.\nЗажмите триггер для\nиспользования",
-      "____to_text": "<lf/>兼容性：Saiga.<lf/>按下扳机即可<lf/>使用                                                        "
+      "____to_text": "<lf/>兼容性：Saiga.<lf/>按下扳机即可<lf/>使用                                                        ",
+      "_____peurKe": "备件.\n兼容性：Saiga.\n按下扳机即可\n使用",
+      "_comment_00": "pieces.\nCompatibilite: Saiga.\nAppuie sur la gachette pour\nutiliser"
     },
     {
       "_________id": 1070,
@@ -7025,7 +7092,6 @@
       "____to_text": "检测到可疑活动. 我们检查了. 侦察兵发现了痕迹，但自己却践踏了其中大部分. 我们实在看不出任何东西. \n\n个人观察：我们需要向旅长报告，以便将这些起重机换成正常人. \n\n7.08 / 23.00\n一切正常安静，连总部都没有什么可报告的. <LF >\n8.08 / 00.00\n午夜过后，一些生物爬了出来. 也就是说，它们确实是生物，而不是人或动物. 我们进行了压制性射击，但没有消灭敌人. 我们三人受伤，一人在执行任务时死亡.  \n\n个人观察：那是个婊子.                                                                                                                                                                                                                                                                                                                                                                                                                  ",
       "_____peurKe": "发现可疑活动. 已经检查过了. 侦察兵发现了脚印，但大部分都被踩烂了. \n\n个人意见：我们应该向旅长报告，把这些起重机换成正常的家伙. \n\n7.08 / 23.00\n一切都很平静，即使向总部报告也没什么. \n\n8.08 / 00.00\n午夜过后，一些生物出来了. 我是说真正的生物，不是人，也不是野兽. 我们进行了火力压制，但敌人没有被消灭. 我们有三人受伤，一人因公殉职. \n\n个人看法：真是一团糟.",
       "_comment_00": "Activite suspecte detectee. Verifie. Les eclaireurs"
-
     },
     {
       "_________id": 1135,
@@ -8693,7 +8759,8 @@
       "_________id": 1405,
       "_translator": "deepl",
       "__from_text": "Вы уверены, что хотите \nдосрочно завершить рейд?\nВы потеряете весь хабар, \nнайденный в данном рейде.",
-      "____to_text": "您确定要提前结束突袭吗？ <lf/>您将失去在这次突袭中找到的所有战利品<lf/>.                                                                              "
+      "____to_text": "您确定要提前结束突袭吗？ <lf/>您将失去在这次突袭中找到的所有战利品<lf/>.                                                                              ",
+      "_____peurKe": "您确定要提前结束突袭吗？\n您将失去在这次突袭中找到的所有战利品."
     },
     {
       "_________id": 1406,
@@ -8801,7 +8868,8 @@
       "_________id": 1423,
       "_translator": "deepl",
       "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nПока загрузка не завершилась, вы не потеряете ничего из экипировки и вернетесь назад в убежище.",
-      "____to_text": "您确定要提前结束突袭吗？ <lf/>当下载仍在进行时，您不会丢失任何装备，而且会回到避难所.                                                                                                                                         "
+      "____to_text": "您确定要提前结束突袭吗？ <lf/>当下载仍在进行时，您不会丢失任何装备，而且会回到避难所.                                                                                                                                         ",
+      "_____peurKe": "您确定要提前结束突袭吗？\n当下载仍在进行时，您不会丢失任何装备，而且会回到避难所."
     },
     {
       "_________id": 1424,
@@ -9710,7 +9778,6 @@
       "____to_text": "这些神器\n从未来渗透到我们的\n时间，\n因此它们\n是最有价值的\n\n把神器\n扛在肩上\n释放给< LF>放入背包                                                                                                                                         ",
       "_____peurKe": "这些文物\n从未来来到我们的\n时代，\n因此它们\n是最有价值的\n\n将文物\n扛在肩上\n并将其释放\n放入背包中",
       "_comment_00": "De tels artefacts \narrivent a notre epoque"
-      
     },
     {
       "_________id": 1575,
@@ -10388,7 +10455,8 @@
       "_________id": 1687,
       "_translator": "deepl",
       "__from_text": "В рюкзак можно \nкласть предметы не \nснимая его со спины\n\nЗанесите предмет\nза плечо и отпустите",
-      "____to_text": "背包可装载物品，而无需\n从背上取下\n\n\n将物品\n放在肩后，然后放开\n\n<lf/><lf/><lf/>.                                                               "
+      "____to_text": "背包可装载物品，而无需\n从背上取下\n\n\n将物品\n放在肩后，然后放开\n\n<lf/><lf/><lf/>.                                                               ",
+      "_____peurKe": "您可以\n将物品放入背包中，而无需将其从背上取下\n\n将物品\n放在肩膀上并释放"
     },
     {
       "_________id": 1688,
