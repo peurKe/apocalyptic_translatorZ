@@ -203,3 +203,7 @@ Or choose the installer for the following Asian languages:
   - Add '_____peurKe' in 'fix_list' in 'ru_fr_CONVRGENCE.json' translation DB file
   - update 'ru_zh_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
   - update 'ru_fr_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
+
+- v0.1.8-alpha
+  - Improve ZH and FR JSON translation DB files
+  - Add 'LATIN_LETTERS_BYTES' as [a-zA-Z] in the middle of text to translate
