@@ -2484,14 +2484,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 9",
       "____to_text": "第 9 篇         ",
-      "_____peurKe": "名称 9",
-      "_comment_00": "NOM 9"
+      "_____peurKe": "НАЗВАНИЕ 9",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 403,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 9",
-      "____to_text": "名称 9          "
+      "____to_text": "名称 9          ",
+      "_____peurKe": "НАЗВАНИЕ 9",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 404,
@@ -2770,14 +2772,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 8",
       "____to_text": "第 8 章         ",
-      "_____peurKe": "名称 8",
-      "_comment_00": "NOM 8"
+      "_____peurKe": "НАЗВАНИЕ 8",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 449,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 8",
-      "____to_text": "名称 8          "
+      "____to_text": "名称 8          ",
+      "_____peurKe": "НАЗВАНИЕ 8",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 450,
@@ -3054,14 +3058,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 1",
       "____to_text": "标题1           ",
-      "_____peurKe": "名称 1",
-      "_comment_00": "NOM 1"
+      "_____peurKe": "НАЗВАНИЕ 1",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 495,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 1",
-      "____to_text": "名称 1          "
+      "____to_text": "名称 1          ",
+      "_____peurKe": "НАЗВАНИЕ 1",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 496,
@@ -3750,14 +3756,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 7",
       "____to_text": "第七章         ",
-      "_____peurKe": "名称 7",
-      "_comment_00": "NOM 7"
+      "_____peurKe": "НАЗВАНИЕ 7",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 607,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 7",
-      "____to_text": "名称 7          "
+      "____to_text": "名称 7          ",
+      "_____peurKe": "НАЗВАНИЕ 7",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 608,
@@ -3800,14 +3808,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 10",
       "____to_text": "第 10 篇         ",
-      "_____peurKe": "名称 10",
-      "_comment_00": "NOM 10"
+      "_____peurKe": "НАЗВАНИЕ 10",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 615,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 10",
-      "____to_text": "名称 10          "
+      "____to_text": "名称 10          ",
+      "_____peurKe": "НАЗВАНИЕ 10",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 616,
@@ -4048,14 +4058,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 5",
       "____to_text": "标题 5          ",
-      "_____peurKe": "名称 5",
-      "_comment_00": "NOM 5"
+      "_____peurKe": "НАЗВАНИЕ 5",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 653,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 5",
-      "____to_text": "名称 5          "
+      "____to_text": "名称 5          ",
+      "_____peurKe": "НАЗВАНИЕ 5",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 654,
@@ -4889,14 +4901,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 6",
       "____to_text": "第六篇         ",
-      "_____peurKe": "名称 6",
-      "_comment_00": "NOM 6"
+      "_____peurKe": "НАЗВАНИЕ 6",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 785,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 6",
-      "____to_text": "名称 6          "
+      "____to_text": "名称 6          ",
+      "_____peurKe": "НАЗВАНИЕ 6",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 786,
@@ -5119,14 +5133,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 3",
       "____to_text": "标题 3          ",
-      "_____peurKe": "名称 3",
-      "_comment_00": "NOM 3"
+      "_____peurKe": "НАЗВАНИЕ 3",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 823,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 3",
-      "____to_text": "名称 3          "
+      "____to_text": "名称 3          ",
+      "_____peurKe": "НАЗВАНИЕ 3",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 824,
@@ -5165,14 +5181,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 4",
       "____to_text": "标题 4          ",
-      "_____peurKe": "名称 4",
-      "_comment_00": "NOM 4"
+      "_____peurKe": "НАЗВАНИЕ 4",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 829,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 4",
-      "____to_text": "名称 4          "
+      "____to_text": "名称 4          ",
+      "_____peurKe": "НАЗВАНИЕ 4",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 830,
@@ -5743,14 +5761,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ 2",
       "____to_text": "标题2           ",
-      "_____peurKe": "名称 2",
-      "_comment_00": "NOM 2"
+      "_____peurKe": "НАЗВАНИЕ 2",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 921,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ 2",
-      "____to_text": "名称 2          "
+      "____to_text": "名称 2          ",
+      "_____peurKe": "НАЗВАНИЕ 2",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 922,
@@ -7152,16 +7172,16 @@
       "_translator": "google",
       "__from_text": "НАЗВАНИЕ",
       "____to_text": "姓名          ",
-      "_____peurKe": "名称",
-      "_comment_00": "NOM"
+      "_____peurKe": "НАЗВАНИЕ",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 1145,
       "_translator": "deepl",
       "__from_text": "НАЗВАНИЕ",
       "____to_text": "游戏名称    ",
-      "_____peurKe": "名称",
-      "_comment_00": "NOM"
+      "_____peurKe": "НАЗВАНИЕ",
+      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 1146,

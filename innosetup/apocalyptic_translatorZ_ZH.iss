@@ -1,7 +1,7 @@
 [Setup]
 AppName=apocalyptic_translatorZ
 OutputBaseFilename=apocalyptic_translatorZ_installer_ZH
-AppVersion=v0.1.4-alpha
+AppVersion=v0.1.5-alpha
 DefaultDirName={src}
 UsePreviousAppDir=no
 DisableProgramGroupPage=yes

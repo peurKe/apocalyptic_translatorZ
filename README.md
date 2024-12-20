@@ -191,3 +191,6 @@ Or choose the installer for the following Asian languages:
 
 - v0.1.4-alpha
   - Improve ZH translations
+
+- v0.1.5-alpha
+  - Improve ZH translations ('НАЗВАНИЕ' as not translated placeholders)
