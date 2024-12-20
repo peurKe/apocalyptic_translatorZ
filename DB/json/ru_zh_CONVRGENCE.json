@@ -2480,22 +2480,6 @@
       "____to_text": "等待游戏更新                      "
     },
     {
-      "_________id": 402,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 9",
-      "____to_text": "第 9 篇         ",
-      "_____peurKe": "НАЗВАНИЕ 9",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 403,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 9",
-      "____to_text": "名称 9          ",
-      "_____peurKe": "НАЗВАНИЕ 9",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
       "_________id": 404,
       "_translator": "google",
       "__from_text": "Бронированое стекло.\nВремя работы фильтра \nувеличивается вдвое",
@@ -2768,22 +2752,6 @@
       "____to_text": "反弹            "
     },
     {
-      "_________id": 448,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 8",
-      "____to_text": "第 8 章         ",
-      "_____peurKe": "НАЗВАНИЕ 8",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 449,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 8",
-      "____to_text": "名称 8          ",
-      "_____peurKe": "НАЗВАНИЕ 8",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
       "_________id": 450,
       "_translator": "google",
       "__from_text": "Сложность: кошмар\nТребуется репутация 2",
@@ -3052,22 +3020,6 @@
       "_translator": "deepl",
       "__from_text": "Ах да, чуть не забыл! Советую не забивать на страховку. Первую отдам даром - за счет заведения, так сказать. Вон она, слева от двери.",
       "____to_text": "对了，我差点忘了！我建议你们不要忘记保险. 我会免费赠送你第一份保险，可以说是免费赠送. 就在那儿，门的左边.                                                                                "
-    },
-    {
-      "_________id": 494,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 1",
-      "____to_text": "标题1           ",
-      "_____peurKe": "НАЗВАНИЕ 1",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 495,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 1",
-      "____to_text": "名称 1          ",
-      "_____peurKe": "НАЗВАНИЕ 1",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 496,
@@ -3752,22 +3704,6 @@
       "____to_text": "对，仓库. 你知道这里有什么吗？这里收集的都是经过聚合改造的物品，通常被称为 工艺品.                                                                                                                                  "
     },
     {
-      "_________id": 606,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 7",
-      "____to_text": "第七章         ",
-      "_____peurKe": "НАЗВАНИЕ 7",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 607,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 7",
-      "____to_text": "名称 7          ",
-      "_____peurKe": "НАЗВАНИЕ 7",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
       "_________id": 608,
       "_translator": "google",
       "__from_text": "Выброс\nмагазина",
@@ -3802,22 +3738,6 @@
       "_translator": "deepl",
       "__from_text": "Выйти из рейда",
       "____to_text": "退出突袭              "
-    },
-    {
-      "_________id": 614,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 10",
-      "____to_text": "第 10 篇         ",
-      "_____peurKe": "НАЗВАНИЕ 10",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 615,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 10",
-      "____to_text": "名称 10          ",
-      "_____peurKe": "НАЗВАНИЕ 10",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 616,
@@ -4052,22 +3972,6 @@
       "_translator": "deepl",
       "__from_text": "Металлодетектор",
       "____to_text": "金属探测器               "
-    },
-    {
-      "_________id": 652,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 5",
-      "____to_text": "标题 5          ",
-      "_____peurKe": "НАЗВАНИЕ 5",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 653,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 5",
-      "____to_text": "名称 5          ",
-      "_____peurKe": "НАЗВАНИЕ 5",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 654,
@@ -4897,22 +4801,6 @@
       "____to_text": "看来我们的军团又添新丁了. 欢迎来到避难所 猎人                                                       "
     },
     {
-      "_________id": 784,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 6",
-      "____to_text": "第六篇         ",
-      "_____peurKe": "НАЗВАНИЕ 6",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 785,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 6",
-      "____to_text": "名称 6          ",
-      "_____peurKe": "НАЗВАНИЕ 6",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
       "_________id": 786,
       "_translator": "google",
       "__from_text": "Курам на смех.",
@@ -5129,22 +5017,6 @@
       "____to_text": "你知道恶魔吗？\n来吧，别乱动你的鸟嘴！                               "
     },
     {
-      "_________id": 822,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 3",
-      "____to_text": "标题 3          ",
-      "_____peurKe": "НАЗВАНИЕ 3",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 823,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 3",
-      "____to_text": "名称 3          ",
-      "_____peurKe": "НАЗВАНИЕ 3",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
       "_________id": 824,
       "_translator": "google",
       "__from_text": "Совместимость:\nРевольвер.\nкратность: 4х",
@@ -5175,22 +5047,6 @@
       "____to_text": "兼容性：\nACM.\n在\n停止\n开火时会过热.                                                                       ",
       "_____peurKe": "兼容性 ：\nAKM.\n连续发射时过热",
       "_comment_00": "Compatibilite:\nAKM.\nSurchauffe \nlors d'un tir \ncontinu"
-    },
-    {
-      "_________id": 828,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 4",
-      "____to_text": "标题 4          ",
-      "_____peurKe": "НАЗВАНИЕ 4",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 829,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 4",
-      "____to_text": "名称 4          ",
-      "_____peurKe": "НАЗВАНИЕ 4",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 830,
@@ -5755,22 +5611,6 @@
       "____to_text": "从地下实验室带来一个箱子 \n                  (  /1 )                                       ",
       "_____peurKe": "在地下建筑群中\n拾取一个公文包               (  /1 )",
       "_comment_00": "Recupere une mallette dans un\nsouterrain"
-    },
-    {
-      "_________id": 920,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ 2",
-      "____to_text": "标题2           ",
-      "_____peurKe": "НАЗВАНИЕ 2",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 921,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ 2",
-      "____to_text": "名称 2          ",
-      "_____peurKe": "НАЗВАНИЕ 2",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 922,
@@ -7166,22 +7006,6 @@
       "_translator": "deepl",
       "__from_text": "УБИТЬ 6 БАНДИТОВ",
       "____to_text": "击杀 6 名匪徒           "
-    },
-    {
-      "_________id": 1144,
-      "_translator": "google",
-      "__from_text": "НАЗВАНИЕ",
-      "____to_text": "姓名          ",
-      "_____peurKe": "НАЗВАНИЕ",
-      "_comment_00": "This is a placeholder, must not be translated"
-    },
-    {
-      "_________id": 1145,
-      "_translator": "deepl",
-      "__from_text": "НАЗВАНИЕ",
-      "____to_text": "游戏名称    ",
-      "_____peurKe": "НАЗВАНИЕ",
-      "_comment_00": "This is a placeholder, must not be translated"
     },
     {
       "_________id": 1146,

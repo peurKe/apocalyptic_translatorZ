@@ -18,12 +18,21 @@ class Translator:
         self.translators = []
         self.translator_api_key = translator_api_key
 
+        # Initialize full sentences to exclude from translation
+        self.exclude_full_sentences = self.params_game.get('translator').get('exclude_full_sentences')
+
         # Get language support
         self.language_support = language_support
         
         # Initialize lang source and target
         self.lang_source = dict(deepl='ru', google='ru')
         self.lang_target = dict(deepl='en', google='en')
+
+        # Initialize glossary
+        self.glossary = {
+            "deepl": None,
+            "google": None
+        }
 
         # Allow to set the first available translator in the list as the preferred one
         is_preferred_for_online_not_already_set = True
@@ -141,6 +150,52 @@ class Translator:
                 code=lang_target,
                 translator_name=available_translator
             )
+
+
+    def get_glossary(self, translator_name, lang_source, lang_target):
+        """
+        Get glossary from params game.
+        """
+        # # BEGIN TESTING PURPOSE ONLY
+        # self.logs.log(f"self.lang_source.get(translator_name): {lang_source}", c='ASK', force=True)
+        # self.logs.log(f"self.lang_target.get(translator_name): {lang_target}", c='ASK', force=True)
+        # self.logs.log(f"glossary: {self.params_game.get('translator').get(translator_name).get('glossary').get(lang_source).get(lang_target)}", c='ASK', force=True)
+        # input("Press enter to continue...")
+        # sys_exit(0)
+        # # END TESTING PURPOSE ONLY
+
+        glossary_lang_source = self.params_game.get('translator').get(translator_name).get('glossary_lang_source')
+        glossary_lang_target = self.params_game.get('translator').get(translator_name).get('glossary_lang_target')
+
+        no_glossary = False
+        if lang_source not in glossary_lang_source or lang_target not in glossary_lang_target:
+            no_glossary = True
+
+        # Source and/or target language is not defined in glossary params game
+        if no_glossary:
+            self.logs.log(f" No glossary for '{translator_name}' translator and '{lang_source}' source language and '{lang_target}' target language", c='DEBUG', force=True)
+            # Return an empty glossary
+            return self.params_game.get('translator').get(translator_name).get('glossary_empty')
+        
+        # Return glossary
+        return self.params_game.get('translator').get(translator_name).get('glossary').get(lang_source).get(lang_target)
+
+
+    def initialize_glossary(self):
+        """
+        Initialize glossary accordingly to source and target langs.
+        """
+        for translator in self.translators:
+            if translator.get('translator_name') == 'deepl':
+                lang_source = self.lang_source.get('deepl')
+                lang_target = self.lang_target.get('deepl')
+                # Attempt to create use the DeepL translator only when an API authentication key is defined
+                self.glossary['deepl'] = translator.get('translator').create_glossary(
+                    f"DeepL glossary for {lang_source} to {lang_target}",
+                    source_lang=lang_source,
+                    target_lang=lang_target,
+                    entries=self.get_glossary('deepl', lang_source, lang_target)
+                )
 
 
     def inject_line_breaks(self, source, translated):
@@ -331,8 +386,8 @@ class Translator:
 
         translated = translator.translate(
             text,
-            src=self.lang_source['google'],
-            dest=self.lang_target['google']
+            src=self.lang_source.get('google'),
+            dest=self.lang_target.get('google')
         ).text
 
         # Google specific:
@@ -369,6 +424,7 @@ class Translator:
         # text = "Исследуйте новую обширную \nоткрытую локацию - Лес, \nполную секретов."
         # text = "Отпустите рюкзак\r\nи он автоматически\r\nвернется на место"
         # text = "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 10000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nМАКСИМАЛЬНАЯ РЕПУТАЦИЯ\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ"
+        # text = "Требуется\nреп. 5"
         # # END TESTING PURPOSE ONLY
 
         # # BEGIN TESTING PURPOSE ONLY
@@ -394,31 +450,23 @@ class Translator:
         text = text.replace("\r", "").replace("\n", "<lf />").replace("  ", " <ws /> ")
 
         # # BEGIN TESTING PURPOSE ONLY
-        # self.logs.log(f"{repr(text)}", c='ASK', force=True)
+        # self.logs.log(f"self.lang_source.get('deepl'): {self.lang_source['deepl']}", c='ASK', force=True)
+        # self.logs.log(f"self.lang_target.get('deepl'): {self.lang_target['deepl']}", c='ASK', force=True)
+        # self.logs.log(f"self.glossary.get('deepl'): {self.glossary.get('deepl')}", c='ASK', force=True)
+        # input("Press enter to continue...")
+        # sys_exit(0)
         # # END TESTING PURPOSE ONLY
 
-        # translated = translator.translate_text(
-        #     text,
-        #     source_lang=self.lang_source['deepl'],
-        #     target_lang=self.lang_target['deepl'],
-        #     model_type=translator_args.get('model_type'),
-        #     formality=translator_args.get('formality'),
-        #     split_sentences=translator_args.get('split_sentences'),
-        #     preserve_formatting=translator_args.get('preserve_formatting'),
-        #     context=translator_args.get('context'),
-        #     tag_handling=translator_args.get('tag_handling'),
-        #     ignore_tags=translator_args.get('ignore_tags'),
-        #     non_splitting_tags=translator_args.get('non_splitting_tags'),
-        # ).text
         translated = translator.translate_text(
             text,
-            source_lang=self.lang_source['deepl'],
-            target_lang=self.lang_target['deepl'],
+            source_lang=self.lang_source.get('deepl'),
+            target_lang=self.lang_target.get('deepl'),
             model_type=translator_args.get('model_type'),
             formality=translator_args.get('formality'),
             split_sentences=translator_args.get('split_sentences'),
             preserve_formatting=translator_args.get('preserve_formatting'),
-            context=translator_args.get('context')
+            context=translator_args.get('context'),
+            glossary=self.glossary.get('deepl')
             # tag_handling=translator_args.get('tag_handling'),
             # ignore_tags=translator_args.get('ignore_tags'),
             # non_splitting_tags=translator_args.get('non_splitting_tags'),
@@ -464,12 +512,12 @@ class Translator:
         #     # translated = self.inject_line_breaks_dot_priority_2(text, translated)
         # # END Inject '\n' from text to translated (Produces translation errors)
 
-        # # BEGIN TESTING PURPOSE ONLY
-        # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
+        # # # BEGIN TESTING PURPOSE ONLY
+        # # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
         # self.logs.log(f"{translated}", c='ASK', force=True)
         # input("Press enter to continue...")
         # sys_exit(0)
-        # # END TESTING PURPOSE ONLY
+        # # # END TESTING PURPOSE ONLY
 
         # Return translated text by DeepL
         return translated

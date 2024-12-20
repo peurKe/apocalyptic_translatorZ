@@ -194,3 +194,7 @@ Or choose the installer for the following Asian languages:
 
 - v0.1.5-alpha
   - Improve ZH translations ('НАЗВАНИЕ' as not translated placeholders)
+
+- v0.1.6-alpha
+  - Add 'glossaries' and 'exclude_full_sentence' features
+  - Add 'ru_fr_CONVRGENCE.json' translation DB file

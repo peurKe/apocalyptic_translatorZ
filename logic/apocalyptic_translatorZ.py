@@ -198,7 +198,10 @@ class apocalyptic_translatorZ:
 
                 # Set supported source and target languages for translators
                 self.translators.set_langs(lang_source, lang_target)
-                
+
+                # Set glossary accordingly to source and target languages (currently only for DeepL translator)
+                self.translators.initialize_glossary()
+
                 # Restore backup files for next translations
                 self.file_handler.restore_files()
 
@@ -256,7 +259,13 @@ class apocalyptic_translatorZ:
                     
                     # Process all binay strings from file to translate
                     for b_string in self.file_handler.extract_cyrillic_sequences():
-                        
+
+                        # Check if original text must be excluded                        
+                        if b_string.s in self.translators.exclude_full_sentences:
+                            self.logs.log(f"/!\\ '{b_string.s}' is excluded from translation. See params game 'translator.exclude_full_sentences' key.", c='DEBUG', force=True)
+                            # Go to next original text
+                            continue
+
                         # # /!\ BEGIN OPTIMIZED in self.file_handler.get_binary_content()
                         # # Check if in allowed ranges
                         # if self.file_handler.is_break_requested(b_string.offset, file_to_translate):
@@ -323,7 +332,7 @@ class apocalyptic_translatorZ:
                                     alphabet=self.language_support.get_target_language_type(lang_target),
                                     origin='ONLINE'
                                 )
-                                
+
                                 # Add translated_text in DB
                                 self.db.add_translation(
                                     translator_name=translator.get('translator_name'),

@@ -41,10 +41,12 @@ class Params :
                 "split_sentences": "nonewlines",
                 "preserve_formatting": True,
                 "context": "",
-                "tag_handling": "xml",
-                "ignore_tags": ["x"],
-                "non_splitting_tags": ["w"] 
-            }
+                "glossary_lang_source": [],
+                "glossary_lang_target": [],
+                "glossary_empty": { "no_glossary": "no_glossary" },
+                "glossary": {}
+            },
+            "exclude_full_sentences": []
         }
     }
     games = {
@@ -143,15 +145,31 @@ class Params :
             "translator": {
                 "google": {},
                 "deepl": {
+                    "model_type": "prefer_quality_optimized",
                     "formality": "prefer_less",
                     "split_sentences": "nonewlines",
+                    "preserve_formatting": True,
                     "context": "Постапокалиптическая игра в жанре survival horror (похожая на STALKER), " + \
                                "действие которой разворачивается в таинственной и страшной Чернокаменской зоне отчуждения, " + \
                                "куда игроки совершают вылазки в поисках хабара и мистических артефактов, " + \
                                "попутно отбиваясь от бандитов, дикой фауны и демонов, выходящих на охоту под покровом ночи.",
-                    "tag_handling": "xml",
-                    "ignore_tags": ["x"]
-                }
+                    "glossary_lang_source": ['ru'],
+                    "glossary_lang_target": ['zh-hans'],
+                    "glossary_empty": { "no_glossary": "no_glossary" },
+                    "glossary": {
+                        "ru": {
+                            "zh-hans": {
+                                "РЕПУТАЦИЯ": "声誉", # REPUTATION
+                                "реп.": "声誉", # REP.
+                                "Револьвер": "左轮手枪", # Revolver
+                            }
+                        }
+                    }
+                },
+                "exclude_full_sentences": [
+                    'НАЗВАНИЕ', 'НАЗВАНИЕ 1', 'НАЗВАНИЕ 2', 'НАЗВАНИЕ 3', 'НАЗВАНИЕ 4', 'НАЗВАНИЕ 5',
+                    'НАЗВАНИЕ 6', 'НАЗВАНИЕ 7', 'НАЗВАНИЕ 8', 'НАЗВАНИЕ 9', 'НАЗВАНИЕ 10'
+                ]
             },
             # Allow to locate all sentences containing LATIN specific terms
             "include_words": [
