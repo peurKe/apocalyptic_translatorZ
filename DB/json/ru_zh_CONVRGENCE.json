@@ -11251,7 +11251,295 @@
       "__from_text": "Елочный шар",
       "____to_text": "圣诞树球         ",
       "_____peurKe": "圣诞球"
+    },
+    {
+      "_________id": 1846,
+      "_translator": "google",
+      "__from_text": "Что-то пошло не так :(\n\nДля проверки подлинности лицензии при первом запуске требуется подключение к интернету. \nПожалуйста убедитесь, что вы онлайн в Steam, а интернет-соединение стабильно. \nПосле этой единоразовой проверки, в игру \nможно будет играть оффлайн.",
+      "____to_text": "出了问题:(\n\n首次启动时需要互联网连接来验证您的许可证. \n请确保您在 Steam 上在线并拥有稳定的互联网连接. \n之后通过此一次性检查，游戏\n可以离线玩.                                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 1847,
+      "_translator": "deepl",
+      "__from_text": "Что-то пошло не так :(\n\nДля проверки подлинности лицензии при первом запуске требуется подключение к интернету. \nПожалуйста убедитесь, что вы онлайн в Steam, а интернет-соединение стабильно. \nПосле этой единоразовой проверки, в игру \nможно будет играть оффлайн.",
+      "____to_text": "出错了:(\n\n首次运行时需要连接互联网以验证许可证的真实性. \n请确保您在 Steam 上在线，并且网络连接稳定. \n一次性验证后，\n即可离线玩游戏.                                                                                                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 1848,
+      "_translator": "google",
+      "__from_text": "Левая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "左手\n\nX:\n\nY:\n\nZ:             "
+    },
+    {
+      "_________id": 1849,
+      "_translator": "deepl",
+      "__from_text": "Левая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "左手\n\nX:\n\nY:\n\nZ：           "
+    },
+    {
+      "_________id": 1850,
+      "_translator": "google",
+      "__from_text": "Привет, это Никита - разработчик CONVRGENCE. \nСпасибо за ваш интерес к моей игре!",
+      "____to_text": "大家好，我是 Nikita，CONVRGENCE 的开发者.  \n感谢您对我的游戏的兴趣！                                            "
+    },
+    {
+      "_________id": 1851,
+      "_translator": "deepl",
+      "__from_text": "Привет, это Никита - разработчик CONVRGENCE. \nСпасибо за ваш интерес к моей игре!",
+      "____to_text": "您好，我是 CONVRGENCE 的开发者 Nikita. \n感谢您对我的游戏感兴趣！                                                  "
+    },
+    {
+      "_________id": 1852,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nПо умолчанию установлена эмуляция ввода Oculus. Если она не работает, или вы хотите дополнительно настроить ее - это можно сделать следующим образом:\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Shared bindings from Echoe87\" в \"Раскладках сообщества\".\n6. Перезапустите игру.",
+      "____to_text": "目前，由于技术问题，游戏尚未正式支持 Valve Index. \n\n默认安装 Oculus 输入仿真. 如果它不起作用，或者您想进一步配置它，您可以按以下步骤操作：\n\n1.打开 SteamVR 叠加层. \n2.选择控制器设置. \n3.将活动控制器布局切换为自定义. \n4.单击出现的选择另一个按钮. \n5.在社区布局中选择来自 Echoe87 的共享绑定布局. \n6.重新启动游戏.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 1853,
+      "_translator": "deepl",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nПо умолчанию установлена эмуляция ввода Oculus. Если она не работает, или вы хотите дополнительно настроить ее - это можно сделать следующим образом:\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Shared bindings from Echoe87\" в \"Раскладках сообщества\".\n6. Перезапустите игру.",
+      "____to_text": "由于技术问题，该游戏目前缺乏官方 Valve 索引支持. \n\n默认安装了 Oculus 输入模拟. 如果它不起作用，或者您想进一步自定义它，可以按以下步骤操作：\n\n1.打开 SteamVR Overlay.\n2.选择 控制器设置. 选择 Controller Settings（控制器设置）. 将 Active Controller Layout（活动控制器布局）切换为 Custom（自定义）. 点击出现的 另选 按钮. 从 Community Layouts（社区布局）中选择 Shared bindings from Echoe87（来自 Echoe87 的共享绑定）布局. 重新启动游戏.                                                                                                                                                                                                                                                                                                                                                                                  "
+    },
+    {
+      "_________id": 1854,
+      "_translator": "google",
+      "__from_text": "Правая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "右手\n\nX:\n\nY:\n\nZ:               "
+    },
+    {
+      "_________id": 1855,
+      "_translator": "deepl",
+      "__from_text": "Правая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "右手\n\nX:\n\nY:\n\nZ：             "
+    },
+    {
+      "_________id": 1856,
+      "_translator": "google",
+      "__from_text": "Сценарий, нарративный дизайн - Владимир Шумилов, \nЕвгений Цопов\n\r---------------------------------------------------------------------------\n\r\nКомьюнити-менеджеры - Eri, Echoe87\nТестеры - LGS 008, BertaWhitehorn, Lemming Legion\n\r---------------------------------------------------------------------------\n\nОзвучка - R.G MVO\r\n\r\nЗахарыч - Алексей Щегорский\r\nДиспетичер - Ольга Чаплин\nВоенный, охотник - Дмитрий Ермаков\nБандиты: Евгений Иванов, Дмитрий Рыбин, \nКонстантин Алексеев, STH FrolDIST, Иван Исаенко\nУченые: Петр Коврижных, Александр Петров\n\r\nРабота со звуком - Екатерина Дмитрова\r\nКуратор озвучки, кастинг - spider91\r\n\r---------------------------------------------------------------------------\n\r\nМузыка во время и в конце рейда \n- Professional Daydreamer\r\nЗвуки шагов, рюкзака, аптечки и эмбиенты \n- CHEEKIBREEKI (Seth Reed)\nМузыка во время рейда, эмбиенты - Smetana\n\r\r---------------------------------------------------------------------------\n\r\nМузыка для радио: \r\nDE - When Will That Day Come\r\nDE - How Long\n\r\r---------------------------------------------------------------------------\n\n3d модели рюкзаков - Надежда Бурштынович \r\n3d модель наручных часов и стены вокруг зоны - Coozy\n3d модель УАЗ Буханки - Валерий Харитонов\n3d модель пачки сахара - Pixel Dev\n3d модель пачки сухариков - Paul_Transfer\n3d модели ножа тайга-1 и доски с картой \n- Cengizhan Boran\n\r\r---------------------------------------------------------------------------\n\nТрейлеры для Обновления 1 и 2 - WunderbarVR\n\r\r---------------------------------------------------------------------------\n\nVR Interaction Framework - Bearded Ninja Games\n---------------------------------------------------------------------------\r\n\r\nCreative Commons 3D Art\r\n\r\nOld Wooden Bookshelves - GameDev Nick\r\nhttps://sketchfab.com/3d-models/old-wooden-bookshelves-3f856846b4a144e28109aea9269aca6",
+      "____to_text": "剧本、叙事设计 - Vladimir Shumilov、\nEvgeniy Tsopov\n-------------------------------- -------------------------------------------------------\n<\n >社区经理 - Eri、Echoe87\n测试人员 - LGS 008、BertaWhitehorn、Lemming Legion\n------------------------ - -------------------------------------------------- < \n>\n配音 - R.G MVO\n\nZakharych - Alexey Shchegorsky\n调度员 - Olga Chaplin\n军事、猎人 - Dmitry Ermakov\n强盗：Evgeny Ivanov、Dmitry Rybin、\nKonstantin Alekseev、STH FrolDIST、Ivan Isaenko\n科学家：Petr Kovrizhnykh、Alexander Petrov\n\n使用声音 - Ekaterina德米特罗娃\n配音策展人、选角 - Spider91\n------------------------------------------------ ----------------------------------------------------\n\n音乐输入时间和突袭结束时 \n- 职业白日梦想家\n脚步声、背包、急救箱和环境声 \n- CHEEKIBREEKI (Seth Reed)\n突袭期间的音乐、环境声- 斯美塔那\n------------------------------------------------ ---------------------------\n\n广播音乐：\nDE - When Will That Day Come \nDE - 多久\n------------------------------------- - ------------------------------------------------\n\n背包3D模型 - Nadezhda Burshtynovich \n手表和周围墙壁的 3d 模型 - Coozy\nUAZ 面包的 3d 模型 - Valery Kharitonov\n一包糖的 3d 模型 - Pixel Dev\n3d一包饼干的模型 - Paul_Transfer\nTaiga-1 刀和带有地图的木板的 3D 模型\n- Cengizhan Boran\n------------- ------- ------------------------------------------- ------- -----\n\n更新 1 和 2 的预告片 - WunderbarVR\n------------------ ------- ------------------------------------------- ------- \n\nVR交互框架-大胡子忍者游戏\n------------------------ ----- --------------------------------------------------------< \n>\n创意Commons 3D 艺术\n\n旧木制书架 - GameDev Nick\nhttps://sketchfab.com/3d-models/old-wooden-bookshelves-3f856846b4a144e28109aea9269aca6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           "
+    },
+    {
+      "_________id": 1857,
+      "_translator": "deepl",
+      "__from_text": "Сценарий, нарративный дизайн - Владимир Шумилов, \nЕвгений Цопов\n\r---------------------------------------------------------------------------\n\r\nКомьюнити-менеджеры - Eri, Echoe87\nТестеры - LGS 008, BertaWhitehorn, Lemming Legion\n\r---------------------------------------------------------------------------\n\nОзвучка - R.G MVO\r\n\r\nЗахарыч - Алексей Щегорский\r\nДиспетичер - Ольга Чаплин\nВоенный, охотник - Дмитрий Ермаков\nБандиты: Евгений Иванов, Дмитрий Рыбин, \nКонстантин Алексеев, STH FrolDIST, Иван Исаенко\nУченые: Петр Коврижных, Александр Петров\n\r\nРабота со звуком - Екатерина Дмитрова\r\nКуратор озвучки, кастинг - spider91\r\n\r---------------------------------------------------------------------------\n\r\nМузыка во время и в конце рейда \n- Professional Daydreamer\r\nЗвуки шагов, рюкзака, аптечки и эмбиенты \n- CHEEKIBREEKI (Seth Reed)\nМузыка во время рейда, эмбиенты - Smetana\n\r\r---------------------------------------------------------------------------\n\r\nМузыка для радио: \r\nDE - When Will That Day Come\r\nDE - How Long\n\r\r---------------------------------------------------------------------------\n\n3d модели рюкзаков - Надежда Бурштынович \r\n3d модель наручных часов и стены вокруг зоны - Coozy\n3d модель УАЗ Буханки - Валерий Харитонов\n3d модель пачки сахара - Pixel Dev\n3d модель пачки сухариков - Paul_Transfer\n3d модели ножа тайга-1 и доски с картой \n- Cengizhan Boran\n\r\r---------------------------------------------------------------------------\n\nТрейлеры для Обновления 1 и 2 - WunderbarVR\n\r\r---------------------------------------------------------------------------\n\nVR Interaction Framework - Bearded Ninja Games\n---------------------------------------------------------------------------\r\n\r\nCreative Commons 3D Art\r\n\r\nOld Wooden Bookshelves - GameDev Nick\r\nhttps://sketchfab.com/3d-models/old-wooden-bookshelves-3f856846b4a144e28109aea9269aca6",
+      "____to_text": "脚本、叙事设计 - Vladimir Shumilov、\nEvgeny Tsopov\n---------------------------------------------------------------------------\n\n社区经理 - Eri、Echoe87\n测试人员 - LGS 008、BertaWhitehorn、Lemming Legion\n---------------------------------------------------------------------------\n\n配音 - R．G MVO\n\nZakharych - Alexey Shchegorsky\nDispatcher - Olga Chaplin\nMilitary, hunter - Dmitry Ermakov\nBandits: Evgeny Ivanov, Dmitry Rybin, \nKonstantin Alexeev, STH FrolDIST, Ivan Isaenko\nScientists：Peter Kovrignykh、Alexander Petrov\n\n音效工作--Ekaterina Dmitrova\n音效监督、选角--spider91\n---------------------------------------------------------------------------\n\n突袭期间和结束时的音乐 \n- Professional Daydreamer\n脚步声、\n- CHEEKIBREEKI (Seth Reed)\n突袭中的音乐，环境 - Smetana\n---------------------------------------------------------------------------\n\n广播音乐：\nDE - When Will That Day Come\nDE - How Long\n---------------------------------------------------------------------------\n\n3d 背包模型 - Nadezhda Burshtynovych\n3d 手表模型和区域周围的墙 - Coozy\n3d UAZ Bukhanka 模型 - Valery Kharitonov\n3d 糖包模型 - Pixel Dev\n3d 面包屑包模型 - Paul_Transfer\n3d 泰加刀模型1 and map board\n- Cengizhan Boran\n---------------------------------------------------------------------------\n\nTrailers for Update 1 and 2 - WunderbarVR\n---------------------------------------------------------------------------\n\nVR Interaction Framework - Bearded Ninja Games\n---------------------------------------------------------------------------\n\nCreative Commons 3D Art\n\nOld Wooden Bookshelves - GameDev Nick\nhttps：//sketchfab.com/3d-models/old-wooden-bookshelves-3f856846b4a144e28109aea9269aca6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 1858,
+      "_translator": "google",
+      "__from_text": "Советское мыло - Valger\r\nhttps://sketchfab.com/3d-models/a-soviet-soap-0101d34cfb4646ddbf5aa557a876e0a5\r\n\r\nMatch - Shedmon\r\nhttps://sketchfab.com/3d-models/match-8a4d1935aa7d43938bce60e832c1a774\n\nOld soviet elevator - Shedmon\r\nhttps://sketchfab.com/3d-models/old-soviet-elevator-b8f9098e1a304406a7556ac871bf0f41\n\nUshanka Hat - Stepanaan\nhttps://sketchfab.com/3d-models/ushanka-hat-fc88c6b0cc2b42f0b35589f40275541d\n\nLighter (Game Model) - Michael Makivic\r\nhttps://sketchfab.com/3d-models/lighter-game-model-d593d46b2ad240d5a482ad6944bc3db3\r\n\r\nFlashlight - VITALIY MARUSEV\r\nhttps://sketchfab.com/3d-models/flashlight-6a304493bb7f47fe8bc20c2bcca90f68\r\n\r\nTennis Ball - Tentrox\r\nhttps://sketchfab.com/3d-models/tennis-ball-edc344dcc65440ea97b5eae84f1957a4\r\n\r\nAshtray (used) - Glowbox 3D\r\nhttps://sketchfab.com/3d-models/ashtray-used-e15c6a08493a495f99970bc2e951083a\r\n\r\nPDA - kogu20083\r\nhttps://sketchfab.com/3d-models/stalker-pda-1cff27a8222340fb83228e02ac4b6c6d\r\n\r\nSoviet TV \"Рекорд В-304\" - drhope\r\nhttps://sketchfab.com/3d-models/soviet-tv-304-59f5d967e7ce40e5a3fa5c4930321479\r\n\r\nAbandoned Soviet BTR - 80 - GameDev Nick\r\nhttps://sketchfab.com/3d-models/abandoned-soviet-btr-80-32145d6303e5487e9d92097b9845ef02\r\n\r\nStop - LucasPresoto\r\nhttps://sketchfab.com/3d-models/stop-56c4221c7c1e4c279a93b0fa4912a7c9\r\n\r\nToxic Waste Barrel - MohJeha\r\nhttps://sketchfab.com/3d-models/toxic-waste-barrel-105b7c7df10e4e3baa30b7ed9e916a65\r\n\r\nBroadcast tower (Game ready) - PT34\r\nhttps://sketchfab.com/3d-models/broadcast-tower-game-ready-e0bd9e8f693c496280e0afeb32fece26\r\n\r\nBrick Game - biweyi1372\r\nhttps://sketchfab.com/3d-models/brick-game-43bda1782ade45b28e97c45239ab0351\n\nGaz-52 truck, old version - trivial.cat\nhttps://sketchfab.com/3d-models/gaz-52-truck-old-version-1321d97f84024db4b9cac9e6ff9b6381\n\nLadder metallic Tool - Mehdi Shahsavan\r\nhttps://sketchfab.com/3d-models/ladder-metallic-tool-f38544d6cf5c4f2499a7f4c2d859681f\n\nZarya 2 stun grenade - alpenfant\nhttps://sketchfab.com/3d-models/zarya-2-stun-grenade-f19a970e9a9a4656a8c4303282e29667\n\nOld Well from Soviet Village - Danila Ivankov\nhttps://sketchfab.com/3d-models/old-well-from-soviet-village-c6497c1c7ba04daba45f6d43fcf3a88b\n\nPumpkin Halloween Face - Sir Erdees\nhttps://sketchfab.com/3d-models/pumpkin-halloween-face-2d9369a0f2e847bb99803ab8709fd04b\n\nChristmas Ball - milapixia\nhttps://sketchfab.com/3d-models/christmas-ball-51381190cdcc4f3d9c1abe55bc72a74f\n\nAn old refrigerator and a wooden crate - Eugen S.\nhttps://sketchfab.com/3d-models/an-old-refrigerator-and-a-wooden-crate-9664f9f194ae4256a64ab168f74f8b9b\n\nRussian samovar - Sergey Shavin\nhttps://sketchfab.com/3d-models/russian-samovar-69dfc4a83b0742c6a7b53319a1cc8faa\n\nRussian Building - BlackMonolith\nhttps://sketchfab.com/3d-models/russian-building-4k-texture-low-poly-game-model-ee463020e42a4f6eb66b7090defb8e7b\n\nThree-storey house - Denis Loginovskiy\nhttps://sketchfab.com/3d-models/three-storey-house-049b990385844f8798efd715a9f18f7",
+      "____to_text": "苏联肥皂剧 - Valger\nhttps://sketchfab.com/3d-models/a-soviet-soap-0101d34cfb4646ddbf5aa557a876e0a5\n\n比赛 - Shedmon\nhttps://sketchfab.com/3d-models/match-8a4d1935aa7d43938bce60e832c1a774\n\n老苏联电梯 - 谢德蒙\nhttps://sketchfab.com/3d-models/old-soviet-elevator-b8f9098e1a304406a7556ac871bf0f41\n\nUshanka 帽子 - Stepanaan\nhttps://sketchfab.com/3d-models/ushanka-hat-fc88c6b0cc2b42f0b35589f40275541d\n\n打火机（游戏模型）- Michael Makivic\nhttps://sketchfab.com/3d-models/lighter-game-model-d593d46b2ad240d5a482ad6944bc3db3\n\n手电筒 - VITALIY MARUSEV\nhttps://sketchfab.com/3d-models/flashlight-6a304493bb7f47fe8bc20c2bcca90f68\n\n网球 - Tentrox\nhttps://sketchfab.com/3d-models/tennis-ball-edc344dcc65440ea97b5eae84f1957a4\n\n烟灰缸（二手）- Glowbox 3D\nhttps://sketchfab.com/3d-models/ashtray-used-e15c6a08493a495f99970bc2e951083a\n\nPDA - kogu20083\nhttps://sketchfab.com/3d-models/stalker-pda-1cff27a8222340fb83228e02ac4b6c6d\n\n苏联电视台Record B-304- drhope\nhttps://sketchfab.com/3d-models/soviet-tv-304-59f5d967e7ce40e5a3fa5c4930321479\n\n废弃的苏联 BTR - 80 - GameDev Nick\nhttps://sketchfab.com/3d-models/abandoned-soviet-btr-80-32145d6303e5487e9d92097b9845ef02\n\n停止 - LucasPresoto\nhttps://sketchfab.com/3d-models/stop-56c4221c7c1e4c279a93b0fa4912a7c9\n\n有毒废物桶 - MohJeha\nhttps://sketchfab.com/3d-models/有毒-waste-barrel-105b7c7df10e4e3baa30b7ed9e916a65\n\n广播塔（游戏就绪）- PT34\nhttps://sketchfab.com/3d-models/broadcast-tower-game-ready-e0bd9e8f693c496280e0afeb32fece26\n\n砖块游戏 - biweyi1372\nhttps://sketchfab.com/3d-models/brick-game-43bda1782ade45b28e97c45239ab0351\n\nGaz-52 卡车，旧版本 - trivial.cat\nhttps://sketchfab.com/3d-models/gaz-52-truck-old-version-1321d97f84024db4b9cac9e6ff9b6381\n\n梯子金属工具 - Mehdi Shahsavan\nhttps://sketchfab.com/3d-models/ladder-metalic-tool-f38544d6cf5c4f2499a7f4c2d859681f\n\n查莉娅 2 眩晕手榴弹 - alpenfant\nhttps://sketchfab.com/3d-models/zarya-2-stun-grenade-f19a970e9a9a4656a8c4303282e29667\n\n苏联村庄的老井 - 丹尼拉·伊万科夫\nhttps://sketchfab.com/3d-models/old-well-from-soviet-village-c6497c1c7ba04daba45f6d43fcf3a88b\n\n南瓜万圣节脸 - Erdees 爵士\nhttps://sketchfab.com/3d-models/pumpkin-halloween-face-2d9369a0f2e847bb99803ab8709fd04b\n\n圣诞舞会 - milapixia\nhttps://sketchfab.com/3d-models/christmas-ball-51381190cdcc4f3d9c1abe55bc72a74f\n\n一台旧冰箱和一个木箱 - Eugen S.\nhttps://sketchfab.com/3d-models/an-old-refrigerator-and-a-wooden-crate-9664f9f194ae4256a64ab168f74f8b9b\n\n俄罗斯茶炊 - Sergey Shavin\nhttps://sketchfab.com/3d-models/Russian-samovar-69dfc4a83b0742c6a7b53319a1cc8faa\n\n俄罗斯建筑 - BlackMonolith\nhttps://sketchfab.com/3d-models/Russian-building-4k-texture-low-poly-game-model-ee463020e42a4f6eb66b7090defb8e7b\n\n三层房子 - Denis Loginovskiy\nhttps://sketchfab.com/3d-models/ Three-storey-house-049b990385844f8798efd715a9f18f7                                                          "
+    },
+    {
+      "_________id": 1859,
+      "_translator": "deepl",
+      "__from_text": "Советское мыло - Valger\r\nhttps://sketchfab.com/3d-models/a-soviet-soap-0101d34cfb4646ddbf5aa557a876e0a5\r\n\r\nMatch - Shedmon\r\nhttps://sketchfab.com/3d-models/match-8a4d1935aa7d43938bce60e832c1a774\n\nOld soviet elevator - Shedmon\r\nhttps://sketchfab.com/3d-models/old-soviet-elevator-b8f9098e1a304406a7556ac871bf0f41\n\nUshanka Hat - Stepanaan\nhttps://sketchfab.com/3d-models/ushanka-hat-fc88c6b0cc2b42f0b35589f40275541d\n\nLighter (Game Model) - Michael Makivic\r\nhttps://sketchfab.com/3d-models/lighter-game-model-d593d46b2ad240d5a482ad6944bc3db3\r\n\r\nFlashlight - VITALIY MARUSEV\r\nhttps://sketchfab.com/3d-models/flashlight-6a304493bb7f47fe8bc20c2bcca90f68\r\n\r\nTennis Ball - Tentrox\r\nhttps://sketchfab.com/3d-models/tennis-ball-edc344dcc65440ea97b5eae84f1957a4\r\n\r\nAshtray (used) - Glowbox 3D\r\nhttps://sketchfab.com/3d-models/ashtray-used-e15c6a08493a495f99970bc2e951083a\r\n\r\nPDA - kogu20083\r\nhttps://sketchfab.com/3d-models/stalker-pda-1cff27a8222340fb83228e02ac4b6c6d\r\n\r\nSoviet TV \"Рекорд В-304\" - drhope\r\nhttps://sketchfab.com/3d-models/soviet-tv-304-59f5d967e7ce40e5a3fa5c4930321479\r\n\r\nAbandoned Soviet BTR - 80 - GameDev Nick\r\nhttps://sketchfab.com/3d-models/abandoned-soviet-btr-80-32145d6303e5487e9d92097b9845ef02\r\n\r\nStop - LucasPresoto\r\nhttps://sketchfab.com/3d-models/stop-56c4221c7c1e4c279a93b0fa4912a7c9\r\n\r\nToxic Waste Barrel - MohJeha\r\nhttps://sketchfab.com/3d-models/toxic-waste-barrel-105b7c7df10e4e3baa30b7ed9e916a65\r\n\r\nBroadcast tower (Game ready) - PT34\r\nhttps://sketchfab.com/3d-models/broadcast-tower-game-ready-e0bd9e8f693c496280e0afeb32fece26\r\n\r\nBrick Game - biweyi1372\r\nhttps://sketchfab.com/3d-models/brick-game-43bda1782ade45b28e97c45239ab0351\n\nGaz-52 truck, old version - trivial.cat\nhttps://sketchfab.com/3d-models/gaz-52-truck-old-version-1321d97f84024db4b9cac9e6ff9b6381\n\nLadder metallic Tool - Mehdi Shahsavan\r\nhttps://sketchfab.com/3d-models/ladder-metallic-tool-f38544d6cf5c4f2499a7f4c2d859681f\n\nZarya 2 stun grenade - alpenfant\nhttps://sketchfab.com/3d-models/zarya-2-stun-grenade-f19a970e9a9a4656a8c4303282e29667\n\nOld Well from Soviet Village - Danila Ivankov\nhttps://sketchfab.com/3d-models/old-well-from-soviet-village-c6497c1c7ba04daba45f6d43fcf3a88b\n\nPumpkin Halloween Face - Sir Erdees\nhttps://sketchfab.com/3d-models/pumpkin-halloween-face-2d9369a0f2e847bb99803ab8709fd04b\n\nChristmas Ball - milapixia\nhttps://sketchfab.com/3d-models/christmas-ball-51381190cdcc4f3d9c1abe55bc72a74f\n\nAn old refrigerator and a wooden crate - Eugen S.\nhttps://sketchfab.com/3d-models/an-old-refrigerator-and-a-wooden-crate-9664f9f194ae4256a64ab168f74f8b9b\n\nRussian samovar - Sergey Shavin\nhttps://sketchfab.com/3d-models/russian-samovar-69dfc4a83b0742c6a7b53319a1cc8faa\n\nRussian Building - BlackMonolith\nhttps://sketchfab.com/3d-models/russian-building-4k-texture-low-poly-game-model-ee463020e42a4f6eb66b7090defb8e7b\n\nThree-storey house - Denis Loginovskiy\nhttps://sketchfab.com/3d-models/three-storey-house-049b990385844f8798efd715a9f18f7",
+      "____to_text": "Soviet Soap - Valger\nhttps://sketchfab.com/3d-models/a-soviet-soap-0101d34cfb4646ddbf5aa557a876e0a5\nhttps://sketchfab.com/3d-models/a-soviet-soap-0101d34cfb4646ddbf5aa557a876e0a5\n\nMatch - Shedmon\nhttps://sketchfab.com/3d-models/match-8a4d1935aa7d43938bce60e832c1a774\n\nOld soviet elevator - Shedmon\nhttps://sketchfab.com/3d-models/old-soviet-elevator-b8f9098e1a304406a7556ac871bf0f41\n\nUshanka Hat - Stepanaan\nhttps://sketchfab.com/3d-models/ushanka-hat-fc88c6b0cc2b42f0b35589f40275541d\n\nLighter (Game Model) - Michael Makivic\nhttps://sketchfab.com/3d-models/lighter-game-model-d593d46b2ad240d5a482ad6944bc3db3\n\nFlashlight - VITALIY MARUSEV\nhttps://sketchfab.com/3d-models/flashlight-6a304493bb7f47fe8bc20c2bcca90f68\n\nTennis Ball - Tentrox\nhttps://sketchfab.com/3d-models/tennis-ball-edc344dcc65440ea97b5eae84f1957a4\n\nAshtray (used) - Glowbox 3D\nhttps://sketchfab.com/3d-models/ashtray-used-e15c6a08493a495f99970bc2e951083a\n\nPDA - kogu20083\nhttps://sketchfab.com/3d-models/stalker-pda-1cff27a8222340fb83228e02ac4b6c6d\n\nSoviet TV Record B-304 - drhope\nhttps://sketchfab.com/3d-models/soviet-tv-304-59f5d967e7ce40e5a3fa5c4930321479\n\nAbandoned Soviet BTR - 80 - GameDev Nick\nhttps://sketchfab.com/3d-models/abandoned-soviet-btr-80-32145d6303e5487e9d92097b9845ef02\n\nStop - LucasPresoto\nhttps://sketchfab.com/3d-models/stop-56c4221c7c1e4c279a93b0fa4912a7c9\n\nToxic Waste Barrel - MohJeha\nhttps://sketchfab.com/3d-models/toxic-waste-barrel-105b7c7df10e4e3baa30b7ed9e916a65\n\nBroadcast tower (Game ready) - PT34\nhttps://sketchfab.com/3d-models/broadcast-tower-game-ready-e0bd9e8f693c496280e0afeb32fece26\n\nBrick Game - biweyi1372\nhttps://sketchfab.com/3d-models/brick-game-43bda1782ade45b28e97c45239ab0351\n\nGaz-52 truck, old version - trivial.cat\nhttps://sketchfab.com/3d-models/gaz-52-truck-old-version-1321d97f84024db4b9cac9e6ff9b6381\n\nLadder metallic Tool - Mehdi Shahsavan\nhttps://sketchfab.com/3d-models/ladder-metallic-tool-f38544d6cf5c4f2499a7f4c2d859681f\n\nZarya 2 stun grenade - alpenfant\nhttps://sketchfab.com/3d-models/zarya-2-stun-grenade-f19a970e9a9a4656a8c4303282e29667\n\nOld Well from Soviet Village - Danila Ivankov\nhttps://sketchfab.com/3d-models/old-well-from-soviet-village-c6497c1c7ba04daba45f6d43fcf3a88b\n\nPumpkin Halloween Face - Sir Erdees\nhttps://sketchfab.com/3d-models/pumpkin-halloween-face-2d9369a0f2e847bb99803ab8709fd04b\n\nChristmas Ball - milapixia\nhttps://sketchfab.com/3d-models/christmas-ball-51381190cdcc4f3d9c1abe55bc72a74f\n\nAn old refrigerator and a wooden crate - Eugen S.\nhttps://sketchfab.com/3d-models/an-old-refrigerator-and-a-wooden-crate-9664f9f194ae4256a64ab168f74f8b9b\n\nRussian samovar - Sergey Shavin\nhttps://sketchfab.com/3d-models/russian-samovar-69dfc4a83b0742c6a7b53319a1cc8faa\n\n俄罗斯建筑 - BlackMonolith\nhttps://sketchfab.com/3d-models/russian-building-4k-texture-low-poly-game-model-ee463020e42a4f6eb66b7090defb8e7b\n\n三层房屋 - Denis Loginovskiy\nhttps://sketchfab.com/3d-models/three-storey-house-049b990385844f8798ef~"
+    },
+    {
+      "_________id": 1860,
+      "_translator": "google",
+      "__from_text": "Исправлена ошибка, когда в тире не выдавали потраченные патроны\r\n- Исправлена ошибка с некорректной перезаписью лучшего результата в тире\r\n- Исправлена ошибка с телепортацией монстров в Рейдах\r\n- Исправлена ошибка с дергающимся затвором ПММ\r\n- Исправлена ошибка с неправильным направлением перемещения, при задании направления рукой\r\n- Исправлена ошибка с невозможностью разрядить револьвер на HTC Vive\r\n- Исправлена ошибка, когда пистолетный магазин, вставленный внутрь пистолета, мог исчезнуть после смерти\r\n- Исправлена ошибка, когда на трупах в противогазах не спавнились фильтры\r\n- Из внутриигрового меню обучения убрана ссылка на опросник от альфа версии\r\n- Исправлена ошибка с некорректными материалами на некоторых стенах в паучьих рейдах\r\n- Двери в комнатах в рейдах теперь могут открываются наружу\r\n- Во время загрузки в рейд больше нельзя выхватить предметы из инвентаря и случайно потерять их",
+      "____to_text": "修复了射击场没有给出耗尽弹药的错误\n-修复了射击场中最佳结果被错误覆盖的错误\n-修复了突袭中怪物传送的错误\n - 修复了 PMM 快门抽动的错误\n - 修复了用手设置方向时移动方向错误的错误\n - 修复了 HTC Vive 上无法卸载左轮手枪的错误\n- 已修复插入手枪内的手枪弹匣在死亡后可能会消失的错误\n-修复了过滤器未在戴着防毒面具的尸体上生成时的错误\n-从alpha版本到调查问卷的链接已从游戏内训练菜单\n - 修复了蜘蛛突袭中某些墙壁上材料不正确的错误\n - 突袭中房间的门现在可以向外打开\n - 加载物品时不再可以抓取物品一次突袭从库存中意外丢失                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 1861,
+      "_translator": "deepl",
+      "__from_text": "Исправлена ошибка, когда в тире не выдавали потраченные патроны\r\n- Исправлена ошибка с некорректной перезаписью лучшего результата в тире\r\n- Исправлена ошибка с телепортацией монстров в Рейдах\r\n- Исправлена ошибка с дергающимся затвором ПММ\r\n- Исправлена ошибка с неправильным направлением перемещения, при задании направления рукой\r\n- Исправлена ошибка с невозможностью разрядить револьвер на HTC Vive\r\n- Исправлена ошибка, когда пистолетный магазин, вставленный внутрь пистолета, мог исчезнуть после смерти\r\n- Исправлена ошибка, когда на трупах в противогазах не спавнились фильтры\r\n- Из внутриигрового меню обучения убрана ссылка на опросник от альфа версии\r\n- Исправлена ошибка с некорректными материалами на некоторых стенах в паучьих рейдах\r\n- Двери в комнатах в рейдах теперь могут открываются наружу\r\n- Во время загрузки в рейд больше нельзя выхватить предметы из инвентаря и случайно потерять их",
+      "____to_text": "修正了衝刺時沒有提供已用彈藥的錯誤\n- 修正了錯誤覆蓋衝刺最佳結果的錯誤\n- 修正了突擊中怪物傳送的錯誤\n- 修正了抽搐螺栓 PMM 的錯誤\n- 修正了移動方向錯誤的錯誤、用手设置方向时移动方向错误的错误\n- 修复了在 HTC Vive 上无法卸载左轮手枪的错误\n- 修复了手枪弹夹的错误、插入枪内的弹夹可能在死亡后消失\n- 修复了一个错误、过滤器不会在佩戴防毒面具的尸体上生成\n- 从游戏内的教程菜单中移除指向阿尔法版问卷的链接\n- 修复了蜘蛛突袭中某些墙壁材料不正确的问题\n- 突袭中房间的门现在可以向外打开\n- 加载到突袭时，您再也无法从库存中抓取物品并意外丢失它们.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+    },
+    {
+      "_________id": 1862,
+      "_translator": "google",
+      "__from_text": "Нажмите GRIP \nнад головой\nдля включения.",
+      "____to_text": "按 GRIP \n在头上\n将其打开.                                    "
+    },
+    {
+      "_________id": 1863,
+      "_translator": "deepl",
+      "__from_text": "Нажмите GRIP \nнад головой\nдля включения.",
+      "____to_text": "按 GRIP \nhead\n 激活.                                              "
+    },
+    {
+      "_________id": 1864,
+      "_translator": "google",
+      "__from_text": "ПОВЫШЕН. СПРОС (ЦЕНА X2):",
+      "____to_text": "增加. 需求（价格 X2）：         "
+    },
+    {
+      "_________id": 1865,
+      "_translator": "deepl",
+      "__from_text": "ПОВЫШЕН. СПРОС (ЦЕНА X2):",
+      "____to_text": "已更新. 需求（价格 x2）：      "
+    },
+    {
+      "_________id": 1866,
+      "_translator": "google",
+      "__from_text": "Поговаривают, что дед наш, Семен, совсем из ума выжил. С крысами начал разговаривать, кличит их именами своих старыx друзей, ну тех, что при вылазке сгинули. Его поведение начинает настораживает, жутко это как-то...\n\r\n18.11\nВсе, сгинул наш дед Семен! Была стычка наших с этими гадами, так там такая заваруха была, что дед, не долго думая, сиганул в еще неразведанный нами туннель и бежал так, что только пятки сверкали.\r\n\n27.11\nНаши вчера на разведку ходили и говорят слышали где-то вдалеке истеричный смех, судорожные всхлипы и прерывистый стук... Так их напугали эти непонятные звуки, что не пошли они дальше, побоялись. Что же это такое?",
+      "____to_text": "他们说我们的祖父谢苗已经完全失去了理智. 他开始和老鼠说话，用他的老朋友的名字来称呼它们，好吧，就是那些在郊游中死去的人的名字. 他的行为开始令人震惊，有点令人毛骨悚然...\n\n11.18\n就是这样，我们的祖父谢苗去世了！我们的人和这些混蛋发生了小冲突，闹得这么乱，爷爷毫不犹豫地跳进了我们还没有探索过的地道里，跑得只剩下脚后跟闪闪发光. \n< \n>11/27\n我们的昨天 他们继续侦察，说听到远处有歇斯底里的笑声、抽搐的抽泣声和断断续续的敲门声……他们被这些难以理解的声音吓坏了他们担心自己不会再走得更远. 这是什么？                                                                                                                                                                                                                                                                                                                                                                                                                                 "
+    },
+    {
+      "_________id": 1867,
+      "_translator": "deepl",
+      "__from_text": "Поговаривают, что дед наш, Семен, совсем из ума выжил. С крысами начал разговаривать, кличит их именами своих старыx друзей, ну тех, что при вылазке сгинули. Его поведение начинает настораживает, жутко это как-то...\n\r\n18.11\nВсе, сгинул наш дед Семен! Была стычка наших с этими гадами, так там такая заваруха была, что дед, не долго думая, сиганул в еще неразведанный нами туннель и бежал так, что только пятки сверкали.\r\n\n27.11\nНаши вчера на разведку ходили и говорят слышали где-то вдалеке истеричный смех, судорожные всхлипы и прерывистый стук... Так их напугали эти непонятные звуки, что не пошли они дальше, побоялись. Что же это такое?",
+      "____to_text": "他们说，我们的祖父谢苗已经完全疯了. 他开始和老鼠说话，用他老朋友的名字呼唤它们，那些在突袭中失踪的老鼠. 他的行为开始令人震惊，让人毛骨悚然......\n\n18.11\n一切都完了，我们的爷爷谢苗走了！他们被这些难以理解的声音吓坏了，没有继续前进，因为他们害怕. 那是什么声音？                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 1868,
+      "_translator": "google",
+      "__from_text": "Патроны 7.62x54",
+      "____to_text": "弹药 7.62x54        "
+    },
+    {
+      "_________id": 1869,
+      "_translator": "deepl",
+      "__from_text": "Патроны 7.62x54",
+      "____to_text": "弹药 7.62x54        "
+    },
+    {
+      "_________id": 1870,
+      "_translator": "google",
+      "__from_text": "Потяните затвор вперед, чтобы дослать патрон или просто нажмите на подсвеченную кнопку \"B\".",
+      "____to_text": "向前拉动枪栓以装入子弹，或者只需按下发光的B按钮即可.                                                                                        "
+    },
+    {
+      "_________id": 1871,
+      "_translator": "deepl",
+      "__from_text": "Потяните затвор вперед, чтобы дослать патрон или просто нажмите на подсвеченную кнопку \"B\".",
+      "____to_text": "向前拉动枪栓即可发射子弹，或者直接按下发光的 B 按钮.                                                                                         "
+    },
+    {
+      "_________id": 1872,
+      "_translator": "google",
+      "__from_text": "Не обязательно извлекать магазин вручную, можно просто нажать на подсвеченную кнопку \"A\".",
+      "____to_text": "无需手动取出弹匣；只需按下发光的A按钮即可.                                                                                                    "
+    },
+    {
+      "_________id": 1873,
+      "_translator": "deepl",
+      "__from_text": "Не обязательно извлекать магазин вручную, можно просто нажать на подсвеченную кнопку \"A\".",
+      "____to_text": "您不必手动弹出弹匣，只需按下发光的 A 按钮即可.                                                                                               "
+    },
+    {
+      "_________id": 1874,
+      "_translator": "google",
+      "__from_text": "Патроны 7.62x39",
+      "____to_text": "弹药 7.62x39        "
+    },
+    {
+      "_________id": 1875,
+      "_translator": "deepl",
+      "__from_text": "Патроны 7.62x39",
+      "____to_text": "弹药 7.62x39        "
+    },
+    {
+      "_________id": 1876,
+      "_translator": "google",
+      "__from_text": "Отряд зачистки один, внимание. Прямо перед вами, в 400 метрaх, от 5 до 10 вероятных противников. Направляются к вам. Отойдите за рощу, там вас сможет прикрыть второй отряд быстрого реагирования.",
+      "____to_text": "单独清理小队，注意. 在您正前方 400 米外，有 5 到 10 个可能的对手. 正向你走来. 移动到树林后面，第二个快速反应小队将能够掩护你.                                                                                                                                                                      "
+    },
+    {
+      "_________id": 1877,
+      "_translator": "deepl",
+      "__from_text": "Отряд зачистки один, внимание. Прямо перед вами, в 400 метрaх, от 5 до 10 вероятных противников. Направляются к вам. Отойдите за рощу, там вас сможет прикрыть второй отряд быстрого реагирования.",
+      "____to_text": "扫荡一小队，注意. 在你正前方 400 米处，有 5 到 10 个可能的对手. 他们正朝你们走来到小树林后面去，那里有第二支快速反应小队掩护你.                                                                                                                                                                  "
+    },
+    {
+      "_________id": 1878,
+      "_translator": "google",
+      "__from_text": "Все оружие можно\nмодифицировать\n\nЗажмите B/Y для\nвхода в режим\nмодификации",
+      "____to_text": "所有武器均可\n改装\n\n按住B/Y\n进入改装\n模式                                                                              "
+    },
+    {
+      "_________id": 1879,
+      "_translator": "deepl",
+      "__from_text": "Все оружие можно\nмодифицировать\n\nЗажмите B/Y для\nвхода в режим\nмодификации",
+      "____to_text": "所有武器均可\n修改\n\n按 B/Y 键\n进入修改模式                                                                             "
+    },
+    {
+      "_________id": 1880,
+      "_translator": "google",
+      "__from_text": "Зажмите B/Y для\nвыхода из режима\nмодифицирования\nоружия",
+      "____to_text": "按住B/Y\n退出\n武器\n修改模式                                                                "
+    },
+    {
+      "_________id": 1881,
+      "_translator": "deepl",
+      "__from_text": "Зажмите B/Y для\nвыхода из режима\nмодифицирования\nоружия",
+      "____to_text": "按 B/Y 键\n退出\n武器修改\n修改模式                                                        "
+    },
+    {
+      "_________id": 1882,
+      "_translator": "google",
+      "__from_text": "Вставьте магазин\nв пистолет \nи нажмите B/Y \nдля сброса затвора",
+      "____to_text": "将弹匣\n插入手枪\n并按B/Y \n释放枪机                                                                "
+    },
+    {
+      "_________id": 1883,
+      "_translator": "deepl",
+      "__from_text": "Вставьте магазин\nв пистолет \nи нажмите B/Y \nдля сброса затвора",
+      "____to_text": "将弹夹\n插入枪\n，按 B/Y \n键重置枪栓                                                               "
+    },
+    {
+      "_________id": 1884,
+      "_translator": "google",
+      "__from_text": "Нажмите на A/X,\nчтобы активировать\nУФ вспышку\n\nНе забывайте про нее\nв бою с демонами",
+      "____to_text": "按A/X\n启动\n紫外线闪光\n\n与恶魔战斗时不要忘记它\n                                                                                    "
+    },
+    {
+      "_________id": 1885,
+      "_translator": "deepl",
+      "__from_text": "Нажмите на A/X,\nчтобы активировать\nУФ вспышку\n\nНе забывайте про нее\nв бою с демонами",
+      "____to_text": "按 A/X，\n激活紫外线闪光灯\n\n\n与恶魔战斗时不要忘记\n\n.                                                                              "
+    },
+    {
+      "_________id": 1886,
+      "_translator": "google",
+      "__from_text": "У некоторых видов\nоружия можно\nпереключать режим\nведения огня\n\nНажмите B/Y\nдля переключения",
+      "____to_text": "对于某些类型的\n武器，您可以\n切换\n射击模式\n\n按B/Y\n进行切换                                                                                     "
+    },
+    {
+      "_________id": 1887,
+      "_translator": "deepl",
+      "__from_text": "У некоторых видов\nоружия можно\nпереключать режим\nведения огня\n\nНажмите B/Y\nдля переключения",
+      "____to_text": "某些武器可在不同射击模式之间切换\n\n\n按 B/Y\n键切换.                                                                                                 "
+    },
+    {
+      "_________id": 1888,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nПо умолчанию установлена эмуляция ввода Oculus. Если она не работает, или вы хотите дополнительно настроить ее - это можно сделать следующим образом:\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".\n6. Перезапустите игру.\r\n7. Скорректируйте положение рук в Настройках.",
+      "____to_text": "目前，由于技术问题，游戏尚未正式支持 Valve Index. \n\n默认安装 Oculus 输入仿真. 如果它不起作用，或者您想进一步配置它，您可以按以下步骤操作：\n\n1.打开 SteamVR 叠加层. \n2.选择控制器设置. \n3.将活动控制器布局切换为自定义. \n4.单击出现的选择另一个按钮. \n5.从社区布局中选择Oculus Emulation布局. \n6.重新启动游戏. \n7.在设置中调整手的位置.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+    },
+    {
+      "_________id": 1889,
+      "_translator": "deepl",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nПо умолчанию установлена эмуляция ввода Oculus. Если она не работает, или вы хотите дополнительно настроить ее - это можно сделать следующим образом:\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".\n6. Перезапустите игру.\r\n7. Скорректируйте положение рук в Настройках.",
+      "____to_text": "由于技术问题，该游戏目前缺乏官方 Valve 索引支持. \n\n默认安装了 Oculus 输入模拟. 如果它不起作用，或者您想进一步自定义它，可以按以下步骤操作：\n\n1.打开 SteamVR Overlay.\n2.选择 控制器设置. 选择 Controller Settings（控制器设置）. 将 Active Controller Layout（活动控制器布局）切换为 Custom（自定义）. 点击出现的 Select Other（选择其他）按钮. 从 Community Layouts（社区布局）中选择 Oculus Emulation 布局. 重新启动游戏. 在 设置 中调整手的位置.                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    {
+      "_________id": 1890,
+      "_translator": "google",
+      "__from_text": "Вы также можете\nизвлекать патроны из\nкоробки по одному\n\nДля этого нажимайте \nA/X, удерживая\nкоробку открытой",
+      "____to_text": "您还可以\n从\n盒子中一次取出一个墨盒\n\n为此，请在保持盒子打开的同时按\nA/X                                                                                              "
+    },
+    {
+      "_________id": 1891,
+      "_translator": "deepl",
+      "__from_text": "Вы также можете\nизвлекать патроны из\nкоробки по одному\n\nДля этого нажимайте \nA/X, удерживая\nкоробку открытой",
+      "____to_text": "您还可以在打开盒子的同时按下 \nA/X 从盒子中一颗一颗取出子弹.                                                                                                              "
+    },
+    {
+      "_________id": 1892,
+      "_translator": "google",
+      "__from_text": "Удерживайте A/X, \nчтобы выдвинуть \nмагазин наполовину\n\nНажимайте A/X, \nчтобы сбросить его\nна землю",
+      "____to_text": "按住 A/X \n将\n弹匣伸出一半\n\n按 A/X \n将其扔到地面\n                                                                                                            "
+    },
+    {
+      "_________id": 1893,
+      "_translator": "deepl",
+      "__from_text": "Удерживайте A/X, \nчтобы выдвинуть \nмагазин наполовину\n\nНажимайте A/X, \nчтобы сбросить его\nна землю",
+      "____to_text": "按住 A/X，\n将弹夹延长一半\n\n按下 A/X，\n将弹夹\n扔到地上                                                                                                   "
     }
   ],
-  "next_id": 1846
+  "next_id": 1894
 }
