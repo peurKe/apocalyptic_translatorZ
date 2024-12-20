@@ -12,6 +12,8 @@ class Cyrillic:
 
         # Regular expression for Cyrillic bytes (Russian + Specific + Ukrainian pattern)
         self.CYRILLIC_BYTES = rb'\xD0[\x80-\xBF]|\xD0[\xA0-\xFF]|\xD1[\x80-\xBF]|\xD2[\x80-\xBF]|\xD3[\x80-\xBF]|\xD4[\x80-\x8F]'
+        # Regular latin letters (case-insensitive) # /!\ CAN BE A PROBLEM (REMOVE IF CHANGE BREAKING)
+        self.LATIN_LETTERS_BYTES = rb'[a-zA-Z]'
         # 'P.S.|VR|Discord|DISCORD|SteamVR' bytes
         self.LATIN_BYTES = rb'\x50\x2E\x53\x2E|\x56\x52|\x44\x69\x73\x63\x6F\x72\x64|\x44\x49\x53\x43\x4F\x52\x44|\x53\x74\x65\x61\x6D\x56\x52'  # 'P.S.|VR|Discord|DISCORD|SteamVR'
         # Whitespace byte
@@ -44,6 +46,7 @@ class Cyrillic:
             rb'|' + self.WSPACE_BYTE +
             rb'|' + self.DASH_BYTES +
             rb'|' + self.LATIN_BYTES +
+            rb'|' + self.LATIN_LETTERS_BYTES +  # /!\ CAN BE A PROBLEM (REMOVE IF CHANGE BREAKING)
             rb'|' + self.CRLF_BYTES +
             rb'|' + self.NUMBERS_BYTES +
             rb'|' + self.PUNCTUATION_BYTES + rb')'
