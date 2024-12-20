@@ -4056,7 +4056,6 @@
       "____to_text": "件数\n兼容性：AKM. \n按下扳机即可\n使用                                                           ",
       "_____peurKe": "备件\n兼容性：AKM. \n按下扳机即可\n使用",
       "_comment_00": "pieces.\nCompatibilite: AKM.\nAppuie sur la gachette pour\nl'utiliser"
-      
     },
     {
       "_________id": 667,
@@ -11201,7 +11200,58 @@
       "_translator": "deepl",
       "__from_text": "Нет электричества",
       "____to_text": "无电                           "
+    },
+    {
+      "_________id": 1838,
+      "_translator": "google",
+      "__from_text": "Камуфляж",
+      "____to_text": "伪装          "
+    },
+    {
+      "_________id": 1839,
+      "_translator": "deepl",
+      "__from_text": "Камуфляж",
+      "____to_text": "伪装          "
+    },
+    {
+      "_________id": 1840,
+      "_translator": "google",
+      "__from_text": "Шапка               Нож                             Камуфляж",
+      "____to_text": "帽子               刀                            迷彩                 ",
+      "_____peurKe": "帽子                刀                               迷彩"
+    },
+    {
+      "_________id": 1841,
+      "_translator": "deepl",
+      "__from_text": "Шапка               Нож                             Камуфляж",
+      "____to_text": "帽子                                                                  ~   ",
+      "_____peurKe": "帽子                刀                               迷彩"
+    },
+    {
+      "_________id": 1842,
+      "_translator": "google",
+      "__from_text": "ПРОГРЕСС СОБЫТИЯ:",
+      "____to_text": "活动进展：                 "
+    },
+    {
+      "_________id": 1843,
+      "_translator": "deepl",
+      "__from_text": "ПРОГРЕСС СОБЫТИЯ:",
+      "____to_text": "活动进展：                 "
+    },
+    {
+      "_________id": 1844,
+      "_translator": "google",
+      "__from_text": "Елочный шар",
+      "____to_text": "圣诞球            "
+    },
+    {
+      "_________id": 1845,
+      "_translator": "deepl",
+      "__from_text": "Елочный шар",
+      "____to_text": "圣诞树球         ",
+      "_____peurKe": "圣诞球"
     }
   ],
-  "next_id": 1838
+  "next_id": 1846
 }

@@ -198,3 +198,8 @@ Or choose the installer for the following Asian languages:
 - v0.1.6-alpha
   - Add 'glossaries' and 'exclude_full_sentence' features
   - Add 'ru_fr_CONVRGENCE.json' translation DB file
+
+- v0.1.7-alpha
+  - Add '_____peurKe' in 'fix_list' in 'ru_fr_CONVRGENCE.json' translation DB file
+  - update 'ru_zh_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
+  - update 'ru_fr_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
