@@ -393,7 +393,7 @@ class Translator:
         # Google specific:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
         # translated = translated.replace("<LF>", "\n").replace("\u00A0\u00A0", "  ")
-        translated = translated.replace("<lf />", "\n").replace("\u00A0\u00A0", "  ")
+        translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace("\u00A0\u00A0", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
@@ -495,7 +495,7 @@ class Translator:
         # translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
 
         # translated = translated.replace("<w><x>LF</x></w>", "\n").replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
-        translated = translated.replace("<lf />", "\n").replace(" <ws /> ", "  ").replace("<ws />", "  ")
+        translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace(" <ws /> ", "  ").replace("<ws />", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{translated}\n", c='ASK', force=True)
