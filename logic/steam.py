@@ -63,7 +63,7 @@ class Steam:
             self.logs.log(f" • [Cannot validates the integrity of '{self.game_name}' because it is not a Steam Game.] Failed", c='FAIL', force=True)
             self.logs.log(f" Tips: Execute the 'auto_ZONA_translator (restore)' shortcut located in your '{self.game_name}' game folder.", c='INFO', force=True)
             self.logs.log(f"       Or reinstall (delete and download again) this '{self.game_name}' game.\n", c='INFO', force=True)
-            self.logs.inputc(f" Press Enter to exit...\n", c='ASK', force=True)
+            self.logs.input(f" Press Enter to exit...\n", c='ASK')
             sys.exit(-1)
         else:
             self.logs.log(f" • [Validate '{self.game_name}' (app ID '{self.app_id}') files integrity from Steam console. Monitoring logs] ...", c='INFO', force=True)

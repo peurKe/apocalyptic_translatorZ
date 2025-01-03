@@ -34,10 +34,28 @@ class TextProcessor:
         self.translated_text_len = 0
         self.translated_text_binary_len = 0
         self.translated_origin = 'UNKNOWN'
+
+        # Initialize lang source and target
+        self.lang_source = 'ru'
+        self.lang_target = 'en'
+
+        # Initialise Asian languages codes
+        self.asian_languages = ['zh', 'ja', 'ko']
         pass
 
 
+    def set_langs(self, lang_source, lang_target):
+        """
+        Set source and target langs accordingly to supported languages for text_processor.
+        """
+        self.lang_source = lang_source
+        self.lang_target = lang_target
+
+
     def len_bytes(self, text):
+        """
+        Return length of string converted in UTF-8 binary string.
+        """
         return len(text.encode('utf-8'))
 
 
@@ -180,8 +198,9 @@ class TextProcessor:
         # '\-' = hyphen  (escaped)
         #  '–' = en dash (not escaped)
         #  '—' = em dash (not escaped)
+        # /!\ Added '%'
         # regex_pattern = r'[^\w\s\.\'",!?\[\]/\\\(\)\-–—\+=:·。，！？：…\u4e00-\u9fff\u3040-\u309f\uac00-\ud7af\u0300-\u036f]'
-        regex_pattern = r'[^\w\s\.\'",!?\[\]/\\\(\)\-–—\+=:~\u4e00-\u9fff\u3040-\u309f\uac00-\ud7af\u0300-\u036f]'
+        regex_pattern = r'[^\w\s\.\'",!?\[\]/\\\(\)\-–—\+=%:~\u4e00-\u9fff\u3040-\u309f\uac00-\ud7af\u0300-\u036f]'
         # Apply cleaning
         self.translated_text = re.sub(regex_pattern, "", self.translated_text)
 
@@ -217,20 +236,23 @@ class TextProcessor:
         # self.logs.log(f" [DEBUG] self.translated_text = '{self.translated_text}'", c='DEBUG', force=True)
         # # END TESTING PURPOSE ONLY
 
-        # Need to replace asian accentuations ?
-        if self.need_replace_asian_ponctuations:
-            self.replace_asian_ponctuations(
-                only_specifics=self.need_replace_asian_ponctuations_specifics,
-                only_keys=self.need_replace_asian_ponctuations_specifics_keys
-            )
+        # Only when target language is an asian language
+        if self.lang_target in self.asian_languages:
+            # Need to replace asian accentuations ?
+            if self.need_replace_asian_ponctuations:
+                self.replace_asian_ponctuations(
+                    only_specifics=self.need_replace_asian_ponctuations_specifics,
+                    only_keys=self.need_replace_asian_ponctuations_specifics_keys
+                )
 
-        # # BEGIN TESTING PURPOSE ONLY
+        # BEGIN TESTING PURPOSE ONLY
+        # self.logs.log(f" [DEBUG] self.lang_target = '{self.lang_target}'", c='DEBUG', force=True)
         # self.logs.log(f" [DEBUG] replace_asian_ponctuations = '{self.need_replace_asian_ponctuations}'", c='DEBUG', force=True)
         # self.logs.log(f" [DEBUG] only_specifics = '{self.need_replace_asian_ponctuations_specifics}'", c='DEBUG', force=True)
         # self.logs.log(f" [DEBUG] only_keys = '{self.need_replace_asian_ponctuations_specifics_keys}'", c='DEBUG', force=True)
         # self.logs.log(f" [DEBUG] self.translated_text = '{self.translated_text}'", c='DEBUG', force=True)
         # input(f"{Fore.CYAN}Press enter to exit...{Style.RESET_ALL}")
-        # # END TESTING PURPOSE ONLY
+        # END TESTING PURPOSE ONLY
 
         # Need to remove specials ?
         if self.need_remove_specials:

@@ -27,6 +27,9 @@ class Translator:
         # Initialize lang source and target
         self.lang_source = dict(deepl='ru', google='ru')
         self.lang_target = dict(deepl='en', google='en')
+        # Initialize lang source and target types
+        self.lang_source_type = 'auto'
+        self.lang_target_type = 'auto'
 
         # Initialize glossary
         self.glossary = {
@@ -150,6 +153,8 @@ class Translator:
                 code=lang_target,
                 translator_name=available_translator
             )
+            self.lang_source_type = self.language_support.get_source_language_type(code=lang_source)
+            self.lang_target_type = self.language_support.get_target_language_type(code=lang_target)
 
 
     def get_glossary(self, translator_name, lang_source, lang_target):
@@ -396,6 +401,7 @@ class Translator:
         translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace("\u00A0\u00A0", "  ")
 
         # # BEGIN TESTING PURPOSE ONLY
+        # self.logs.log(f"self.lang_target_type={repr(self.lang_target_type)}", c='DEBUG', force=True)
         # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
         # self.logs.log(f"{translated}", c='ASK', force=True)
         # input("Press enter to continue...")
@@ -457,20 +463,31 @@ class Translator:
         # sys_exit(0)
         # # END TESTING PURPOSE ONLY
 
-        translated = translator.translate_text(
-            text,
-            source_lang=self.lang_source.get('deepl'),
-            target_lang=self.lang_target.get('deepl'),
-            model_type=translator_args.get('model_type'),
-            formality=translator_args.get('formality'),
-            split_sentences=translator_args.get('split_sentences'),
-            preserve_formatting=translator_args.get('preserve_formatting'),
-            context=translator_args.get('context'),
-            glossary=self.glossary.get('deepl')
-            # tag_handling=translator_args.get('tag_handling'),
-            # ignore_tags=translator_args.get('ignore_tags'),
-            # non_splitting_tags=translator_args.get('non_splitting_tags'),
-        ).text
+        # /!\ language source is forced on 'auto' ('source_lang' argument is commented)
+        # 'glossary' argument cannot be used when 'source_lang' argument is commented
+        # Usefull When multiple lang sources
+        if self.lang_source_type in ['auto']:
+            translated = translator.translate_text(
+                text,
+                target_lang=self.lang_target.get('deepl'),
+                model_type=translator_args.get('model_type'),
+                formality=translator_args.get('formality'),
+                split_sentences=translator_args.get('split_sentences'),
+                preserve_formatting=translator_args.get('preserve_formatting'),
+                context=translator_args.get('context')
+            ).text
+        else:
+            translated = translator.translate_text(
+                text,
+                source_lang=self.lang_source.get('deepl'),
+                target_lang=self.lang_target.get('deepl'),
+                model_type=translator_args.get('model_type'),
+                formality=translator_args.get('formality'),
+                split_sentences=translator_args.get('split_sentences'),
+                preserve_formatting=translator_args.get('preserve_formatting'),
+                context=translator_args.get('context'),
+                glossary=self.glossary.get('deepl')
+            ).text
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{translated}", c='ASK', force=True)
@@ -513,7 +530,8 @@ class Translator:
         # # END Inject '\n' from text to translated (Produces translation errors)
 
         # # # BEGIN TESTING PURPOSE ONLY
-        # # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
+        # self.logs.log(f"self.lang_source_type={repr(self.lang_source_type)}", c='DEBUG', force=True)
+        # self.logs.log(f"{repr(translated)}", c='ASK', force=True)
         # self.logs.log(f"{translated}", c='ASK', force=True)
         # input("Press enter to continue...")
         # sys_exit(0)

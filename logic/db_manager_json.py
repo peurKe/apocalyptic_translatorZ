@@ -30,11 +30,14 @@ class DBManagerJSON:
         
         # initialize database file full path
         # self.database_fullpath = f"{self.database_dir}/{translator_name}_{lang_source}_{lang_target}_{self.db_file}"
-        self.database_fullpath = f"{self.database_dir}/{lang_source}_{lang_target}_{self.db_file}"
+        # self.database_fullpath = f"{self.database_dir}/{lang_source}_{lang_target}_{self.db_file}"
+        self.database_fullpath = f"{self.database_dir}/{lang_target}_{self.db_file}"
 
         # Get fixed database file full path
         # fixed_database_fullpath = f"{self.database_fixed_dir}/{translator_name}_{lang_source}_{lang_target}_{self.db_file}"
-        fixed_database_fullpath = f"{self.database_fixed_dir}/{lang_source}_{lang_target}_{self.db_file}"
+        # fixed_database_fullpath = f"{self.database_fixed_dir}/{lang_source}_{lang_target}_{self.db_file}"
+        fixed_database_fullpath = f"{self.database_fixed_dir}/{lang_target}_{self.db_file}"
+
         # Check if fixed database file present in fixed database directory
         if os.path.exists(fixed_database_fullpath):
             # Set database directory to fixed database directory

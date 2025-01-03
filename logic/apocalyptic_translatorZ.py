@@ -199,8 +199,12 @@ class apocalyptic_translatorZ:
                 # Set supported source and target languages for translators
                 self.translators.set_langs(lang_source, lang_target)
 
+                # Set supported source and target languages for text_processor
+                self.text_processor.set_langs(lang_source, lang_target)
+
                 # Set glossary accordingly to source and target languages (currently only for DeepL translator)
-                self.translators.initialize_glossary()
+                if lang_source not in ['auto']:
+                    self.translators.initialize_glossary()
 
                 # Restore backup files for next translations
                 self.file_handler.restore_files()

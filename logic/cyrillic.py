@@ -25,7 +25,10 @@ class Cyrillic:
         # Numbers bytes
         self.NUMBERS_BYTES = rb'[\x30-\x39]'  # 0123456789
         # Latin punctuation bytes
-        self.PUNCTUATION_BYTES = rb'\xC2\xAB|\xC2\xBB|\x21|\x22|\x27|\x28|\x29|\x2B|\x2C|\x2D|\x2E|\x2F|\x3A|\x3F|\x5C|\x5F'
+        # /!\ Added '%' as \x25
+        # /!\ Added '’' as \xE2\x80\x99
+        # /!\ Added '…' as \xE2\x80\xA6
+        self.PUNCTUATION_BYTES = rb'\xC2\xAB|\xC2\xBB|\x21|\x22|\x25|\x27|\x28|\x29|\x2B|\x2C|\x2D|\x2E|\x2F|\x3A|\x3F|\x5C|\x5F|\xE2\x80\x99|\xE2\x80\xA6'
         # Last bytes depend on game title or author
         self.CYRILLIC_LAST_BYTES_BY_AUTHOR =  {
             "AGamingPlus": self.CYRILLIC_BYTES + rb'|' + self.PUNCTUATION_BYTES,

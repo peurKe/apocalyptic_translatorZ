@@ -4,11 +4,12 @@ class LanguageSupport:
 
     supported_languages = {
         "source": {
-            "ru": { "label": "RUSSIAN",            "type": "cyrillic", "deepl": "ru",      "google": "ru"    },  # Only for source language
-            "uk": { "label": "UKRAINIAN",          "type": "cyrillic", "deepl": "uk",      "google": "uk"    },  # Only for source language
-            "zh": { "label": "CHINESE_SIMPLIFIED", "type": "han",      "deepl": "zh",      "google": "zh-cn" },
-            "ja": { "label": "JAPANESE_HIRAGANA",  "type": "han",      "deepl": "ja",      "google": "ja"    },
-            "ko": { "label": "KOREAN",             "type": "han",      "deepl": "ko",      "google": "ko"    },
+            "auto": { "label": "AUTO",               "type": "auto",     "deepl": "auto",    "google": "auto"  },  # Only for source language
+            "ru":   { "label": "RUSSIAN",            "type": "cyrillic", "deepl": "ru",      "google": "ru"    },  # Only for source language
+            "uk":   { "label": "UKRAINIAN",          "type": "cyrillic", "deepl": "uk",      "google": "uk"    },  # Only for source language
+            "zh":   { "label": "CHINESE_SIMPLIFIED", "type": "han",      "deepl": "zh",      "google": "zh-cn" },
+            "ja":   { "label": "JAPANESE_HIRAGANA",  "type": "han",      "deepl": "ja",      "google": "ja"    },
+            "ko":   { "label": "KOREAN",             "type": "han",      "deepl": "ko",      "google": "ko"    },
         },
         "target": {
             "cs": { "label": "CZECH",              "type": "latin",    "deepl": "cs",      "google": "cs"    },
