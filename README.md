@@ -207,3 +207,7 @@ Or choose the installer for the following Asian languages:
 - v0.1.8-alpha
   - Improve ZH and FR JSON translation DB files
   - Add 'LATIN_LETTERS_BYTES' as [a-zA-Z] in the middle of text to translate
+
+- v0.1.9-alpha
+  - The source language is now automatic
+  - Adding CS JSON translation DB files
