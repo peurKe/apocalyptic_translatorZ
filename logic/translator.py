@@ -387,7 +387,16 @@ class Translator:
         # Google specific:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
         # text = text.replace("\n", "<LF>").replace("  ", "\u00A0\u00A0").replace("\r", "")
-        text = text.replace("\n", "<lf />").replace("  ", "\u00A0\u00A0").replace("\r", "")
+        # text = text.replace("\n", "<lf />").replace("  ", "\u00A0\u00A0").replace("\r", "")
+        # Encoding (Before translation)
+        encode_map = {
+            "\n": "<lf />",
+            "  ":
+            "\u00A0\u00A0",
+            "\r": ""
+        }
+        for old, new in encode_map.items():
+            text = text.replace(old, new)
 
         translated = translator.translate(
             text,
@@ -398,7 +407,18 @@ class Translator:
         # Google specific:
         # Replace all LF with <LF> and all whitespaces with unbreakable spaces
         # translated = translated.replace("<LF>", "\n").replace("\u00A0\u00A0", "  ")
-        translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace("\u00A0\u00A0", "  ")
+        # translated = translated.replace("<lf />", "\n").replace("LF /", "\n").replace("Lf /", "\n").replace("lf /", "\n").replace("br /", "\n").replace("\u00A0\u00A0", "  ")
+        # Decoding (After translation)
+        decode_map = {
+            "<lf />": "\n",
+            "LF /": "\n",
+            "Lf /": "\n",
+            "lf /": "\n",
+            "br /": "\n",
+            "\u00A0\u00A0": "  "
+        }
+        for old, new in decode_map.items():
+            translated = translated.replace(old, new)
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"self.lang_target_type={repr(self.lang_target_type)}", c='DEBUG', force=True)
@@ -453,7 +473,15 @@ class Translator:
         #     text = text.replace("\n", "<w><x>LF</x></w> ")
 
         # text = text.replace("\r", "").replace("\n", "<w><x>LF</x></w>").replace("  ", " __WS__ ")
-        text = text.replace("\r", "").replace("\n", "<lf />").replace("  ", " <ws /> ")
+        # text = text.replace("\r", "").replace("\n", "<lf />").replace("  ", " <ws /> ")
+        # Encoding (Before translation)
+        encode_map = {
+            "\r": "",
+            "\n": "<lf />",
+            "  ": "<ws />"
+        }
+        for old, new in encode_map.items():
+            text = text.replace(old, new)
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"self.lang_source.get('deepl'): {self.lang_source['deepl']}", c='ASK', force=True)
@@ -512,7 +540,17 @@ class Translator:
         # translated = translated.replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
 
         # translated = translated.replace("<w><x>LF</x></w>", "\n").replace(" __WS__ ", "  ").replace("__WS__", "  ").replace("__ws__", "  ")
-        translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace(" <ws /> ", "  ").replace("<ws />", "  ")
+        # translated = translated.replace("<lf />", "\n").replace("lf /", "\n").replace("br /", "\n").replace(" <ws /> ", "  ").replace("<ws />", "  ")
+        # Decoding (After translation)
+        decode_map = {
+            "<lf />": "\n",
+            "lf /": "\n",
+            "br /": "\n",
+            "<ws />": "  ",
+            " <ws /> ": "  "
+        }
+        for old, new in decode_map.items():
+            translated = translated.replace(old, new)
 
         # # BEGIN TESTING PURPOSE ONLY
         # self.logs.log(f"{translated}\n", c='ASK', force=True)
