@@ -204,3 +204,4 @@ Download the **installer** executable file from the link corresponding to your n
   - 🐞 Fixed the replacement for specific extended latin characters with corresponding regular latin characters
   - 🐞 Fixed exception message to show the error details when DeepL fails
   - 🐞 Fixed a condition to use glossary only for DeepL translator (There is no glossary feature with Google translator)
+  - 🐞 Fixed deutch translation errors in JSON database file
