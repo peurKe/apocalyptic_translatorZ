@@ -100,50 +100,39 @@ Download the **installer** executable file from the link corresponding to your n
 
 ## Double-clic on EXE installer
 
-- Tick the box corresponding to the language of the TEXT and SUBTITLES you wish to read in the game:
+- Click on 'Additional information' and 'Execute anyway':
+
+  ![Additional information](./images/install_01.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_02.png)
+
+- Tick the box corresponding to the language of the TEXT and SUBTITLES you wish to read in the game and clic on "Next" button:
 
   📌 If a language is disabled, it means that it is not yet supported for the current game.
 
-```
-  Choose your preferred language for TEXTS and SUBTITLES:
-    ( ) 中国語（簡体字）(Chinese Simplified) only for CONVRGENCE
-    ( ) Čeština (Czech)
-    ( ) Dansk (Danish)
-    ( ) Deutsch (German)
-    (●) English (English)
-    ( ) Español (Spanish)
-    ( ) Français (French)
-    ( ) Italiano (Italian)
-    ( ) 日本語 ひらがな (Japanese Hiragana) only for CONVRGENCE
-    ( ) 한국어 (Korean) only for CONVRGENCE
-    ( ) Magyar (Hungarian)
-    ( ) Nederlands (Dutch)
-    ( ) Polski (Polish)
-    ( ) Português (Portuguese)
-    ( ) Română (Romanian)
-    ( ) Suomi (Finnish)
-    ( ) Svenska (Swedish) 
-```
-- Clic on "Next" button
+  ![Additional information](./images/install_03.png)
 
-- Tick the box corresponding to the VOICE language you wish to hear in the game:
+- Tick the box corresponding to the VOICE language you wish to hear in the game and clic on "Next" button:
 
   📌 If the option is disabled, it means that it is not yet supported for the current game and language.
 
-```
-  Select the offline translation service you wish to use.
-    ( )  Translate with DeepL
-    (●)  Translate with Google
-```
-- Clic on "Next" button
+  ![Additional information](./images/install_04.png)
 
 ## The installer displays the main information about the installation process that will be carried out.
 
 - Clic on 'Install' button.
 
+  ![Additional information](./images/install_05.png)
+
 ## The installation python script then starts automatically
 
-## Wait for the translation ending
+- Wait for the translation ending
+
+  ![Additional information](./images/install_06.png)
+
+## Approve the final message
+
+- Read the message, clic on "OK" button, then clic on 'Finish" button:
+
+  ![Additional information](./images/install_07.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_08.png)
 
 ## Enjoy Russian or Ukrainian or voices while having all the texts in your native language!
 
@@ -154,10 +143,9 @@ Download the **installer** executable file from the link corresponding to your n
 
 - There are two methods available:
   - Either select '**English**' in your game settings,
-  - Or run the shortcut '**apocalyptic_translatorZ (restore)**' created by the executable in your game directory, and confirm that you want to restore the original translation by typing '**y**'.
-```
- Confirm you want to restore all backup binary files (y/n): 
-```
+  - Or run the shortcut '**apocalyptic_translatorZ (restore)**' created by the executable in your game directory, the restoration will start, and you will need to press "Enter" to close the window.
+
+  ![Additional information](./images/install_09.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_10.png)
 
 # Release notes
 
