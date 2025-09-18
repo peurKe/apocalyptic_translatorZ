@@ -21,6 +21,9 @@ class Translator:
         # Initialize full sentences to exclude from translation
         self.exclude_full_sentences = self.params_game.get('translator').get('exclude_full_sentences')
 
+        # Initialize the specific error message that will be easy to find in case of translation error
+        self.translation_missing_string = self.params_game.get('translator').get('translation_missing_string')
+
         # Get language support
         self.language_support = language_support
         
@@ -94,7 +97,7 @@ class Translator:
                             raise ValueError(f"A DeepL API key is required for DeepL API authentication.")
 
                     except Exception as e:
-                        self.logs.log(f" [WARN] DeepL translator failed. Check your DeepL API key and your DeepL API usage. Google translator will be used as failback.", c='FAIL', force=True)
+                        self.logs.log(f" [WARN] DeepL translator failed. Check your DeepL API key and your DeepL API usage. Google translator will be used as failback. {type(e).__name__}: {e}", c='FAIL', force=True)
  
                         # Attempting to use the Google translator as a failback solution
                         if is_failback_not_already_set:
@@ -124,6 +127,13 @@ class Translator:
         # sys_exit(0)
 
         pass
+
+
+    def get_translation_missing_string(self):
+        """
+        Get translators translation missing string.
+        """
+        return self.translation_missing_string
 
 
     def get_translators_preferred(self):
@@ -194,13 +204,15 @@ class Translator:
             if translator.get('translator_name') == 'deepl':
                 lang_source = self.lang_source.get('deepl')
                 lang_target = self.lang_target.get('deepl')
-                # Attempt to create use the DeepL translator only when an API authentication key is defined
-                self.glossary['deepl'] = translator.get('translator').create_glossary(
-                    f"DeepL glossary for {lang_source} to {lang_target}",
-                    source_lang=lang_source,
-                    target_lang=lang_target,
-                    entries=self.get_glossary('deepl', lang_source, lang_target)
-                )
+                # Only when a glossary is initialized for DeepL
+                if self.params_game.get('translator').get('deepl').get('glossary').get(lang_source, {}).get(lang_target, {}):
+                    # Attempt to create use the DeepL translator only when an API authentication key is defined
+                    self.glossary['deepl'] = translator.get('translator').create_glossary(
+                        f"DeepL glossary for {lang_source} to {lang_target}",
+                        source_lang=lang_source,
+                        target_lang=lang_target,
+                        entries=self.get_glossary('deepl', lang_source, lang_target)
+                    )
 
 
     def inject_line_breaks(self, source, translated):

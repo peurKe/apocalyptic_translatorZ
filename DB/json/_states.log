@@ -1,9 +1,59 @@
-cs_CONVRGENCE.json      DeepL Google
-cs_Paradox_of_Hope.json       Google
-cs_ZONA.json                  Google
-cs_ZONAORIGIN.json      DeepL Google
-fr_CONVRGENCE.json      DeepL Google
-fr_Paradox_of_Hope.json       Google
-fr_ZONA.json                  Google
-fr_ZONAORIGIN.json      DeepL Google
-zh_CONVRGENCE.json      DeepL Google
+| LANGS              | FILE                    | DEEPL | GOOGLE |
+| ------------------ | ----------------------- | ----- | ------ |
+| CZECH              | cs_CONVRGENCE.json      | X     | X      |
+| CZECH              | cs_Paradox_of_Hope.json |       | X      |
+| CZECH              | cs_ZONA.json            |       | X      |
+| CZECH              | cs_ZONAORIGIN.json      | X     | X      |
+| DANISH             | da_CONVRGENCE.json      |       | X      |
+| DANISH             | da_Paradox_of_Hope.json |       | X      |
+| DANISH             | da_ZONA.json            |       | X      |
+| DANISH             | da_ZONAORIGIN.json      |       | X      |
+| GERMAN             | de_CONVRGENCE.json      |       | X      |
+| GERMAN             | de_Paradox_of_Hope.json |       | X      |
+| GERMAN             | de_ZONA.json            |       | X      |
+| GERMAN             | de_ZONAORIGIN.json      |       | X      |
+| ENGLISH            | en_CONVRGENCE.json      |       | X      |
+| ENGLISH            | en_Paradox_of_Hope.json |       | X      |
+| ENGLISH            | en_ZONA.json            |       | X      |
+| ENGLISH            | en_ZONAORIGIN.json      |       | X      |
+| SPANISH            | es_CONVRGENCE.json      |       | X      |
+| SPANISH            | es_Paradox_of_Hope.json |       | X      |
+| SPANISH            | es_ZONA.json            |       | X      |
+| SPANISH            | es_ZONAORIGIN.json      |       | X      |
+| FINNISH            | fi_CONVRGENCE.json      |       | X      |
+| FINNISH            | fi_Paradox_of_Hope.json |       | X      |
+| FINNISH            | fi_ZONA.json            |       | X      |
+| FINNISH            | fi_ZONAORIGIN.json      |       | X      |
+| FRENCH             | fr_CONVRGENCE.json      | X     | X      |
+| FRENCH             | fr_Paradox_of_Hope.json |       | X      |
+| FRENCH             | fr_ZONA.json            |       | X      |
+| FRENCH             | fr_ZONAORIGIN.json      | X     | X      |
+| HUNGARIAN          | hu_CONVRGENCE.json      |       | X      |
+| HUNGARIAN          | hu_Paradox_of_Hope.json |       | X      |
+| HUNGARIAN          | hu_ZONA.json            |       | X      |
+| HUNGARIAN          | hu_ZONAORIGIN.json      |       | X      |
+| ITALIAN            | it_CONVRGENCE.json      |       | X      |
+| ITALIAN            | it_Paradox_of_Hope.json |       | X      |
+| ITALIAN            | it_ZONA.json            |       | X      |
+| ITALIAN            | it_ZONAORIGIN.json      |       | X      |
+| DUTCH              | nl_CONVRGENCE.json      |       | X      |
+| DUTCH              | nl_Paradox_of_Hope.json |       | X      |
+| DUTCH              | nl_ZONA.json            |       | X      |
+| DUTCH              | nl_ZONAORIGIN.json      |       | X      |
+| POLISH             | pl_CONVRGENCE.json      |       | X      |
+| POLISH             | pl_Paradox_of_Hope.json |       | X      |
+| POLISH             | pl_ZONA.json            |       | X      |
+| POLISH             | pl_ZONAORIGIN.json      |       | X      |
+| PORTUGUESE         | pt_CONVRGENCE.json      |       | X      |
+| PORTUGUESE         | pt_Paradox_of_Hope.json |       | X      |
+| PORTUGUESE         | pt_ZONA.json            |       | X      |
+| PORTUGUESE         | pt_ZONAORIGIN.json      |       | X      |
+| ROMANIAN           | ro_CONVRGENCE.json      |       | X      |
+| ROMANIAN           | ro_Paradox_of_Hope.json |       | X      |
+| ROMANIAN           | ro_ZONA.json            |       | X      |
+| ROMANIAN           | ro_ZONAORIGIN.json      |       | X      |
+| SWEDISH            | sv_CONVRGENCE.json      |       | X      |
+| SWEDISH            | sv_Paradox_of_Hope.json |       | X      |
+| SWEDISH            | sv_ZONA.json            |       | X      |
+| SWEDISH            | sv_ZONAORIGIN.json      |       | X      |
+| CHINESE_SIMPLIFIED | zh_CONVRGENCE.json      | X     | X      |

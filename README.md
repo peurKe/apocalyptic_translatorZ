@@ -8,7 +8,7 @@ Mod for translating all Ukrainian or Russian texts of the following Steam games:
 
 And enjoy Ukrainian or Russian voices while having all the texts in your native language!
 
-This mod is an evolution of my previous mod [auto_ZONA_translator](https://github.com/peurKe/auto_ZONA_translator)
+This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA_translator](https://github.com/peurKe/auto_ZONA_translator) mod
 
 ![apocalyptic_translatorZ](./images/apocalyptic_translatorZ.png)
 
@@ -22,56 +22,54 @@ This mod is an evolution of my previous mod [auto_ZONA_translator](https://githu
 
 # Discord
 
-- CONVRGENCE: [16 additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
-- ZONA Origin: [Welcome to #zona-translate-deepl!](https://discord.com/channels/1113935727202410691/1302585407308955690)
+- **CONVRGENCE**: [16 additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
+- **ZONA Origin**: [Welcome to #zona-translate-deepl!](https://discord.com/channels/1113935727202410691/1302585407308955690)
 
 # Prerequisites
 
-- Your '**CONVRGENCE**', '**Z.O.N.A Origin**' or '**Z.O.N.A Project X**' games must be up to date
+- Your **CONVRGENCE**, **Z.O.N.A Origin** or **Z.O.N.A Project X** games must be up to date
 
-  (As '**Paradox of Hope**' is no longer hosted by Steam, you need to make sure you have an updated version yourself.)
+  (As **Paradox of Hope** game is no longer hosted by Steam, you need to make sure you have an updated version yourself.)
 
-- Your PC must have an Internet connection for API requests from online translators when the new game texts are not yet present and translated inside the mod.
+- Your PC must have an Internet connection for API requests to online translators
 
-# Currently supported languages
+  (Only when new game updates containing new original text have not yet been translated by this mod and the translations of these new texts are not included in the mod installer).
 
-- 中国語（簡体字） (Chinese Simplified)
-- 日本語（ひらがな） (Japanese Hiragana)
-- 한국어 (Korean)
-- Čeština (Czech)
-- Dansk (Danish)
-- English (English)
-- Español (Spanish)
-- Français (French)
-- German (German)
-- Italiano (Italian)
-- Magyar (Hungarian)
-- Nederlands (Dutch)
-- Polski (Polish)
-- Português (Portuguese)
-- Română (Romanian)
-- Suomi (Finnish)
-- Svenska (Swedish)
+# Currently supported games and translators by language
 
-# Usage from executable installer
+  📌 **Chinese Simplified**, **Japanese Hiragana** and **Korean** languages are currently only available for **CONVRGENCE** game.
 
-## Go to the Latest release:
+  📌 **Deepl** translations are currently only available for **Czech**, **French**, **Chinese Simplified**, **Japanese Hiragana** and **Korean** languages.
 
-- [Latest release](https://github.com/peurKe/apocalyptic_translatorZ/releases)
+  📌 **Google** translations are currently available for all languages.
 
-## Download the EXE installer '**apocalyptic_translatorZ_installer.exe**' from the release assets
+| SUBTITLE LANGUAGES                  | DOWNLOAD                                                  | SUPPORTED GAMES                                     | DEEPL                            | GOOGLE                           |
+|:------------------------------------|:---------------------------------------------------------:|:----------------------------------------------------|:--------------------------------:|:--------------------------------:|
+| 中国語（簡体字）(Chinese Simplified) | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE                                          | **X**                            | **X**                            |
+| Čeština (Czech)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN | **X**<br>     <br>     <br>**X** | **X**<br>**X**<br>**X**<br>**X** |
+| Dansk (Danish)                      | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Deutsch (German)                    | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| English (English)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Español (Spanish)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Français (French)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN | **X**<br>     <br>     <br>**X** | **X**<br>**X**<br>**X**<br>**X** |
+| Italiano (Italian)                  | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| 日本語 ひらがな (Japanese Hiragana)  | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE                                          | **X**                            | **X**                            |
+| 한국어 (Korean)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE                                          | **X**                            | **X**                            |
+| Magyar (Hungarian)                  | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Nederlands (Dutch)                  | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Polski (Polish)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Português (Portuguese)              | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Română (Romanian)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Suomi (Finnish)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Svenska (Swedish)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 
-The '**apocalyptic_translatorZ_installer.exe**' installer can be used for **CONVRGENCE**, **Paradox of Hope**, **Z.O.N.A Origin**, **Z.O.N.A Project X** games.
+# Usage
 
-Choose the default installer for all Latin languages:
-- **apocalyptic_translatorZ_installer.exe** embedding texts and subtitles for **all supported languages**
+## Download the EXE installer
 
-Or choose the installer for the following Asian languages:
-- **apocalyptic_translatorZ_installer_ZH.exe** embedding texts and subtitles for **中国語（簡体字）** (Simplified Chinese) only
-- **apocalyptic_translatorZ_installer_JA.exe** embedding texts and subtitles for **日本語（ひらがな）** (Japanese Hiragana) only
-- **apocalyptic_translatorZ_installer_KO.exe** embedding texts and subtitles for **한국어** (Korean) only
+Download the **installer** executable file from the link corresponding to your native language in the list above.
 
-## Copy the downloaded EXE installer into game folder
+## Copy the downloaded executable file into game folder
 
 - Copy it to your **CONVRGENCE** or **Paradox of Hope** or **Z.O.N.A Project X** or **Z.O.N.A Origin** game folder in your Steam library.
   By default in :
@@ -80,13 +78,13 @@ Or choose the installer for the following Asian languages:
     - **Z.O.N.A Project X** :arrow_right: C:\Program Files (x86)\Steam\steamapps\common\ZONA\
     - **Z.O.N.A Origin** :arrow_right: C:\Program Files (x86)\Steam\steamapps\common\ZONAORIGIN\
 
-   NB: If your Z.O.N.A game is installed on a drive other than the C: system drive, your game folder could be in the following location:
-    - **CONVRGENCE** :arrow_right: E:\Steam\Library\steamapps\common\CONVRGENCE\
+   NB: If your Z.O.N.A game is installed on a drive other than the system drive C:, then your game folder may be located on drive D: or E: or another drive:
+    - **CONVRGENCE** :arrow_right: D:\Steam\Library\steamapps\common\CONVRGENCE\
     - **Paradox of Hope** :arrow_right: E:\Steam\Library\steamapps\common\Paradox of Hope\
-    - **Z.O.N.A Project X** :arrow_right: E:\SteamLibrary\steamapps\common\ZONA\
-    - **Z.O.N.A Origin** :arrow_right: E:\Steam\Library\steamapps\common\ZONAORIGIN\
+    - **Z.O.N.A Project X** :arrow_right: F:\SteamLibrary\steamapps\common\ZONA\
+    - **Z.O.N.A Origin** :arrow_right: G:\Steam\Library\steamapps\common\ZONAORIGIN\
 
-   If you want to retrieve your game folder, go to your library in Steam and:
+   If you want to retrieve your exact game folder, you can go to your Steam library and:
     - Right-click on your game in your list of games in the left-hand panel.
     - Click on 'Properties...'
     - Click on 'Browse...'
@@ -96,45 +94,42 @@ Or choose the installer for the following Asian languages:
 
 ## Double-clic on EXE installer
 
-- Tick the box corresponding to the language of the TEXT and SUBTITLES you wish to read in the game: *(Only for non specific language installer)*
+- Tick the box corresponding to the language of the TEXT and SUBTITLES you wish to read in the game:
+
+  📌 If a language is disabled, it means that it is not yet supported for the current game.
+
 ```
   Choose your preferred language for TEXTS and SUBTITLES:
-    ( ) 中国語（簡体字）
-    ( ) 日本語（ひらがな）
-    ( ) 한국어
-    ( ) Čeština
-    ( ) Dansk
-    ( ) English
-    ( ) Español
-    (X) Français
-    ( ) German
-    ( ) Italiano
-    ( ) Magyar
-    ( ) Nederlands
-    ( ) Polski
-    ( ) Português
-    ( ) Română
-    ( ) Suomi
-    ( ) Svenska
-```
-- Clic on "Next" button *(Only for non specific language installer)*
-
-- Tick the box corresponding to the VOICE language you wish to hear in the game: *(Only for non specific language installer)*
-```
-  Choose your preferred language for VOICES:
-    (X)  Ukrainian
-    ( )  Russian
+    ( ) 中国語（簡体字）(Chinese Simplified) only for CONVRGENCE
+    ( ) Čeština (Czech)
+    ( ) Dansk (Danish)
+    ( ) Deutsch (German)
+    (●) English (English)
+    ( ) Español (Spanish)
+    ( ) Français (French)
+    ( ) Italiano (Italian)
+    ( ) 日本語 ひらがな (Japanese Hiragana) only for CONVRGENCE
+    ( ) 한국어 (Korean) only for CONVRGENCE
+    ( ) Magyar (Hungarian)
+    ( ) Nederlands (Dutch)
+    ( ) Polski (Polish)
+    ( ) Português (Portuguese)
+    ( ) Română (Romanian)
+    ( ) Suomi (Finnish)
+    ( ) Svenska (Swedish) 
 ```
 - Clic on "Next" button
 
-## Installer show the destination location
+- Tick the box corresponding to the VOICE language you wish to hear in the game:
 
-- If the destination location corresponds to the installation of your Z.O.N.A. game, click on the "Next" button.
-  Alternatively, click the 'Browse' button to define the correct destination location, then click the 'Next' button.
+  📌 If the option is disabled, it means that it is not yet supported for the current game and language.
 
-## The installer indicates that the destination location already exists
-
-- That's normal, this is because the installer is installing in an existing game. Confirm by clicking on the 'Yes' button.
+```
+  Select the offline translation service you wish to use.
+    ( )  Translate with DeepL
+    (●)  Translate with Google
+```
+- Clic on "Next" button
 
 ## The installer displays the main information about the installation process that will be carried out.
 
@@ -144,26 +139,12 @@ Or choose the installer for the following Asian languages:
 
 ## Wait for the translation ending
 
-- If installation succeed then this message will appears.
-```
-    To play with this translation:
-        1. Just launch your game from Steam as usual.
-        2. Be sure to select 'Ukrainian/Russian' language in your game's settings.
+## Enjoy Russian or Ukrainian or voices while having all the texts in your native language!
 
-    /!\ Over the next few days:
-        If your translated game no longer launches correctly or if a new update has been made by AGaming+ or NikZ
-        You will need to run this script again to update the translation.
+- Just launch your game from your Steam library as usual.
+- Make sure you select the '**Russian**' or '**Ukrainian**' language in your your game settings.
 
-    Press Enter to exit...
-```
-- Press Enter to exit
-
-## Enjoy Ukrainian or Russian voices while having all the texts in your native language!
-
-- Just launch your game from Steam as usual.
-- Make sure you select the '**Ukrainian**' or '**Russian**' language in your your game settings according to your choice of VOICES in the installation executable.
-
-## Restoring original subtitles
+## Restoring original subtitles procedure
 
 - There are two methods available:
   - Either select '**English**' in your game settings,
@@ -178,36 +159,52 @@ Or choose the installer for the following Asian languages:
   - Initial update
 
 - v0.1.1-alpha
-  - Update translators list in order of preference
-  - Fix Asian mod installer name
-  - Adding DeepL or Google translation service choice to the innosetup script
+  - Updated translators list in order of preference
+  - Fixed Asian mod installer name
+  - Added DeepL or Google translation service choice to the innosetup script
 
 - v0.1.2-alpha
-  - Update ZH translation
-  - Update last ZH innosetup script
+  - Updated ZH translation
+  - Updated last ZH innosetup script
 
 - v0.1.3-alpha
-  - Improve ZH translations
+  - Improved ZH translations
 
 - v0.1.4-alpha
-  - Improve ZH translations
+  - Improved ZH translations
 
 - v0.1.5-alpha
-  - Improve ZH translations ('НАЗВАНИЕ' as not translated placeholders)
+  - Improved ZH translations ('НАЗВАНИЕ' as not translated placeholders)
 
 - v0.1.6-alpha
-  - Add 'glossaries' and 'exclude_full_sentence' features
-  - Add 'ru_fr_CONVRGENCE.json' translation DB file
+  - Added 'glossaries' and 'exclude_full_sentence' features
+  - Added 'ru_fr_CONVRGENCE.json' translation DB file
 
 - v0.1.7-alpha
-  - Add '_____peurKe' in 'fix_list' in 'ru_fr_CONVRGENCE.json' translation DB file
-  - update 'ru_zh_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
-  - update 'ru_fr_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
+  - Added '_____peurKe' in 'fix_list' in 'ru_fr_CONVRGENCE.json' translation DB file
+  - updated 'ru_zh_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
+  - updated 'ru_fr_CONVRGENCE.json' translation DB file with new text from Patch 0.4.4 holiday update
 
 - v0.1.8-alpha
   - Improve ZH and FR JSON translation DB files
-  - Add 'LATIN_LETTERS_BYTES' as [a-zA-Z] in the middle of text to translate
+  - Added 'LATIN_LETTERS_BYTES' as [a-zA-Z] in the middle of text to translate
 
 - v0.1.9-alpha
   - The source language is now automatic
-  - Adding CS JSON translation DB files
+  - Added CS JSON translation DB files
+
+- v0.2.0-alpha
+  - ⚠️ Now, a single executable installer for all games and all languages.
+  - 🚀 Added Japanese and Korean JSON translation DB files
+  - 🚀 Updated all JSON translation DB files
+  - 🚀 Added a translation missing string (default '(!)') used when a translation is failed
+  - 🚀 Added count for translation failed at the very end of script execution
+  - 🚀 Added flush for JSON data into the JSON file after each language has been processed
+  - 🚀 Added a JSON 'state' key in JSON database file with the current state ('IN PROGRESS' or 'DONE')
+  - 🚀 Added a context value for ZONAORIGIN translation and DeepL translator
+  - 🚀 Added a tool to check for unsupported Latin characters in JSON database files and ensure that translation IDs into JSON database file are compliant
+  - 🚀 Added a tool to batch update custom translation corrections in JSON database files
+  - 🐞 Fixed a bug when translated string is longer than the original string and additional characters are only spaces (the char indicating truncation '~' was incorrectly displayed at the end of the string)
+  - 🐞 Fixed the replacement for specific extended latin characters with corresponding regular latin characters
+  - 🐞 Fixed exception message to show the error details when DeepL fails
+  - 🐞 Fixed a condition to use glossary only for DeepL translator (There is no glossary feature with Google translator)

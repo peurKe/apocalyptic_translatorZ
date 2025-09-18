@@ -1,4 +1,5 @@
 {
+  "state": "DONE",
   "source": {
     "code": "auto",
     "name": "AUTO"
@@ -31,37 +32,37 @@
       "_________id": 3,
       "_translator": "google",
       "__from_text": "Отлично, все готово! \n\nПомните, что вы можете изменить эти параметры \nи настроить их более детально в любое время, \nвыбрав \"Управление\" в Меню.",
-      "____to_text": "Super, tout est pret! \n\nN'oubliez pas que vous pouvez modifier ces parametres \net les personnaliser plus en detail a tout moment en \nselectionnant \"Gerer\" dans le Menu.                                                                                      "
+      "____to_text": "Super, tout est pret! \n \n N'oubliez pas que vous pouvez modifier ces parametres \n et les configurer plus en detail a tout moment, \n en choisissant \"Control\" dans le menu.                                                                                    "
     },
     {
       "_________id": 4,
       "_translator": "google",
       "__from_text": "вкл",
-      "____to_text": "y com~"
+      "____to_text": "Gdl   "
     },
     {
       "_________id": 5,
       "_translator": "google",
       "__from_text": "Вы предпочитаете плавное передвижение \nили телепорт?",
-      "____to_text": "Preferez-vous un mouvement fluide \nou une teleportation?                                         "
+      "____to_text": "Preferez-vous le mouvement lisse \n ou teleporter?                                                "
     },
     {
       "_________id": 6,
       "_translator": "google",
       "__from_text": "выкл",
-      "____to_text": "desacti~"
+      "____to_text": "Desacti~"
     },
     {
       "_________id": 7,
       "_translator": "google",
       "__from_text": "Вы предпочитаете удержание или однократное нажатие кнопки для захвата предмета?",
-      "____to_text": "Preferez-vous maintenir ou appuyer une fois sur un bouton pour saisir un objet?                                                                     "
+      "____to_text": "Preferez-vous garder ou un seul bouton d'appui pour capturer le sujet?                                                                              "
     },
     {
       "_________id": 8,
       "_translator": "google",
       "__from_text": "Огонь/\nИспользовать",
-      "____to_text": "Feu/\nUtilisation                    "
+      "____to_text": "Incendie / \n utiliser               "
     },
     {
       "_________id": 9,
@@ -79,7 +80,7 @@
       "_________id": 11,
       "_translator": "google",
       "__from_text": "Хват",
-      "____to_text": "Poignee "
+      "____to_text": "Sol     "
     },
     {
       "_________id": 12,
@@ -127,7 +128,7 @@
       "_________id": 19,
       "_translator": "google",
       "__from_text": "в желаемое",
-      "____to_text": "a ce que tu veux   "
+      "____to_text": "A souhaite         "
     },
     {
       "_________id": 20,
@@ -145,19 +146,19 @@
       "_________id": 22,
       "_translator": "google",
       "__from_text": "Основное оруж.",
-      "____to_text": "Arme principale           "
+      "____to_text": "L'arme principale.        "
     },
     {
       "_________id": 23,
       "_translator": "google",
       "__from_text": "Громкость музыки",
-      "____to_text": "Volume de la musique           "
+      "____to_text": "Le volume de la musique        "
     },
     {
       "_________id": 24,
       "_translator": "google",
       "__from_text": "Телепорт",
-      "____to_text": "Teleportation   "
+      "____to_text": "Se teleporter   "
     },
     {
       "_________id": 25,
@@ -199,7 +200,7 @@
       "_________id": 31,
       "_translator": "google",
       "__from_text": "Вращение/Присед",
-      "____to_text": "Rotation/Squat               "
+      "____to_text": "Rotation / squat             "
     },
     {
       "_________id": 32,
@@ -211,7 +212,7 @@
       "_________id": 33,
       "_translator": "google",
       "__from_text": "Стоя",
-      "____to_text": "debout  "
+      "____to_text": "Debout  "
     },
     {
       "_________id": 34,
@@ -229,7 +230,7 @@
       "_________id": 36,
       "_translator": "google",
       "__from_text": "Удержание",
-      "____to_text": "Prise             "
+      "____to_text": "Retention         "
     },
     {
       "_________id": 37,
@@ -247,7 +248,7 @@
       "_________id": 39,
       "_translator": "google",
       "__from_text": "Выброс магазина",
-      "____to_text": "Ejection du chargeur         "
+      "____to_text": "Epuiser le magasin           "
     },
     {
       "_________id": 40,
@@ -271,7 +272,7 @@
       "_________id": 43,
       "_translator": "google",
       "__from_text": "Схватить                       Схватить",
-      "____to_text": "Saisir                       Saisir                    "
+      "____to_text": "Saisir                                                 "
     },
     {
       "_________id": 44,
@@ -295,7 +296,7 @@
       "_________id": 47,
       "_translator": "google",
       "__from_text": "Разработчик : Никита Журавлёв",
-      "____to_text": "Developpeur: Nikita Jouravlev                         "
+      "____to_text": "Developpeur: Nikita Zhuravlev                         "
     },
     {
       "_________id": 48,
@@ -307,31 +308,31 @@
       "_________id": 49,
       "_translator": "google",
       "__from_text": "Какой рукой вы предпочитаете держать оружие?",
-      "____to_text": "Avec quelle main preferez-vous tenir une arme?                                    "
+      "____to_text": "Quelle main preferez-vous garder une arme?                                        "
     },
     {
       "_________id": 50,
       "_translator": "google",
       "__from_text": "Добавить в желаемое",
-      "____to_text": "Ajouter a la liste de souhaits      "
+      "____to_text": "Ajouter a la                        "
     },
     {
       "_________id": 51,
       "_translator": "google",
       "__from_text": "Общая громкость",
-      "____to_text": "Volume general               "
+      "____to_text": "Volume total                 "
     },
     {
       "_________id": 52,
       "_translator": "google",
       "__from_text": "Обратите внимание, что \"Ранний доступ\" означает, что игра все еще находится в стадии разработки. В дальнейшем в нее регулярно будет добавляться новый контент, а многие ее аспекты будут улучшены.\n\r\nЕсли у вас есть идеи, предложения или вы просто столкнулись с ошибкой, о которой хотите сообщить - присоединяйтесь к нашему Discord. Я прислушиваюсь к мнению каждого и стараюсь отвечать на все вопросы лично. Давайте вместе сделаем эту игру еще лучше!",
-      "____to_text": "Veuillez noter que \"Acces anticipe\" signifie que le jeu est encore en developpement. A l'avenir, du nouveau contenu y sera regulierement ajoute et de nombreux aspects seront ameliores.\n\nSi vous avez des idees, des suggestions, ou si vous rencontrez simplement un bug que vous souhaitez signaler, rejoignez notre Discorde. J'ecoute les opinions de chacun et j'essaie de repondre personnellement a toutes les questions. Rendons ce jeu encore meilleur ensemble!                                                                                                                                                                                                                                                                                                                                                          "
+      "____to_text": "Veuillez noter que \"l'acces precoce\" signifie que le jeu est toujours en cours de developpement. A l'avenir, de nouveaux contenus y seront ajoutes regulierement, et bon nombre de ses aspects seront ameliores. \n \n Si vous avez des idees, des suggestions ou si vous rencontrez simplement l'erreur que vous souhaitez signaler - rejoignez notre discorde. J'ecoute l'opinion de tout le monde et j'essaie de repondre personnellement a toutes les questions. Rendons ce jeu ensemble encore meilleur!                                                                                                                                                                                                                                                                                                                         "
     },
     {
       "_________id": 53,
       "_translator": "google",
       "__from_text": "Положение",
-      "____to_text": "Emplacement       "
+      "____to_text": "Position          "
     },
     {
       "_________id": 54,
@@ -349,7 +350,7 @@
       "_________id": 56,
       "_translator": "google",
       "__from_text": "Вы будете играть стоя или сидя?",
-      "____to_text": "Jouerez-vous debout ou assis?                           "
+      "____to_text": "Voulez-vous jouer debout ou assis?                      "
     },
     {
       "_________id": 57,
@@ -367,7 +368,7 @@
       "_________id": 59,
       "_translator": "google",
       "__from_text": "Открыть внутриигровое меню можно также \nсхватитив наручные часы другой рукой",
-      "____to_text": "Vous pouvez egalement ouvrir le menu du jeu en \nsaisissant votre montre-bracelet avec votre autre main.                                       "
+      "____to_text": "Vous pouvez egalement ouvrir le menu intra-jeu \n en saisissant l'horloge de poignet avec l'autre main                                         "
     },
     {
       "_________id": 60,
@@ -379,19 +380,19 @@
       "_________id": 61,
       "_translator": "google",
       "__from_text": "Затемнение экрана",
-      "____to_text": "Assombrir l'ecran                "
+      "____to_text": "Assombrissement paroissial       "
     },
     {
       "_________id": 62,
       "_translator": "google",
       "__from_text": "Налобный фонарь / ПНВ",
-      "____to_text": "Lampe frontale/NVD                    "
+      "____to_text": "Lampe de poche sanguine / PNV         "
     },
     {
       "_________id": 63,
       "_translator": "google",
       "__from_text": "Перезарядка \nкурком",
-      "____to_text": "Recharger \navec le trigger          "
+      "____to_text": "Redemarrage \n Trigger               "
     },
     {
       "_________id": 64,
@@ -403,7 +404,7 @@
       "_________id": 65,
       "_translator": "google",
       "__from_text": "предоставляет широкий спектр опций, позволяющих настроить игру в соответствии с вашим личным уровнем \nVR-комфорта.\r\n\r\nДавайте ответим на несколько вопросов.",
-      "____to_text": "propose un large eventail d'options pour personnaliser le jeu en fonction de votre \nniveau de confort VR personnel.\n\nRepondons a quelques questions.                                                                                                                                        "
+      "____to_text": "Fournit une large gamme d'options qui vous permettent de configurer le jeu conformement a votre niveau personnel \n VR-compoon. \n \n Repondez a quelques questions.                                                                                                                           "
     },
     {
       "_________id": 66,
@@ -415,7 +416,7 @@
       "_________id": 67,
       "_translator": "google",
       "__from_text": "Демо показалось слишком коротким? \nСтань тестером и сыграй в полную версию игры раньше других.",
-      "____to_text": "La demo vous a semble trop courte? \nDevenez testeur et jouez a la version complete du jeu avant les autres.                                                                 "
+      "____to_text": "Le demon semblait-il trop court? \n Arretez le testeur et jouez a la version complete du jeu avant les autres.                                                               "
     },
     {
       "_________id": 68,
@@ -439,7 +440,7 @@
       "_________id": 71,
       "_translator": "google",
       "__from_text": "Вы предпочитаете плавное или резкое вращение?",
-      "____to_text": "Preferez-vous une rotation douce ou nette?                                          "
+      "____to_text": "Preferez-vous une rotation lisse ou nette?                                          "
     },
     {
       "_________id": 72,
@@ -451,25 +452,25 @@
       "_________id": 73,
       "_translator": "google",
       "__from_text": "Автобег",
-      "____to_text": "Debut automat~"
+      "____to_text": "Servir        "
     },
     {
       "_________id": 74,
       "_translator": "google",
       "__from_text": "Пистолет",
-      "____to_text": "Une arme a feu  "
+      "____to_text": "Pistolet        "
     },
     {
       "_________id": 75,
       "_translator": "google",
       "__from_text": "пока что официально не поддерживается.\nТекущая раскладка является временным решением.",
-      "____to_text": "pas encore officiellement pris en charge.\nLa mise en page actuelle est une solution temporaire.                                                                "
+      "____to_text": "Jusqu'a present, il n'est pas officiellement soutenu. \n La disposition actuelle est une solution temporaire.                                                   "
     },
     {
       "_________id": 76,
       "_translator": "google",
       "__from_text": "Если кисти рук вывернуты в неестественном положении, в этом меню можно задать нужный угол",
-      "____to_text": "Si vos mains sont tournees dans une position non naturelle, vous pouvez definir l'angle souhaite dans ce menu                                                       "
+      "____to_text": "Si les mains sont tordues dans une position contre nature, dans ce menu, vous pouvez definir l'angle droit                                                          "
     },
     {
       "_________id": 77,
@@ -481,43 +482,43 @@
       "_________id": 78,
       "_translator": "google",
       "__from_text": "Пожалуйста заполните                    и присоединяйтесь к                    , чтобы оставить отзыв.\nДобавьте игру                                 , чтобы не пропустить её релиз и сыграть в:",
-      "____to_text": "Veuillez remplir                       et rejoignez-                     pour laisser un avis.\nAjoutez le jeu                              pour ne pas manquer sa sortie et jouer:                                                                                                                 "
+      "____to_text": "Veuillez remplir et rejoindre pour laisser un avis. \n Ajouter le jeu pour ne pas manquer sa sortie et jouer:                                                                                                                                                                                       "
     },
     {
       "_________id": 79,
       "_translator": "google",
       "__from_text": "Привет, это Никита - разработчик Paradox of Hope. \nСпасибо за ваш интерес к моей игре!",
-      "____to_text": "Bonjour, voici Nikita, le developpeur de Paradox of Hope. \nMerci de l'interet que vous portez a mon jeu!                                    "
+      "____to_text": "Salut, voici Nikita - le paradoxe du developpeur de l'espoir. \n Merci de votre interet pour mon jeu!                                        "
     },
     {
       "_________id": 80,
       "_translator": "google",
       "__from_text": "Схватить                           Схватить",
-      "____to_text": "Saisir                          Saisir                     "
+      "____to_text": "Saisir                                                     "
     },
     {
       "_________id": 81,
       "_translator": "google",
       "__from_text": "Схватить            Схватить",
-      "____to_text": "Saisir           Prendre                    "
+      "____to_text": "Saisir                                      "
     },
     {
       "_________id": 82,
       "_translator": "google",
       "__from_text": "Но ваше приключение только начинается!\r\n\nСыграйте в \"Рейды\" - бесконечный игровой режим, в котором вам \nпредстоит искать выход с  локации, собирая хабар и отбиваясь от мутантов.\r\n\nБлагодаря процедурной генерации, игра подарит вам \nнеповторимый игровой опыт в каждом из ваших забегов.",
-      "____to_text": "Mais votre aventure ne fait que commencer!\n\nJouer a Raids - un mode de jeu sans fin dans lequel vous \ndevez chercher un moyen de sortir de l'endroit, collecter des cadeaux et combattre des mutants.\n \nGrace a la generation procedurale, le jeu vous fera \nune experience de jeu unique dans chacune de vos courses.                                                                                                                                                                                                         "
+      "____to_text": "Mais votre aventure ne fait que commencer! \n \n Jouez les raids - un mode de jeu sans fin dans lequel vous \n devez chercher une sortie de l'emplacement, collectionner un Habar et combattre les mutants. \n \n Grace a la generation de procedure, le jeu vous offrira une experience de jeu unique dans chacun de vos minerais.                                                                                                                                                                                                 "
     },
     {
       "_________id": 83,
       "_translator": "google",
       "__from_text": "Рейды\" станут доступны после \nпрохождения первой сюжетной миссии.",
-      "____to_text": "Les \"Raids\" seront disponibles apres avoir termine \nla premiere mission d'histoire.                                     "
+      "____to_text": "Les raids \"deviendront disponibles apres \n le passage de la premiere mission.                                           "
     },
     {
       "_________id": 84,
       "_translator": "google",
       "__from_text": "Левая рука\n\nX:\n\nY:\n\nZ:",
-      "____to_text": "Левая рука\n\nX:\n\nY:\n\nZ:"
+      "____to_text": "Main gauche\n\nX:\n\nY:\n\nZ:"
     },
     {
       "_________id": 85,
@@ -529,7 +530,7 @@
       "_________id": 86,
       "_translator": "google",
       "__from_text": "Вы потеряете текущий прогресс Сюжета, вы уверены?",
-      "____to_text": "Vous perdrez votre progression actuelle dans lhistoire, en etes-vous sur?                 "
+      "____to_text": "Vous perdrez les progres actuels de l'intrigue, etes-vous sur?                            "
     },
     {
       "_________id": 87,
@@ -541,31 +542,31 @@
       "_________id": 88,
       "_translator": "google",
       "__from_text": "Магазины",
-      "____to_text": "Magasins        "
+      "____to_text": "Boutiques       "
     },
     {
       "_________id": 89,
       "_translator": "google",
       "__from_text": "Настроить положение рук",
-      "____to_text": "Ajuster la position des mains               "
+      "____to_text": "Configurer la position des mains            "
     },
     {
       "_________id": 90,
       "_translator": "google",
       "__from_text": "По умолчанию",
-      "____to_text": "La valeur par defaut   "
+      "____to_text": "par defaut             "
     },
     {
       "_________id": 91,
       "_translator": "google",
       "__from_text": "Отдельная благодарность:",
-      "____to_text": "Un merci special a:                           "
+      "____to_text": "Gratitude separee:                            "
     },
     {
       "_________id": 92,
       "_translator": "google",
       "__from_text": "Процедурно генерируемые Рейды",
-      "____to_text": "Raids generes de maniere procedurale                    "
+      "____to_text": "Des raids generes a procedure                           "
     },
     {
       "_________id": 93,
@@ -577,43 +578,43 @@
       "_________id": 94,
       "_translator": "google",
       "__from_text": "Угол поворота",
-      "____to_text": "Angle de rotation        "
+      "____to_text": "L'angle de rotation      "
     },
     {
       "_________id": 95,
       "_translator": "google",
       "__from_text": "Добро пожаловать в закрытую альфу Paradox of Hope!\n\n\nПосле тестирования пожалуйста заполните анкету.\n\nНапоминаю, что делиться какими-либо материалами из закрытой альфы за пределами подканала для тестировщиков запрещено!\n\n\nВажная информация для создателей контента. \r\n\nЭмбарго на обзор сюжетного режима установлено на 15 сентября. Пожалуйста не размещайте никаких видеоматериалов по \"Сюжету\" до этой даты. \"Рейды\" можно выкладывать сразу без каких-либо ограничений. \nНадеюсь на ваше понимание :)",
-      "____to_text": "Bienvenue dans l'alpha fermee de Paradox of Hope!\n\n\nApres le test, veuillez remplir le formulaire.\n\nPour rappel, partagez tout materiel de l'alpha fermee en dehors du sous-canal, aucun testeur n'est autorise!\n\n\nInformations importantes pour les createurs de contenu. \n\nL'embargo sur la revision du mode histoire est fixe au 15 septembre. Veuillez ne publier aucun materiel video sur la \"Story\" avant cette date. Les \"Raids\" peuvent etre postes immediatement sans aucune restriction. \nJ'espere votre comprehension:)                                                                                                                                                                                                                                                                                                                                                                                    "
+      "____to_text": "Bienvenue dans le Paradoxe Alpha ferme de l'espoir! \n \n \n Apres les tests, veuillez remplir le questionnaire. \n \n Je me souviens qu'il est interdit de partager tous les materiaux de l'alpha ferme pour les testeurs! \n \n L'embargo pour un examen du mode de trace est defini le 15 septembre. Veuillez ne placer aucun materiel video par le \"trace\" avant cette date. Les \"raids\" peuvent etre disposes immediatement sans aucune restriction. \n J'espere que votre comprehension:)                                                                                                                                                                                                                                                                                                                                                                                                                               "
     },
     {
       "_________id": 96,
       "_translator": "google",
       "__from_text": "Сюжет продолжится в будущих обновлениях",
-      "____to_text": "L'histoire continuera dans les futures mises a jour                       "
+      "____to_text": "Le complot se poursuivra dans les futures mises a jour                    "
     },
     {
       "_________id": 97,
       "_translator": "google",
       "__from_text": "Выбор направления",
-      "____to_text": "Choisir une direction            "
+      "____to_text": "Le choix de la direction         "
     },
     {
       "_________id": 98,
       "_translator": "google",
       "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".\n6. Перезапустите игру.\r\n7. Скорректируйте положение рук в Настройках.",
-      "____to_text": "Actuellement, en raison de problemes techniques, le jeu ne dispose pas de support officiel pour Valve Index.\n\nPour jouer avec les commandes normales (mouvement du stick, etc.), vous devrez modifier la disposition des manettes. Pour ce faire:\n\n1. Ouvrez la superposition SteamVR.\n2. Selectionnez \"Parametres du controleur\".\n3. Basculez \"Disposition du controleur actif\" sur \"Personnalise\".\n4. Cliquez sur le bouton \"Selectionner un autre\" qui apparait.\n5. Selectionnez la mise en page \"Oculus Emulation\" dans les \"Mises en page de la communaute\".\n6. Redemarrez le jeu.\n7. Ajustez la position de votre main dans Parametres.                                                                                                                                                                                                                                                                                                                                                                            "
+      "____to_text": "Actuellement, en raison de problemes techniques, le jeu n'a pas de prise en charge officielle de l'indice de valve. \n \n Pour jouer avec un controle normal (se deplacant a l'aide de batons, etc.), vous devez modifier la disposition des controleurs. Pour ceci: \n \n 1. Open SteamVr superposition. \n 2. Selectionnez \"Parametres du controleur\". \n 3. Communiquez la \"mise en page active du controleur\" a \"l'utilisateur\". \n 4. Cliquez sur le bouton \"Selectionnez un autre\". \n 5. Selectionnez la disposition de l'emulation d'Oculus dans les \"vies de la communaute\". \n 6. Restaurez le jeu. \n 7. Reglez la position des mains dans les parametres.                                                                                                                                                                                                                                                                                                                                                              "
     },
     {
       "_________id": 99,
       "_translator": "google",
       "__from_text": "Правая рука\n\nX:\n\nY:\n\nZ:",
-      "____to_text": "Main droite\n\nX:\n\nY:\n\nZ:          "
+      "____to_text": "Main droite\n\nX:\n\nY:\n\nZ: "
     },
     {
       "_________id": 100,
       "_translator": "google",
       "__from_text": "В желаемое",
-      "____to_text": "Au desire          "
+      "____to_text": "A souhaite         "
     },
     {
       "_________id": 101,
@@ -625,7 +626,7 @@
       "_________id": 102,
       "_translator": "google",
       "__from_text": "Атмосферную сюжетную кампанию",
-      "____to_text": "Campagne d'histoires atmospheriques                     "
+      "____to_text": "Campagne de complot atmospherique                       "
     },
     {
       "_________id": 103,
@@ -637,37 +638,37 @@
       "_________id": 104,
       "_translator": "google",
       "__from_text": "Спасибо за игру в Paradox of Hope Demo!",
-      "____to_text": "Merci d'avoir joue a la demo de Paradox of Hope!     "
+      "____to_text": "Merci pour le jeu dans Paradox of Hope Demo!         "
     },
     {
       "_________id": 105,
       "_translator": "google",
       "__from_text": "Выйти из игры",
-      "____to_text": "Quitte le jeu           "
+      "____to_text": "Sortir du jeu           "
     },
     {
       "_________id": 106,
       "_translator": "google",
       "__from_text": "Пройти опрос",
-      "____to_text": "Repondez a l'enquete   "
+      "____to_text": "Passer l'enquete       "
     },
     {
       "_________id": 107,
       "_translator": "google",
       "__from_text": "В этой демо-версии вы познакомитесь с Рейдами -\nбесконечным игровым режимом с прогрессией и процедурной генерацией уровней (доступно только Убежище).\n\nПрисоединяйтесь к Discord, чтобы поделиться фидбэком, сообщить об ошибках и просто быть в курсе всех событий.\nА также не забудьте добавить игру в свой список желаемого!",
-      "____to_text": "Cette demo vous presente Raids - un mode de jeu sans fin avec progression et generation de niveaux proceduraux (Vault uniquement disponible) Rejoignez le Discord pour partager des commentaires, signaler des bugs et bien plus encore, restez au courant de tous les evenements.\nEt aussi). n'oubliez pas d'ajouter le jeu a votre liste de souhaits!                                                                                                                                                                                                                                         "
+      "____to_text": "Dans cette version de demonstration, vous vous familiarisez avec les raids - \n un mode de jeu sans fin avec progression et generation procedurale de niveaux (seul l'asile est disponible). \n \n Acte Discord pour partager une retroaction, signaler les erreurs et se tenir au courant de tous les evenements. \n et n'oubliez pas non plus d'ajouter le jeu a votre liste de souhaite!                                                                                                                                                                                                         "
     },
     {
       "_________id": 108,
       "_translator": "google",
       "__from_text": "Ведущая рука",
-      "____to_text": "Main dirigeante        "
+      "____to_text": "Main de tete           "
     },
     {
       "_________id": 109,
       "_translator": "google",
       "__from_text": "Сценарий, нарративный дизайн - Владимир Шумилов\r\n\r---------------------------------------------------------------------------\n\r\nКомьюнити-менеджер - Eri\n\r---------------------------------------------------------------------------\n\nОзвучка - R.G MVO\r\n\r\nГлавный герой - Дмитрий Зубарев\r\nЗаказчик - Петр (Гланц) Иващенко\r\nВодитель дрезины - Станислав Олейников\r\nТорговец дядя Сережа - Алексей Щегорский\r\n\r\nАудиодневники:\r\nОтец - Иван Савоськин\r\nСын - Рута Няттиева\r\nУченый (Михаил Лотов) - Станислав Олейников\r\n\r\nРабота со звуком - Екатерина Дмитрова\r\nКуратор озвучки, кастинг - spider91\r\n\r---------------------------------------------------------------------------\n\r\nМузыка для радио: \r\nPunch Deck - I Cant Stop\r\nPunch Deck - Maximalism\r\n\r\r---------------------------------------------------------------------------\n\r\nМузыка в конец рейда - Professional Daydreamer\r\n\r\r---------------------------------------------------------------------------\n\r\n3D модели рюкзаков - Надежда Бурштынович \r\n\r\r---------------------------------------------------------------------------\n\r\nТестеры:\r\n\r\nEmperorPalpatine\r\nMorozic\r\nEchoe87\r\nDr. K\r\nThalchanka\r\nMr-Tektite\r\nLGS\r\nUncle Dolan\r\nExtremerecker69\r\nHeclak\r\nLaff\r\nKorry (Ярик)",
-      "____to_text": "Scenario, conception narrative - Vladimir Choumilov\n--------------------------------------- ------------------------------------\n\nGestionnaire de communaute - Eri \n------------------------------------------------------------- -- ------------------------------------\n\nDoublage - R.G MVO\n\nPersonnage principal - Dmitry Zubarev\nClient - Peter (Glantz) Ivashchenko\nChauffeur de chariot - Stanislav Oleynikov\nOncle commercant Seryozha - Alexey Shchegorsky\n\nJournaux audio:\nPere - Ivan Savoskin\nFils - Ruta Nyattieva\nScientifique (Mikhail Lotov) - Stanislav Oleinikov\n  \nTravail sonore - Ekaterina Dmitrova\nCommissaire vocale, casting - spider91\n------------------------------------------------ --------------------------------\n\nMusique pour la radio: \nPunch Deck - I Cant Stop \nPunch Deck - Maximalisme\n--------------------------------------- ------------------------------------\n\nMusique de fin de raid - Reveur professionnel\n-------------------------------------------------------- -- ------------------------------\n\nModeles 3D de sacs a dos - Nadezhda Burshtynovich \n -- ----------------------------------------------- --- -----------------------\n\nTesteurs:\n\nEmpereur Palpatine\nMorozic\nEchoe87\nDr. K\nThalchanka\nM.-Tektite\nLGS\nOncle Dolan\nExtremerecker69\nHeclak\nLaff\nKorry (Yarik)                                                                                                                                                                                                                                                                                                                              "
+      "____to_text": "Scenario, Narrative Design-Vladimir Shumilov \n ------------------------------------------------------------------------------------------------------------------------------------------------------------- / Drezina Driver - Stanislav oleinikov \n robe Seryozha - Alexei scheshchersky \n \n jour audio: \n pere - Ivan Savoskin \n Son - Ruta Nuttiva \n United (mikhail lotov) - Sounda Ekaterina dmitrova \n conservateur d'acteur vocal, casting - spider91 \n ----------------------------------------------------------------------- \n \n M Mзыкa д л р р до: \n punch deck - i cant stop \n punch dket - Maximalisme lf lf cette Emperorpalpatine \n morozic \n echoe87 \n dr. K \n thalchanka \n mr-tektite \n lgs \n oncle Dolan \n extremerecker69 \n heclak \n laff \n korry (yarik)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "
     },
     {
       "_________id": 110,
@@ -679,73 +680,73 @@
       "_________id": 111,
       "_translator": "google",
       "__from_text": "Возьмите пистолетный магазин из разгрузки на поясе \nи вставьте в пистолет.",
-      "____to_text": "Sortez le chargeur du pistolet du declencheur de ceinture \net inserez-le dans le pistolet.                                              "
+      "____to_text": "Prenez un magasin de pistolets en dechargeant sur la ceinture \n et inserez dans le pistolet.                                            "
     },
     {
       "_________id": 112,
       "_translator": "google",
       "__from_text": "Для вращения используйте джойстик на правом контроллере.",
-      "____to_text": "Pour faire pivoter, utilisez le joystick du controleur droit.                                            "
+      "____to_text": "Pour la rotation, utilisez le joystick sur le controleur droit.                                          "
     },
     {
       "_________id": 113,
       "_translator": "google",
       "__from_text": "Возьмите пистолет из кобуры на правой ноге. (Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.)",
-      "____to_text": "Sortez le pistolet de l'etui sur votre jambe droite. (Pour saisir des objets avec vos mains, maintenez enfonce le bouton lumineux du controleur correspondant.)                                                                                                                        "
+      "____to_text": "Prenez un pistolet de l'etui sur la jambe droite. (Pour saisir des objets avec vos mains, serrez et maintenez le bouton illumine sur le controleur correspondant.)                                                                                                                     "
     },
     {
       "_________id": 114,
       "_translator": "google",
       "__from_text": "Вставьте в пистолет еще один магазин.",
-      "____to_text": "Inserez un autre chargeur dans le pistolet.                         "
+      "____to_text": "Inserez un autre magasin dans le pistolet.                          "
     },
     {
       "_________id": 115,
       "_translator": "google",
       "__from_text": "Нажмите на подсвеченную кнопку, чтобы выстрелить.",
-      "____to_text": "Cliquez sur le bouton lumineux pour tirer.                                                 "
+      "____to_text": "Cliquez sur le bouton eclaire pour tirer.                                                  "
     },
     {
       "_________id": 116,
       "_translator": "google",
       "__from_text": "Для перемещения испольуйте джойстик на левом контроллере.",
-      "____to_text": "Pour vous deplacer, utilisez le joystick du controleur gauche.                                             "
+      "____to_text": "Pour vous deplacer, utilisez le joystick sur le controleur gauche.                                         "
     },
     {
       "_________id": 117,
       "_translator": "google",
       "__from_text": "Достаньте пистолет из кобуры на правой ноге. Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.",
-      "____to_text": "Retirez le pistolet de l'etui sur votre jambe droite. Pour saisir des objets avec vos mains, maintenez enfonce le bouton lumineux du controleur correspondant.                                                                                                                         "
+      "____to_text": "Retirez le pistolet de l'etui sur la jambe droite. Pour saisir des objets avec vos mains, serrez et maintenez le bouton eclaire sur le controleur correspondant.                                                                                                                       "
     },
     {
       "_________id": 118,
       "_translator": "google",
       "__from_text": "Тяжелое вооружение хранится на спине.\n(Занесите руку над правым плечом и схватите.)",
-      "____to_text": "Les armes lourdes sont rangees sur le dos.\n(Amenez votre main au-dessus de votre epaule droite et saisissez-la.)                                       "
+      "____to_text": "Les armes lourdes sont stockees sur le dos. \n (Apportez votre main sur votre epaule droite et saisissez-la.)                                           "
     },
     {
       "_________id": 119,
       "_translator": "google",
       "__from_text": "Для перемещения используйте джойстик на левом контроллере.",
-      "____to_text": "Utilisez le joystick du controleur gauche pour vous deplacer.                                                "
+      "____to_text": "Pour vous deplacer, utilisez le joystick sur le controleur gauche.                                           "
     },
     {
       "_________id": 120,
       "_translator": "google",
       "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.\n(Поднесите руку и схватите.)",
-      "____to_text": "Vous etes blesse. Prenez la trousse de premiers secours dans la poche poitrine gauche.\n(Levez votre main et saisissez-la.)                                  "
+      "____to_text": "Vous etes blesse. Prenez une trousse du premier piste de la poche du sein gauche. \n (Apportez votre main et votre saisie.)                                  "
     },
     {
       "_________id": 121,
       "_translator": "google",
       "__from_text": "Возьмите автоматный магазин из разгрузки на поясе \nи вставьте в автомат.",
-      "____to_text": "Sortez le chargeur de mitrailleuse du declencheur de ceinture \net inserez-le dans la mitrailleuse.                                  "
+      "____to_text": "Prenez une boutique automatique du dechargement sur la courroie \n et inserez dans la machine.                                       "
     },
     {
       "_________id": 122,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Ну как там улов? Зефир есть?",
-      "____to_text": "Oncle Seryozha: Comment se passe la prise? Avez-vous des guimauves?     "
+      "____to_text": "Oncle Seryozha: Eh bien, comment est la prise? Y a-t-il une guimauve?   "
     },
     {
       "_________id": 123,
@@ -757,91 +758,91 @@
       "_________id": 124,
       "_translator": "google",
       "__from_text": "Иногда лучше избежать боя и прокрасться незамеченным. \r\n\r\nВыкручивайте лампочки, тушите свечи и используйте электрощиты, чтобы проложить себе путь в тенях.",
-      "____to_text": "Parfois, il vaut mieux eviter le combat et se faufiler sans etre detecte. \n\nDevissez les ampoules, eteignez les bougies et utilisez les panneaux electriques pour vous frayer un chemin dans l'ombre.                                                                                      "
+      "____to_text": "Parfois, il est preferable d'eviter la bataille et de se faufiler inapercu. \n \n Enroulez les ampoules, laissez mijoter les bougies et utilisez des panneaux electriques pour vous frayer un chemin dans l'ombre.                                                                           "
     },
     {
       "_________id": 125,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: О! Вернулся? \nА я тут как раз про тебя вспоминал.",
-      "____to_text": "Oncle Serioja: Oh! Dos? \nEt je pensais justement a toi.                                                     "
+      "____to_text": "Oncle Seryozha: Oh! Retourne? \n Et je viens de vous souvenir de vous de vous.                               "
     },
     {
       "_________id": 126,
       "_translator": "google",
       "__from_text": "Если высота игрового аватара \nне соответствует действительности, \nв этом меню можно ее настроить",
-      "____to_text": "Si la hauteur de l'avatar du jeu \nn'est pas correcte, \nvous pouvez l'ajuster dans ce menu                                                                                        "
+      "____to_text": "Si la hauteur du jeu Avatar \n n'est pas vraie, \n dans ce menu, vous pouvez le configurer                                                                                         "
     },
     {
       "_________id": 127,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Раз пришёл - значит не съели!",
-      "____to_text": "Oncle Seryozha: Une fois qu'il est venu, cela veut dire qu'ils ne l'ont p~"
+      "____to_text": "Oncle Seryozha: Une fois qu'il est venu, alors ils n'ont pas mange!       "
     },
     {
       "_________id": 128,
       "_translator": "google",
       "__from_text": "разблок. АКМ, \nнабрав 12 очков \nв тире",
-      "____to_text": "ouvrir AKM, \nmarquant 12 points \nau stand de tir                "
+      "____to_text": "dispersion. Akm, \n marquant 12 points \n dans le tableau de bord "
     },
     {
       "_________id": 129,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Жизнь странная штука. \nВсё всегда возвращается. Прямо как ты.",
-      "____to_text": "Oncle Seryozha: La vie est une chose etrange. \nTout revient toujours. Tout comme toi.                                                "
+      "____to_text": "Oncle Seryozha: La vie est une chose etrange. \n Tout revient toujours. Tout comme toi.                                               "
     },
     {
       "_________id": 130,
       "_translator": "google",
       "__from_text": "Время рейда :            мин.          сек.\n\nМонстров убито:",
-      "____to_text": "Duree du raid:            min.          sec.\n\nMonstres tues:                             "
+      "____to_text": "Temps de raid: min.          seconde. \n \n Monsters tues:                                 "
     },
     {
       "_________id": 131,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Важные вещи буду скидывать на этот компьютер, смотри по возможности.",
-      "____to_text": "Oncle Seryozha: Je vais transferer les choses importantes sur cet ordinateur, voir si possible.                                                     "
+      "____to_text": "Oncle Seryozha: Je vais jeter des choses importantes sur cet ordinateur, regardez si possible.                                                      "
     },
     {
       "_________id": 132,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Здарова! Это ты значит новый сталкер? Смотрю - совсем зелёный ещё, но это ладно, всему обучим, всё покажем.",
-      "____to_text": "Oncle Seryozha: Bonjour! Cela signifie-t-il que vous etes le nouveau harceleur? Je regarde, il est encore assez vert, mais ce n'est pas grave, on va tout t'apprendre, on va tout te montrer.                        "
+      "____to_text": "Oncle Seryozha: Zdarova! Voulez-vous dire un nouveau harceleur? Je regarde - c'est completement vert, mais ca va, nous allons tout apprendre, nous allons tout montrer.                                              "
     },
     {
       "_________id": 133,
       "_translator": "google",
       "__from_text": "БАЛАНС:                      РУБ.",
-      "____to_text": "SOLDE:                     RUB.           "
+      "____to_text": "Equilibre: frotter.                       "
     },
     {
       "_________id": 134,
       "_translator": "google",
       "__from_text": "Добро пожаловать в Убежище! \n\nОтсюда вы сможете отправиться в рейды в самые отдалённые уголки метро, обменять найденный хабар на новое снаряжение, отточить навыки стрельбы в тире и просто отдохнуть между вылазками. \n\n\"Даже если жизнь - коротка и опасна, в Убежище она становится чуть спокойнее и теплее!\"",
-      "____to_text": "Bienvenue dans le coffre-fort! \n\nDe la, vous pouvez participer a des raids dans les coins les plus recules du metro, echanger les cadeaux que vous trouvez contre du nouvel equipement, perfectionner vos competences de tir au stand de tir et simplement vous detendre entre les raids. \n\n\"Meme si la vie est courte et dangereuse, au Refuge, elle devient un peu plus calme et plus chaleureuse!\"                                                                                                                                                                 "
+      "____to_text": "Bienvenue au refuge! \n \n d'ici, vous pouvez aller aux raids dans les coins les plus recules du metro, echanger le Habar trouve contre de nouveaux equipements, perfectionner les competences de tir dans le tableau de bord et se detendre entre les sorties. \n \n \"Meme si la vie est courte et dangereuse, dans le refuge, cela devient un peu plus calme et plus chaud!\"                                                                                                                                                                                            "
     },
     {
       "_________id": 135,
       "_translator": "google",
       "__from_text": "Имя                Целей в тире поражено:",
-      "____to_text": "Nom                Cibles touchees au champ de tir:           "
+      "____to_text": "Le nom des buts dans le tableau de bord est etonne:           "
     },
     {
       "_________id": 136,
       "_translator": "google",
       "__from_text": "Требуется\nреп. 3",
-      "____to_text": "Representation\nrequise. 3   "
+      "____to_text": "Requis \n rep. 3             "
     },
     {
       "_________id": 137,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. \nА ты - молодец. Всегда возвращаешься!",
-      "____to_text": "Oncle Seryozha: J'avais un bon ami, mais il est monte a l'etage et n'est jamais revenu. \nEt tu es genial. Tu reviens toujours!                                                                     "
+      "____to_text": "Oncle Seryozha: J'avais un bon ami, je suis monte a l'etage et je ne suis pas revenu. \n et vous etes bien fait. Vous revoyez toujours!                                                             "
     },
     {
       "_________id": 138,
       "_translator": "google",
       "__from_text": "Нет необходимости исследовать всю рейдовую локацию, чтобы выполнить задачу или найти выход. \n\nОднако настоящий сталкер всегда сможет найти в каждом рейде что-то особенное.",
-      "____to_text": "Il n'est pas necessaire d'explorer l'integralite du lieu du raid pour atteindre un objectif ou trouver une issue. \n\nCependant, un vrai harceleur sera toujours capable de trouver quelque chose de special dans chaque raid.                                                                                              "
+      "____to_text": "Il n'est pas necessaire d'explorer l'ensemble de l'emplacement RAID afin de terminer la tache ou de trouver une issue. \n \n Cependant, un vrai harceleur pourra toujours trouver quelque chose de special dans chaque raid.                                                                                                "
     },
     {
       "_________id": 139,
@@ -853,79 +854,79 @@
       "_________id": 140,
       "_translator": "google",
       "__from_text": "Улучшения снаряжения (отмеченные специальным ценником) не нужно покупать каждый раз заново - они разблокируются навсегда. \n\nПосле единоразовой покупки ценник исчезнет.",
-      "____to_text": "Les ameliorations d'equipement (marquees par un prix special) n'ont pas besoin d'etre rachetees a chaque fois: elles sont debloquees pour toujours. \n\nApres un achat unique, l'etiquette de prix disparaitra.                                                                                                       "
+      "____to_text": "Les ameliorations de l'equipement (marquees d'un prix special) n'ont pas besoin d'etre achetees a nouveau - elles sont deverrouillees pour toujours. \n \n Apres un achat a un temps, le prix disparaitra.                                                                                                            "
     },
     {
       "_________id": 141,
       "_translator": "google",
       "__from_text": "Выйти из рейда",
-      "____to_text": "Quittez le raid           "
+      "____to_text": "Quitter le raid           "
     },
     {
       "_________id": 142,
       "_translator": "google",
       "__from_text": "Требуется\nреп. 2",
-      "____to_text": "Representation\nrequise. 2   "
+      "____to_text": "Requis \n rep. 2             "
     },
     {
       "_________id": 143,
       "_translator": "google",
       "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб.",
-      "____to_text": "Vous avez survecu!\n\nTous les objets trouves lors de ce raid seront vendus a l'acheteur.\n\n\n\n\n\nSwag trouve pour                 RUB.                                                             "
+      "____to_text": "Vous avez survecu! \n \n Tous les objets trouves dans ce raid seront vendus a l'acheteur. \n \n \n \n \n a trouve un Habara pour: frotter.                                                            "
     },
     {
       "_________id": 144,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\". Или это не он был?",
-      "____to_text": "Oncle Serioja: Comme l'a dit Omar Khayyam: \"Entrez, puisque vous etes revenu! Ou n'etait-ce pas lui?                                     "
+      "____to_text": "Oncle Seryozha: Comme Omar Hayam l'a dit: \"Entrez, s'il revenait!\" Ou n'etait-ce pas lui?                                                "
     },
     {
       "_________id": 145,
       "_translator": "google",
       "__from_text": "шт.",
-      "____to_text": "piec~"
+      "____to_text": "PCS. "
     },
     {
       "_________id": 146,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Ай ком алаааайв... \nЭх, хорошая была песня...",
-      "____to_text": "Oncle Seryozha: Ay kom alaaaayv... \nEh, c'etait une bonne chanson...                               "
+      "____to_text": "Oncle Seryozha: ah l com alaaave... \n hein, la chanson etait bonne...                              "
     },
     {
       "_________id": 147,
       "_translator": "google",
       "__from_text": "ЗАКР                   ОТКР",
-      "____to_text": "CERCLE                   REV       "
+      "____to_text": "Wkr                                "
     },
     {
       "_________id": 148,
       "_translator": "google",
       "__from_text": "Лучшие стрелки:",
-      "____to_text": "Meilleurs tireurs:          "
+      "____to_text": "Les meilleures fleches:     "
     },
     {
       "_________id": 149,
       "_translator": "google",
       "__from_text": "АКТИВНОЕ ЗАДАНИЕ:",
-      "____to_text": "TACHE ACTIVE:                   "
+      "____to_text": "Tache active:                   "
     },
     {
       "_________id": 150,
       "_translator": "google",
       "__from_text": "Выйти в главное меню",
-      "____to_text": "Quitter au menu principal            "
+      "____to_text": "Accedez au menu principal            "
     },
     {
       "_________id": 151,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите обнулить сохранение? \nЭто также коснется прогресса прохождения сюжета, и выбранных настроек.",
-      "____to_text": "Etes-vous sur de vouloir reinitialiser votre sauvegarde? \nCela affectera egalement la progression de l'histoire et les parametres selectionnes.                                                                    "
+      "____to_text": "Etes-vous sur de vouloir reinitialiser l'epargne? \n Cela affectera egalement la progression du passage du trace et les parametres selectionnes.                                                                    "
     },
     {
       "_________id": 152,
       "_translator": "google",
       "__from_text": "Последняя попытка:",
-      "____to_text": "Dernier essai:                    "
+      "____to_text": "Derniere tentative:               "
     },
     {
       "_________id": 153,
@@ -937,37 +938,37 @@
       "_________id": 154,
       "_translator": "google",
       "__from_text": "Для покупки предмета просто возьмите его с полки. Чтобы продать предмет - положите его на стол торговцу. \n\nВаш текущий баланс отображается на экране компьютера.",
-      "____to_text": "Pour acheter un article, il suffit de le recuperer dans le rayon. Pour vendre un objet, placez-le sur la table du marchand. \n\nVotre solde actuel est affiche sur l'ecran de votre ordinateur.                                                                                                      "
+      "____to_text": "Pour acheter un article, prenez-le simplement sur l'etagere. Pour vendre l'article - Mettez-le sur la table au marchand. \n \n Votre solde actuel s'affiche sur l'ecran de l'ordinateur.                                                                                                             "
     },
     {
       "_________id": 155,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо! Что притащил?",
-      "____to_text": "Oncle Seryozha: Quel temps fait-il la-bas? Ensoleille? Bien! Qu'as-tu apporte?                                      "
+      "____to_text": "Oncle Seryozha: Eh bien, comment fait-il? Ensoleille? Bien! Qu'as-tu traine?                                        "
     },
     {
       "_________id": 156,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Про задания тоже тут можешь почитать, полезно это. Хотя для глаз - не очень.",
-      "____to_text": "Oncle Seryozha: Vous pouvez egalement lire sur les taches ici, c'est utile. Meme si ce nest pas tres bon pour les yeux.                                       "
+      "____to_text": "Oncle Seryozha: Vous pouvez egalement lire les taches ici, c'est utile. Bien que pour les yeux - pas tres.                                                    "
     },
     {
       "_________id": 157,
       "_translator": "google",
       "__from_text": "Хабар в рейде можно найти где угодно, внимательно \nсмотрите по \nсторонам и, \nвозможно, вам \nдаже повезет \nнаткнутся на сталкерский тайник с самой ценной добычей.",
-      "____to_text": "Les objets d'un raid peuvent etre trouves n'importe ou, regardez \nattention autour de vous \net, \npeut-etre que vous \naurez meme la chance \nde tomber sur la cache d'un harceleur contenant les objets les plus precieux. butin.                                                                   "
+      "____to_text": "Khabar dans le raid peut etre trouve n'importe ou, soigneusement \n voir les cotes \n et, \n peut-etre que vous \n serez meme chanceux que \n rencontrerez un cache de harceleur avec la proie la plus precieuse.                                                                                      "
     },
     {
       "_________id": 158,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Красная цена! Два автомата... по цене двух! (смеётся в голос)",
-      "____to_text": "Oncle Seryozha: Prix rouge! Deux machines... pour le prix de deux! (rires a haute voix)                                          "
+      "____to_text": "Oncle Seryozha: prix rouge! Deux mitrailleuses... au prix de deux! (rires d'une voix)                                            "
     },
     {
       "_________id": 159,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Здарова!",
-      "____to_text": "Oncle Seryozha: Bonjour!              "
+      "____to_text": "Itage eleve: Bien!                    "
     },
     {
       "_________id": 160,
@@ -979,175 +980,175 @@
       "_________id": 161,
       "_translator": "google",
       "__from_text": "УБИТЬ 5 МУТАНТОВ  \n(   /5)",
-      "____to_text": "TUEZ 5 MUTANTS  \n(   /5)               "
+      "____to_text": "Tuer 5 mutants \n (/ 5)                 "
     },
     {
       "_________id": 162,
       "_translator": "google",
       "__from_text": "ПО ВОЗМОЖНОСТИ НЕ ИСПОЛЬЗУЙТЕ ЭТИ ЧИТЫ,\nТ.К. В ФИНАЛЬНОЙ ВЕРСИИ ИГРЫ ИХ НЕ БУДЕТ,\nИ СЕЙЧАС НАДО ПОЛУЧИТЬ РЕАЛЬНЫЙ ФИДБЭК\nПО ПОВОДУ СЛОЖНОСТИ ИГРОВОГО РЕЖИМА",
-      "____to_text": "SI POSSIBLE, N'UTILISEZ PAS CES CHEATS\nDEPUIS. ILS NE SERONT PAS DANS LA VERSION FINALE DU JEU\nET MAINTENANT VOUS DEVEZ OBTENIR DE VRAIS COMMENTAIRES\nCONCERNANT LA COMPLEXITE DU MODE DE JEU                                                                                               "
+      "____to_text": "Si possible, n'utilisez pas ces tricheurs, \n t. Dans la version finale du jeu, ils ne le seront pas, \n et maintenant vous devez obtenir un vrai commentaire \n sur la complexite du mode jeu                                                                                                 "
     },
     {
       "_________id": 163,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Рад тебя видеть! \nДавай, рассказывай, где лазил?",
-      "____to_text": "Oncle Seryozha: Heureux de vous voir! \nAllez, dis-moi ou tu as grimpe?                                      "
+      "____to_text": "Oncle Seryozha: Heureux de vous voir! \n Allez, dis-moi ou tu as grimpe?                                     "
     },
     {
       "_________id": 164,
       "_translator": "google",
       "__from_text": "Заполнить \nанкету",
-      "____to_text": "Remplissez le \nformulaire       "
+      "____to_text": "Remplissez \n un questionnaire   "
     },
     {
       "_________id": 165,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите выйти в главное меню?",
-      "____to_text": "Etes-vous sur de vouloir quitter le menu principal?                            "
+      "____to_text": "Etes-vous sur d'aller au menu principal?                                       "
     },
     {
       "_________id": 166,
       "_translator": "google",
       "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки, патроны. \n\nТщательная подготовка - залог успешного рейда!",
-      "____to_text": "Camarade, preparez-vous pour la sortie: n'oubliez pas de prendre des filtres, des trousses de premiers secours et des cartouches. \n\nUne preparation minutieuse est la cle d'un raid reussi!                                   "
+      "____to_text": "Camarade, preparez-vous a une sortie: n'oubliez pas de prendre des filtres, des kits de premier ordre, des cartouches. \n \n Preparation minutieuse - La cle d'un raid reussi!                                                  "
     },
     {
       "_________id": 167,
       "_translator": "google",
       "__from_text": "Лазер",
-      "____to_text": "Laser     "
+      "____to_text": "Lasder    "
     },
     {
       "_________id": 168,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Живой? Вот молодец! \nЯ уж переживать начал, давно тебя не было.",
-      "____to_text": "Oncle Seryozha: Vivant? Bien joue! \nJe commencais a m'inquieter, tu es parti depuis longtemps.                                        "
+      "____to_text": "Oncle Seryozha: vivant? Bien joue! \n J'ai commence a m'inquieter, vous ne l'avez pas ete depuis longtemps.                            "
     },
     {
       "_________id": 169,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: А то бывало продашь кому-то, а они не возвращаются, остаются гнить где-то в туннелях, а у нас и так с вооружением дефицит, сам понимаешь.",
-      "____to_text": "Oncle Seryozha: Parfois, vous le vendez a quelqu'un, mais il ne revient pas, il reste a pourrir quelque part dans les tunnels, et nous manquons deja d'armes, vous comprenez.                                                                                              "
+      "____to_text": "Oncle Seryozha: Sinon, vous vendrez a quelqu'un, et ils ne reviendront pas, ils restent pour pourrir quelque part dans les tunnels, et nous comprenons deja le deficit avec les armes.                                                                                     "
     },
     {
       "_________id": 170,
       "_translator": "google",
       "__from_text": "Присоединиться\nк",
-      "____to_text": "Rejoindre\na                    "
+      "____to_text": "Rejoindre \n k                  "
     },
     {
       "_________id": 171,
       "_translator": "google",
       "__from_text": "Требуется\nреп. 4",
-      "____to_text": "Representation\nrequise. 4   "
+      "____to_text": "Requis \n rep. 4             "
     },
     {
       "_________id": 172,
       "_translator": "google",
       "__from_text": "Требуется реп. 2\n\nНаберите 12 очков \nв тире",
-      "____to_text": "Representant requis. 2\n\nObtenez 12 points \nau stand de tir               "
+      "____to_text": "Rep est requis. 2 \n \n Calalez 12 points \n dans le tableau de bord        "
     },
     {
       "_________id": 173,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: В общем, весь хабар, что в рейдах найдёшь - тащи сюда. А если снаряжение или оружие какое понадобится, его тоже можно купить у меня.",
-      "____to_text": "Oncle Seryozha: En general, apportez ici tous les cadeaux que vous trouvez lors des raids. Et si vous avez besoin dequipement ou darmes, vous pouvez egalement les acheter chez moi.                                                                              "
+      "____to_text": "Oncle Seryozha: En general, tout le Khabar, ce que vous trouvez dans les raids - faites glisser ici. Et si l'equipement ou l'arme est necessaire, il peut egalement etre achete chez moi.                                                                         "
     },
     {
       "_________id": 174,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Ну показывай, что притащил!",
-      "____to_text": "Oncle Seryozha: Eh bien, montre-moi ce que tu as apporte!               "
+      "____to_text": "Oncle Seryozha: Eh bien, montrez que vous avez traine!                  "
     },
     {
       "_________id": 175,
       "_translator": "google",
       "__from_text": "Используйте схрон для хранения нужных предметов. \n\nОбратите внимание, что все предметы за пределами вашего схрона и инвентаря не будут сохранены!",
-      "____to_text": "Utilisez un cache pour stocker les elements necessaires. \n\nVeuillez noter que tous les objets en dehors de votre reserve et de votre inventaire ne seront pas enregistres!                                                                                                "
+      "____to_text": "Utilisez un cache pour stocker les articles necessaires. \n \n Notez que tous les articles en dehors de vos caches et de vos stocks ne seront pas enregistres!                                                                                                              "
     },
     {
       "_________id": 176,
       "_translator": "google",
       "__from_text": "Лучшая попытка:",
-      "____to_text": "Le mieux est d'essayer:     "
+      "____to_text": "La meilleure tentative:     "
     },
     {
       "_________id": 177,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Как пелось в одной старой песне: \"Раздевайся, раз пришёл\". Только раздеваться не надо. Хабар лучше покажи.",
-      "____to_text": "Oncle Serioja: Comme on le chante dans une vieille chanson: \"Deshabille-toi, maintenant que tu es venu.\" Ne vous deshabillez pas. Tu ferais mieux de me montrer ton cadeau.                                          "
+      "____to_text": "Oncle Seryozha: Comment etait dans une vieille chanson: \"Undet, une fois est venu.\" Ne se deshabillent pas seulement. Montrez mieux le Habar.                                                                        "
     },
     {
       "_________id": 178,
       "_translator": "google",
       "__from_text": "Выполняйте поручения торговца, чтобы повышать свой уровень репутации. \n\nС новыми уровнями репутации становится доступно новое снаряжение.",
-      "____to_text": "Terminez les commandes du marchand pour augmenter votre niveau de reputation. \n\nAvec de nouveaux niveaux de reputation, de nouveaux equipements deviennent disponibles.                                                                                       "
+      "____to_text": "Suivez les instructions du marchand pour augmenter votre niveau de reputation. \n \n Avec de nouveaux niveaux de reputation, de nouveaux equipements deviennent disponibles.                                                                                    "
     },
     {
       "_________id": 179,
       "_translator": "google",
       "__from_text": "Хорошо подготовьтесь к рейду: запаситесь фильтрами, аптечками и патронами. Если повезет, их можно будет найти и в самом рейде, но ведь глупо полагаться на одну удачу?",
-      "____to_text": "Preparez-vous bien pour le raid: faites le plein de filtres, de trousses de premiers secours et de munitions. Si vous avez de la chance, vous pourrez les trouver dans le raid lui-meme, mais n'est-il pas stupide de compter uniquement sur la chance?                                                      "
+      "____to_text": "Preparez-vous bien pour le raid: accumulez les filtres, les kits de premier ordre et les cartouches. Si vous avez de la chance, ils peuvent etre trouves dans le raid lui-meme, mais il est stupide de compter sur une bonne chance?                                                                         "
     },
     {
       "_________id": 180,
       "_translator": "google",
       "__from_text": "РЕПУТАЦИЯ:",
-      "____to_text": "REPUTATION:        "
+      "____to_text": "Reputation:        "
     },
     {
       "_________id": 181,
       "_translator": "google",
       "__from_text": "Вы погибли...\n\nВсе найденные в этом рейде предметы были потеряны.",
-      "____to_text": "Vous etes mort...\n\nTous les objets trouves lors de ce raid ont ete perdus.                                          "
+      "____to_text": "Vous etes mort... \n \n Tous les objets trouves dans ce raid ont ete perdus.                                          "
     },
     {
       "_________id": 182,
       "_translator": "google",
       "__from_text": "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 1000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nРЕПУТАЦИЯ УРОВЕНЬ 3\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ",
-      "____to_text": "IMMORTALITE\n\n\n\nAJOUTER 1 000 RUB.\n\n\n\nTERMINER LA TACHE ACTUELLE\n\n\n\nNIVEAU DE REPUTATION 3\n\n\n\nREINITIALISER LA SAUVEGARDE                                                                 "
+      "____to_text": "Immortalite \n \n \n \n Ajouter 1000 roubles. \n \n \n \n Terminez la tache actuelle \n \n \n Niveau de reputation 3 \n \n \n \n Pour eviter la conservation                                            "
     },
     {
       "_________id": 183,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была.",
-      "____to_text": "Oncle Seryozha: Si vous avez vu une enorme goule en chemin, c'etait probablement ma femme.                                                                      "
+      "____to_text": "Oncle Seryozha: Si je voyais une enorme goule le long de la route, alors c'etait probablement ma femme.                                                         "
     },
     {
       "_________id": 184,
       "_translator": "google",
       "__from_text": "Настроить высоту",
-      "____to_text": "Ajuster la hauteur             "
+      "____to_text": "Configurer la hauteur          "
     },
     {
       "_________id": 185,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Только сразу я тебе крутые волыны не доверю, сначала покажи себя - выполни пару заданий.",
-      "____to_text": "Oncle Seryozha: Mais je ne vous confierai pas tout de suite des chevaux sympas, montrez-vous d'abord - accomplissez quelques taches.                                                  "
+      "____to_text": "Oncle Seryozha: Seulement immediatement je ne vous fais pas confiance avec des Volyns cool, montrez-vous d'abord - faites quelques taches.                                            "
     },
     {
       "_________id": 186,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Звать меня Сергей Станиславович, но можно и дядя Серёжа. Так даже лучше будет. Я тут главный по тыловому обеспечению.",
-      "____to_text": "Oncle Seryozha: Je m'appelle Sergei Stanislavovich, mais vous pouvez aussi m'appeler Oncle Seryozha. Ce sera encore mieux ainsi. Je suis le chef de la logistique ici.                                                                     "
+      "____to_text": "Oncle Seryozha: Sergey Stanislavovich appelle-moi, mais vous pouvez aussi l'oncle Seryozha. Ce sera donc encore mieux. Je suis le principal pour le support arriere.                                                                       "
     },
     {
       "_________id": 187,
       "_translator": "google",
       "__from_text": "ВЫЖИТЬ В ПЕРВОМ \nРЕЙДЕ",
-      "____to_text": "SURVIVRE AU PREMIER \nRAID               "
+      "____to_text": "Survivre dans le premier raid \n         "
     },
     {
       "_________id": 188,
       "_translator": "google",
       "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки и патроны. \n\nТщательная подготовка - залог успешного рейда!\r\n\nРейдовые локации недоступны в Демо.",
-      "____to_text": "Camarade, preparez-vous pour la sortie: n'oubliez pas de prendre des filtres, des trousses de premiers secours et des cartouches. \n\nUne preparation minutieuse est la cle d'un raid reussi!\n\nLes emplacements de raid ne sont pas disponibles dans la demo.                                         "
+      "____to_text": "Camarade, preparez-vous a une sortie: n'oubliez pas de prendre des filtres, des kits de premier ordre et des cartouches. \n \n Preparation minutieuse - La cle d'un raid reussi! Les emplacements \n \n RAID ne sont pas disponibles pour la demo.                                                      "
     },
     {
       "_________id": 189,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nВы потеряете все найденные вещи и вернетесь назад в убежище.",
-      "____to_text": "Etes-vous sur de vouloir mettre fin au raid plus tot?\nVous perdrez tous les objets que vous avez trouves et serez renvoye a la cachette.                                                             "
+      "____to_text": "Etes-vous sur que vous souhaitez terminer le raid avant le calendrier? \n allez-vous perdre toutes les choses trouvees et revenir au refuge.                                                          "
     },
     {
       "_________id": 190,
@@ -1159,25 +1160,25 @@
       "_________id": 191,
       "_translator": "google",
       "__from_text": "Имя                Хабара за раз вынесено на:",
-      "____to_text": "Le nom de                Khabar est repertorie sur:                  "
+      "____to_text": "Le nom de Khabar est fait a la fois:                                 "
     },
     {
       "_________id": 192,
       "_translator": "google",
       "__from_text": "Сбросить прогресс",
-      "____to_text": "Reinitialiser la progression     "
+      "____to_text": "Reinitialiser les progres        "
     },
     {
       "_________id": 193,
       "_translator": "google",
       "__from_text": "НАЙТИ ПРОПАВШЕГО\nСТАЛКЕРА",
-      "____to_text": "TROUVEZ LE\nSTALKER MANQUANT                     "
+      "____to_text": "Trouvez le stalker \n manquant                   "
     },
     {
       "_________id": 194,
       "_translator": "google",
       "__from_text": "ПРИНЕСТИ 3 ТБшки\n(   /3)",
-      "____to_text": "APPORTEZ 3 To\n(   /3)                "
+      "____to_text": "Apportez 3 tbshki \n (/ 3)            "
     },
     {
       "_________id": 195,
@@ -1189,217 +1190,217 @@
       "_________id": 196,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Если нашёл абрикосы в банке - забирай лучшую волыну бесплатно!",
-      "____to_text": "Oncle Seryozha: Si vous trouvez des abricots dans un bocal, prenez gratuitement la meilleure cornemuse!                                 "
+      "____to_text": "Oncle Seryozha: Si vous avez trouve des abricots a la banque, prenez la meilleure cheville gratuitement!                                "
     },
     {
       "_________id": 197,
       "_translator": "google",
       "__from_text": "ПРИНЕСТИ 6 лампочек\n(   /6)",
-      "____to_text": "APPORTEZ 6 ampoules\n(   /6)                "
+      "____to_text": "Apportez 6 ampoules \n (/ 6)                "
     },
     {
       "_________id": 198,
       "_translator": "google",
       "__from_text": "Вождь наш, Никита Андреич Лебедев - хорош. В старой жизни полканом был, первым сообразил, что людей спасать надо, вот всех в метро и собрал, ну, кого нашел. Святой человек, спас нас. Как за него не голосовать теперь, а? Да и довольствие присылает в срок, все понимает мужик. Никогда не говорил \"потерпите\" или \"пояса надо затянуть\". Еще и школы открыл, детей учит.\r\n\nА про любовниц его - это все кривотолки. Коммунисты эти болтают что ни попадя, языки у них без костей. Вот правили они в мире старом, и к чему это нас привело?",
-      "____to_text": "Notre chef, Nikita Andreich Lebedev, est bon. Dans mon ancienne vie, j'etais un regiment, le premier a comprendre qu'il fallait sauver les gens, alors j'ai rassemble tout le monde dans le metro, enfin, tous ceux que je trouvais. Saint homme, nous a sauves. Comment peux-tu ne pas voter pour lui maintenant, hein? Et il envoie l'indemnite a temps, l'homme comprend tout. Je nai jamais dit \"soyez patient\" ou \"vous devez vous serrer la ceinture\". Il a egalement ouvert des ecoles et enseigne aux enfants.\n\nEt a propos de ses maitresses, ce ne sont que des rumeurs. Ces communistes parlent au hasard, leurs langues sont desossees. Ils regnaient sur lancien monde, et ou cela nous a-t-il mene?                                                                                                                                                                                                                                                  "
+      "____to_text": "Notre chef, Nikita Andreich Lebedev, est bon. Dans une vieille vie, il etait un refuge, le premier a realiser que les gens devaient etre sauves, et il a collecte tout le monde dans le metro, bien, qu'il a trouve. Le saint homme nous a sauves. Comment ne pas voter pour lui maintenant, hein? Oui, et l'allocation envoie a l'heure, l'homme comprend tout. Je n'ai jamais dit \"tolerer\" ou \"les ceintures doivent etre resserrees\". Il a egalement ouvert des ecoles, enseigne aux enfants. \n \n et a propos de ses maitresses - ce sont tous un bois de tresor. Ces communistes discutant qu'ils ne peuvent pas obtenir, leurs langues sont sans os. Ils ont regne dans l'ancien monde, et a quoi cela nous a-t-il conduits?                                                                                                                                                                                                                                 "
     },
     {
       "_________id": 199,
       "_translator": "google",
       "__from_text": "Мы все слишком зациклены на этой поганой жратве. Мы постоянно хотим есть, будто у нас внутри - дыра, которую нужно постоянно затыкать. Даже когда еды нет, мы ее ищем и готовы делать ради этого страшные вещи.\r\n\nЯ и сам из-за еды делал непоправимое, мне никогда не отмыться. Также видел я, как это делают и другие - мужчины бросали женщин, матери - своих детей, а иногда происходило и кое-что похуже. Я не хочу, чтобы это оставалось на бумаге.\r\n\nИ вот мы живем в жалких тоннелях, пока наверху растет новый мир. Мы продолжаем искать еду, выращивать ее, готовить, иногда нападать друг на друга. Интересно, мутанты с поверхности приходят к нам тоже в поисках жратвы?",
-      "____to_text": "Nous sommes tous trop obsedes par cette sale larve. Nous avons constamment envie de manger, comme si nous avions un trou a linterieur quil fallait constamment boucher. Meme lorsqu'il n'y a pas de nourriture, nous la cherchons et sommes prets a faire des choses terribles pour cela.\n\nJ'ai moi-meme fait des choses irreparables a cause de la nourriture, je ne me laverai jamais. J'ai aussi vu d'autres faire cela: des hommes abandonnaient des femmes, des meres abandonnaient leurs enfants, et parfois quelque chose de pire se produisait. Je ne veux pas que cela reste sur le papier.\n\nNous vivons donc dans des tunnels miserables tandis qu'un nouveau monde se developpe au-dessus. Nous continuons a chercher de la nourriture, a la cultiver, a la cuisiner et parfois a nous attaquer les uns les autres. Je me demande si des mutants de la surface viennent aussi vers nous a la recherche de nourriture?                                                                                                                                                                                                                                                                                            "
+      "____to_text": "Nous sommes trop fixes sur cette planche sale. Nous voulons constamment manger, comme si nous avions a l'interieur - un trou qui doit etre constamment bouche. Meme en cas de nourriture, nous le recherchons et sommes prets a faire des choses terribles pour cela. \n \n J'ai moi-meme fait irreparable a cause de la nourriture, je ne me laverai jamais. J'ai egalement vu comment les autres l'ont fait - les hommes ont jete des femmes, des meres - leurs enfants et parfois quelque chose de pire s'est produit. Je ne veux pas qu'il reste sur papier. \n \n Et ici, nous vivons dans des tunnels miserables tandis que le nouveau monde monte a l'etage. Nous continuons a chercher de la nourriture, a le faire pousser, a cuisiner, a nous attaquer parfois. Fait interessant, les mutants de la surface viennent aussi a nous a la recherche d'un plan?                                                                                                                                                                                                                                                                                                                                                           "
     },
     {
       "_________id": 200,
       "_translator": "google",
       "__from_text": "Она говорила, что ее звали Тексиз. \r\n\nОчень странное имя, особенно для нашей местности. Все думали, что она из Америки, откуда-то из Техаса или другого южного штата, но она говорила, что в штатах никогда не была.\r\n\nМы жили вместе полтора года, и каждый день с Тексиз казался мне открытием, нес что-то новое. Но я видел, что ей со мной не очень, хотя она этого не говорила никогда. Да я и не спрашивал. Боялся спугнуть свое счастье.\r\n\nОднажды утром она разбудила меня и сказала ровно одну фразу: \"Я чувствую себя так, будто сегодня ночью умру\". После этого собрала вещи и молча ушла, а ее слова... они меня до сих пор пугают.\r\n\nЧто тебя так напугало, милая Тексиз? Почему ты ушла?",
-      "____to_text": "Elle a dit qu'elle s'appelait Texiz. \n\nNom tres etrange, surtout pour notre region. Tout le monde pensait qu'elle venait d'Amerique, quelque part du Texas ou d'un autre Etat du sud, mais elle a dit qu'elle n'etait jamais allee aux Etats-Unis.\n\nNous avons vecu ensemble pendant un an et demi, et tous les jours avec le Texas. m'a semble une decouverte, apportant quelque chose de nouveau. Mais j'ai vu qu'elle n'etait pas tres contente de moi, meme si elle ne l'a jamais dit. Oui, je n'ai pas demande. J'avais peur de faire fuir mon bonheur.\n\nUn matin, elle m'a reveille et m'a dit exactement une phrase: \"J'ai l'impression que je vais mourir ce soir. Apres cela, elle a fait ses valises et est partie en silence, et ses paroles... me font encore peur.\n\nQu'est-ce qui t'a fait si peur, chere Texiz? Pourquoi es-tu parti?                                                                                                                                                                                                                                                                                                                                                                                             "
+      "____to_text": "Elle a dit que son nom etait Teksiz. \n \n Un nom tres etrange, en particulier pour notre region. Tout le monde pensait qu'elle venait d'Amerique, de quelque part au Texas ou d'un autre Etat du sud, mais elle a dit qu'elle n'avait jamais ete aux Etats-Unis. \n \n Nous avons vecu ensemble pendant un an et demi, et chaque jour avec Teksiz me semblait une decouverte, portait quelque chose de nouveau. Mais j'ai vu qu'elle n'etait pas tres bonne avec moi, meme si elle n'a jamais dit cela. Oui, je n'ai pas demande. Il avait peur d'effrayer son bonheur. \n \n Un matin, elle m'a reveille et a dit exactement une phrase: \"J'ai l'impression de mourir ce soir.\" Apres cela, elle a collecte des choses et est partie silencieusement, et ses paroles... ils me font toujours peur. \n \n Qu'est-ce qui vous a fait peur, cher Teksiz? Pourquoi avez-vous quitte?                                                                                                                                                                                                                                                                                                                                                                      "
     },
     {
       "_________id": 201,
       "_translator": "google",
       "__from_text": "Не пойду я на эти выборы вождя нового, подписано уж все. Как в мире старом, поговорка была: \"Голосуй, не голосуй - все равно получишь то же самое\". Да и ходить туда-сюда ноги уже не дают.\r\n\nТакую страну развалили, да и мир тоже в целом, эх. Живем тут как крысы в подполье, за вождя голосуем, а там, наверху, лес растет этот, волшебный, бляха.\r\n\nПойду лучше самогонки наверну.",
-      "____to_text": "Je nirai pas a ces elections pour un nouveau leader, tout est deja signe. Comme dans lancien monde, on disait: \"Votez, ne votez pas, vous aurez toujours la meme chose\". Et mes jambes ne me permettent plus de faire des allers-retours.\n\nUn tel pays a ete detruit, et le monde dans son ensemble aussi, hein. On vit ici comme des rats dans le sous-sol, on vote pour le leader, et la, au dessus, pousse cette foret, cette plaque magique.\n\nJ'irai mieux que le clair de lune, c'est sur.                                                                                                                                                                                    "
+      "____to_text": "Je n'irai pas a ces elections du chef du nouveau, tout a ete signe. Comme dans l'ancien monde, le dicton etait: \"Votez, ne votez pas - vous obtenez toujours la meme chose.\" Oui, et leurs jambes ne permettent plus de faire des allers-retours. \n \n Un tel pays a ete ruine, et le monde est egalement en general, hein. Nous vivons ici comme des rats underground, nous votons pour le leader, et la, a l'etage, cette foret pousse, les plaques magiques. \n \n J'irai probablement mieux que Moonshine.                                                                                                                                                                        "
     },
     {
       "_________id": 202,
       "_translator": "google",
       "__from_text": "Вот сейчас сижу и вспоминаю, как в прошлой жизни книжки любил читать. И ведь полно литературы было про конец всего, про поверхность отравленную, про метро и выживание. Чувствовали люди, наверное, что что-то такое будет. Что накроется все, вот и фантазировали, как оно произойдет. А мы сидели в теплых квартирах, да за продуктами ходили, иногда книжки эти покупали.\n\r\nСейчас же в них надобности нет, ничего фантазировать не надо - вот оно все, руками можно потрогать. Правда фантастичнее любого вымысла.",
-      "____to_text": "Maintenant, je suis assis et je me souviens comment, dans ma vie passee, j'aimais lire des livres. Et il y avait beaucoup de litterature sur la fin de tout, sur la surface empoisonnee, sur le metro et la survie. Les gens pensaient probablement que quelque chose comme ca allait se produire. Que tout serait couvert, alors nous avons fantasme sur la facon dont cela se passerait. Et nous nous sommes assis dans des appartements chaleureux, sommes alles faire l'epicerie, avons parfois achete ces livres \n\nMaintenant, nous n'en avons plus besoin, il n'y a plus besoin de fantasmer quoi que ce soit - le voici, vous pouvez le toucher avec votre. mains. La verite est plus fantastique que nimporte quelle fiction.                                                                                                                                                                                                    "
+      "____to_text": "Maintenant, je suis assis et je me souviens comment j'ai adore lire un livre dans une derniere vie. Et apres tout, c'etait beaucoup de litterature sur la fin de tout, sur la surface empoisonnee, sur le metro et la survie. Les gens ont probablement senti que quelque chose se passerait. Que tout sera couvert et qu'ils fantasment comment cela se produira. Et nous nous sommes assis dans des appartements chauds, mais nous avons opte pour des produits, parfois nous avons achete ces livres. \n \n Maintenant, il n'y a pas besoin d'eux, il n'y a rien a fantasmer - c'est tout, avec nos mains que vous pouvez toucher. Vrai plus fantastique plus que n'importe quelle fiction.                                                                                                                                                                                                                                             "
     },
     {
       "_________id": 203,
       "_translator": "google",
       "__from_text": "Как-то недавно ходил на вылазку, были наверху от силы полчаса, но попали в окружение почти сразу, пришлось отбиваться от гадов. Я мутантов и раньше стрелял, но в этот раз все было как-то по-другому. Твари будто разговаривали, не знаю, как объяснить. Будто обсуждали нас на своем языке.\r\n\nЯ одного пришил и пока он кровью истекал, увидел в его глазах что-то. Искру какую-то, человечность что ли. Он, как и мы, помирать не хотел и до последнего, будто поверить не мог, что его час настал.\r\n\nА нам, что было делать? Либо мы, либо они.",
-      "____to_text": "Lors d'une recente sortie, nous sommes restes au sommet pendant au plus une demi-heure, mais nous avons ete encercles presque immediatement et nous avons du combattre les reptiles. J'ai deja tire sur des mutants, mais cette fois, tout etait different. Les creatures semblaient parler, je ne sais pas comment lexpliquer. C'etait comme s'ils parlaient de nous dans leur propre langue.\n\nJ'en ai tue un et pendant qu'il saignait, j'ai vu quelque chose dans ses yeux. Une sorte d'etincelle, d'humanite ou quelque chose du genre. Lui, comme nous, ne voulait pas mourir et jusqu'au bout, comme s'il ne pouvait pas croire que son heure etait venue.\n\nEt que devons-nous faire? C'est soit nous, soit eux.                                                                                                                                                                                                                                                      "
+      "____to_text": "D'une maniere ou d'une autre, je suis alle a une sortie, ils etaient a l'etage de la force d'une demi-heure, mais ils ont ete entoures presque immediatement, j'ai du me battre sur les reptiles. J'ai deja tourne des mutants, mais cette fois, tout etait en quelque sorte different. Les creatures semblaient parler, je ne sais pas comment expliquer. Comme s'ils discutaient de nous dans ma propre langue. \n \n J'en ai cousu un et pendant qu'il saignait, j'ai vu quelque chose dans ses yeux. Une sorte d'etincelle, de l'humanite ou quelque chose comme ca. Lui, comme nous, ne voulait pas mourir meme jusqu'au dernier, comme s'il ne pouvait pas croire que son heure etait venue. \n \n Et nous, que faire? Soit nous, soit eux.                                                                                                                                                                                                                               "
     },
     {
       "_________id": 204,
       "_translator": "google",
       "__from_text": "Помню одну странную вещь, думаю нужно ее записать. Еще до конца старого мира знала одного мальчика по имени Женя, ему всегда было пять лет. Все вокруг старели, заводили семьи, умирали, а Жене всегда было пять.\r\n\nМы познакомились во дворе, мне было лет десять, а ему пять. Я выросла, закончила школу и встретила Сережу, а Жене все еще было пять. У меня родились дети, выросли, им было по десять, а Жене все еще было пять. \r\n\nВ итоге лес нас прогнал, детей я потеряла, а Женю больше не видела.\r\n\nИнтересно, ему все еще пять?",
-      "____to_text": "Je me souviens d'une chose etrange, je pense que je dois l'ecrire. Meme avant la fin de l'ancien monde, je connaissais un garcon nomme Zhenya, il avait toujours cinq ans. Tout le monde vieillissait, fondait une famille, mourait, mais Zhenya avait toujours cinq ans.\n\nNous nous sommes rencontres dans la cour, j'avais environ dix ans et lui cinq ans. J'ai grandi, j'ai obtenu mon diplome et j'ai rencontre Seryozha, et Zhenya avait encore cinq ans. Mes enfants sont nes, ont grandi, ils avaient dix ans et Zhenya en avait encore cinq. \n\nEn consequence, la foret nous a chasses, j'ai perdu mes enfants et je n'ai jamais revu Zhenya.\n\nJe me demande s'il a encore cinq ans?                                                                                                                                                                                                                                                              "
+      "____to_text": "Je me souviens d'une chose etrange, je pense que j'ai besoin de l'enregistrer. Meme avant la fin du vieux monde, elle connaissait un garcon nomme Zhenya, il avait toujours cinq ans. Tout le monde autour de personnes, a eu des familles, est decedee, et il y en avait toujours cinq a sa femme. \n \n Nous nous sommes rencontres dans la cour, j'avais dix ans et il avait cinq ans. J'ai grandi, diplome de l'ecole et rencontre Seryozha, et ma femme avait encore cinq ans. Mes enfants sont nes, ils ont grandi, ils avaient dix ans chacun et sa femme avait encore cinq ans. \n \n En consequence, je nous ai chasses, j'ai perdu les enfants, mais je ne voyais plus Zhenya. \n \n Je me demande s'il a encore cinq ans?                                                                                                                                                                                                                             "
     },
     {
       "_________id": 205,
       "_translator": "google",
       "__from_text": "Я долго размышлял о структурах жизни, порядке событий и их смыслах. Размышления эти навели меня на забавную мысль: мы все думали, что жизнь каждого индивида - небольшой мономиф, некий самостный путь героя. Миллиарды сюжетов, которые иногда пересекаются, а иногда - нет. Мы думали, что каждый - герой своей жизни. Но нифига. Мир, жизнь и воля зелени показали нам, что мы лишь статисты, массовка, а настоящий герой - природа. Сейчас она изменяется, как и положено любому хорошему герою, а мы, затаив дыхание, смотрим и ждем смерти как вид.",
-      "____to_text": "J'ai longuement reflechi aux structures de la vie, a l'ordre des evenements et a leurs significations. Ces reflexions m'ont amene a une drole de reflexion: nous pensions tous que la vie de chaque individu est un petit monomythe, une sorte de parcours personnel d'un heros. Des milliards de parcelles qui se croisent parfois et parfois non. Nous pensions que chacun est le heros de sa propre vie. Mais rien. La paix, la vie et la volonte de verdure nous ont montre que nous ne sommes que des figurants, des figurants, et que le veritable heros est la nature. Maintenant, elle change, comme tout bon heros devrait le faire, et nous, en retenant notre souffle, observons et attendons la mort en tant qu'espece.                                                                                                                                                                                                                                                               "
+      "____to_text": "J'ai reflechi longtemps aux structures de la vie, a l'ordre des evenements et a leur signification. Ces pensees m'ont amene a une drole de pensee: nous avons tous pense que la vie de chaque individu est une petite monomifa, un certain chemin auto-traite du heros. Des milliards de parcelles qui se coupent parfois, et parfois non. Nous pensions que tout le monde etait un heros de sa vie. Mais Nifiga. Le monde, la vie et la volonte de la verdure nous ont montre que nous ne sommes que des statistiques, une foule et un vrai heros est la nature. Maintenant, cela change, comme cela devrait etre pour tout bon heros, et nous, avec un souffle, regardons et attendons la mort en tant qu'espece.                                                                                                                                                                                                                                                                               "
     },
     {
       "_________id": 206,
       "_translator": "google",
       "__from_text": "Я всегда любила лес. Жила в городе, но постоянно ездила побродить между березок и лип. Только там все проблемы отступали и ничего в жизни больше не оставалось, кроме чистого горизонта и листвы.\r\n\nСейчас я живу под землей (в этом клоповнике), но точно знаю, что когда-нибудь я все-таки выберусь на поверхность и растворюсь там в лесу, который изменяет все и всех. Плевать, даже если превращусь в одно из этих чудовищ. Зато стану свободной.",
-      "____to_text": "J'ai toujours aime la foret. Elle vivait en ville, mais allait constamment se promener parmi les bouleaux et les tilleuls. Seulement la, tous les problemes ont disparu et il ne restait plus rien dans la vie a part l'horizon clair et le feuillage.\n\nMaintenant, je vis sous terre (dans cette infestation d'insectes), mais je sais avec certitude qu'un jour je le ferai encore va remonter a la surface et s'y dissoudre dans la foret, ce qui change tout et tout le monde. Je m'en fiche si je me transforme en un de ces monstres. Mais je serai libre.                                                                                                                                                                                                                                                   "
+      "____to_text": "J'ai toujours aime la foret. Elle vivait dans la ville, mais est constamment allee se promener entre les bouleaux et les levres. Seulement la tous les problemes se sont retires et rien d'autre n'a ete laisse dans la vie, a l'exception d'un horizon et d'un feuillage purs. \n \n Maintenant, je vis sous terre (dans ce clip), mais je sais avec certitude qu'un jour j'irai toujours a la surface et je me dissoudre dans la foret qui change tout et tout le monde. Spit, meme si je me transforme en l'un de ces monstres. Mais je deviendrai libre.                                                                                                                                                                                                                                                         "
     },
     {
       "_________id": 207,
       "_translator": "google",
       "__from_text": "Для вкл/выкл лазера/\nфонарика используйте  \nкурок второй руки,\nудерживая оружие\nобеими руками.\n\nНе забывайте чистить \nснаряжение после \nрейдов. Грязное оружие \nможет подвести вас в \nсамый ответственный \nмомент!",
-      "____to_text": "Pour allumer/eteindre la lampe laser/\nlampe de poche, utilisez la \ngachette de seconde main tout en\ntenant l'arme\na deux mains.\n\nN'oubliez pas de nettoyer l'\nequipement apres les \nraids. Les armes sales \npeuvent vous laisser tomber au \nmoment le plus crucial \n!                                                                                                                       "
+      "____to_text": "Pour le vocal / hors de la lampe de poche laser / \n, utilisez \n du declencheur de la seconde main, \n tenant l'arme \n avec les deux mains. \n \n N'oubliez pas de nettoyer les equipements \n apres les raids \n. Les armes sales \n peuvent vous amener a \n le moment \n le plus responsable!                                                                                                     "
     },
     {
       "_________id": 208,
       "_translator": "google",
       "__from_text": "Славься Зелень-мать, да будет всеобъемлюща сила твоя первородная, ничем не замутненная. Меняй нас, меняй все вокруг, по усмотрению своему переиначивай.\r\n\nВиденье твое скрыто от нас, но верим мы, что приведешь ты человека к миру новому, вратам райским и прощению. Верим мы, что от грехов наших души избавишь. Верим, что избавишь от диавола, ведь нет его там, где нет человека старого и страстей его.\r\n\nПрими нас в объятия свои. Дай войти нам в покои твои и жить там в благодати. Готовы мы отринуть все старое и принять новое. Готовы мы к изменениям, о Зелень-мать.",
-      "____to_text": "Hail Mother Green, que votre pouvoir originel soit global, degage de quoi que ce soit. Changez-nous, changez tout autour de nous, changez-le a votre discretion.\n\nVotre vision nous est cachee, mais nous croyons que vous conduirez une personne vers un nouveau monde, les portes du ciel et du pardon. Nous croyons que tu delivreras nos ames de nos peches. Nous croyons que tu nous delivreras du diable, car il n'est pas la ou ne sont pas le vieil homme et ses passions.\n\nPrends-nous dans tes bras. Entrons dans vos appartements et vivons-y dans la grace. Nous sommes prets a rejeter tout ce qui est ancien et a accepter le nouveau. Nous sommes prets pour les changements, o Mere Verte.                                                                                                                                                                                                                                                                                                                                     "
+      "____to_text": "Gloire aux legumes verts de la mere, que votre puissance du premier-ne soit complete, pas boueuse. Changez-nous, changez tout autour, reinterrompez a votre discretion. \n \n Votre vision nous est cachee, mais nous pensons que vous amenerez une personne au Nouveau Monde, les portes du paradis et du pardon. Nous croyons que vous sauverez des peches de nos ames. Nous croyons que vous vous sauverez du diable, car il n'y a personne ou il n'y a pas de vieil homme et de ses passions. \n \n Acceptez-nous dans vos bras. Entrons dans nos chambres et vivons-y dans la grace. Nous sommes prets a rejeter tout vieux et a accepter le nouveau. Nous sommes prets a des changements, sur les verts.                                                                                                                                                                                                                                                                                                                                     "
     },
     {
       "_________id": 209,
       "_translator": "google",
       "__from_text": "Помню, как меня в детстве травил и колотил один парнишка, несколько лет подряд. Я сильно его боялся тогда, аж коленки тряслись. Мне даже постоянно казалось, что он из-за любого угла выпрыгнет и побьет меня. Сдачи я дать не мог. То ли родители так воспитали, то ли трусил просто.\r\n\nВстретил его недавно в метро - старого, осунувшегося. Он сейчас охотой на артефакты промышляет - стал другим человеком, может уже и не помнит, как надо мною издевался. \r\n\nМне глаза его запомнились. Было что-то в них опустошающее. Будто он уже не понимает, кем становится. Я был на него обижен и зол, но эти глаза из меня как будто все выпили. Странно это все и страшно.",
-      "____to_text": "Je me souviens comment, etant enfant, j'ai ete victime d'intimidation et battue par un seul homme pendant plusieurs annees de suite. J'avais alors tres peur de lui, mes genoux tremblaient. Il me semblait meme constamment qu'il sautait de n'importe quel coin et me battait. Je ne pouvais pas rendre la monnaie. Soit ses parents l'ont eleve de cette facon, soit il etait simplement un lache.\n\nJe l'ai rencontre recemment dans le metro - vieux, hagard. Il cherche maintenant des artefacts - il est devenu une personne differente, peut-etre qu'il ne se souvient plus de la facon dont il s'est moque de moi. \n\nJe me souviens de ses yeux. Il y avait chez eux quelque chose de devastateur. Comme sil ne comprenait plus qui il est en train de devenir. J'etais offense et en colere contre lui, mais ces yeux semblaient tout avaler de moi. Tout est etrange et effrayant.                                                                                                                                                                                                                                                                                                          "
+      "____to_text": "Je me souviens comment un gars m'a empoisonne et m'a battu dans l'enfance, pendant plusieurs annees de suite. J'avais alors tres peur de lui, deja mes genoux tremblaient. Il m'a meme constamment semble qu'il sauterait de n'importe quel coin et me battait. Je ne pouvais pas donner de changement. Soit les parents evoques ainsi, soit le lache simplement. \n \n l'a rencontre recemment dans le metro - l'ancien Haggard. Il chasse maintenant des artefacts - il est devenu une personne differente, peut-etre qu'il ne se souvient plus de la facon dont il s'est moque de moi. \n \n Je me souvenais de ses yeux. Il y avait quelque chose de devastateur en eux. Comme s'il ne comprenait plus qui il devient. J'etais offense et en colere contre lui, mais ces yeux semblaient boire de moi. Tout est etrange et effrayant.                                                                                                                                                                                                                                                                                                                                                                 "
     },
     {
       "_________id": 210,
       "_translator": "google",
       "__from_text": "Все считают меня сказочником, а я просто собираю истории метро о прошлом и настоящем. Некоторые презрительно смотрят на меня, но я не могу им объяснить, что если я не буду собирать эти истории - никто не будет, и мы умрем без доказательств того, что вообще жили. Люди даже дали мне насмешливое прозвище в честь древнегреческого философа. Как оно меня бесит, даже записывать не хочу.\r\n\nНо если я перестану заниматься своим делом, кто подхватит эту эстафету? Никому дела нет до сохранения прошлого и настоящего, а книги сейчас в основном используют, чтобы самокрутки вертеть, да подтираться. Может и не зря старый мир рухнул? Мы же всегда так относились к нему - брезгливо, как хапуги, и даже не давали ничего взамен.",
-      "____to_text": "Tout le monde pense que je suis un conteur, mais je collectionne simplement les histoires de metro sur le passe et le present. Certains me regardent avec mepris, mais je ne peux pas leur expliquer que si je ne collectionne pas ces histoires, personne ne le fera et nous mourrons sans preuve que nous avons jamais vecu. Les gens mont meme donne un surnom moqueur en hommage au philosophe grec antique. Cela mexaspere tellement que je nai meme pas envie de lecrire.\n\nMais si jarrete de faire ce que je fais, qui prendra le relais? Personne ne se soucie de preserver le passe et le present, et les livres sont desormais principalement utilises pour rouler des cigarettes et s'essuyer. Peut-etre que ce nest pas en vain que le vieux monde sest effondre? Nous l'avons toujours traite comme ca - degoute, comme des voleurs, et nous n'avons meme rien donne en retour.                                                                                                                                                                                                                                                                                                                                                                                                                                             "
+      "____to_text": "Tout le monde me considere comme un conteur, et je collecte les histoires du metro sur le passe et le present. Certains me semblent meprisants, mais je ne peux pas leur expliquer que si je ne recueille pas ces histoires, personne ne le sera, et nous mourrons sans preuve que nous vivons generalement. Les gens m'ont meme donne un surnom moqueur en l'honneur de l'ancien philosophe grec. Comment ca me fait fuir, je ne veux meme pas me radier. \n \n Mais si j'arrete de faire mon travail, qui prendra ce baton? Personne ne se soucie de la preservation du passe et du present, et les livres sont desormais principalement utilises pour tourner les scoops et broyer. Ce n'est peut-etre pas pour rien que l'ancien monde s'est effondre? Nous l'avons toujours traite comme ca - delicatement, comme Hapugs, et nous n'avons meme rien donne en retour.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
     },
     {
       "_________id": 211,
       "_translator": "google",
       "__from_text": "В подземке много людей и им снится много снов. Бесчисленное количество и каждый раз - новые. Они сейчас заменяют нам телевизор, радио и прочие мелкие радости.\r\n\nМне вот недавно женщина на белом коне приснилась. Бледная, голая, с алыми губами цвета спелого яблока. Ехала и молчала. Только звук копыт по снегу \"хрум-хрум\".\r\n\nИнтересно, к чему бы это?",
-      "____to_text": "Il y a beaucoup de monde dans le metro et ils ont beaucoup de reves. Des quantites innombrables et des nouveautes a chaque fois. Elles remplacent desormais pour nous la television, la radio et d'autres petits bonheurs.\n\nJ'ai recemment reve d'une femme sur un cheval blanc. Pale, nue, avec des levres ecarlates couleur de pomme mure. Elle conduisait et restait silencieuse. Juste le bruit des sabots sur la neige, \"crunch-crunch\".\n\nJe me demande a quoi ca servirait?                                                                                                                                                            "
+      "____to_text": "Il y a beaucoup de gens dans le metro et ils revent de nombreux reves. D'innombrables et a chaque fois neufs. Ils nous remplacent maintenant par une television, une radio et d'autres petites joies. \n \n J'ai recemment reve d'un cheval blanc. Pale, nu, avec des levres ecarlates la couleur d'une pomme mure. Je conduisais et silencieux. Seul le bruit des sabots dans la neige \"krum-khrum\". \n \n Je me demande a quoi cela servirait-il?                                                                                                                                                                                              "
     },
     {
       "_________id": 212,
       "_translator": "google",
       "__from_text": "У меня все из головы не идет одна история, слышал ее еще когда мир был старым. Тогда боец один американский, боксер вроде, не помню, как его звали, пусть будет Джон. Или Берни. В общем, он поднялся с самых низов и стал чемпионом, вроде как в среднем весе, причем несколько раз. Получил парень все, о чем мечтал, а потом на пике карьеры взял и повесился. Его дома нашли. В трусах своих боевых в петле болтался.\r\n\nИ вот я сижу, думаю, что ведь человечество в целом по стопам этого Берни пошло. Только у нас самих повеситься не получилось. Вот мы природу и попросили нам помочь. А она и рада стараться, во всем человеку всегда помогала и тут не отказала.",
-      "____to_text": "Je narrive pas a sortir une seule histoire de ma tete  je lai entendue quand le monde etait vieux. Ensuite, il y avait un combattant americain, un boxeur, je ne me souviens plus quel etait son nom, que ce soit John. Ou Bernie. En general, il est monte du bas et est devenu plusieurs fois un champion, un peu comme un poids moyen. Le gars a eu tout ce dont il revait, puis au sommet de sa carriere, il s'est pendu. Ils l'ont trouve chez lui. Il etait suspendu a un noeud coulant dans son short de combat.\n\nEt la, je suis assis, pensant que l'humanite dans son ensemble a suivi les traces de ce Bernie. Seulement, nous navons pas reussi a nous pendre. Nous avons donc demande a la nature de nous aider. Et elle est heureuse d'essayer, elle a toujours aide une personne en tout et n'a pas refuse.                                                                                                                                                                                                                                                                                                                                                                               "
+      "____to_text": "Je n'ai pas une seule histoire de ma tete, je l'ai entendue meme lorsque le monde etait vieux. Ensuite, le combattant est un Americain, un boxeur, je n'aime pas, je ne me souviens pas de son nom, Let John Be. Ou Bernie. En general, il s'est leve du fond et est devenu champion, un peu comme dans le poids moyen, et plusieurs fois. Le gars a recu tout ce dont il revait, puis au sommet de sa carriere, il a pris et s'est pendu. Il a ete retrouve a la maison. Dans sa culotte dans la boucle pendue. \n \n Et ici je suis assis, je pense que l'humanite en general sur les traces de ce Bernie est allee. Seul nous-memes ne pouvions pas nous pendre. Ici, nous avons la nature et nous a demande d'aider. Et elle est heureuse d'essayer, elle a toujours aide dans toute la personne et n'a pas refuse ici.                                                                                                                                                                                                                                                                                                                                                                               "
     },
     {
       "_________id": 213,
       "_translator": "google",
       "__from_text": "Для установки прицелов \nи насадок на оружие -\nзажмите его в тиски\nна верстаке. \n\nПосле этого поднесите \nнасадку к нужному \nместу и отпустите ее.",
-      "____to_text": "Pour installer des viseurs \net des accessoires sur une arme -\nserrez-la dans un etau\nsur un etabli. \n\nApres cela, amenez la \nbuse a l'emplacement \n souhaite et relachez-la.                                                                                     "
+      "____to_text": "Pour installer des viseurs \n et des buses pour les armes - \n, cliquez dessus dans le vise \n sur l'ouchette. \n \n Apres cela, apportez la buse \n a la place \n souhaitee et relachez-la.                                                                            "
     },
     {
       "_________id": 214,
       "_translator": "google",
       "__from_text": "Сейчас в метро все кому не лень женятся уже через неделю-две после шуры-муры. То ли людям страшно, то ли скорее хочется отметины оставить, чтобы всем заявить, что, мол, \"мое и все тут\". Помню, как в старом мире мало кто торопился с этим делом и все жили в свое удовольствие. К чему нас это привело?\r\n\nБыла у меня тогда девушка, но я ее бросил. Назвал \"лучшей\" и сбежал. Даже не знаю сейчас, что с ней и жива ли вообще? До сих пор в лицах встречных ищу ее.\r\n\nКто знает, может, повезет?",
-      "____to_text": "Desormais, dans le metro, tous ceux qui ne sont pas trop paresseux se marient une semaine ou deux apres le shura-mura. Soit les gens ont peur, soit ils veulent plutot laisser des traces pour dire a tout le monde que, disent-ils, \"cest a moi et cest tout\". Je me souviens que dans l'ancien monde, peu de gens etaient presses par cette affaire et que chacun vivait pour son propre plaisir. Ou cela nous a-t-il mene?\n\nJ'avais alors une petite amie, mais je l'ai quittee. Il l'a appelee \"la meilleure\" et s'est enfui. Je ne sais meme pas maintenant ce qui ne va pas chez elle et si elle est meme en vie? Je le cherche encore sur le visage des gens que je rencontre.\n\nQui sait, peut-etre que j'aurai de la chance?                                                                                                                                              "
+      "____to_text": "Maintenant dans le metro, tous ceux qui ne sont pas paresseux pour se marier dans une semaine ou deux apres Shura-Mura. Soit les gens ont peur, soit plutot je veux quitter les marques pour dire a tous, ils disent: \"Le mien et tout ici.\" Je me souviens comment dans le vieux monde, peu etaient presses avec cette entreprise et tout le monde vivait pour leur plaisir. Qu'est-ce que cela nous a conduit? \n \n J'avais alors une petite amie, mais je l'ai quittee. Il a appele \"le meilleur\" et s'est enfui. Je ne sais meme pas maintenant ce qui est avec elle et est-ce vivant du tout? Jusqu'a present, dans les personnes des personnes venant en sens inverse, je la recherche. \n \n Qui sait, peut-etre qu'il a de la chance?                                                                                                                                        "
     },
     {
       "_________id": 215,
       "_translator": "google",
       "__from_text": "Я столько всего потерял. Жизнь отобрала у меня все, что я любил - жену и дочь, родителей, друзей. Только я терял кого-то и только приходил в себя, как жизнь снова забирала у меня что-то важное.\r\n\nТеперь я слоняюсь по тоннелям как шакал и забираю важные вещи у других. Я нападаю и беру все - патроны, лекарства, еду, а иногда и чужие жизни.\r\n\nПо-другому и быть не может. Я слишком много терял и теперь намерен лишь забирать. Таков порядок вещей в новом мире.",
-      "____to_text": "J'ai tellement perdu. La vie m'a pris tout ce que j'aimais: ma femme et ma fille, mes parents, mes amis. Des que j'ai perdu quelqu'un et que j'ai repris mes esprits, la vie m'a a nouveau enleve quelque chose d'important.\n\nMaintenant, j'erre dans les tunnels comme un chacal et je prends des choses importantes aux autres. J'attaque et je prends tout: les munitions, les medicaments, la nourriture et parfois la vie des autres.\n\nIl ne peut en etre autrement. J'ai trop perdu et maintenant je compte seulement reprendre. C'est l'ordre des choses dans le nouveau monde.                                                                                                                                                                                                                                                   "
+      "____to_text": "J'ai tellement perdu. La vie a pris tout ce que j'ai aime de moi - ma femme et ma fille, mes parents, mes amis. Seulement, j'ai perdu quelqu'un et je ne suis revenu que mes esprits, car la vie a de nouveau pris quelque chose d'important de moi. \n \n Maintenant, je me promene dans les tunnels comme un chacal et je prends des choses importantes des autres. J'attaque et prenne tout - cartouches, medicaments, nourriture et parfois la vie des autres. \n \n Il ne peut y avoir aucun autre moyen. J'ai perdu trop et maintenant j'ai l'intention de le prendre. C'est l'ordre des choses dans le nouveau monde.                                                                                                                                                                                                                 "
     },
     {
       "_________id": 216,
       "_translator": "google",
       "__from_text": "Вот была же жизнь раньше, не то, что сейчас. Москва стояла как монолит, пивнушки уютные на каждом углу, ТЦ людные, Кремль громадой своей возвышался. А пирожки какие были, аж слюнки текут как вспоминаю!\r\n\nА сейчас что? Картошка ватная, хлеб с плесенью, а если повезет - консервы просроченные. И куда не глянь - везде рожи недовольные, слоняются туда-сюда, зыркают.\r\n\nЖаль, что все потеряли. Не сохранили. Ох, как жаль.",
-      "____to_text": "Cest ainsi que la vie etait avant, pas ce quelle est maintenant. Moscou se dressait comme un monolithe, avec des pubs chaleureux a chaque coin de rue, des centres commerciaux bondes, le Kremlin dominait par son immensite. Et quelles tartes il y avait, j'en ai l'eau a la bouche si je m'en souviens!\n\nEt maintenant? Les pommes de terre sont ouatees, le pain est moisi et, si vous avez de la chance, les conserves sont perimees. Et ou que lon regarde, il y a partout des visages insatisfaits, qui errent ici et la, nous regardent fixement.\n\nCest dommage que nous ayons tout perdu. Je ne l'ai pas sauvegarde. Oh, quel dommage.                                                                                                                     "
+      "____to_text": "C'etait la vie plus tot, pas ce qui est maintenant. Moscou se tenait comme un monolithe, la biere est confortable a chaque coin de rue, le centre commercial bonde, le Kremlin dominait avec leur enorme. Et quelles etaient les tartes, la bave circule si je me souviens bien! \n \n Et maintenant quoi? Les pommes de terre sont du coton, du pain avec de la moisissure et si vous avez de la chance, les conserves sont en retard. Et ou ne regardent pas - partout ou les visages sont insatisfaits, ils se promenent d'avant en arriere, reniflent. Non conserve. Oh, quelle dommage.                                                                                                                                                                          "
     },
     {
       "_________id": 217,
       "_translator": "google",
       "__from_text": "Выстрели в голову, \nчтобы начать",
-      "____to_text": "Headshot \npour commencer                                  "
+      "____to_text": "Tire dans la tete \n pour commencer                        "
     },
     {
       "_________id": 218,
       "_translator": "google",
       "__from_text": "Загрузить последний чекпоинт",
-      "____to_text": "Charger le dernier point de controle                  "
+      "____to_text": "Telechargez le dernier point de controle              "
     },
     {
       "_________id": 219,
       "_translator": "google",
       "__from_text": "Чекбокс",
-      "____to_text": "Case a cocher "
+      "____to_text": "Desactive     "
     },
     {
       "_________id": 220,
       "_translator": "google",
       "__from_text": "Потяните затвор, чтобы дослать патрон.",
-      "____to_text": "Tirez sur le boulon pour loger la cartouche.                          "
+      "____to_text": "Tirez l'obturateur pour envoyer la cartouche.                         "
     },
     {
       "_________id": 221,
       "_translator": "google",
       "__from_text": "Для  контроля отдачи удерживайте автомат двумя руками.",
-      "____to_text": "Pour controler le recul, tenez le fusil a deux mains.                                               "
+      "____to_text": "Pour controler le retour, maintenez la machine a deux mains.                                        "
     },
     {
       "_________id": 222,
       "_translator": "google",
       "__from_text": "Отпустите зажигалку и она автоматически вернется на своё место в инвентаре.",
-      "____to_text": "Relachez le briquet et il reprendra automatiquement sa place dans votre inventaire.                                                        "
+      "____to_text": "Liberez le briquet et il reviendra automatiquement a sa place dans l'inventaire.                                                           "
     },
     {
       "_________id": 223,
       "_translator": "google",
       "__from_text": "Чтобы использовать зажигалку нажмите на подсвеченную кнопку.",
-      "____to_text": "Pour utiliser le briquet, appuyez sur le bouton lumineux.                                                        "
+      "____to_text": "Pour utiliser le briquet, appuyez sur le bouton eclaire.                                                         "
     },
     {
       "_________id": 224,
       "_translator": "google",
       "__from_text": "Отпустите пистолет и он автоматически вернется в кобуру.",
-      "____to_text": "Relachez le pistolet et il reviendra automatiquement dans l'etui.                                       "
+      "____to_text": "Lachez le pistolet et il reviendra automatiquement a l'etui.                                            "
     },
     {
       "_________id": 225,
       "_translator": "google",
       "__from_text": "Не обязательно извлекать магазин вручную, можно просто нажать на подсвеченную кнопку \"A\".",
-      "____to_text": "Il n'est pas necessaire de retirer le chargeur manuellement  vous pouvez simplement appuyer sur le bouton \"A\" lumineux.                                           "
+      "____to_text": "Il n'est pas necessaire d'extraire le magasin manuellement, vous pouvez simplement cliquer sur le bouton \"A\" illumine.                                            "
     },
     {
       "_________id": 226,
       "_translator": "google",
       "__from_text": "Потяните затвор вперед, чтобы дослать патрон или просто нажмите на подсвеченную кнопку \"B\".",
-      "____to_text": "Tirez le boulon vers l'avant pour chambrer une cartouche, ou appuyez simplement sur le bouton \"B\" lumineux.                                                          "
+      "____to_text": "Tirez l'obturateur vers l'avant pour envoyer la cartouche ou cliquez simplement sur le bouton eclaire \"B\".                                                           "
     },
     {
       "_________id": 227,
       "_translator": "google",
       "__from_text": "Возьмите автоматный магазин и вставьте в автомат.",
-      "____to_text": "Prenez un chargeur de mitrailleuse et inserez-le dans la mitrailleuse.                     "
+      "____to_text": "Prenez un magasin automatique et inserez dans la machine.                                  "
     },
     {
       "_________id": 228,
       "_translator": "google",
       "__from_text": "Возьмите пистолет из кобуры на правой ноге.",
-      "____to_text": "Sortez le pistolet de l'etui sur votre jambe droite.                           "
+      "____to_text": "Prenez un pistolet de l'etui sur la jambe droite.                              "
     },
     {
       "_________id": 229,
       "_translator": "google",
       "__from_text": "Чтобы извлечь магазин схватите его другой рукой и вытащите.",
-      "____to_text": "Pour retirer le chargeur, saisissez-le avec votre autre main et retirez-le.                                  "
+      "____to_text": "Pour retirer le magasin, saisissez-le de l'autre main et retirez-le.                                         "
     },
     {
       "_________id": 230,
       "_translator": "google",
       "__from_text": "Достаньте зажигалку из правого нагрудного кармана.\n(Чтобы хватать предметы руками, поднесите к ним руку и зажимите подсвеченную кнопку на соответсвующем контроллере.)",
-      "____to_text": "Retirez le briquet de la poche poitrine droite.\n(Pour saisir des objets avec vos mains, deplacez votre main vers eux et maintenez le bouton lumineux de la manette correspondante.)                                                                                                                                "
+      "____to_text": "Retirez le briquet de la poche du sein droite. \n (Pour saisir des objets avec vos mains, apportez-leur votre main et pincez le bouton illumine sur le controleur correspondant.)                                                                                                                                   "
     },
     {
       "_________id": 231,
       "_translator": "google",
       "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.",
-      "____to_text": "Vous etes blesse. Prenez la trousse de premiers secours dans la poche poitrine gauche.                   "
+      "____to_text": "Vous etes blesse. Prenez une trousse du premier piste de la poche du sein gauche.                        "
     },
     {
       "_________id": 232,
@@ -1417,37 +1418,37 @@
       "_________id": 234,
       "_translator": "google",
       "__from_text": "Найти топливо для генератора",
-      "____to_text": "Trouver du carburant pour le generateur              "
+      "____to_text": "Trouvez le carburant pour le generateur              "
     },
     {
       "_________id": 235,
       "_translator": "google",
       "__from_text": "Найти 3 рулона туалетной бумаги",
-      "____to_text": "Trouvez 3 rouleaux de papier toilette                    "
+      "____to_text": "Trouvez 3 rouleaux en papier rouleau                     "
     },
     {
       "_________id": 236,
       "_translator": "google",
       "__from_text": "ТЕКУЩЕЕ ЗАДАНИЕ:",
-      "____to_text": "TACHE ACTUELLE:               "
+      "____to_text": "Tache actuelle:               "
     },
     {
       "_________id": 237,
       "_translator": "google",
       "__from_text": "Найти пропавшего сталкера",
-      "____to_text": "Trouvez le harceleur disparu                    "
+      "____to_text": "Trouvez le harceleur manquant                   "
     },
     {
       "_________id": 238,
       "_translator": "google",
       "__from_text": "Подзадачи:\n\n1) Найти ключ-карту",
-      "____to_text": "Sous-taches:\n\n1) Trouver la carte-cle                 "
+      "____to_text": "Subbalies: \n \n 1) Trouvez la carte cle                "
     },
     {
       "_________id": 239,
       "_translator": "google",
       "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы можно продать.",
-      "____to_text": "Vous avez survecu!\n\nTous les objets trouves lors de ce raid peuvent etre vendus.                                "
+      "____to_text": "Vous avez survecu! \n \n Tous les objets trouves dans ce raid peuvent etre vendus.                                "
     },
     {
       "_________id": 240,
@@ -1459,13 +1460,13 @@
       "_________id": 241,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите выйти в главное меню?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
-      "____to_text": "Etes-vous sur de vouloir quitter le menu principal?\n\nVous perdrez tous les objets trouves et tout l'equipement. Pour sauvegarder votre materiel, retournez a l'abri sur le chariot.                                                                                                                  "
+      "____to_text": "Vous etes sur que vous souhaitez aller au menu principal? \n \n Vous perdrez toutes les choses trouvees et tout l'equipement. Pour economiser l'equipement - retournez au refuge sur le chariot.                                                                                                       "
     },
     {
       "_________id": 242,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nПока загрузка не завершилась, вы не потеряете ничего из экипировки и вернетесь назад в убежище.",
-      "____to_text": "Etes-vous sur de vouloir terminer le raid plus tot?\nTant que le telechargement n'est pas termine, vous ne perdrez aucun de vos equipements et retournerez au refuge.                                                                                                 "
+      "____to_text": "Etes-vous sur que vous souhaitez terminer le raid avant le calendrier? \n jusqu'a la fin du chargement, vous ne perdrez rien de l'equipement et ne reviendrez pas au refuge.                                                                                          "
     },
     {
       "_________id": 243,
@@ -1483,13 +1484,13 @@
       "_________id": 245,
       "_translator": "google",
       "__from_text": "Выжить в первом рейде",
-      "____to_text": "Survivre au premier raid               "
+      "____to_text": "Survivre lors du premier raid          "
     },
     {
       "_________id": 246,
       "_translator": "google",
       "__from_text": "Подзадачи:\n\n\n- Включить генератор",
-      "____to_text": "Sous-taches:\n\n\n - Allumer le generateur                    "
+      "____to_text": "Sous-titre: \n \n \n - Allumez le generateur                  "
     },
     {
       "_________id": 247,
@@ -1501,7 +1502,7 @@
       "_________id": 248,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
-      "____to_text": "Etes-vous sur de vouloir mettre fin au raid plus tot?\n\nVous perdrez tous les objets trouves et tout l'equipement. Pour sauvegarder votre materiel, retournez a l'abri sur le chariot.                                                                                                                       "
+      "____to_text": "Vous etes sur que vous souhaitez terminer le raid avant le calendrier? \n \n Vous perdrez toutes les choses trouvees et tout l'equipement. Pour economiser l'equipement - retournez au refuge sur le chariot.                                                                                                 "
     },
     {
       "_________id": 249,
@@ -1513,7 +1514,7 @@
       "_________id": 250,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите выйти из игры?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
-      "____to_text": "Etes-vous sur de vouloir quitter le jeu?\n\nVous perdrez tous les objets trouves et tout l'equipement. Pour sauvegarder votre materiel, retournez a l'abri sur le chariot.                                                                                                                "
+      "____to_text": "Vous etes sur que vous voulez sortir du jeu? \n \n Vous perdrez toutes les choses trouvees et tout l'equipement. Pour economiser l'equipement - retournez au refuge sur le chariot.                                                                                                       "
     },
     {
       "_________id": 251,
@@ -1525,79 +1526,79 @@
       "_________id": 252,
       "_translator": "google",
       "__from_text": "Найти 6 лампочек",
-      "____to_text": "Trouvez 6 ampoules           "
+      "____to_text": "Trouver 6 ampoules           "
     },
     {
       "_________id": 253,
       "_translator": "google",
       "__from_text": "Убить 5 мутантов",
-      "____to_text": "Tuez 5 mutants               "
+      "____to_text": "Tuer 5 mutants               "
     },
     {
       "_________id": 254,
       "_translator": "google",
       "__from_text": "Возьмите пистолетный магазин и вставьте в пистолет.",
-      "____to_text": "Prenez le chargeur du pistolet et inserez-le dans le pistolet.                                 "
+      "____to_text": "Prenez un magasin de pistolets et inserez-le dans le pistolet.                                 "
     },
     {
       "_________id": 255,
       "_translator": "google",
       "__from_text": "сентября 2041\n\n   Охота за артефактами прошлого - работа для людей не из робкого десятка. Покидая обжитые места, и оставаясь в одиночестве в темноте, за углом можно встретить не только кровожадного мутанта, но и, как поговаривают, что-то намного страшнее.\r\n\nЭто была далеко не первая моя вылазка, но меня все равно",
-      "____to_text": "Septembre 2041\n\n   La chasse aux artefacts du passe est un travail reserve aux personnes qui ne sont pas timides. En quittant vos lieux habitables et en restant seul dans le noir, au coin de la rue, vous pourrez rencontrer non seulement un mutant assoiffe de sang, mais aussi, comme on dit, quelque chose de bien pire.\n\nCe n'etait pas ma premiere incursion, mais moi ca n'a pas d'importance                                                                                                                                                                          "
+      "____to_text": "Septembre 2041 \n \n La chasse aux artefacts du passe - le travail pour les gens n'est pas d'une douzaine timide. Laissant les endroits habites et restant seuls dans l'obscurite, vous pouvez trouver non seulement un mutant sanguinaire au coin de la rue, mais, comme ils disent, quelque chose est bien pire. \n \n C'etait loin de ma premiere sortie, mais je m'en fichais                                                                                                                                                                                                   "
     },
     {
       "_________id": 256,
       "_translator": "google",
       "__from_text": "сентября 2022\n\n    Мир изменился. Когда-то природа щедро дала нам все, и мы этим пользовались, однако, со временем ей надоело терпеть человека. Она забрала свои дары назад, разрушила привычный мир, а нам пришлось прятаться. От старой жизни остались лишь тоннели метро, пыль и артефакты. \r\n\r\n   Сейчас охота за такими артефактами - прибыльная работа, с которой мало кто может справиться. Покидая надоевшие, но обжитые тоннели, оставаясь одни в темноте, сталкеры будто шагают в пустоту. Кто знает, может в этом и заключается наша тяга к смерти, и мы, по своей же воле, идем прямо в ее объятия.",
-      "____to_text": "Septembre 2022\n\n    Le monde a change. Autrefois, la nature nous donnait genereusement tout, et nous en profitions, cependant, avec le temps, elle s'est lassee de tolerer les humains. Elle a repris ses cadeaux, detruit le monde familier et nous avons du nous cacher. Tout ce qui reste de l'ancienne vie, ce sont des tunnels de metro, de la poussiere et des artefacts. \n\n   De nos jours, la chasse a de tels artefacts est un travail lucratif que peu de gens peuvent gerer. Quittant les tunnels ennuyeux mais habites, restant seuls dans le noir, les harceleurs semblent marcher dans le vide. Qui sait, c'est peut-etre notre soif de mort, et nous, de notre plein gre, allons directement dans ses bras.                                                                                                                                                                                                                                                                                                                                                                 "
+      "____to_text": "Septembre 2022 \n \n Le monde a change. Une fois que la nature nous a genereusement donne, et nous l'avons utilise, cependant, au fil du temps, elle etait fatiguee de subir un homme. Elle a repris ses cadeaux, a detruit le monde habituel et nous avons du nous cacher. Seuls les tunnels de metro, la poussiere et les artefacts sont restes de l'ancienne vie. \n \n La chasse a ces artefacts est desormais un travail rentable que peu peuvent gerer. Laissant les tunnels ennuyeux mais habites, restant seuls dans l'obscurite, les harceleurs semblent entrer dans le vide. Qui sait, peut-etre que c'est notre envie de mort, et nous, par notre propre volonte, allons directement dans ses bras.                                                                                                                                                                                                                                                                                                                                                                                 "
     },
     {
       "_________id": 257,
       "_translator": "google",
       "__from_text": "Это не первая моя вылазка, но меня все равно не покидает чувство тревоги. Заказчики - мутные ребята, и явно что-то недоговаривают. Если бы мне сейчас срочно не нужны были деньги, я бы точно не стал влезать в подобную авантюру.",
-      "____to_text": "Ce n'est pas ma premiere sortie, mais j'ai toujours un sentiment d'anxiete. Les clients sont des types louches et ils ne disent clairement rien. Si je navais pas un besoin urgent dargent en ce moment, je ne me lancerais certainement pas dans une telle aventure.                                                                                                                                                 "
+      "____to_text": "Ce n'est pas ma premiere sortie, mais un sentiment d'anxiete ne me quitte toujours pas. Les clients sont des gars boueux, et evidemment ils disent quelque chose. Si je n'avais pas besoin d'argent, je ne mettrais certainement pas dans une aventure similaire.                                                                                                                                                     "
     },
     {
       "_________id": 258,
       "_translator": "google",
       "__from_text": "В настоящее время, из-за технических проблем, у игры отсутсвует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".",
-      "____to_text": "Actuellement, en raison de problemes techniques, le jeu ne dispose pas de support officiel pour Valve Index.\n\nPour jouer avec les commandes normales (mouvement du stick, etc.), vous devrez modifier la disposition des manettes. Pour ce faire:\n\n1. Ouvrez la superposition SteamVR.\n2. Selectionnez \"Parametres du controleur\".\n3. Basculez \"Disposition du controleur actif\" sur \"Personnalise\".\n4. Cliquez sur le bouton \"Selectionner un autre\" qui apparait.\n5. Selectionnez la mise en page \"Oculus Emulation\" dans les \"Mises en page communautaires\".                                                                                                                                                                                                                                                                                                                            "
+      "____to_text": "Currently, due to technical problems, the game does not have official support Valve Index. \n \n Pour jouer au controle normal (se deplacant a l'aide de batons, etc.), vous devez modifier la disposition des controleurs. Pour ceci: \n \n 1. Open SteamVr superposition. \n 2. Selectionnez \"Parametres du controleur\". \n 3. Communiquez la \"mise en page active du controleur\" a \"l'utilisateur\". \n 4. Cliquez sur le bouton \"Selectionnez un autre\". \n 5. Selectionnez la disposition de l'emulation d'Oculus dans les \"Lays de la communaute\".                                                                                                                                                                                                                                                                                                                                            "
     },
     {
       "_________id": 259,
       "_translator": "google",
       "__from_text": "не покидало чувство тревоги. \n\nЗаказчики были мутными ребятами, и явно что-то не договаривали, но мне очень были нужны деньги, и другого выбора у меня не оставалось...",
-      "____to_text": "le sentiment d'anxiete n'a pas disparu. \n\nLes clients etaient des types louches, et visiblement ils n'ont rien dit, mais j'avais vraiment besoin d'argent, et je n'avais pas d'autre choix...                                                                                                              "
+      "____to_text": "Le sentiment d'anxiete n'est pas parti. \n \n Les clients etaient des gars boueux, et evidemment ils n'etaient pas d'accord quelque chose, mais j'avais vraiment besoin d'argent, et je n'avais pas d'autre choix...                                                                                         "
     },
     {
       "_________id": 260,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите обнулить сохранение?",
-      "____to_text": "Etes-vous sur de vouloir reinitialiser votre sauvegarde?                       "
+      "____to_text": "Etes-vous sur de vouloir reinitialiser l'epargne?                              "
     },
     {
       "_________id": 261,
       "_translator": "google",
       "__from_text": "Заказчик: Видел вон того, которого подбросило? На мою тёщу похож, земля ей пухом. Сейчас, поди, чертями в аду командует, старая ведьма.",
-      "____to_text": "Client: Avez-vous vu celui qui a ete projete? Il ressemble a ma belle-mere, repose en paix. Maintenant, devinez quoi, la vieille sorciere est responsable des demons en enfer.                                                                   "
+      "____to_text": "Client: J'ai vu celui qui a ete lance? Cela ressemble a ma mere-dans la-law, la terre est peluche par elle. Maintenant, allez, il commande les demons en enfer, la vieille sorciere.                                                             "
     },
     {
       "_________id": 262,
       "_translator": "google",
       "__from_text": "Вы: Все в порядке. \nОдин мутант попался, и тот еле живой.",
-      "____to_text": "Vous: C'est bon. \nUn mutant a ete capture et il etait a peine en vie.                              "
+      "____to_text": "Vous: Tout est en ordre. \n Un mutant s'est fait prendre et il est a peine vivant.                  "
     },
     {
       "_________id": 263,
       "_translator": "google",
       "__from_text": "Заказчик: Да пёс его знает, давно ж всё было, лет двадцать как.",
-      "____to_text": "Client: Oui, le chien le connait, c'etait il y a longtemps, il y a une vingtaine d'annees.                     "
+      "____to_text": "Client: Oui, un chien le connait, pendant longtemps, tout etait, environ vingt ans.                            "
     },
     {
       "_________id": 264,
       "_translator": "google",
       "__from_text": "Заказчик: Погнали! Ты давай хватай автомат, будем отбиваться.",
-      "____to_text": "Client: C'est parti! Prenons la mitrailleuse et nous riposterons.                                              "
+      "____to_text": "Client: conduit! Vous prenez la mitrailleuse, nous allons riposter.                                            "
     },
     {
       "_________id": 265,
@@ -1609,67 +1610,67 @@
       "_________id": 266,
       "_translator": "google",
       "__from_text": "Заказчик: Рога им навертишь, найдёшь что надо, потом свалишь. Дельце плёвое. \nВсё, не гадим эфир. Отбой.",
-      "____to_text": "Client: Vous allez les baiser, vous trouverez ce dont vous avez besoin, puis vous les jeterez. C'est une affaire de merde. \nC'est tout, ne detruisez pas la diffusion. Extinction des f~"
+      "____to_text": "Client: Vous trouverez certainement les cornes, vous trouverez ce dont vous avez besoin, puis vous viderez. Delce est fil. \n Tout, nous ne devinez pas l'ether. Charne.                 "
     },
     {
       "_________id": 267,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Красная цена! Два автомата… по цене двух! (смеётся в голос)",
-      "____to_text": "Oncle Seryozha: Prix rouge! Deux machines... pour le prix de deux! (rires a haute voix)                                          "
+      "____to_text": "Oncle Seryozha: prix rouge! Deux mitrailleuses... au prix de deux! (rires d'une voix)                                            "
     },
     {
       "_________id": 268,
       "_translator": "google",
       "__from_text": "Заказчик: Ну вот, а я что говорил? Зон-то нет поблизости. А уроды эти гнездятся дальше по тоннелю. Вот это, кстати, хреновая деталька.",
-      "____to_text": "Client: Eh bien, qu'est-ce que j'ai dit? Il n'y a aucune zone a proximite. Et ces monstres nichent plus loin le long du tunnel. Cest dailleurs un petit detail merdique.                                                                      "
+      "____to_text": "Client: Eh bien, qu'est-ce que j'ai dit? Il n'y a pas de zone a proximite. Et ces monstres nichent le long du tunnel. Soit dit en passant, c'est une partie merdique.                                                                         "
     },
     {
       "_________id": 269,
       "_translator": "google",
       "__from_text": "Начать с контрольной точки",
-      "____to_text": "Partir d'un point de controle                    "
+      "____to_text": "Commencez a partir du point de controle          "
     },
     {
       "_________id": 270,
       "_translator": "google",
       "__from_text": "Вы: Нужно найти ключ-карту.",
-      "____to_text": "Vous: Nous devons trouver la carte-cle.         "
+      "____to_text": "Vous: Vous devez trouver la carte-cle.          "
     },
     {
       "_________id": 271,
       "_translator": "google",
       "__from_text": "Я хочу быть как ты! Ты ведь мастер?",
-      "____to_text": "Je veux etre comme toi! Vous etes un maitre, n'est-ce pas?   "
+      "____to_text": "Je veux etre comme toi! Etes-vous un maitre?                 "
     },
     {
       "_________id": 272,
       "_translator": "google",
       "__from_text": "Сейчас покажу. Дай-ка вон тот пустой цинк.",
-      "____to_text": "Je vais vous montrer maintenant. Donnez-moi ce zinc vide.                  "
+      "____to_text": "Je vais te montrer maintenant. Donnez-lui ce zinc vide.                    "
     },
     {
       "_________id": 273,
       "_translator": "google",
       "__from_text": "Помню, как впервые столкнулся с новым \"лесом\". Мне было лет двадцать или чуть больше. Мы с Настей возвращались из кинотеатра и увидели, что прямо в центре города, раскурочивая асфальт и здания, вырос лес. Огромные кроны его вековых деревьев устремлялись вверх, фиолетовые цветы застилали взор, а птицы пели неземную музыку.\r\n\nНастя вошла внутрь, чтобы посмотреть. Я пытался ее остановить, но ей было слишком любопытно.\r\n\nС тех пор я ее больше не видел. Из леса вышло уже то, во что он ее превратил.",
-      "____to_text": "Je me souviens de la premiere fois que j'ai rencontre une nouvelle \"foret\". J'avais vingt ans ou un peu plus. Nastya et moi revenions du cinema et avons vu qu'une foret s'etait developpee en plein centre de la ville, arrachant l'asphalte et les batiments. Les immenses couronnes de ses arbres centenaires se precipitaient vers le haut, les fleurs violettes obscurcissaient la vue et les oiseaux chantaient une musique surnaturelle.\n\nNastya entra pour regarder. J'ai essaye de l'arreter, mais elle etait trop curieuse.\n\nJe ne l'ai pas revue depuis. Ce qui sortait de la foret etait ce en quoi il l'avait transformee.                                                                                                                                                                                                                                                                                      "
+      "____to_text": "Je me souviens comment j'ai rencontre une nouvelle \"foret\" pour la premiere fois. J'avais vingt ou un peu plus. Nastya et moi sommes revenus du cinema et avons vu cela en plein centre de la ville, dispersant l'asphalte et les batiments, la foret a grandi. Les enormes couronnes de ses siecles, les arbres se precipitent, des fleurs violettes se couvraient les yeux, et les oiseaux chantaient de la musique sur terre. \n \n Nastya est entre a l'interieur pour regarder. J'ai essaye de l'arreter, mais elle etait trop curieuse. \n \n Depuis lors, je ne l'ai plus vue. De la foret est sorti en ce qu'il a transforme en.                                                                                                                                                                                                                                                                                         "
     },
     {
       "_________id": 274,
       "_translator": "google",
       "__from_text": "Генераторная",
-      "____to_text": "Salle du generateur     "
+      "____to_text": "Generateur              "
     },
     {
       "_________id": 275,
       "_translator": "google",
       "__from_text": "Ну, мне до мастера далеко, но пару занятных штук я сделать могу. \nДумаю, со временем ты меня превзойдёшь.",
-      "____to_text": "Eh bien, je suis loin d'etre un maitre, mais je peux faire quelques choses interessantes. \nJe pense qu'avec le temps tu me surpasseras.                                                    "
+      "____to_text": "Eh bien, je suis loin du maitre, mais je peux faire quelques choses interessantes. \n Je pense que vous me depasserez avec le temps.                                                        "
     },
     {
       "_________id": 276,
       "_translator": "google",
       "__from_text": "По ночам я слышу тихий шепот \nна непонятном языке.\nВозможно, я уже просто понемногу схожу с ума в этой чёртовой лаборатории!",
-      "____to_text": "La nuit, j'entends des murmures discrets \ndans un langage incomprehensible.\nPeut-etre que je deviens juste un peu fou dans ce foutu laboratoire!                                                                                "
+      "____to_text": "La nuit, j'entends un murmure silencieux \n dans une langue incomprehensible. \n peut-etre que je perds un peu la tete dans ce putain de laboratoire!                                                                             "
     },
     {
       "_________id": 277,
@@ -1681,163 +1682,163 @@
       "_________id": 278,
       "_translator": "google",
       "__from_text": "Заказчик: Ничего такого, короче. Ты же должен понимать такие мутки, \nчай жмуриков видывал.",
-      "____to_text": "Client: Rien de tel, en somme. Vous devez comprendre de tels problemes, \nvous avez vu le the chamois de l'aveugle.                                                "
+      "____to_text": "Client: Rien, en bref. Vous devez comprendre de tels muts, \n vous avez vu le the du Zhmurikov.                                                                    "
     },
     {
       "_________id": 279,
       "_translator": "google",
       "__from_text": "Пап, они тяжело идут. У меня плохо получается...",
-      "____to_text": "Papa, ils marchent fort. Je suis mauvais dans ce domaine...                         "
+      "____to_text": "Papa, ils vont dur. Je me sens mal...                                               "
     },
     {
       "_________id": 280,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите выйти в главное меню?\nВесь несохраненный прогресс будет утерян.",
-      "____to_text": "Etes-vous sur de vouloir quitter le menu principal?\nToute progression non enregistree sera perdue.                                                           "
+      "____to_text": "Etes-vous sur que vous souhaitez aller au menu principal? \n Tous les progres deguises seront perdus.                                                         "
     },
     {
       "_________id": 281,
       "_translator": "google",
       "__from_text": "Вы: Так, я внутри. Как меня слышно? \nЖду инструкций.",
-      "____to_text": "Vous: D'accord, je suis a l'interieur. Comment peux-tu m'entendre? \nEn attente d'instruct~"
+      "____to_text": "Vous: Donc, je suis a l'interieur. Comment puis-je m'entendre? \n J'attends des instructio~"
     },
     {
       "_________id": 282,
       "_translator": "google",
       "__from_text": "Смотри, я вот сюда поставлю затворный механизм, а ты чуть-чуть затяни тиски. Не спеши.",
-      "____to_text": "Ecoutez, je vais mettre le mecanisme a boulon ici, et vous serrez un peu l'etau. Prenez votre temps.                                                      "
+      "____to_text": "Ecoutez, je vais mettre un mecanisme de bulles ici, et vous vous resserrez un peu le vice. Ne vous precipitez pas.                                        "
     },
     {
       "_________id": 283,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была...",
-      "____to_text": "Oncle Seryozha: Si vous avez vu une enorme goule sur la route, c'etait probablement ma femme...                                                                   "
+      "____to_text": "Oncle Seryozha: Si je voyais une enorme goule le long de la route, alors c'etait probablement ma femme etait...                                                   "
     },
     {
       "_________id": 284,
       "_translator": "google",
       "__from_text": "По-прежнему не могу выявить природу изменений, с помощью которых растительность из так называемых \"зон\" изменяет привычные и известные науке формы жизни.",
-      "____to_text": "Je ne parviens toujours pas a identifier la nature des changements par lesquels la vegetation des soi-disant \"zones\" modifie les formes de vie familieres et connues de la science.                                                                                                      "
+      "____to_text": "Je ne peux toujours pas identifier la nature des changements par lesquels la vegetation des soi-disant \"zones\" change les formes de vie familieres et connues.                                                                                                                           "
     },
     {
       "_________id": 285,
       "_translator": "google",
       "__from_text": "Заказчик: Бырее! Залезай, залезай!",
-      "____to_text": "Client: Vite! Entrez, entrez!                                "
+      "____to_text": "Client: Je serais plus! Montez, grimpez!                     "
     },
     {
       "_________id": 286,
       "_translator": "google",
       "__from_text": "Заказчик: Так это… тута они, конечно. \nМы же не кидалы какие.",
-      "____to_text": "Client: Voila donc... les voici, bien sur. \nNous ne sommes pas des escrocs.                                 "
+      "____to_text": "Client: Donc ceci... Tuta, bien sur. \n Nous ne sommes pas ce qui ne score pas.                              "
     },
     {
       "_________id": 287,
       "_translator": "google",
       "__from_text": "Заказчик: Фартово, что так быстро добрался. Слухай сюда, твоя часть дела - найти защищённый контейнер.",
-      "____to_text": "Client: Cest une chance detre arrive si vite. Ecoutez ici, votre part du travail consiste a trouver un conteneur securise.                                                              "
+      "____to_text": "Client: Fartovo, qui est devenu si rapide. Montez ici, votre partie du probleme est de trouver un conteneur protege.                                                                    "
     },
     {
       "_________id": 288,
       "_translator": "google",
       "__from_text": "А какие штуки знаешь?",
-      "____to_text": "Quel genre de choses savez-vous?      "
+      "____to_text": "Savez-vous quelles pieces?            "
     },
     {
       "_________id": 289,
       "_translator": "google",
       "__from_text": "Не включай без нужды!\nЭкономь топливо!",
-      "____to_text": "Ne l'allumez que si cela est necessaire!\nEconomisez du carburant!    "
+      "____to_text": "Ne vous allumez pas sans besoin! \n Economisez du carburant!          "
     },
     {
       "_________id": 290,
       "_translator": "google",
       "__from_text": "Заказчик: Вроде бы болезнь у них там какая-то началась, Дрянь что-ли попала в систему фильтрации воды и померли все.",
-      "____to_text": "Client: On dirait qu'une sorte de maladie a commence la-bas, des dechets sont entres dans le systeme de filtration de l'eau et tout le monde est mort.                                                           "
+      "____to_text": "Client: Il semble que leur maladie souffre d'une sorte de maladie, des dechets quelque chose est entre dans le systeme de filtration de l'eau et que tous sont morts.                                            "
     },
     {
       "_________id": 291,
       "_translator": "google",
       "__from_text": "Заказчик: Я же говорил, что затащишь! Мы, это... уже на месте, ждём тебя. Головняк был?",
-      "____to_text": "Client: Je vous ai dit que vous m'entraineriez vers le bas! Nous... sommes deja la, a vous attendre. Etait-ce un mal de tete?                         "
+      "____to_text": "Client: J'ai dit que vous le faites glisser! Nous, ce... deja en place, vous attend. Y avait-il une tete?                                             "
     },
     {
       "_________id": 292,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. А ты — молодец. Всегда возвращаешься!",
-      "____to_text": "Oncle Seryozha: J'avais un bon ami, mais il est monte a l'etage et n'est jamais revenu. Et tu es genial. Tu reviens toujours!                                                                       "
+      "____to_text": "Oncle Seryozha: J'avais un bon ami, je suis monte a l'etage et je ne suis pas revenu. Et vous etes bien fait. Vous revoyez toujours!                                                                "
     },
     {
       "_________id": 293,
       "_translator": "google",
       "__from_text": "Заказчик: Не ссы. По идее в самом комплексе их нет, \"зоны\" сюда ещё не проросли. Может одного или двух встретишь, но ты ж не маленький.",
-      "____to_text": "Client: Ne pisse pas. En theorie, il ny en a pas dans le complexe lui-meme  les \"zones\" nont pas encore germe ici. Peut-etre que vous en rencontrerez un ou deux, mais vous n'etes pas petit.                                                 "
+      "____to_text": "Client: Pas affaisser. En theorie, ils ne sont pas dans le complexe lui-meme, les \"zones\" n'ont pas encore ete germees ici. Vous pouvez en rencontrer un ou deux, mais vous n'etes pas petit.                                                 "
     },
     {
       "_________id": 294,
       "_translator": "google",
       "__from_text": "Заказчик: Ну вот и здесь пара сухих туловищ. Мелочёвка же. Отбой.",
-      "____to_text": "Client: Eh bien, voici quelques corps secs. C'est une petite chose. Extinction des feux.                            "
+      "____to_text": "Client: Eh bien, voici une paire de torse sec. Les petites choses sont les memes. Charne.                           "
     },
     {
       "_________id": 295,
       "_translator": "google",
       "__from_text": "Доктор исследовательской лаборатории \nМихаил Лотов, запись номер 22-14. \nПродолжаю наблюдение за образцом почвы с поверхности, того, что из четвёртого квадрата.",
-      "____to_text": "Docteur du laboratoire de recherche \nMikhail Lotov, numero d'entree 22-14. \nJe continue d'observer l'echantillon de sol de la surface, celui du quatrieme carre.                                                                                                                                 "
+      "____to_text": "Docteur du laboratoire de recherche \n Mikhail Lotov, numero record 22-14. \n Je continue a surveiller l'echantillon du sol de la surface, celui du quatrieme carre.                                                                                                                               "
     },
     {
       "_________id": 296,
       "_translator": "google",
       "__from_text": "Заказчик: Ну чего загораешь? Гони!",
-      "____to_text": "Client: Pourquoi tu prends un bain de soleil? Conduire!      "
+      "____to_text": "Client: Eh bien, qu'est-ce que tu bronzons? Conduire!        "
     },
     {
       "_________id": 297,
       "_translator": "google",
       "__from_text": "Вы: А что тут случилось? Кругом трупы гражданских, а на нижних уровнях воздух заражён. Не похоже на \"плёвое дельце\".",
-      "____to_text": "Vous: Que s'est-il passe ici? Il y a des cadavres de civils tout autour et aux niveaux inferieurs lair est contamine. Cela ne ressemble pas a une \"petite affaire folle\".                                      "
+      "____to_text": "Vous: Que s'est-il passe ici? Autour des cadavres du civil, et a des niveaux inferieurs, l'air est infecte. Pas comme une \"entreprise de flotte\".                                                              "
     },
     {
       "_________id": 298,
       "_translator": "google",
       "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\n  Найдено хабара на:                  руб.",
-      "____to_text": "Vous avez survecu!\n\nTous les objets trouves lors de ce raid seront vendus a l'acheteur.\n\n\n\n\n\n  Swag trouve sur:                  frotter.                                                          "
+      "____to_text": "Vous avez survecu! \n \n Tous les objets trouves dans ce raid seront vendus a l'acheteur. \n \n \n \n \n a trouve un Habara pour: frotter.                                                                "
     },
     {
       "_________id": 299,
       "_translator": "google",
       "__from_text": "Заказчик: Вот черти душные! Прут и прут, вообще не продохнуть!",
-      "____to_text": "Client: Putain de merde! Tige et tige, tu ne peux pas respirer du tout!                                        "
+      "____to_text": "Client: Voici la douche Devils! Rod et tige, ne respirez pas du tout!                                          "
     },
     {
       "_________id": 300,
       "_translator": "google",
       "__from_text": "Вы: Заперто с другой стороны.",
-      "____to_text": "Vous: Enferme de lautre cote.                       "
+      "____to_text": "Vous: Verrouille de l'autre cote.                   "
     },
     {
       "_________id": 301,
       "_translator": "google",
       "__from_text": "Вы: Какого хрена?!",
-      "____to_text": "Toi: C'est quoi ce bordel?!    "
+      "____to_text": "Vous: Qu'est-ce que diable?!   "
     },
     {
       "_________id": 302,
       "_translator": "google",
       "__from_text": "Заказчик: Тут баррикада есть, но она долго не выдержит. И, смотри, не проеби контейнер, иначе всё зря будет!!",
-      "____to_text": "Client: Il y a une barricade ici, mais elle ne tiendra pas longtemps. Et attention, ne mangez pas le recipient, sinon tout sera vain!!                                                           "
+      "____to_text": "Client: Il y a une barricade ici, mais il ne le tiendra pas longtemps. Et, regardez, ne dure pas un conteneur, sinon tout sera vain!!                                                            "
     },
     {
       "_________id": 303,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: (пропевает с диким акцентом) Ай ком алаааайввв... Эх, хорошая была песня...",
-      "____to_text": "Oncle Seryozha: (chante avec un accent sauvage) Ay kom alaaaayvv... Eh, c'etait une bonne chanson...                                                      "
+      "____to_text": "Oncle Seryozha: (chante avec un accent sauvage) Ah -Alaaaavvv... hein, la chanson etait bonne...                                                          "
     },
     {
       "_________id": 304,
       "_translator": "google",
       "__from_text": "Заказчик: Вот молодчик, от души! Всё нашёл и не очканул. Не зря тебя нахваливали, ровный пацан.",
-      "____to_text": "Client: Bravo, du fond du coeur! J'ai tout trouve et je ne l'ai pas manque. Pas etonnant qu'ils t'aient felicite, gentil garcon.                                         "
+      "____to_text": "Client: Voici un homme, du coeur! J'ai tout trouve et je n'ai pas assiege. Pas etonnant que vous ayez ete loue, meme gamin.                                              "
     },
     {
       "_________id": 305,
@@ -1849,7 +1850,7 @@
       "_________id": 306,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите выйти из игры?\nВесь несохраненный прогресс будет утерян.",
-      "____to_text": "Etes-vous sur de vouloir quitter le jeu?\nToute progression non enregistree sera perdue.                                                         "
+      "____to_text": "Etes-vous sur de vouloir quitter le jeu? \n Tous les progres deguises seront perdus.                                                             "
     },
     {
       "_________id": 307,
@@ -1861,193 +1862,193 @@
       "_________id": 308,
       "_translator": "google",
       "__from_text": "Заказчик: Ладно, дальше по тоннелю будет мост, похоже придётся решать проблему конкретным и действенным дедовским методом.",
-      "____to_text": "Client: D'accord, plus loin dans le tunnel, il y aura un pont, il semble que nous devrons resoudre le probleme en utilisant une methode ancienne specifique et efficace.                                                         "
+      "____to_text": "Client: D'accord, plus loin le long du tunnel, il y aura un pont, il semble etre resolu par le probleme avec une methode de grand-pere specifique et efficace.                                                                   "
     },
     {
       "_________id": 309,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите начать с\nпоследней контрольной точки?",
-      "____to_text": "Etes-vous sur de vouloir repartir du\ndernier point de controle?                                               "
+      "____to_text": "Etes-vous sur de commencer par \n le dernier point de controle?                                                "
     },
     {
       "_________id": 310,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Живой? Вот молодец! Я уж переживать начал, давно тебя не было.",
-      "____to_text": "Oncle Seryozha: Vivant? Bien joue! Je commencais a m'inquieter, tu es parti depuis longtemps.                                        "
+      "____to_text": "Oncle Seryozha: vivant? Bien joue! J'ai vraiment commence a m'inquieter, vous ne l'avez pas ete depuis longtemps.                    "
     },
     {
       "_________id": 311,
       "_translator": "google",
       "__from_text": "Вы: Контейнер у меня. Приём.",
-      "____to_text": "Vous: j'ai le conteneur. Accueillir.             "
+      "____to_text": "Vous: j'ai un conteneur. Reception.              "
     },
     {
       "_________id": 312,
       "_translator": "google",
       "__from_text": "Заказчик: Ладно, это всё лирика, люблю пошутить, когда есть маза. Ты там живой? Не зацепили? Мы вроде оторвались.",
-      "____to_text": "Client: D'accord, ce ne sont que des paroles, j'aime plaisanter quand il y a une blague. Es-tu en vie la-bas? Pas accro? Nous nous sommes en quelque sorte separes.                                      "
+      "____to_text": "Client: D'accord, ce sont toutes les paroles, j'aime plaisanter quand il y a un miz. Etes-vous vivant la-bas? Avez-vous accro? Nous semblions se detacher.                                               "
     },
     {
       "_________id": 313,
       "_translator": "google",
       "__from_text": "Последняя контрольная точка",
-      "____to_text": "Dernier point de controle                           "
+      "____to_text": "Le dernier point de controle                        "
     },
     {
       "_________id": 314,
       "_translator": "google",
       "__from_text": "Вы: Нет топлива.",
-      "____to_text": "Vous: Pas de carburant.     "
+      "____to_text": "Vous: Il n'y a pas de carbu~"
     },
     {
       "_________id": 315,
       "_translator": "google",
       "__from_text": "Заказчик: Мать твою, ты где там застрял?! Харэ сиси жмурить! \nПроисходит пиздец - твари нас учуяли!",
-      "____to_text": "Client: Ou diable es-tu coince?! Lievre Sissi plisse les yeux! \nPutain, ca se passe - les creatures nous ont sentis!                                                           "
+      "____to_text": "Customer: Your mother, where are you stuck there?! Hare Sissi Shake! \n baise - Les creatures nous ont souri!                                                                   "
     },
     {
       "_________id": 316,
       "_translator": "google",
       "__from_text": "Не переживай, руки наловчатся и ты на раз-два будешь такие штуки делать. А если освоишь конкретно - станешь мастером. Будешь сталкерам оружие улучшать и ремонтировать.",
-      "____to_text": "Ne vous inquietez pas, vos mains samelioreront et vous pourrez faire de telles choses une ou deux fois. Et si vous le maitrisez specifiquement, vous deviendrez un maitre. Vous ameliorerez et reparerez les armes des harceleurs.                                                                              "
+      "____to_text": "Ne vous inquietez pas, vos mains se tiendront et vous ferez de telles choses pour une ou deux. Et si vous maitrisez specifiquement, vous deviendrez un maitre. Vous ameliorerez et reparerez les armes aux harceleurs.                                                                                          "
     },
     {
       "_________id": 317,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: О! Вернулся? А я тут как раз про тебя вспоминал.",
-      "____to_text": "Oncle Serioja: Oh! Dos? Et je pensais justement a toi.                                                     "
+      "____to_text": "Oncle Seryozha: Oh! Retourne? Et je viens de vous souvenir de vous de vous.                                "
     },
     {
       "_________id": 318,
       "_translator": "google",
       "__from_text": "Водитель: Да не заводиться эта херня! Старая же, как бабкин фарфор! Есть!",
-      "____to_text": "Chauffeur: Ne demarre pas cette merde! Aussi vieille que la porcelaine de grand-mere! Manger!                                     "
+      "____to_text": "Conducteur: Oui, ces ordures ne commencent pas! Vieux, comme la porcelaine Babkin! Manger!                                        "
     },
     {
       "_________id": 319,
       "_translator": "google",
       "__from_text": "Вы: Хорошо. Что тут по мутантам?",
-      "____to_text": "Vous: Daccord. Et les mutants?                          "
+      "____to_text": "Vous: Bien. Et les mutants?                             "
     },
     {
       "_________id": 320,
       "_translator": "google",
       "__from_text": "Вы: Я свою часть сделки выполнил, \nгде мои деньги?",
-      "____to_text": "Vous: J'ai rempli ma part du marche, \nou est mon argent?                                "
+      "____to_text": "Vous: J'ai accompli ma partie de la transaction, \n ou est mon argent?                   "
     },
     {
       "_________id": 321,
       "_translator": "google",
       "__from_text": "Люблю работать руками. Приводит мысли в порядок. Ковыряюсь тут подолгу, перебираю, чищу. Есть в этом деле что-то такое, понимаешь, магическое, что ли. \nЕдва понятное. Я тебе покажу, сынок.",
-      "____to_text": "J'adore travailler avec mes mains. Met les pensees en ordre. Cela fait longtemps que je fouine ici, a trier, a nettoyer. Il y a quelque chose dans cette affaire, vous savez, de magique ou quelque chose comme ca. \nA peine comprehensible. Je vais te montrer, mon fils.                                                                     "
+      "____to_text": "J'aime travailler avec mes mains. Met les pensees dans l'ordre. Je prends ici pendant longtemps, je trie, je nettoie. Il y a quelque chose comme ca dans cette affaire, vous savez, magique ou quelque chose. \n a peine comprehensible. Je vais te montrer, mon fils.                                                                          "
     },
     {
       "_________id": 322,
       "_translator": "google",
       "__from_text": "Либо это бессмыслица, либо божественное вмешательство, но мне кажется, что почва не только меняет и смешивает структуру молекул любой органики, но и... разговаривает со мной.",
-      "____to_text": "Soit c'est un non-sens, soit une intervention divine, mais il me semble que le sol non seulement change et melange la structure des molecules de toute matiere organique, mais aussi... me parle.                                                                                                                           "
+      "____to_text": "Soit c'est un non-sens, soit une intervention divine, mais il me semble que le sol change non seulement et melange la structure des molecules de toute matiere organique, mais aussi... parle a moi.                                                                                                                        "
     },
     {
       "_________id": 323,
       "_translator": "google",
       "__from_text": "Заказчик: Извиняй, братела. Эта штука таких дел наделает, что мама не горюй, и лишние свидетели нам не нужны.",
-      "____to_text": "Client: Desole, mon frere. Cette chose fera de telles choses que maman, ne t'inquiete pas, et nous n'avons pas besoin de temoins supplementaires.                                                  "
+      "____to_text": "Client: Excusez-moi, fraternel. Cette chose fera de tels cas que maman ne pleure pas, et nous n'avons pas besoin de temoins supplementaires.                                                       "
     },
     {
       "_________id": 324,
       "_translator": "google",
       "__from_text": "Вы: Нет электричества.",
-      "____to_text": "Vous: Pas d'electricite.                "
+      "____to_text": "Vous: pas d'electricite.                "
     },
     {
       "_________id": 325,
       "_translator": "google",
       "__from_text": "Заказчик: Сзади в ящике есть патроны, постарайся поточнее палить. \nЯ тут откинуться не хочу!",
-      "____to_text": "Client: Il y a des cartouches dans la boite a l'arriere, essayez de tirer avec plus de precision. \nJe ne veux pas rester les bras croises!                            "
+      "____to_text": "Client: Il y a des cartouches a l'arriere dans la boite, essayez de s'estomper plus precisement. \n Je ne veux pas me pencher ici!                                     "
     },
     {
       "_________id": 326,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо. Чё притащил?",
-      "____to_text": "Oncle Seryozha: Quel temps fait-il la-bas? Ensoleille? Bien. Qu'as-tu apporte?                                    "
+      "____to_text": "Oncle Seryozha: Eh bien, comment fait-il? Ensoleille? Bien. Qu'est-ce qui a traine?                               "
     },
     {
       "_________id": 327,
       "_translator": "google",
       "__from_text": "Вы: Всё нормально.",
-      "____to_text": "Vous: C'est bon.                "
+      "____to_text": "Vous: Tout va bien.             "
     },
     {
       "_________id": 328,
       "_translator": "google",
       "__from_text": "Вы уверены, что хотите начать с последней контрольной точки?",
-      "____to_text": "Etes-vous sur de vouloir repartir du dernier point de controle?                                               "
+      "____to_text": "Etes-vous sur de vouloir commencer par le dernier point de controle?                                          "
     },
     {
       "_________id": 329,
       "_translator": "google",
       "__from_text": "Заказчик: Ну раз нормально, надо про дела говорить. Давай сюда контейнер.",
-      "____to_text": "Client: Eh bien, puisque cest normal, il faut quon parle affaires. Donnez-moi le conteneur ici.                                     "
+      "____to_text": "Client: Eh bien, si c'est normal, nous devons parler des choses. Venez ici un conteneur.                                            "
     },
     {
       "_________id": 330,
       "_translator": "google",
       "__from_text": "Заказчик: Мы как раз тебя в конце тоннеля и ждём. Ты, давай, шевели булками, надо свалить поскорее, а то и нам что нибудь накрутят-навертят.",
-      "____to_text": "Client: Nous vous attendons juste au bout du tunnel. Allez, bouge tes chignons, il faut qu'on parte d'ici au plus vite, sinon ils vont nous tromper de quelque chose.                                                                                    "
+      "____to_text": "Client: Nous sommes juste au bout du tunnel et attendez. Vous, allez, vous avez demenage avec des rouleaux, vous devez le jeter des que possible, ou meme nous blesser quelque chose.                                                                    "
     },
     {
       "_________id": 331,
       "_translator": "google",
       "__from_text": "Заказчик: Штука очень ценная, потому на видном месте валяться не будет. Придется прошерстить все шконки.",
-      "____to_text": "Client: L'article a une grande valeur, il ne trainera donc pas dans un endroit visible. Vous devrez parcourir toutes les couchettes.                                                          "
+      "____to_text": "Client: La chose est tres precieuse, car dans un endroit de premier plan, il ne mentra pas. Nous devrons passer tous les shcons.                                                              "
     },
     {
       "_________id": 332,
       "_translator": "google",
       "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\" Или это не он был?",
-      "____to_text": "Oncle Serioja: Comme l'a dit Omar Khayyam: \"Entrez, puisque vous etes revenu! Ou n'etait-ce pas lui?                                    "
+      "____to_text": "Oncle Seryozha: Comme Omar Hayam l'a dit: \"Entrez, s'il revenait!\" Ou n'etait-ce pas lui?                                               "
     },
     {
       "_________id": 333,
       "_translator": "google",
       "__from_text": "СЕКТОР",
-      "____to_text": "SECTEUR     "
+      "____to_text": "Secteur     "
     },
     {
       "_________id": 334,
       "_translator": "google",
       "__from_text": "Когда-то мир загнал нас в импровизированную тюрьму, которую мы сами себе и построили. С тех пор прошло уже много лет, но мы все еще здесь и лишь вспоминаем прежнюю жизнь. Многие из моих знакомых подавлены этим, но, лично я, смотрю на эту тюрьму как на спасение и откровение. \n\nМы должны тут быть, ведь природа \n(будь то животные, птицы, растения) развилась и эволюционировала, стала чем-то новым, а мы остались пережитком прошлого и тупиковой ветвью, как динозавры когда-то. \n\nЛично я вижу в этом красоту и порядок.\r\n\nЭто грустно, но я не перестаю улыбаться.",
-      "____to_text": "Il etait une fois le monde nous poussait dans une prison improvisee que nous nous etions construite. De nombreuses annees se sont ecoulees depuis, mais nous sommes toujours la et nous ne nous souvenons que de notre ancienne vie. Beaucoup de mes amis sont deprimes par cela, mais personnellement, je considere cette prison comme un salut et une revelation. \n\nNous devons etre ici, car la nature \n (qu'il s'agisse d'animaux, d'oiseaux, de plantes) s'est developpee et a evolue, est devenue quelque chose de nouveau, et nous restons une relique du passe et une impasse branche, comme des dinosaures quand -Ca. \n\nPersonnellement, j'y vois de la beaute et de l'ordre.\n\nC'est triste, mais je ne peux pas m'empecher de sourire.                                                                                                                                                                                                                                                                                    "
+      "____to_text": "Une fois que le monde nous a conduits dans une prison impromptue, que nous avons nous-memes construite. De nombreuses annees se sont ecoulees depuis lors, mais nous sommes toujours la et nous rappelons que la vie precedente. Beaucoup de mes amis sont supprimes par cela, mais, personnellement, je considere cette prison comme le salut et la revelation. \n \n Nous devons etre ici, car la nature \n (si les animaux, les oiseaux, les plantes) se sont developpes et ont evolue, sont devenus quelque chose de nouveau, et nous sommes restes une relique du passe et de l'impasse, comme les dinosaures une fois. \n \n Personnellement, je vois dans cette beaute et cette commande. \n \n C'est triste, mais je n'arrete pas de sourire.                                                                                                                                                                                                                                                                                      "
     },
     {
       "_________id": 335,
       "_translator": "google",
       "__from_text": "Реплика4",
-      "____to_text": "Replique 4     "
+      "____to_text": "Replique4      "
     },
     {
       "_________id": 336,
       "_translator": "google",
       "__from_text": "Реплика1",
-      "____to_text": "Replique 1     "
+      "____to_text": "Replique1      "
     },
     {
       "_________id": 337,
       "_translator": "google",
       "__from_text": "КОНТРОЛЬНАЯ\nТОЧКА",
-      "____to_text": "POINT DE CONTROLE\nPOINT          "
+      "____to_text": "Controle \n point                 "
     },
     {
       "_________id": 338,
       "_translator": "google",
       "__from_text": "Реплика2",
-      "____to_text": "Replique 2     "
+      "____to_text": "Replique2      "
     },
     {
       "_________id": 339,
       "_translator": "google",
       "__from_text": "На прикури!",
-      "____to_text": "En feu!             "
+      "____to_text": "Sur les shakes!     "
     },
     {
       "_________id": 340,
@@ -2059,193 +2060,193 @@
       "_________id": 341,
       "_translator": "google",
       "__from_text": "Ах тыж, ёклмн... Тревога!",
-      "____to_text": "Ah serre, yoklmn... Alarme!               "
+      "____to_text": "Ah Tyzh, yokmn... anxiete!                "
     },
     {
       "_________id": 342,
       "_translator": "google",
       "__from_text": "Папаша, прикурить не найдётся?",
-      "____to_text": "Papa, peux-tu trouver de la lumiere?                   "
+      "____to_text": "Papa, il n'y a pas de cigarette?                       "
     },
     {
       "_________id": 343,
       "_translator": "google",
       "__from_text": "Фух, пронесло!",
-      "____to_text": "Ouf, c'est parti!        "
+      "____to_text": "Fuh, porte!              "
     },
     {
       "_________id": 344,
       "_translator": "google",
       "__from_text": "Противник!",
-      "____to_text": "Adversaire!        "
+      "____to_text": "Oppose!            "
     },
     {
       "_________id": 345,
       "_translator": "google",
       "__from_text": "Возьмите шприц другой рукой и сделайте укол в тело.",
-      "____to_text": "Prenez la seringue avec votre autre main et injectez-la dans le corps.                       "
+      "____to_text": "Prenez la seringue avec l'autre main et faites une injection dans le corps.                  "
     },
     {
       "_________id": 346,
       "_translator": "google",
       "__from_text": "Текущая задача:\n\nПродержись\nкак можно\nдольше",
-      "____to_text": "Tache en cours:\n\nTenez bon\nle plus longtemps possible\n                           "
+      "____to_text": "Tache actuelle: \n \n stick \n comme vous pouvez \n plus longtemps                   "
     },
     {
       "_________id": 347,
       "_translator": "google",
       "__from_text": "Противогаз висит\nна поясе с правой\nстороны.\nвозьмите его",
-      "____to_text": "Le masque a gaz pend\na la ceinture du cote\ndroit.\nprenez-le                                            "
+      "____to_text": "Le masque a gaz est suspendu \n sur la ceinture avec la droite \n wrapps. \n prenez-le                    "
     },
     {
       "_________id": 348,
       "_translator": "google",
       "__from_text": "В рюкзак можно \nкласть предметы,\nне снимая его\n\nВозьмите магазин\nс пояса",
-      "____to_text": "Vous pouvez \nmettre des objets dans le sac a dos sans \nle retirer\n\nPrendre le magazine\nde votre ceinture                          "
+      "____to_text": "Dans un sac a dos, vous pouvez \n mettre des objets, \n sans le retirer \n \n prendre le magasin \n de la ceinture                     "
     },
     {
       "_________id": 349,
       "_translator": "google",
       "__from_text": "Поместите пистолет \nназад в кобуру",
-      "____to_text": "Remettez le pistolet \ndans l'etui                              "
+      "____to_text": "Placez le pistolet \n dans l'etui                               "
     },
     {
       "_________id": 350,
       "_translator": "google",
       "__from_text": "Зеленый диод на часах \nзагорается, когда\nвы находитесь в\nзараженной зоне.\n\nПоднесите противогаз \nк лицу и отпустите, \nчтобы надеть его",
-      "____to_text": "La LED verte de la montre \ns'allume lorsque\nvous etes dans une\nzone infectee.\n\nApportez le masque a gaz \na votre visage et relachez  Si /pour le mettre sur son                                                                                   "
+      "____to_text": "La diode verte sur l'horloge \n s'allume lorsque \n vous etes dans la zone infectee \n. \n \n Apportez le masque a gaz \n a votre visage et relachez-le, \n pour le mettre pour le mettre                                                                "
     },
     {
       "_________id": 351,
       "_translator": "google",
       "__from_text": "Оставшееся время\nактивного фильтра \nтакже отображается \nна ваших часах.\n\nА синий диод - \nэто датчик \nосвещенности",
-      "____to_text": "Le temps restant\ndu filtre actif \nest egalement affiche \nsur votre montre.\n\nEt la diode bleue est \nle \ncapteur de lumiere                                                                                   "
+      "____to_text": "Le temps restant de \n Le filtre actif \n s'affiche egalement \n sur votre montre. \n \n et la diode bleue - \n C'est l'e illumination du capteur \n                                                               "
     },
     {
       "_________id": 352,
       "_translator": "google",
       "__from_text": "Нажмите на КУРОК,\nчтобы перехватить\n нож",
-      "____to_text": "Tirez sur la GACHETTE\npour saisir le\n couteau                            "
+      "____to_text": "Cliquez sur la gachette, \n pour intercepter \n couteau                    "
     },
     {
       "_________id": 353,
       "_translator": "google",
       "__from_text": "Ваше основное \nоружие хранится \nза правым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
-      "____to_text": "Votre \narme principale est rangee \nderriere votre epaule droite \n(actuellement manquante)\n\nvous pouvez voir le\nschema complet dans le menu                                                          "
+      "____to_text": "Votre arme principale \n est stockee \n derriere l'epaule droite \n (maintenant absent) \n \n Vous pouvez voir le schema complet \n dans le menu                                                          "
     },
     {
       "_________id": 354,
       "_translator": "google",
       "__from_text": "Нажмите на КУРОК,\nчтобы поставить\nрюкзак",
-      "____to_text": "Tirez sur la GACHETTE\npour placer le\nsac a dos                            "
+      "____to_text": "Cliquez sur le declencheur, \n pour mettre \n sac a dos                     "
     },
     {
       "_________id": 355,
       "_translator": "google",
       "__from_text": "Занесите его над\nправым плечом\nи отпустите",
-      "____to_text": "Amenez-le par-dessus\nl'epaule droite\net relachez-le                           "
+      "____to_text": "Apportez-le \n avec votre epaule droite \n et liberez                           "
     },
     {
       "_________id": 356,
       "_translator": "google",
       "__from_text": "Замените старый \nфильтр на новый.\n\nСнимите и выкиньте\nстарый,\nподнесите новый\nи отпустите.",
-      "____to_text": "Remplacez l'ancien \nfiltre par un nouveau.\n\nRetirez et jetez\nl'ancien,\nemportez le nouveau\net relachez.                                                            "
+      "____to_text": "Remplacez l'ancien filtre \n par un nouveau. \n \n Supprimer et jeter \n Old, \n apportez un nouveau \n et liberez.                                                      "
     },
     {
       "_________id": 357,
       "_translator": "google",
       "__from_text": "Снимите рюкзак\nс правого плеча",
-      "____to_text": "Retirez le sac a dos\nde votre epaule droite             "
+      "____to_text": "Retirez le sac a dos \n de l'epaule droite               "
     },
     {
       "_________id": 358,
       "_translator": "google",
       "__from_text": "Занесите его над\nлевым плечом\nи отпустите",
-      "____to_text": "Passez-le par-dessus votre\nepaule gauche\net relachez-le                     "
+      "____to_text": "Apportez-le \n avec l'epaule gauche \n et liberez                             "
     },
     {
       "_________id": 359,
       "_translator": "google",
       "__from_text": "Зеленый индикатор \nпогас - значит \nвы больше не в \nзараженной зоне.\n\nСхватите противогаз\nсбоку (возле уха), \nчтобы снять, \nа затем верните его\nобратно на пояс",
-      "____to_text": "Le voyant vert \ns'eteint - cela signifie \nvous n'etes plus dans la \nzone infectee.\n\nPrenez le masque a gaz\nsur le cote (a proximite votre oreille) \npour l'enlever, \npuis la remettre\na la ceinture                                                                                     "
+      "____to_text": "Indicateur vert \n Signes - signifie \n vous n'etes plus dans la zone infectee \n. \n \n Saisissez le masque a gaz \n sur le cote (pres de l'oreille), \n pour retirer, \n puis renvoyez-le \n a la courroie a la courroie                                                                       "
     },
     {
       "_________id": 360,
       "_translator": "google",
       "__from_text": "Отпустите Нож\nи он автоматически\nвернется на место",
-      "____to_text": "Relachez le couteau\net il reviendra automatiquement\na sa place                               "
+      "____to_text": "Laissez le couteau \n et il sera automatiquement \n retourner a l'endroit                      "
     },
     {
       "_________id": 361,
       "_translator": "google",
       "__from_text": "Отпустите зажигалку\nи она автоматически\nвернется на место",
-      "____to_text": "Relachez le briquet\net il reviendra automatiquement\na sa place                                             "
+      "____to_text": "Liberez le briquet \n et il sera automatiquement \n reviendra a l'endroit                                    "
     },
     {
       "_________id": 362,
       "_translator": "google",
       "__from_text": "Если вы далеко\nотойдете от рюкзака, \nон автоматически\nвернется за спину\n\nИли можете просто \nснова схватить его",
-      "____to_text": "Si vous vous eloignez\ndu sac a dos, \nil reviendra automatiquement\ndans votre dos\n\nOu vous pouvez simplement \nle saisir a nouveau                                                                        "
+      "____to_text": "Si vous etes loin de \n, eloignez-vous du sac a dos, \n, il sera automatique                                                                                                                              "
     },
     {
       "_________id": 363,
       "_translator": "google",
       "__from_text": "В настоящий момент \nValve Index \nне поддерживается. \nПожалуйста \nпереключите \nраскладку через",
-      "____to_text": "\nValve Index \nn'est actuellement pas pris en charge. \nVeuillez \nchanger \nla mise en page via                                                                    "
+      "____to_text": "Pour le moment, l'index de soupape \n \n n'est pas pris en charge. \n s'il vous plait \n commutateur \n la mise en page via                                          "
     },
     {
       "_________id": 364,
       "_translator": "google",
       "__from_text": "Отпустите рюкзак\nи он автоматически\nвернется на место",
-      "____to_text": "Relachez le sac a dos\net il reviendra automatiquement\na sa place                                   "
+      "____to_text": "Liberez le sac a dos \n et il sera automatiquement \n reviendra a l'endroit                          "
     },
     {
       "_________id": 365,
       "_translator": "google",
       "__from_text": "Достаньте нож\nиз левого \nнагрудного кармана",
-      "____to_text": "Retirez le couteau\nde la \npoche poitrine gauche                                 "
+      "____to_text": "Retirez le couteau \n de la poche de poitrine gauche \n                           "
     },
     {
       "_________id": 366,
       "_translator": "google",
       "__from_text": "Противогаз висит\nна поясе с левой\nстороны.\nвозьмите его",
-      "____to_text": "Le masque a gaz est accroche\na la ceinture du cote\ngauche.\nprenez-le                                 "
+      "____to_text": "Le masque a gaz est suspendu \n sur la ceinture avec la gauche \n wrapps. \n prenez-le                  "
     },
     {
       "_________id": 367,
       "_translator": "google",
       "__from_text": "Возьмите пистолет\nиз кобуры на\nлевом бедре",
-      "____to_text": "Sortez le pistolet\nde l'etui sur votre\ncuisse gauche                          "
+      "____to_text": "Prenez un pistolet \n a partir d'un etui sur \n hanche                          "
     },
     {
       "_________id": 368,
       "_translator": "google",
       "__from_text": "Достаньте зажигалку\nиз правого \nнагрудного кармана",
-      "____to_text": "Prenez le briquet\nde la \npoche poitrine droite                                                "
+      "____to_text": "Retirez le plus leger \n de la poche de poitrine a droite \n                                    "
     },
     {
       "_________id": 369,
       "_translator": "google",
       "__from_text": "Снимите рюкзак\nс левого плеча",
-      "____to_text": "Retirez le sac a dos\nde votre epaule gauche           "
+      "____to_text": "Retirez le sac a dos \n de l'epaule gauche             "
     },
     {
       "_________id": 370,
       "_translator": "google",
       "__from_text": "Ваше основное \nоружие хранится \nза левым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
-      "____to_text": "Votre \narme principale est rangee \nderriere votre epaule gauche \n(actuellement manquante)\n\nvous pouvez voir le\nschema complet dans le menu                                                        "
+      "____to_text": "Votre arme principale \n est stockee \n derriere l'epaule gauche \n (maintenant absent) \n \n voir le schema complet \n dans le menu                                                                    "
     },
     {
       "_________id": 371,
       "_translator": "google",
       "__from_text": "Достаньте пистолет\nиз кобуры на\nправом бедре",
-      "____to_text": "Retirez le pistolet\nde l'etui sur votre\ncuisse droite                             "
+      "____to_text": "Retirez le pistolet \n de l'etui a \n la cuisse droite                              "
     },
     {
       "_________id": 372,
       "_translator": "google",
       "__from_text": "Нажмите на КУРОК,\nчтобы зажечь \nзажигалку",
-      "____to_text": "Appuyez sur la gachette\npour allumer le \nbriquet                           "
+      "____to_text": "Cliquez sur la gachette, \n pour eclairer \n plus leger                      "
     }
   ],
   "next_id": 373

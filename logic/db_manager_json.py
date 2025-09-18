@@ -20,6 +20,10 @@ class DBManagerJSON:
         self.next_id = 0  # Counter for unique IDs
         self.fix_list = []  # Fix list to be used
 
+        # Initialize database states for notiifications in 'state' JSON key.
+        self.notif_db_state__in_progress = 'IN PROGRESS'
+        self.notif_db_state__done = 'DONE'
+
 
     def initialize_database(self, database_fixed_dir: str, translators_preferred: list, lang_source: str, lang_target: str, lang_source_name: str, lang_target_name: str):
         """
@@ -51,13 +55,18 @@ class DBManagerJSON:
         mode = "r+" if os.path.exists(self.database_fullpath) else "w+"
         self.file_descriptor = open(self.database_fullpath, mode, encoding="utf-8")
 
+        # Initialise ID counter
+        self.next_id = 0
+
         # Load or create the database
         try:
             self.database = json.load(self.file_descriptor)
             self.next_id = self.database.get("next_id", 0)  # Get last ID used
             self.fix_list = self.database.get("fix_list", [])  # Get fix list to be used
+            self.database['state'] = self.notif_db_state__in_progress  # Indicates that database processing is in progress
         except json.JSONDecodeError as e:
             self.database = {
+                "state": self.notif_db_state__in_progress,  # Indicates that database processing is in progress
                 "source": {"code": lang_source, "name": lang_source_name},
                 "target": {"code": lang_target, "name": lang_target_name},
                 "fix_list": [],  # Initialise fix list
@@ -158,15 +167,32 @@ class DBManagerJSON:
         return entry.get("____to_text"), entry.get("_translator")
 
 
-    def close(self):
+    def flush(self):
         """
-        Close the JSON database after saving changes.
+        Write the current JSON database to disk
+        without closing the file or clearing the in-memory database.
         """
+        # ⚠️ This method do not close the file or the database (see self.close method)
         if self.database and self.file_descriptor:
             # Rewind the file descriptor to overwrite the content
             self.file_descriptor.seek(0)
             json.dump(self.database, self.file_descriptor, ensure_ascii=False, indent=2)
             self.file_descriptor.truncate()  # Ensure no residual data remains
+
+
+    def close(self):
+        """
+        Close the JSON database after saving current JSON database and state to disk.
+        """
+        # Indicates that database processing is complete
+        if self.database:
+            self.database['state'] = self.notif_db_state__done
+
+        # Write the current JSON database and state to disk
+        self.flush()
+
+        # Close database and file
+        if self.database and self.file_descriptor:
             self.file_descriptor.close()
             self.file_descriptor = None
             self.database = None

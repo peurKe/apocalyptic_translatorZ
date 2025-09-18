@@ -46,6 +46,7 @@ class Params :
                 "glossary_empty": { "no_glossary": "no_glossary" },
                 "glossary": {}
             },
+            "translation_missing_string": "(!)",
             "exclude_full_sentences": []
         }
     }
@@ -166,6 +167,7 @@ class Params :
                         }
                     }
                 },
+                "translation_missing_string": "(!)",
                 "exclude_full_sentences": [
                     'НАЗВАНИЕ', 'НАЗВАНИЕ 1', 'НАЗВАНИЕ 2', 'НАЗВАНИЕ 3', 'НАЗВАНИЕ 4', 'НАЗВАНИЕ 5',
                     'НАЗВАНИЕ 6', 'НАЗВАНИЕ 7', 'НАЗВАНИЕ 8', 'НАЗВАНИЕ 9', 'НАЗВАНИЕ 10'
@@ -277,7 +279,24 @@ class Params :
                 "type": "json",  # json|sqlite
                 "db_file": "ZONAORIGIN.json",  # .json|.sqlite
             },
-            "translator": default_games.get('translator'),
+            "translator": {
+                "google": {},
+                "deepl": {
+                    "model_type": "prefer_quality_optimized",
+                    "formality": "prefer_less",
+                    "split_sentences": "nonewlines",
+                    "preserve_formatting": True,
+                    "context": "Постапокалиптическая игра в жанре survival horror (похожая на STALKER), " + \
+                               "действие которой происходит в загадочной и пугающей зоне отчуждения Чернобыля, " + \
+                               "где игроки отправляются в экспедицию, должны избегать опасных аномалий и отправляться на поиски мощных артефактов. ",
+                    "glossary_lang_source": [],
+                    "glossary_lang_target": [],
+                    "glossary_empty": { "no_glossary": "no_glossary" },
+                    "glossary": {}
+                },
+                "translation_missing_string": "(!)",
+                "exclude_full_sentences": []
+            },
             # Allow to locate all sentences containing LATIN specific terms
             "include_words": [
                 "Z.O.N.A ORIGIN",

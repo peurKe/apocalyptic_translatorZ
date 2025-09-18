@@ -1,0 +1,20 @@
+{
+  "source": {
+    "code": "ru",
+    "name": "RUSSIAN"
+  },
+  "target": {
+    "code": "zh",
+    "name": "CHINESE_SIMPLIFIED"
+  },
+  "fix_list": [],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "deepl",
+      "__from_text": "Правая",
+      "____to_text": "右边      "
+    }
+  ],
+  "next_id": 1
+}

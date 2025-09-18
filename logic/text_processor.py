@@ -119,27 +119,34 @@ class TextProcessor:
             
         # Less frequent cases (translated text is longer than original text)
         elif N < 0:
-            justified = False
-            self.logs.log(f" len_text_bytes={len_text_bytes}|N={N}|text_bytes={text_bytes}|justified?={justified}", c='NOTIF')
+            # The N last characters are only whitespaces
+            if self.translated_text[N:].isspace():
+                # Get only original text binary length first characters
+                text_bytes = text_bytes[0:self.original_text_binary_len]
+                self.logs.log(f" len_text_bytes={len_text_bytes}|N={N}|text_bytes={text_bytes}|only_whitespaces_at_end?=True", c='NOTIF')    
+            # The N last characters are not only whitespaces
+            else:
+                justified = False
+                self.logs.log(f" len_text_bytes={len_text_bytes}|N={N}|text_bytes={text_bytes}|justified?={justified}", c='NOTIF')
 
-            # Last chance is crop bytes using truncate_utf8 method
-            # text_bytes = text_bytes[:self.original_text_binary_len]
-            text_bytes = self.truncate_utf8(text_bytes)
+                # Last chance is crop bytes using truncate_utf8 method
+                # text_bytes = text_bytes[:self.original_text_binary_len]
+                text_bytes = self.truncate_utf8(text_bytes)
 
-            # Get new bytes length for cropped text
-            text_bytes_crop = text_bytes.decode('utf-8', errors='ignore')
-            text_bytes_crop = text_bytes_crop.encode('utf-8')
+                # Get new bytes length for cropped text
+                text_bytes_crop = text_bytes.decode('utf-8', errors='ignore')
+                text_bytes_crop = text_bytes_crop.encode('utf-8')
 
-            # Get crop length result
-            len_text_bytes = len(text_bytes_crop)
+                # Get crop length result
+                len_text_bytes = len(text_bytes_crop)
 
-            # Re-Calculate the number of bytes \x20 to add to reach the target size
-            N = self.original_text_binary_len - len_text_bytes
-            if N > 0:
-                justified = True
-                # Left justify
-                text_bytes = text_bytes + b'\x20' * N  # Fill with whitepaces b'\x20' (' ') character to indicate truncation
-            self.logs.log(f" len_text_bytes={len_text_bytes}|N={N}|text_bytes={text_bytes}|justified?={justified}", c='NOTIF')
+                # Re-Calculate the number of bytes \x20 to add to reach the target size
+                N = self.original_text_binary_len - len_text_bytes
+                if N > 0:
+                    justified = True
+                    # Left justify
+                    text_bytes = text_bytes + b'\x20' * N  # Fill with whitepaces b'\x20' (' ') character to indicate truncation
+                self.logs.log(f" len_text_bytes={len_text_bytes}|N={N}|text_bytes={text_bytes}|justified?={justified}", c='NOTIF')
 
         # # BEGIN TEST PURPOSE ONLY
         # DEBUG CONVRGENCE_Data\level1;0x53d2e4;ONLINE;254;254;143;252
@@ -166,7 +173,8 @@ class TextProcessor:
             '« ': '"', ' »': '"', '«': '"', '»': '"',               # Google Translator double-quotes
             '“ ': '"', ' ”': '"', '“': '"', '”': '"',               # DeepL Translator double-quotes
             ' ,': ',', ' .': '.', ' !': '!', ' ?': '?', ' :': ':',  # Google and DeepL Translator ponctuations
-            'œ': 'oe',                                              # Google and DeepL Translator ligature
+            'м': 'M', 'Ø': 'o', 'ø': 'o', 'ß': 'ss', 'а': 'a', 'А': 'A', 'і': 'i', 'І': 'I', 'ł': 'I', 'Ł': 'L',     # Google and DeepL Translator non latin letters ('а' et 'і' are cyrillic characters)
+            'Æ':'AE', 'œ': 'oe','æ': 'ae'                                     # Google and DeepL Translator ligatures
         }        
         for original, new in to_replace.items():
             self.translated_text = self.translated_text.replace(original, new)

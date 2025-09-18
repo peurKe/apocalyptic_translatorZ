@@ -1,0 +1,23 @@
+{
+  "source": {
+    "code": "ru",
+    "name": "RUSSIAN"
+  },
+  "target": {
+    "code": "fr",
+    "name": "FRENCH"
+  },
+  "fix_list": [
+    "_____peurKe"
+  ],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "google",
+      "__from_text": "Правая",
+      "____to_text": "Droite      ",
+      "_____peurKe": "Droit       "
+    }
+  ],
+  "next_id": 1
+}

@@ -1,4 +1,5 @@
 {
+  "state": "DONE",
   "source": {
     "code": "auto",
     "name": "AUTO"
@@ -66,14 +67,14 @@
       "_translator": "google",
       "__from_text": "вкл",
       "____to_text": "sur   ",
-      "_____peurKe": "on    "
+      "_____peurKe": "Oui   "
     },
     {
       "_________id": 9,
       "_translator": "deepl",
       "__from_text": "вкл",
       "____to_text": "sur   ",
-      "_____peurKe": "on    "
+      "_____peurKe": "Oui   "
     },
     {
       "_________id": 10,
@@ -120,14 +121,14 @@
       "_translator": "google",
       "__from_text": "выкл",
       "____to_text": "desacti~",
-      "_____peurKe": "off     "
+      "_____peurKe": "Non     "
     },
     {
       "_________id": 17,
       "_translator": "deepl",
       "__from_text": "выкл",
       "____to_text": "hors    ",
-      "_____peurKe": "off     "
+      "_____peurKe": "Non     "
     },
     {
       "_________id": 18,
@@ -572,13 +573,15 @@
       "_________id": 86,
       "_translator": "google",
       "__from_text": "Удержание",
-      "____to_text": "Prise             "
+      "____to_text": "Prise             ",
+      "_____peurKe": "Tenir             "
     },
     {
       "_________id": 87,
       "_translator": "deepl",
       "__from_text": "Удержание",
-      "____to_text": "Retention         "
+      "____to_text": "Retention         ",
+      "_____peurKe": "Tenir             "
     },
     {
       "_________id": 88,
@@ -743,14 +746,14 @@
       "_translator": "google",
       "__from_text": "Резкое",
       "____to_text": "Pointu      ",
-      "_____peurKe": "Resume"
+      "_____peurKe": "Instant     "
     },
     {
       "_________id": 113,
       "_translator": "deepl",
       "__from_text": "Резкое",
       "____to_text": "Abrupt      ",
-      "_____peurKe": "Resume"
+      "_____peurKe": "Instant     "
     },
     {
       "_________id": 114,
@@ -781,14 +784,14 @@
       "_translator": "google",
       "__from_text": "Мгновен.",
       "____to_text": "Instantane.    ",
-      "_____peurKe": "Instantane"
+      "_____peurKe": "Angulaire"
     },
     {
       "_________id": 119,
       "_translator": "deepl",
       "__from_text": "Мгновен.",
       "____to_text": "Instantane.    ",
-      "_____peurKe": "Instantane"
+      "_____peurKe": "Angulaire"
     },
     {
       "_________id": 120,
@@ -1003,7 +1006,7 @@
       "_________id": 153,
       "_translator": "deepl",
       "__from_text": "К. Стечкина",
-      "____to_text": "К. Stechkina       "
+      "____to_text": "K. Stechkina       "
     },
     {
       "_________id": 154,
@@ -1456,27 +1459,28 @@
       "_________id": 222,
       "_translator": "google",
       "__from_text": "Пожалуйста заполните                    и присоединяйтесь к                    , чтобы оставить отзыв.\nДобавьте игру                                 , чтобы не пропустить её релиз и сыграть в:",
-      "____to_text": "Veuillez remplir                       et rejoignez-                     pour laisser un avis.\nAjoutez le jeu                              pour ne pas manquer sa sortie et jouer:                                                                                                                 "
+      "____to_text": "Veuillez remplir                       et rejoignez-                     pour laisser un avis.\nAjoutez le jeu                              pour ne pas manquer sa sortie et jouer:                                                                                                                 ",
+      "_____peurKe": "Veuillez remplir                        et rejoignez-nous                      , pour laisser un avis.\nAjoutez le jeu                                , pour ne pas rater sa sortie et y jouer:"
     },
     {
       "_________id": 223,
       "_translator": "deepl",
       "__from_text": "Пожалуйста заполните                    и присоединяйтесь к                    , чтобы оставить отзыв.\nДобавьте игру                                 , чтобы не пропустить её релиз и сыграть в:",
-      "____to_text": "Veuillez remplir                                                                 pour laisser un avis.\nAjouter le jeu                                         pour ne pas rater sa sortie et y jouer:                                                                                              "
+      "____to_text": "Veuillez remplir                                                                 pour laisser un avis.\nAjouter le jeu                                         pour ne pas rater sa sortie et y jouer:                                                                                              ",
+      "_____peurKe": "Veuillez remplir                        et rejoignez-nous                      , pour laisser un avis.\nAjoutez le jeu                                , pour ne pas rater sa sortie et y jouer:"
     },
     {
       "_________id": 224,
       "_translator": "google",
       "__from_text": "Визуальные подсказки",
       "____to_text": "Indices visuels                        ",
-      "_____peurKe": "Indices visuels                        "
+      "_____peurKe": "Reperes visuels                        "
     },
     {
       "_________id": 225,
       "_translator": "deepl",
       "__from_text": "Визуальные подсказки",
-      "____to_text": "Reperes visuels                        ",
-      "_____peurKe": "Indices visuels                        "
+      "____to_text": "Reperes visuels                        "
     },
     {
       "_________id": 226,
@@ -1646,7 +1650,7 @@
       "_________id": 251,
       "_translator": "deepl",
       "__from_text": "К. Сайги-12",
-      "____to_text": "К. Saiga-12     "
+      "____to_text": "K. Saiga-12     "
     },
     {
       "_________id": 252,
@@ -1744,14 +1748,14 @@
       "_translator": "google",
       "__from_text": "Подвеска в маш.",
       "____to_text": "Suspension en voiture      ",
-      "_____peurKe": "Suspension retrov."
+      "_____peurKe": "Grigri vehicule"
     },
     {
       "_________id": 267,
       "_translator": "deepl",
       "__from_text": "Подвеска в маш.",
       "____to_text": "Suspension dans la puree.  ",
-      "_____peurKe": "Suspension retrov."
+      "_____peurKe": "Grigri vehicule"
     },
     {
       "_________id": 268,
@@ -2030,14 +2034,14 @@
       "_translator": "google",
       "__from_text": "Цвет буханки",
       "____to_text": "Couleur du pain        ",
-      "_____peurKe": "Couleur du pain        "
+      "_____peurKe": "Couleur vehicule       "
     },
     {
       "_________id": 313,
       "_translator": "deepl",
       "__from_text": "Цвет буханки",
       "____to_text": "La couleur du pain     ",
-      "_____peurKe": "Couleur du pain        "
+      "_____peurKe": "Couleur vehicule       "
     },
     {
       "_________id": 314,
@@ -2785,7 +2789,7 @@
       "_________id": 433,
       "_translator": "deepl",
       "__from_text": "О! Вернулся? \nА я тут как раз про тебя вспоминал.",
-      "____to_text": "О! Tu es de retour? \nJe pensais justement a toi.                                    ",
+      "____to_text": "O! Tu es de retour? \nJe pensais justement a toi.                                    ",
       "_____peurKe": "Оh! Deja de retour?\nJe pensais justement a toi."
     },
     {
@@ -3330,14 +3334,14 @@
       "_translator": "google",
       "__from_text": "ЗВУК ВКЛ",
       "____to_text": "SON ACTIVE     ",
-      "_____peurKe": "SON On         "
+      "_____peurKe": "SON On"
     },
     {
       "_________id": 519,
       "_translator": "deepl",
       "__from_text": "ЗВУК ВКЛ",
       "____to_text": "SON ALLUME     ",
-      "_____peurKe": "SON On         "
+      "_____peurKe": "SON On"
     },
     {
       "_________id": 520,
@@ -5231,14 +5235,14 @@
       "_translator": "google",
       "__from_text": "Подвеска            Шапка                                 Нож",
       "____to_text": "Pendentif           Chapeau                                    Couteau       ",
-      "_____peurKe": "Suspension          Chapeau                               Couteau"
+      "_____peurKe": "Grigri              Chapeau                               Couteau"
     },
     {
       "_________id": 817,
       "_translator": "deepl",
       "__from_text": "Подвеска            Шапка                                 Нож",
       "____to_text": "Pendentif                                                                 Co~",
-      "_____peurKe": "Suspension          Chapeau                               Couteau"
+      "_____peurKe": "Grigri              Chapeau                               Couteau"
     },
     {
       "_________id": 818,
@@ -6547,13 +6551,15 @@
       "_________id": 1022,
       "_translator": "google",
       "__from_text": "Подвеска",
-      "____to_text": "Suspension      "
+      "____to_text": "Suspension      ",
+      "_____peurKe": "Grigri          "
     },
     {
       "_________id": 1023,
       "_translator": "deepl",
       "__from_text": "Подвеска",
-      "____to_text": "Suspense        "
+      "____to_text": "Suspense        ",
+      "_____peurKe": "Grigri          "
     },
     {
       "_________id": 1024,
@@ -12044,13 +12050,15 @@
       "_________id": 1898,
       "_translator": "google",
       "__from_text": "Палец",
-      "____to_text": "Doigt     "
+      "____to_text": "Doigt     ",
+      "_____peurKe": "Pointer   "
     },
     {
       "_________id": 1899,
       "_translator": "deepl",
       "__from_text": "Палец",
-      "____to_text": "Pouce     "
+      "____to_text": "Pouce     ",
+      "_____peurKe": "Pointer   "
     },
     {
       "_________id": 1900,
@@ -12152,13 +12160,15 @@
       "_________id": 1916,
       "_translator": "google",
       "__from_text": "Ладонь",
-      "____to_text": "Palmier     "
+      "____to_text": "Palmier     ",
+      "_____peurKe": "Paume"
     },
     {
       "_________id": 1917,
       "_translator": "deepl",
       "__from_text": "Ладонь",
-      "____to_text": "La paume    "
+      "____to_text": "La paume    ",
+      "_____peurKe": "Paume"
     },
     {
       "_________id": 1918,
@@ -12224,13 +12234,15 @@
       "_________id": 1928,
       "_translator": "google",
       "__from_text": "Сложная",
-      "____to_text": "Complexe      "
+      "____to_text": "Complexe      ",
+      "_____peurKe": "Difficile     "
     },
     {
       "_________id": 1929,
       "_translator": "deepl",
       "__from_text": "Сложная",
-      "____to_text": "Complexe      "
+      "____to_text": "Complexe      ",
+      "_____peurKe": "Difficile     "
     },
     {
       "_________id": 1930,
@@ -12704,7 +12716,7 @@
       "_________id": 2008,
       "_translator": "google",
       "__from_text": "Грип",
-      "____to_text": "Grippe  "
+      "____to_text": "Grip    "
     },
     {
       "_________id": 2009,
@@ -12716,7 +12728,7 @@
       "_________id": 2010,
       "_translator": "google",
       "__from_text": "Триггер",
-      "____to_text": "Declenchement "
+      "____to_text": "Trigger       "
     },
     {
       "_________id": 2011,
@@ -12728,13 +12740,15 @@
       "_________id": 2012,
       "_translator": "google",
       "__from_text": "Дистанционный хват",
-      "____to_text": "Poignee a distance                 "
+      "____to_text": "Poignee a distance                 ",
+      "_____peurKe": "Saisir a distance"
     },
     {
       "_________id": 2013,
       "_translator": "deepl",
       "__from_text": "Дистанционный хват",
-      "____to_text": "Prise a distance                   "
+      "____to_text": "Prise a distance                   ",
+      "_____peurKe": "Saisir a distance"
     },
     {
       "_________id": 2014,
@@ -12752,13 +12766,15 @@
       "_________id": 2016,
       "_translator": "google",
       "__from_text": "Вкл",
-      "____to_text": "Gdl   "
+      "____to_text": "Gdl   ",
+      "_____peurKe": "Oui   "
     },
     {
       "_________id": 2017,
       "_translator": "deepl",
       "__from_text": "Вкл",
-      "____to_text": "Incl  "
+      "____to_text": "Incl  ",
+      "_____peurKe": "Oui   "
     },
     {
       "_________id": 2018,
@@ -12788,13 +12804,15 @@
       "_________id": 2022,
       "_translator": "google",
       "__from_text": "Выкл",
-      "____to_text": "Desacti~"
+      "____to_text": "Desacti~",
+      "_____peurKe": "Non     "
     },
     {
       "_________id": 2023,
       "_translator": "deepl",
       "__from_text": "Выкл",
-      "____to_text": "Eteindre"
+      "____to_text": "Eteindre",
+      "_____peurKe": "Non     "
     },
     {
       "_________id": 2024,
@@ -12826,13 +12844,15 @@
       "_________id": 2028,
       "_translator": "google",
       "__from_text": "Режим ганстока",
-      "____to_text": "Mode hanstock              "
+      "____to_text": "Mode hanstock              ",
+      "_____peurKe": "Mode crosse"
     },
     {
       "_________id": 2029,
       "_translator": "deepl",
       "__from_text": "Режим ганстока",
-      "____to_text": "Mode gangstok              "
+      "____to_text": "Mode gangstok              ",
+      "_____peurKe": "Mode crosse"
     },
     {
       "_________id": 2030,

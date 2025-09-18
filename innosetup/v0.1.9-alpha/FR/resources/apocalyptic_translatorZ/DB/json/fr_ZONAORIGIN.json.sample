@@ -1,0 +1,20 @@
+{
+  "source": {
+    "code": "auto",
+    "name": "AUTO"
+  },
+  "target": {
+    "code": "fr",
+    "name": "FRENCH"
+  },
+  "fix_list": [],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "google",
+      "__from_text": "Русский",
+      "____to_text": "Russe         "
+    }
+  ],
+  "next_id": 1
+}

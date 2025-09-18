@@ -1,0 +1,32 @@
+{
+  "source": {
+    "code": "ru",
+    "name": "RUSSIAN"
+  },
+  "target": {
+    "code": "ja",
+    "name": "JAPANESE_HIRAGANA"
+  },
+  "fix_list": [],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "deepl",
+      "__from_text": "Правая",
+      "____to_text": "右         "
+    },
+    {
+      "_________id": 1,
+      "_translator": "deepl",
+      "__from_text": "Нет",
+      "____to_text": "い~  "
+    },
+    {
+      "_________id": 2,
+      "_translator": "deepl",
+      "__from_text": "КПК",
+      "____to_text": "PDA   "
+    }
+  ],
+  "next_id": 3
+}

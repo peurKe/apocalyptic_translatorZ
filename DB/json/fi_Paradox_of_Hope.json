@@ -1,0 +1,2253 @@
+{
+  "state": "DONE",
+  "source": {
+    "code": "auto",
+    "name": "AUTO"
+  },
+  "target": {
+    "code": "fi",
+    "name": "FINNISH"
+  },
+  "fix_list": [],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "google",
+      "__from_text": "Правая",
+      "____to_text": "Oikea       "
+    },
+    {
+      "_________id": 1,
+      "_translator": "google",
+      "__from_text": "Нет",
+      "____to_text": "Ei    "
+    },
+    {
+      "_________id": 2,
+      "_translator": "google",
+      "__from_text": "Зажигалка",
+      "____to_text": "Kevyempi          "
+    },
+    {
+      "_________id": 3,
+      "_translator": "google",
+      "__from_text": "Отлично, все готово! \n\nПомните, что вы можете изменить эти параметры \nи настроить их более детально в любое время, \nвыбрав \"Управление\" в Меню.",
+      "____to_text": "Hienoa, kaikki on valmis! \n \n Muista, etta voit muuttaa naita parametreja \n ja maarittaa ne yksityiskohtaisemmin milloin tahansa, \n valitsemalla valikossa \"hallinta\".                                                                                        "
+    },
+    {
+      "_________id": 4,
+      "_translator": "google",
+      "__from_text": "вкл",
+      "____to_text": "GDL   "
+    },
+    {
+      "_________id": 5,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете плавное передвижение \nили телепорт?",
+      "____to_text": "Haluatko silean liikkeen \n tai teleport?                                                         "
+    },
+    {
+      "_________id": 6,
+      "_translator": "google",
+      "__from_text": "выкл",
+      "____to_text": "Pois    "
+    },
+    {
+      "_________id": 7,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете удержание или однократное нажатие кнопки для захвата предмета?",
+      "____to_text": "Haluatko pitaa mieluummin tai yhden painikepainikkeen koehenkilon sieppaamiseksi?                                                                   "
+    },
+    {
+      "_________id": 8,
+      "_translator": "google",
+      "__from_text": "Огонь/\nИспользовать",
+      "____to_text": "Tuli /\n kayta                       "
+    },
+    {
+      "_________id": 9,
+      "_translator": "google",
+      "__from_text": "Плавное",
+      "____to_text": "Silea         "
+    },
+    {
+      "_________id": 10,
+      "_translator": "google",
+      "__from_text": "Интро",
+      "____to_text": "Esittely  "
+    },
+    {
+      "_________id": 11,
+      "_translator": "google",
+      "__from_text": "Хват",
+      "____to_text": "Pohja   "
+    },
+    {
+      "_________id": 12,
+      "_translator": "google",
+      "__from_text": "Далее",
+      "____to_text": "Seuraava  "
+    },
+    {
+      "_________id": 13,
+      "_translator": "google",
+      "__from_text": "Назад",
+      "____to_text": "Takaisin  "
+    },
+    {
+      "_________id": 14,
+      "_translator": "google",
+      "__from_text": "Меню",
+      "____to_text": "Valikko "
+    },
+    {
+      "_________id": 15,
+      "_translator": "google",
+      "__from_text": "Аватар",
+      "____to_text": "Avataari    "
+    },
+    {
+      "_________id": 16,
+      "_translator": "google",
+      "__from_text": "Скорость поворота",
+      "____to_text": "Pyorimisnopeus                   "
+    },
+    {
+      "_________id": 17,
+      "_translator": "google",
+      "__from_text": "Низкая",
+      "____to_text": "Matala      "
+    },
+    {
+      "_________id": 18,
+      "_translator": "google",
+      "__from_text": "Затвор",
+      "____to_text": "Vankila     "
+    },
+    {
+      "_________id": 19,
+      "_translator": "google",
+      "__from_text": "в желаемое",
+      "____to_text": "Haluttu            "
+    },
+    {
+      "_________id": 20,
+      "_translator": "google",
+      "__from_text": "Перемещение",
+      "____to_text": "Liikkuva              "
+    },
+    {
+      "_________id": 21,
+      "_translator": "google",
+      "__from_text": "Завершить",
+      "____to_text": "Taydellinen       "
+    },
+    {
+      "_________id": 22,
+      "_translator": "google",
+      "__from_text": "Основное оруж.",
+      "____to_text": "Paaase.                   "
+    },
+    {
+      "_________id": 23,
+      "_translator": "google",
+      "__from_text": "Громкость музыки",
+      "____to_text": "Musiikin maara                 "
+    },
+    {
+      "_________id": 24,
+      "_translator": "google",
+      "__from_text": "Телепорт",
+      "____to_text": "Teleportti      "
+    },
+    {
+      "_________id": 25,
+      "_translator": "google",
+      "__from_text": "Графика",
+      "____to_text": "Grafiikka     "
+    },
+    {
+      "_________id": 26,
+      "_translator": "google",
+      "__from_text": "Высокая",
+      "____to_text": "Korkea        "
+    },
+    {
+      "_________id": 27,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?",
+      "____to_text": "Haluatko varmasti poistua pelista?                                "
+    },
+    {
+      "_________id": 28,
+      "_translator": "google",
+      "__from_text": "Нажатие",
+      "____to_text": "Painava       "
+    },
+    {
+      "_________id": 29,
+      "_translator": "google",
+      "__from_text": "Настройки",
+      "____to_text": "Asetukset         "
+    },
+    {
+      "_________id": 30,
+      "_translator": "google",
+      "__from_text": "Сохранить",
+      "____to_text": "Tallentaa         "
+    },
+    {
+      "_________id": 31,
+      "_translator": "google",
+      "__from_text": "Вращение/Присед",
+      "____to_text": "Kierto/kyykky                "
+    },
+    {
+      "_________id": 32,
+      "_translator": "google",
+      "__from_text": "Язык",
+      "____to_text": "Kieli   "
+    },
+    {
+      "_________id": 33,
+      "_translator": "google",
+      "__from_text": "Стоя",
+      "____to_text": "Pysyva  "
+    },
+    {
+      "_________id": 34,
+      "_translator": "google",
+      "__from_text": "Используется -",
+      "____to_text": "Kaytetty -                "
+    },
+    {
+      "_________id": 35,
+      "_translator": "google",
+      "__from_text": "Рейды",
+      "____to_text": "Raidat    "
+    },
+    {
+      "_________id": 36,
+      "_translator": "google",
+      "__from_text": "Удержание",
+      "____to_text": "Sailyttaminen     "
+    },
+    {
+      "_________id": 37,
+      "_translator": "google",
+      "__from_text": "Русский",
+      "____to_text": "Venalainen    "
+    },
+    {
+      "_________id": 38,
+      "_translator": "google",
+      "__from_text": "анкету",
+      "____to_text": "kyselylomake"
+    },
+    {
+      "_________id": 39,
+      "_translator": "google",
+      "__from_text": "Выброс магазина",
+      "____to_text": "Myymala uuvuttaa             "
+    },
+    {
+      "_________id": 40,
+      "_translator": "google",
+      "__from_text": "Нож",
+      "____to_text": "Veitsi"
+    },
+    {
+      "_________id": 41,
+      "_translator": "google",
+      "__from_text": "Левая",
+      "____to_text": "Vasen     "
+    },
+    {
+      "_________id": 42,
+      "_translator": "google",
+      "__from_text": "Создатели",
+      "____to_text": "Luojat            "
+    },
+    {
+      "_________id": 43,
+      "_translator": "google",
+      "__from_text": "Схватить                       Схватить",
+      "____to_text": "Tarttua                                                "
+    },
+    {
+      "_________id": 44,
+      "_translator": "google",
+      "__from_text": "Управление",
+      "____to_text": "Hallinta            "
+    },
+    {
+      "_________id": 45,
+      "_translator": "google",
+      "__from_text": "Рюкзак",
+      "____to_text": "Reppu       "
+    },
+    {
+      "_________id": 46,
+      "_translator": "google",
+      "__from_text": "Резкое",
+      "____to_text": "Terava      "
+    },
+    {
+      "_________id": 47,
+      "_translator": "google",
+      "__from_text": "Разработчик : Никита Журавлёв",
+      "____to_text": "Kehittaja: Nikita Zhuravlev                           "
+    },
+    {
+      "_________id": 48,
+      "_translator": "google",
+      "__from_text": "Средняя",
+      "____to_text": "Keskimaarin   "
+    },
+    {
+      "_________id": 49,
+      "_translator": "google",
+      "__from_text": "Какой рукой вы предпочитаете держать оружие?",
+      "____to_text": "Mita katta haluat pitaa aseen?                                                    "
+    },
+    {
+      "_________id": 50,
+      "_translator": "google",
+      "__from_text": "Добавить в желаемое",
+      "____to_text": "Lisata                              "
+    },
+    {
+      "_________id": 51,
+      "_translator": "google",
+      "__from_text": "Общая громкость",
+      "____to_text": "Kokonaistilavuus             "
+    },
+    {
+      "_________id": 52,
+      "_translator": "google",
+      "__from_text": "Обратите внимание, что \"Ранний доступ\" означает, что игра все еще находится в стадии разработки. В дальнейшем в нее регулярно будет добавляться новый контент, а многие ее аспекты будут улучшены.\n\r\nЕсли у вас есть идеи, предложения или вы просто столкнулись с ошибкой, о которой хотите сообщить - присоединяйтесь к нашему Discord. Я прислушиваюсь к мнению каждого и стараюсь отвечать на все вопросы лично. Давайте вместе сделаем эту игру еще лучше!",
+      "____to_text": "Huomaa, etta \"varhainen paasy\" tarkoittaa, etta pelia on edelleen kehitteilla. Tulevaisuudessa siihen lisataan uutta sisaltoa saannollisesti, ja monia sen nakokohtia parannetaan. \n \n Jos sinulla on ideoita, ehdotuksia tai kohtaat vain virheen, jonka haluat ilmoittaa - Liity discordiin. Kuuntelen kaikkien mielipiteita ja yritan vastata kaikkiin kysymyksiin henkilokohtaisesti. Tehdaan tama peli viela parempaa!                                                                                                                                                                                                                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 53,
+      "_translator": "google",
+      "__from_text": "Положение",
+      "____to_text": "Sijainti          "
+    },
+    {
+      "_________id": 54,
+      "_translator": "google",
+      "__from_text": "Сюжет",
+      "____to_text": "Kaataa    "
+    },
+    {
+      "_________id": 55,
+      "_translator": "google",
+      "__from_text": "голова",
+      "____to_text": "paa         "
+    },
+    {
+      "_________id": 56,
+      "_translator": "google",
+      "__from_text": "Вы будете играть стоя или сидя?",
+      "____to_text": "Pelaatko seisovan tai istuvan?                          "
+    },
+    {
+      "_________id": 57,
+      "_translator": "google",
+      "__from_text": "Сидя",
+      "____to_text": "Istumin~"
+    },
+    {
+      "_________id": 58,
+      "_translator": "google",
+      "__from_text": "Громкость",
+      "____to_text": "Tilavuus          "
+    },
+    {
+      "_________id": 59,
+      "_translator": "google",
+      "__from_text": "Открыть внутриигровое меню можно также \nсхватитив наручные часы другой рукой",
+      "____to_text": "Voit myos avata sisaisen pelivalikon \n tarttumalla ranteeseen toisella kadella                                                                "
+    },
+    {
+      "_________id": 60,
+      "_translator": "google",
+      "__from_text": "Анкета",
+      "____to_text": "Tutkimus    "
+    },
+    {
+      "_________id": 61,
+      "_translator": "google",
+      "__from_text": "Затемнение экрана",
+      "____to_text": "Seurakunta tummentaa             "
+    },
+    {
+      "_________id": 62,
+      "_translator": "google",
+      "__from_text": "Налобный фонарь / ПНВ",
+      "____to_text": "Veren taskulamppu / PNV               "
+    },
+    {
+      "_________id": 63,
+      "_translator": "google",
+      "__from_text": "Перезарядка \nкурком",
+      "____to_text": "\n -laukaisun uudelleenkaynnistys    "
+    },
+    {
+      "_________id": 64,
+      "_translator": "google",
+      "__from_text": "Направление",
+      "____to_text": "Suunta                "
+    },
+    {
+      "_________id": 65,
+      "_translator": "google",
+      "__from_text": "предоставляет широкий спектр опций, позволяющих настроить игру в соответствии с вашим личным уровнем \nVR-комфорта.\r\n\r\nДавайте ответим на несколько вопросов.",
+      "____to_text": "Tarjoaa laajan valikoiman vaihtoehtoja, joiden avulla voit maarittaa pelin henkilokohtaisen tason \n VR-COMPOON: n mukaisesti. \n \n Vastaataan muutamiin kysymyksiin.                                                                                                                         "
+    },
+    {
+      "_________id": 66,
+      "_translator": "google",
+      "__from_text": "Да",
+      "____to_text": "Kyl~"
+    },
+    {
+      "_________id": 67,
+      "_translator": "google",
+      "__from_text": "Демо показалось слишком коротким? \nСтань тестером и сыграй в полную версию игры раньше других.",
+      "____to_text": "Naytiko demoni liian lyhyt? \n Pysayta testaaja ja pelaa pelin taysversio ennen muita.                                                                                       "
+    },
+    {
+      "_________id": 68,
+      "_translator": "google",
+      "__from_text": "Тело",
+      "____to_text": "Vartalo "
+    },
+    {
+      "_________id": 69,
+      "_translator": "google",
+      "__from_text": "Ок",
+      "____to_text": "Hyva"
+    },
+    {
+      "_________id": 70,
+      "_translator": "google",
+      "__from_text": "рука",
+      "____to_text": "kasi    "
+    },
+    {
+      "_________id": 71,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете плавное или резкое вращение?",
+      "____to_text": "Haluatko mieluummin silean tai teravan pyorimisen?                                  "
+    },
+    {
+      "_________id": 72,
+      "_translator": "google",
+      "__from_text": "Новая игра",
+      "____to_text": "Uusi peli          "
+    },
+    {
+      "_________id": 73,
+      "_translator": "google",
+      "__from_text": "Автобег",
+      "____to_text": "Automaatti    "
+    },
+    {
+      "_________id": 74,
+      "_translator": "google",
+      "__from_text": "Пистолет",
+      "____to_text": "Ase             "
+    },
+    {
+      "_________id": 75,
+      "_translator": "google",
+      "__from_text": "пока что официально не поддерживается.\nТекущая раскладка является временным решением.",
+      "____to_text": "Toistaiseksi sita ei tueta virallisesti. \n Nykyinen asettelu on valiaikainen ratkaisu.                                                                         "
+    },
+    {
+      "_________id": 76,
+      "_translator": "google",
+      "__from_text": "Если кисти рук вывернуты в неестественном положении, в этом меню можно задать нужный угол",
+      "____to_text": "Jos kadet kierretaan epaluonnollisessa asennossa, tassa valikossa voit asettaa oikean kulman                                                                        "
+    },
+    {
+      "_________id": 77,
+      "_translator": "google",
+      "__from_text": "Вращение",
+      "____to_text": "Kierto          "
+    },
+    {
+      "_________id": 78,
+      "_translator": "google",
+      "__from_text": "Пожалуйста заполните                    и присоединяйтесь к                    , чтобы оставить отзыв.\nДобавьте игру                                 , чтобы не пропустить её релиз и сыграть в:",
+      "____to_text": "Tayta ja liity jattamaan arvostelu. \n Lisaa peli, jotta se ei unohda sen julkaisua ja pelaamista:                                                                                                                                                                                                  "
+    },
+    {
+      "_________id": 79,
+      "_translator": "google",
+      "__from_text": "Привет, это Никита - разработчик Paradox of Hope. \nСпасибо за ваш интерес к моей игре!",
+      "____to_text": "Hei, tama on Nikita - toivon kehittajan paradoksi. \n Kiitos kiinnostuksestasi peliin!                                                       "
+    },
+    {
+      "_________id": 80,
+      "_translator": "google",
+      "__from_text": "Схватить                           Схватить",
+      "____to_text": "Tarttua                                                    "
+    },
+    {
+      "_________id": 81,
+      "_translator": "google",
+      "__from_text": "Схватить            Схватить",
+      "____to_text": "Tarttua                                     "
+    },
+    {
+      "_________id": 82,
+      "_translator": "google",
+      "__from_text": "Но ваше приключение только начинается!\r\n\nСыграйте в \"Рейды\" - бесконечный игровой режим, в котором вам \nпредстоит искать выход с  локации, собирая хабар и отбиваясь от мутантов.\r\n\nБлагодаря процедурной генерации, игра подарит вам \nнеповторимый игровой опыт в каждом из ваших забегов.",
+      "____to_text": "Mutta seikkailusi on vasta alkamassa! \n \n pelaa raideja - loputon pelitila, jossa sinun on etsittava poistumista sijainnista, keraamalla habaria ja taistelevat mutantteja. \n \n menettelytavan sukupolven ansiosta peli antaa sinulle ainutlaatuisen pelikokemuksen jokaisessa malmissasi.                                                                                                                                                                                                                                     "
+    },
+    {
+      "_________id": 83,
+      "_translator": "google",
+      "__from_text": "Рейды\" станут доступны после \nпрохождения первой сюжетной миссии.",
+      "____to_text": "Raidit \"tulevat saataville ensimmaisen tarinan operaation \n jalkeen.                                                    "
+    },
+    {
+      "_________id": 84,
+      "_translator": "google",
+      "__from_text": "Левая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "Vasen kasi\n\nX:\n\nY:\n\nZ:"
+    },
+    {
+      "_________id": 85,
+      "_translator": "google",
+      "__from_text": "Обучение",
+      "____to_text": "Koulutus        "
+    },
+    {
+      "_________id": 86,
+      "_translator": "google",
+      "__from_text": "Вы потеряете текущий прогресс Сюжета, вы уверены?",
+      "____to_text": "Menetat juonen nykyisen edistymisen, oletko varma?                                        "
+    },
+    {
+      "_________id": 87,
+      "_translator": "google",
+      "__from_text": "Противогаз",
+      "____to_text": "Naamio              "
+    },
+    {
+      "_________id": 88,
+      "_translator": "google",
+      "__from_text": "Магазины",
+      "____to_text": "Kaupat          "
+    },
+    {
+      "_________id": 89,
+      "_translator": "google",
+      "__from_text": "Настроить положение рук",
+      "____to_text": "Maarita kasien sijainti                     "
+    },
+    {
+      "_________id": 90,
+      "_translator": "google",
+      "__from_text": "По умолчанию",
+      "____to_text": "laiminlyonnissa        "
+    },
+    {
+      "_________id": 91,
+      "_translator": "google",
+      "__from_text": "Отдельная благодарность:",
+      "____to_text": "Erillinen kiitollisuus:                       "
+    },
+    {
+      "_________id": 92,
+      "_translator": "google",
+      "__from_text": "Процедурно генерируемые Рейды",
+      "____to_text": "Menettelytapojen luomalla                               "
+    },
+    {
+      "_________id": 93,
+      "_translator": "google",
+      "__from_text": "Продолжить",
+      "____to_text": "Jatkaa              "
+    },
+    {
+      "_________id": 94,
+      "_translator": "google",
+      "__from_text": "Угол поворота",
+      "____to_text": "Pyorimiskulma            "
+    },
+    {
+      "_________id": 95,
+      "_translator": "google",
+      "__from_text": "Добро пожаловать в закрытую альфу Paradox of Hope!\n\n\nПосле тестирования пожалуйста заполните анкету.\n\nНапоминаю, что делиться какими-либо материалами из закрытой альфы за пределами подканала для тестировщиков запрещено!\n\n\nВажная информация для создателей контента. \r\n\nЭмбарго на обзор сюжетного режима установлено на 15 сентября. Пожалуйста не размещайте никаких видеоматериалов по \"Сюжету\" до этой даты. \"Рейды\" можно выкладывать сразу без каких-либо ограничений. \nНадеюсь на ваше понимание :)",
+      "____to_text": "Tervetuloa toivon suljetulle alfa -paradoksille! \n \n \n testauksen jalkeen tayta kyselylomake. \n \n Muistan, etta on kielletty jakaa kaikki materiaalit suljetusta alfa -testaajille! \n \n Plot -tilan tarkistamisen vientikielto on asetettu 15. syyskuuta. Ala aseta videomateriaaleja \"tontille\" ennen tata paivamaaraa. \"Raids\" voidaan asettaa valittomasti ilman rajoituksia. \n toivon ymmarryksesi:)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+    },
+    {
+      "_________id": 96,
+      "_translator": "google",
+      "__from_text": "Сюжет продолжится в будущих обновлениях",
+      "____to_text": "Juoni jatkuu tulevissa paivityksissa                                      "
+    },
+    {
+      "_________id": 97,
+      "_translator": "google",
+      "__from_text": "Выбор направления",
+      "____to_text": "Suuntavalinta                    "
+    },
+    {
+      "_________id": 98,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".\n6. Перезапустите игру.\r\n7. Скорректируйте положение рук в Настройках.",
+      "____to_text": "Talla hetkella teknisten ongelmien vuoksi pelissa ei ole virallista tukea Valve -indeksille. \n \n pelataksesi normaalilla ohjauksella (liikuttamalla sauvoilla jne.) Sinun on muutettava ohjaimien asettelua. Tata varten: \n \n 1. Avaa Steamvr -peittokuva. \n 2. Valitse \"Ohjaimen asetukset\". \n 3. Kytke \"ohjaimen aktiivinen asettelu\" \"kayttajalle\". \n 4. Napsauta\"Valitse toinen\" -painiketta. \n 5. Valitse Oculus -emulointiasettelu \"yhteison Lifs\" -sovelluksesta. \n 6. Palauta peli. \n 7. Saada kasien sijainti asetuksissa.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 99,
+      "_translator": "google",
+      "__from_text": "Правая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "Oikea kasi\n\nX:\n\nY:\n\nZ:  "
+    },
+    {
+      "_________id": 100,
+      "_translator": "google",
+      "__from_text": "В желаемое",
+      "____to_text": "Haluttu            "
+    },
+    {
+      "_________id": 101,
+      "_translator": "google",
+      "__from_text": "Субтитры",
+      "____to_text": "Tekstitys       "
+    },
+    {
+      "_________id": 102,
+      "_translator": "google",
+      "__from_text": "Атмосферную сюжетную кампанию",
+      "____to_text": "Ilmakehan kuvaajakampanja                               "
+    },
+    {
+      "_________id": 103,
+      "_translator": "google",
+      "__from_text": "Главы",
+      "____to_text": "Luvut     "
+    },
+    {
+      "_________id": 104,
+      "_translator": "google",
+      "__from_text": "Спасибо за игру в Paradox of Hope Demo!",
+      "____to_text": "Kiitos pelista Paradox of Hope -demossa!             "
+    },
+    {
+      "_________id": 105,
+      "_translator": "google",
+      "__from_text": "Выйти из игры",
+      "____to_text": "Poistua pelista         "
+    },
+    {
+      "_________id": 106,
+      "_translator": "google",
+      "__from_text": "Пройти опрос",
+      "____to_text": "Lapaista tutkimus      "
+    },
+    {
+      "_________id": 107,
+      "_translator": "google",
+      "__from_text": "В этой демо-версии вы познакомитесь с Рейдами -\nбесконечным игровым режимом с прогрессией и процедурной генерацией уровней (доступно только Убежище).\n\nПрисоединяйтесь к Discord, чтобы поделиться фидбэком, сообщить об ошибках и просто быть в курсе всех событий.\nА также не забудьте добавить игру в свой список желаемого!",
+      "____to_text": "Tassa demoversiossa tutustuvat raideihin -\n loputon pelitila etenemisen ja menettelytason luomisen tasolla (vain turvapaikka on saatavana). \n \n Acte Discord jakamaan palautetta, ilmoittamaan virheita ja pysyvat vain ajan tasalla kaikista tapahtumista. \n ja ala myoskaan unohda lisata pelia halutun luetteloosi!                                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 108,
+      "_translator": "google",
+      "__from_text": "Ведущая рука",
+      "____to_text": "Johtava kasi           "
+    },
+    {
+      "_________id": 109,
+      "_translator": "google",
+      "__from_text": "Сценарий, нарративный дизайн - Владимир Шумилов\r\n\r---------------------------------------------------------------------------\n\r\nКомьюнити-менеджер - Eri\n\r---------------------------------------------------------------------------\n\nОзвучка - R.G MVO\r\n\r\nГлавный герой - Дмитрий Зубарев\r\nЗаказчик - Петр (Гланц) Иващенко\r\nВодитель дрезины - Станислав Олейников\r\nТорговец дядя Сережа - Алексей Щегорский\r\n\r\nАудиодневники:\r\nОтец - Иван Савоськин\r\nСын - Рута Няттиева\r\nУченый (Михаил Лотов) - Станислав Олейников\r\n\r\nРабота со звуком - Екатерина Дмитрова\r\nКуратор озвучки, кастинг - spider91\r\n\r---------------------------------------------------------------------------\n\r\nМузыка для радио: \r\nPunch Deck - I Cant Stop\r\nPunch Deck - Maximalism\r\n\r\r---------------------------------------------------------------------------\n\r\nМузыка в конец рейда - Professional Daydreamer\r\n\r\r---------------------------------------------------------------------------\n\r\n3D модели рюкзаков - Надежда Бурштынович \r\n\r\r---------------------------------------------------------------------------\n\r\nТестеры:\r\n\r\nEmperorPalpatine\r\nMorozic\r\nEchoe87\r\nDr. K\r\nThalchanka\r\nMr-Tektite\r\nLGS\r\nUncle Dolan\r\nExtremerecker69\r\nHeclak\r\nLaff\r\nKorry (Ярик)",
+      "____to_text": "Skenaario, Narrative Design-Vladimir Shumilov \n ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- DMITRY ZUBAREV / Drezina -kuljettaja - Stanislav Oleinikov \n mekko Seryozha - Aleksei Scheshchersky \n \n aanipaiva: \n isa - Ivan Savoskin \n poika - Ruta Nuttieva \n United (Mikhail LOTOV) -Stanisla -aanen kanssa. EKaterina dmitrova \n aani-nayttelijakuraattori, casting-Spider91 \n ----------------------------------------------------------------------- \n \n M--------------------------- \n \n Maa д р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р р рaдио: \n / ------------------------------------------------------------------------------ EMPERORPALPATINE \n MOROZIC \n ECHOE87 \n DR. K \n thalchanka \n mr-tektiitti \n lgs \n seta Dolan \n Extremerecker69 \n heclak \n laff \n korry (yarik)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 "
+    },
+    {
+      "_________id": 110,
+      "_translator": "google",
+      "__from_text": "Ярик)",
+      "____to_text": "Yarik)   "
+    },
+    {
+      "_________id": 111,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолетный магазин из разгрузки на поясе \nи вставьте в пистолет.",
+      "____to_text": "Ota pistoolikauppa purkamalla \n vyo ja aseta aseeseen.                                                                                  "
+    },
+    {
+      "_________id": 112,
+      "_translator": "google",
+      "__from_text": "Для вращения используйте джойстик на правом контроллере.",
+      "____to_text": "Kiertoa varten kayta oikean ohjaimen ohjaussauvaa.                                                       "
+    },
+    {
+      "_________id": 113,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет из кобуры на правой ноге. (Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.)",
+      "____to_text": "Ota pistooli kotelosta oikealla jalalla. (Tartu esineisiin kasilla, kiinnita ja pida valaistu painiketta vastaavassa ohjaimessa.)                                                                                                                                                      "
+    },
+    {
+      "_________id": 114,
+      "_translator": "google",
+      "__from_text": "Вставьте в пистолет еще один магазин.",
+      "____to_text": "Aseta toinen myymala aseeseen.                                      "
+    },
+    {
+      "_________id": 115,
+      "_translator": "google",
+      "__from_text": "Нажмите на подсвеченную кнопку, чтобы выстрелить.",
+      "____to_text": "Napsauta valaistua painiketta ampuaksesi.                                                  "
+    },
+    {
+      "_________id": 116,
+      "_translator": "google",
+      "__from_text": "Для перемещения испольуйте джойстик на левом контроллере.",
+      "____to_text": "Siirra siirtyaksesi vasemmalla ohjaimella olevaa ohjaussauvaa.                                             "
+    },
+    {
+      "_________id": 117,
+      "_translator": "google",
+      "__from_text": "Достаньте пистолет из кобуры на правой ноге. Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.",
+      "____to_text": "Poista pistooli oikean jalan kotelosta. Tartu esineisiin kasillasi, kiinnita ja pida valaistu painiketta vastaavassa ohjaimessa.                                                                                                                                                       "
+    },
+    {
+      "_________id": 118,
+      "_translator": "google",
+      "__from_text": "Тяжелое вооружение хранится на спине.\n(Занесите руку над правым плечом и схватите.)",
+      "____to_text": "Raskaat aseet tallennetaan selallesi. \n (Tuo kasi oikean olkapaan yli ja tartu siihen.)                                                                "
+    },
+    {
+      "_________id": 119,
+      "_translator": "google",
+      "__from_text": "Для перемещения используйте джойстик на левом контроллере.",
+      "____to_text": "Siirra siirtyaksesi vasemmalla ohjaimella olevaa ohjaussauvaa.                                               "
+    },
+    {
+      "_________id": 120,
+      "_translator": "google",
+      "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.\n(Поднесите руку и схватите.)",
+      "____to_text": "Olet loukkaantunut. Ota ensimmainen AID -pakkaus vasemmasta rintataskusta. \n (tuo kasi ja tartu.)                                                           "
+    },
+    {
+      "_________id": 121,
+      "_translator": "google",
+      "__from_text": "Возьмите автоматный магазин из разгрузки на поясе \nи вставьте в автомат.",
+      "____to_text": "Ota automaattinen myymala purkautumasta \n -hihnalle ja aseta koneeseen.                                                             "
+    },
+    {
+      "_________id": 122,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там улов? Зефир есть?",
+      "____to_text": "Seryozha -seta: No, miten saalis on? Onko siella vaahtokarkkia?         "
+    },
+    {
+      "_________id": 123,
+      "_translator": "google",
+      "__from_text": "ОТСУТСТВУЕТ",
+      "____to_text": "POISSA                "
+    },
+    {
+      "_________id": 124,
+      "_translator": "google",
+      "__from_text": "Иногда лучше избежать боя и прокрасться незамеченным. \r\n\r\nВыкручивайте лампочки, тушите свечи и используйте электрощиты, чтобы проложить себе путь в тенях.",
+      "____to_text": "Joskus on parempi valttaa taistelu ja hiipia huomaamatta. \n \n Kaari lamput, hauduta kynttilat ja kayta sahkopaneeleja tasoittamaan tieta varjoihin.                                                                                                                                        "
+    },
+    {
+      "_________id": 125,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: О! Вернулся? \nА я тут как раз про тебя вспоминал.",
+      "____to_text": "Seryozha -seta: Voi! Palautettu? \n Ja muistan vain sinut sinusta.                                           "
+    },
+    {
+      "_________id": 126,
+      "_translator": "google",
+      "__from_text": "Если высота игрового аватара \nне соответствует действительности, \nв этом меню можно ее настроить",
+      "____to_text": "Jos pelin korkeus \n ei ole totta, \n tassa valikossa voit maarittaa sen                                                                                                           "
+    },
+    {
+      "_________id": 127,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Раз пришёл - значит не съели!",
+      "____to_text": "Seryozha -seta: Kun han tuli, he eivat syoneet!                           "
+    },
+    {
+      "_________id": 128,
+      "_translator": "google",
+      "__from_text": "разблок. АКМ, \nнабрав 12 очков \nв тире",
+      "____to_text": "hajota. AKM, \n pisteytys 12 pistetta \n viiva                    "
+    },
+    {
+      "_________id": 129,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Жизнь странная штука. \nВсё всегда возвращается. Прямо как ты.",
+      "____to_text": "Seryozha -seta: Elama on outo asia. \n Kaikki palaa aina. Aivan kuten sina.                                                           "
+    },
+    {
+      "_________id": 130,
+      "_translator": "google",
+      "__from_text": "Время рейда :            мин.          сек.\n\nМонстров убито:",
+      "____to_text": "Raid -aika: Min.          sek. \n \n hirviot tapettiin:                                    "
+    },
+    {
+      "_________id": 131,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Важные вещи буду скидывать на этот компьютер, смотри по возможности.",
+      "____to_text": "Seryozha -seta: Heitan tarkeita asioita talle tietokoneelle, katso, jos mahdollista.                                                                "
+    },
+    {
+      "_________id": 132,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Здарова! Это ты значит новый сталкер? Смотрю - совсем зелёный ещё, но это ладно, всему обучим, всё покажем.",
+      "____to_text": "Seryozha -seta: Zdarova! Tarkoitatko uutta stalkeria? Naytan - se on taysin vihreaa, mutta se on kunnossa, opetamme kaiken, naytamme kaiken.                                                                         "
+    },
+    {
+      "_________id": 133,
+      "_translator": "google",
+      "__from_text": "БАЛАНС:                      РУБ.",
+      "____to_text": "Tasapaino: Hiero.                         "
+    },
+    {
+      "_________id": 134,
+      "_translator": "google",
+      "__from_text": "Добро пожаловать в Убежище! \n\nОтсюда вы сможете отправиться в рейды в самые отдалённые уголки метро, обменять найденный хабар на новое снаряжение, отточить навыки стрельбы в тире и просто отдохнуть между вылазками. \n\n\"Даже если жизнь - коротка и опасна, в Убежище она становится чуть спокойнее и теплее!\"",
+      "____to_text": "Tervetuloa turvakotiin! \n \n taalta voit siirtya ratsioihin metron syrjaisimpiin kulmiin, vaihtaa loydetyn habarin uusille laitteille, hioa viivan ammuntataitoja ja rentoutua vain lajikkeiden valilla. \n \n \"Vaikka elama on lyhyt ja vaarallinen, turvakodissa siita tulee hieman rauhallisempi ja lampimampi!\"                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 135,
+      "_translator": "google",
+      "__from_text": "Имя                Целей в тире поражено:",
+      "____to_text": "Dashissa olevien tavoitteiden nimi on hammastynyt:            "
+    },
+    {
+      "_________id": 136,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 3",
+      "____to_text": "Vaaditaan \n rep. 3          "
+    },
+    {
+      "_________id": 137,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. \nА ты - молодец. Всегда возвращаешься!",
+      "____to_text": "Seryozha -seta: Minulla oli hyva ystava, meni vain ylakertaan eika palannut. \n ja olet hyvin tehty. Tulet aina takaisin!                                                                           "
+    },
+    {
+      "_________id": 138,
+      "_translator": "google",
+      "__from_text": "Нет необходимости исследовать всю рейдовую локацию, чтобы выполнить задачу или найти выход. \n\nОднако настоящий сталкер всегда сможет найти в каждом рейде что-то особенное.",
+      "____to_text": "Koko RAID -sijaintia ei tarvitse tutkia tehtavan suorittamiseksi tai tien loytamiseksi. \n \n Todellinen stalker voi kuitenkin aina loytaa jotain erityista jokaisesta raidasta.                                                                                                                                            "
+    },
+    {
+      "_________id": 139,
+      "_translator": "google",
+      "__from_text": "Фонарик",
+      "____to_text": "Taskulamppu   "
+    },
+    {
+      "_________id": 140,
+      "_translator": "google",
+      "__from_text": "Улучшения снаряжения (отмеченные специальным ценником) не нужно покупать каждый раз заново - они разблокируются навсегда. \n\nПосле единоразовой покупки ценник исчезнет.",
+      "____to_text": "Laitteiden parannuksia (merkitty erityisella hintamerkilla) ei tarvitse ostaa uudelleen - ne avataan ikuisesti. \n \n yhden ajanjakson jalkeen hintalappu katoaa.                                                                                                                                                     "
+    },
+    {
+      "_________id": 141,
+      "_translator": "google",
+      "__from_text": "Выйти из рейда",
+      "____to_text": "Poistua raidasta          "
+    },
+    {
+      "_________id": 142,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 2",
+      "____to_text": "Vaaditaan \n rep. 2          "
+    },
+    {
+      "_________id": 143,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб.",
+      "____to_text": "Selvit! \n \n Kaikki tassa RAID -loydetyt esineet myydaan ostajalle. \n \n \n \n \n loysi habara: hankaa.                                                                                             "
+    },
+    {
+      "_________id": 144,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\". Или это не он был?",
+      "____to_text": "Seryozha -seta: Kuten Omar Hayam sanoi: \"Tule sisaan, jos han palasi!\" Vai eiko han ole han?                                             "
+    },
+    {
+      "_________id": 145,
+      "_translator": "google",
+      "__from_text": "шт.",
+      "____to_text": "PCS. "
+    },
+    {
+      "_________id": 146,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ай ком алаааайв... \nЭх, хорошая была песня...",
+      "____to_text": "Seryozha -seta: ah l com alaaave... \n eh, kappale oli hyva...                                      "
+    },
+    {
+      "_________id": 147,
+      "_translator": "google",
+      "__from_text": "ЗАКР                   ОТКР",
+      "____to_text": "WKR                                "
+    },
+    {
+      "_________id": 148,
+      "_translator": "google",
+      "__from_text": "Лучшие стрелки:",
+      "____to_text": "Parhaat nuolet:             "
+    },
+    {
+      "_________id": 149,
+      "_translator": "google",
+      "__from_text": "АКТИВНОЕ ЗАДАНИЕ:",
+      "____to_text": "Aktiivinen tehtava:             "
+    },
+    {
+      "_________id": 150,
+      "_translator": "google",
+      "__from_text": "Выйти в главное меню",
+      "____to_text": "Siirry paavalikkoon                  "
+    },
+    {
+      "_________id": 151,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите обнулить сохранение? \nЭто также коснется прогресса прохождения сюжета, и выбранных настроек.",
+      "____to_text": "Oletko varma, etta haluat nollata saaston? \n Se vaikuttaa myos kuvaajan kulku- ja valittuihin asetuksiin.                                                                                                          "
+    },
+    {
+      "_________id": 152,
+      "_translator": "google",
+      "__from_text": "Последняя попытка:",
+      "____to_text": "Viimeinen yritys:                 "
+    },
+    {
+      "_________id": 153,
+      "_translator": "google",
+      "__from_text": "Лучшие сталкеры:",
+      "____to_text": "Parhaat stalkerit:            "
+    },
+    {
+      "_________id": 154,
+      "_translator": "google",
+      "__from_text": "Для покупки предмета просто возьмите его с полки. Чтобы продать предмет - положите его на стол торговцу. \n\nВаш текущий баланс отображается на экране компьютера.",
+      "____to_text": "Jos haluat ostaa tuotteen, ota se vain hyllylta. Tuotteen myyminen - laita se poydalle kauppiaalta. \n \n Nykyinen saldo nakyy tietokoneen naytolla.                                                                                                                                                 "
+    },
+    {
+      "_________id": 155,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо! Что притащил?",
+      "____to_text": "Seryozha -seta: No, miten saa on? Aurinkoinen? Hienoa! Mita veit?                                                   "
+    },
+    {
+      "_________id": 156,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Про задания тоже тут можешь почитать, полезно это. Хотя для глаз - не очень.",
+      "____to_text": "Seryozha -seta: Voit myos lukea tehtavista taalta, se on hyodyllinen. Vaikka silmille - ei kovin.                                                             "
+    },
+    {
+      "_________id": 157,
+      "_translator": "google",
+      "__from_text": "Хабар в рейде можно найти где угодно, внимательно \nсмотрите по \nсторонам и, \nвозможно, вам \nдаже повезет \nнаткнутся на сталкерский тайник с самой ценной добычей.",
+      "____to_text": "RAID -khabar loytyy mista tahansa, huolellisesti \n katso \n sivut ja \n ehka sina \n on onnekas \n tormaat Stalker -valimuistin arvokkaimmalla saalilla.                                                                                                                                              "
+    },
+    {
+      "_________id": 158,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Красная цена! Два автомата... по цене двух! (смеётся в голос)",
+      "____to_text": "Seryozha -seta: Punainen hinta! Kaksi konekivaaria... kahden hinnan! (nauraa aanella)                                            "
+    },
+    {
+      "_________id": 159,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Здарова!",
+      "____to_text": "Korkea Itage: Hyva!                   "
+    },
+    {
+      "_________id": 160,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Привет!",
+      "____to_text": "Seryozha -seta: Hei!                "
+    },
+    {
+      "_________id": 161,
+      "_translator": "google",
+      "__from_text": "УБИТЬ 5 МУТАНТОВ  \n(   /5)",
+      "____to_text": "Tapa 5 mutanttia \n ( /5)               "
+    },
+    {
+      "_________id": 162,
+      "_translator": "google",
+      "__from_text": "ПО ВОЗМОЖНОСТИ НЕ ИСПОЛЬЗУЙТЕ ЭТИ ЧИТЫ,\nТ.К. В ФИНАЛЬНОЙ ВЕРСИИ ИГРЫ ИХ НЕ БУДЕТ,\nИ СЕЙЧАС НАДО ПОЛУЧИТЬ РЕАЛЬНЫЙ ФИДБЭК\nПО ПОВОДУ СЛОЖНОСТИ ИГРОВОГО РЕЖИМА",
+      "____to_text": "Jos mahdollista, ala kayta naita huijauksia, \n t. Pelin lopullisessa versiossa he eivat ole, \n ja nyt sinun on saatava todellinen palaute \n pelitilan monimutkaisuudesta                                                                                                                    "
+    },
+    {
+      "_________id": 163,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Рад тебя видеть! \nДавай, рассказывай, где лазил?",
+      "____to_text": "Seryozha -seta: iloinen nahdessasi! \n tule, kerro mihin kiipesit?                                           "
+    },
+    {
+      "_________id": 164,
+      "_translator": "google",
+      "__from_text": "Заполнить \nанкету",
+      "____to_text": "Tayta \n kyselylomake            "
+    },
+    {
+      "_________id": 165,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?",
+      "____to_text": "Haluatko varmasti menna paavalikkoon?                                          "
+    },
+    {
+      "_________id": 166,
+      "_translator": "google",
+      "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки, патроны. \n\nТщательная подготовка - залог успешного рейда!",
+      "____to_text": "Toveri, valmistaudu lajitteluun: Ala unohda ottaa suodattimia, ensin -AID -sarjoja, patruunoita. \n \n huolellinen valmistelu - avain onnistuneeseen raidiin!                                                                   "
+    },
+    {
+      "_________id": 167,
+      "_translator": "google",
+      "__from_text": "Лазер",
+      "____to_text": "Lasi      "
+    },
+    {
+      "_________id": 168,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Живой? Вот молодец! \nЯ уж переживать начал, давно тебя не было.",
+      "____to_text": "Seryozha -seta: elossa? Hyvin tehty! \n Aloin huolehtia, et ole ollut pitkaan.                                                         "
+    },
+    {
+      "_________id": 169,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: А то бывало продашь кому-то, а они не возвращаются, остаются гнить где-то в туннелях, а у нас и так с вооружением дефицит, сам понимаешь.",
+      "____to_text": "Seryozha -seta: Muuten myyt jollekin, ja he eivat palaa, he pysyvat matanissa jonnekin tunneleihin, ja ymmarramme jo alijaaman aseilla.                                                                                                                                    "
+    },
+    {
+      "_________id": 170,
+      "_translator": "google",
+      "__from_text": "Присоединиться\nк",
+      "____to_text": "Liity \n k                      "
+    },
+    {
+      "_________id": 171,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 4",
+      "____to_text": "Vaaditaan \n rep. 4          "
+    },
+    {
+      "_________id": 172,
+      "_translator": "google",
+      "__from_text": "Требуется реп. 2\n\nНаберите 12 очков \nв тире",
+      "____to_text": "Rep tarvitaan. 2 \n \n soita 12 pistetta \n kojelaudalla                    "
+    },
+    {
+      "_________id": 173,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: В общем, весь хабар, что в рейдах найдёшь - тащи сюда. А если снаряжение или оружие какое понадобится, его тоже можно купить у меня.",
+      "____to_text": "Seryozha -seta: Yleensa koko khabar, mita loydat raideista - veda taalta. Ja jos laitteita tai aseita tarvitaan, se voi myos ostaa minulta.                                                                                                                       "
+    },
+    {
+      "_________id": 174,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну показывай, что притащил!",
+      "____to_text": "Seryozha -seta: No, osoita, etta olet vetanyt!                          "
+    },
+    {
+      "_________id": 175,
+      "_translator": "google",
+      "__from_text": "Используйте схрон для хранения нужных предметов. \n\nОбратите внимание, что все предметы за пределами вашего схрона и инвентаря не будут сохранены!",
+      "____to_text": "Tallenna valimuistit tarvittavat tuotteet. \n \n Huomaa, etta kaikkia valimuistien ja varastosi ulkopuolella olevia kohteita ei tallenneta!                                                                                                                                 "
+    },
+    {
+      "_________id": 176,
+      "_translator": "google",
+      "__from_text": "Лучшая попытка:",
+      "____to_text": "Paras yritys:               "
+    },
+    {
+      "_________id": 177,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как пелось в одной старой песне: \"Раздевайся, раз пришёл\". Только раздеваться не надо. Хабар лучше покажи.",
+      "____to_text": "Seryozha -seta: Kuinka yhdessa vanhassa kappaleessa oli: \"Riida, kerran tuli.\" Ala vain riisu. Nayta habar parempi.                                                                                                  "
+    },
+    {
+      "_________id": 178,
+      "_translator": "google",
+      "__from_text": "Выполняйте поручения торговца, чтобы повышать свой уровень репутации. \n\nС новыми уровнями репутации становится доступно новое снаряжение.",
+      "____to_text": "Noudata kauppiaan ohjeita lisataksesi mainetasoa. \n \n uusilla mainetasoilla, uudet laitteet tulevat saataville.                                                                                                                                               "
+    },
+    {
+      "_________id": 179,
+      "_translator": "google",
+      "__from_text": "Хорошо подготовьтесь к рейду: запаситесь фильтрами, аптечками и патронами. Если повезет, их можно будет найти и в самом рейде, но ведь глупо полагаться на одну удачу?",
+      "____to_text": "Valmista hyvin raidille: Varastoi suodattimia, ensimmaista AID -sarjaa ja patruunoita. Jos olet onnekas, ne loytyvat itse hyokkayksesta, mutta on typeraa luottaa yhteen onnea?                                                                                                                              "
+    },
+    {
+      "_________id": 180,
+      "_translator": "google",
+      "__from_text": "РЕПУТАЦИЯ:",
+      "____to_text": "Maine:             "
+    },
+    {
+      "_________id": 181,
+      "_translator": "google",
+      "__from_text": "Вы погибли...\n\nВсе найденные в этом рейде предметы были потеряны.",
+      "____to_text": "Kuollut... \n \n Kaikki tassa raidessa loydetyt esineet katosivat.                                                    "
+    },
+    {
+      "_________id": 182,
+      "_translator": "google",
+      "__from_text": "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 1000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nРЕПУТАЦИЯ УРОВЕНЬ 3\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ",
+      "____to_text": "Kuolemattomuus \n \n \n \n lisaa 1000 ruplaa. \n \n \n \n Suorita nykyinen tehtava \n \n \n mainetaso 3 \n \n \n \n sailyttamisen estamiseksi estamaan sailyttaminen                                    "
+    },
+    {
+      "_________id": 183,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была.",
+      "____to_text": "Seryozha -seta: Jos nain mojovan ghoulin tien varrella, niin se oli todennakoisesti vaimoni.                                                                    "
+    },
+    {
+      "_________id": 184,
+      "_translator": "google",
+      "__from_text": "Настроить высоту",
+      "____to_text": "Maarita korkeus                "
+    },
+    {
+      "_________id": 185,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Только сразу я тебе крутые волыны не доверю, сначала покажи себя - выполни пару заданий.",
+      "____to_text": "Seryozha -seta: Vasta heti en luota sinuun viileilla Volynilla, nayta ensin itsesi - tee pari tehtavaa.                                                                               "
+    },
+    {
+      "_________id": 186,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Звать меня Сергей Станиславович, но можно и дядя Серёжа. Так даже лучше будет. Я тут главный по тыловому обеспечению.",
+      "____to_text": "Seryozha -seta: Sergey Stanislavovich soittaa minulle, mutta voit myos Seryozhan seta. Joten se on viela parempi. Olen paatuen paa.                                                                                                        "
+    },
+    {
+      "_________id": 187,
+      "_translator": "google",
+      "__from_text": "ВЫЖИТЬ В ПЕРВОМ \nРЕЙДЕ",
+      "____to_text": "Selviytya ensimmaisessa \n Raidissa      "
+    },
+    {
+      "_________id": 188,
+      "_translator": "google",
+      "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки и патроны. \n\nТщательная подготовка - залог успешного рейда!\r\n\nРейдовые локации недоступны в Демо.",
+      "____to_text": "Toveri, valmistaudu lajitteluun: Ala unohda ottaa suodattimia, ensin -AID -sarjoja ja patruunoita. \n \n huolellinen valmistelu - avain onnistuneeseen raidiin! \n \n RAID -paikkoja ei ole kaytettavissa demoon.                                                                                       "
+    },
+    {
+      "_________id": 189,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nВы потеряете все найденные вещи и вернетесь назад в убежище.",
+      "____to_text": "Oletko varma, etta haluat suorittaa hyokkayksen aikataulusta edella? \n menetatko kaikki loydetyt asiat ja palaa takaisin turvakotiin.                                                                "
+    },
+    {
+      "_________id": 190,
+      "_translator": "google",
+      "__from_text": "Вернуться в игру",
+      "____to_text": "Palaa peliin                  "
+    },
+    {
+      "_________id": 191,
+      "_translator": "google",
+      "__from_text": "Имя                Хабара за раз вынесено на:",
+      "____to_text": "Khabarin nimi on tehty kerrallaan:                                   "
+    },
+    {
+      "_________id": 192,
+      "_translator": "google",
+      "__from_text": "Сбросить прогресс",
+      "____to_text": "Nollaa eteneminen                "
+    },
+    {
+      "_________id": 193,
+      "_translator": "google",
+      "__from_text": "НАЙТИ ПРОПАВШЕГО\nСТАЛКЕРА",
+      "____to_text": "Etsi puuttuva \n stalker                         "
+    },
+    {
+      "_________id": 194,
+      "_translator": "google",
+      "__from_text": "ПРИНЕСТИ 3 ТБшки\n(   /3)",
+      "____to_text": "Tuo 3 TBSHKI \n ( /3)                 "
+    },
+    {
+      "_________id": 195,
+      "_translator": "google",
+      "__from_text": "Вернуться в убежище",
+      "____to_text": "Palaa turvakotiin                   "
+    },
+    {
+      "_________id": 196,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если нашёл абрикосы в банке - забирай лучшую волыну бесплатно!",
+      "____to_text": "Seryozha -seta: Jos loysit aprikooseja pankista, ota paras tappio ilmaiseksi!                                                           "
+    },
+    {
+      "_________id": 197,
+      "_translator": "google",
+      "__from_text": "ПРИНЕСТИ 6 лампочек\n(   /6)",
+      "____to_text": "Tuo 6 sipulia \n ( /6)                      "
+    },
+    {
+      "_________id": 198,
+      "_translator": "google",
+      "__from_text": "Вождь наш, Никита Андреич Лебедев - хорош. В старой жизни полканом был, первым сообразил, что людей спасать надо, вот всех в метро и собрал, ну, кого нашел. Святой человек, спас нас. Как за него не голосовать теперь, а? Да и довольствие присылает в срок, все понимает мужик. Никогда не говорил \"потерпите\" или \"пояса надо затянуть\". Еще и школы открыл, детей учит.\r\n\nА про любовниц его - это все кривотолки. Коммунисты эти болтают что ни попадя, языки у них без костей. Вот правили они в мире старом, и к чему это нас привело?",
+      "____to_text": "Johtajamme, Nikita Andreich Lebedev, on hyva. Vanhassa elamassa han oli turvakoti, joka ymmarsi ensimmaisena, etta ihmiset oli pelastettava, ja han kerasi kaikki metroon, jonka han loysi. Pyha mies pelasti meidat. Kuinka ei aanesta hanen puolestaan, vai mita? Kylla, ja korvaus lahettaa ajoissa, mies ymmartaa kaiken. En ole koskaan sanonut \"sietamaan\" tai \"vyoja on kiristettava\". Han avasi myos koulut, opettaa lapsia. \n \n ja hanen rakastajataristaan - nama ovat kaikki vinowoodia. Nama kommunistit keskustelevat, joita he eivat voi saada, heidan kielensa ovat ilman luita. He hallitsivat vanhassa maailmassa, ja mihin se johti meita?                                                                                                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 199,
+      "_translator": "google",
+      "__from_text": "Мы все слишком зациклены на этой поганой жратве. Мы постоянно хотим есть, будто у нас внутри - дыра, которую нужно постоянно затыкать. Даже когда еды нет, мы ее ищем и готовы делать ради этого страшные вещи.\r\n\nЯ и сам из-за еды делал непоправимое, мне никогда не отмыться. Также видел я, как это делают и другие - мужчины бросали женщин, матери - своих детей, а иногда происходило и кое-что похуже. Я не хочу, чтобы это оставалось на бумаге.\r\n\nИ вот мы живем в жалких тоннелях, пока наверху растет новый мир. Мы продолжаем искать еду, выращивать ее, готовить, иногда нападать друг на друга. Интересно, мутанты с поверхности приходят к нам тоже в поисках жратвы?",
+      "____to_text": "Olemme kaikki liian kiinteita tahan saastaiseen grubiin. Haluamme jatkuvasti syoda, ikaan kuin meilla olisi sisalla - reika, joka on jatkuvasti kytkettava. Jopa silloin, kun ruokaa ei olisi, etsimme sita ja olemme valmiita tekemaan kauheita asioita tahan. \n \n mina itse tein korjaamatonta ruoan takia, en koskaan pese itseani. Nain myos kuinka muut tekivat sen - miehet heittivat naisia, aiteja - heidan lapsiaan, ja joskus tapahtui jotain pahempaa. En halua sen pysyvan paperilla. \n \n ja tassa elamme kurjissa tunneleissa, kun uusi maailma kasvaa ylakerrassa. Etsimme edelleen ruokaa, kasvatamme sita, keita, joskus hyokkaamme toisiinsa. Mielenkiintoista on, etta pinnan mutantit tulevat myos meille etsimaan grubia?                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+      "_________id": 200,
+      "_translator": "google",
+      "__from_text": "Она говорила, что ее звали Тексиз. \r\n\nОчень странное имя, особенно для нашей местности. Все думали, что она из Америки, откуда-то из Техаса или другого южного штата, но она говорила, что в штатах никогда не была.\r\n\nМы жили вместе полтора года, и каждый день с Тексиз казался мне открытием, нес что-то новое. Но я видел, что ей со мной не очень, хотя она этого не говорила никогда. Да я и не спрашивал. Боялся спугнуть свое счастье.\r\n\nОднажды утром она разбудила меня и сказала ровно одну фразу: \"Я чувствую себя так, будто сегодня ночью умру\". После этого собрала вещи и молча ушла, а ее слова... они меня до сих пор пугают.\r\n\nЧто тебя так напугало, милая Тексиз? Почему ты ушла?",
+      "____to_text": "Han sanoi, etta hanen nimensa oli Tekekiz. \n \n hyvin outo nimi, etenkin alueellemme. Kaikki ajattelivat olevansa Amerikasta, jostakin Texasista tai toisesta etelaisesta valtiosta, mutta han sanoi, ettei han ollut koskaan ollut osavaltioissa. \n \n asimme yhdessa puolitoista vuotta, ja joka paiva Tekysizin kanssa naytti minulle loytolta, kantoi jotain uutta. Mutta huomasin, etta han ei ollut kovin hyva kanssani, vaikka han ei koskaan sanonut tata. Kylla, en kysynyt. Han pelkasi pelata hanen onnellisuuttaan. \n \n eraana aamuna han heratti minut ja sanoi tarkalleen yhden lauseen: \"Minusta tuntuu, etta kuolisin tanaan.\" Sen jalkeen han kerasi asioita ja lahti hiljaa, ja hanen sanansa... he pelottavat minua edelleen. \n \n Mika pelotti sinua niin, rakas Tekiz? Miksi lahdit?                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 201,
+      "_translator": "google",
+      "__from_text": "Не пойду я на эти выборы вождя нового, подписано уж все. Как в мире старом, поговорка была: \"Голосуй, не голосуй - все равно получишь то же самое\". Да и ходить туда-сюда ноги уже не дают.\r\n\nТакую страну развалили, да и мир тоже в целом, эх. Живем тут как крысы в подполье, за вождя голосуем, а там, наверху, лес растет этот, волшебный, бляха.\r\n\nПойду лучше самогонки наверну.",
+      "____to_text": "En aio kayda naissa uuden johtajan vaaleissa, kaikki on allekirjoitettu. Kuten vanhassa maailmassa, sanonta oli: \"Aanesta, ala aanesta - saat silti saman.\" Kylla, ja heidan jalkojensa eivat enaa salli menna edestakaisin. \n \n tallainen maa pilaantiin, ja maailma on myos yleensa, eh. Asumme taalla kuin rotat maan alla, aanestamme johtajan puolesta ja siella, ylakerrassa, tama metsa kasvaa, maaginen, plakit. \n \n menen todennakoisesti paremmin kuin kuuhiini.                                                                                                                                                                                                         "
+    },
+    {
+      "_________id": 202,
+      "_translator": "google",
+      "__from_text": "Вот сейчас сижу и вспоминаю, как в прошлой жизни книжки любил читать. И ведь полно литературы было про конец всего, про поверхность отравленную, про метро и выживание. Чувствовали люди, наверное, что что-то такое будет. Что накроется все, вот и фантазировали, как оно произойдет. А мы сидели в теплых квартирах, да за продуктами ходили, иногда книжки эти покупали.\n\r\nСейчас же в них надобности нет, ничего фантазировать не надо - вот оно все, руками можно потрогать. Правда фантастичнее любого вымысла.",
+      "____to_text": "Nyt istun ja muistan, kuinka rakastin lukea kirjan viimeisessa elamassa. Ja loppujen lopuksi se oli paljon kirjallisuutta kaiken lopusta, myrkytetysta pinnasta, metroista ja selviytymisesta. Ihmiset tunsivat todennakoisesti, etta jotain tapahtuu. Etta kaikki katetaan, ja he fantasioivat miten se tapahtuu. Ja istuimme lampimissa huoneistoissa, mutta menimme tuotteita, joskus ostimme nama kirjat. \n \n Nyt heille ei ole tarvetta, ei ole mitaan fantasioita - siina kaikki, kadet, joihin voit koskettaa. Todellinen fantastinen enemman kuin mikaan fiktio.                                                                                                                                                                                                                                                                                                                                                                 "
+    },
+    {
+      "_________id": 203,
+      "_translator": "google",
+      "__from_text": "Как-то недавно ходил на вылазку, были наверху от силы полчаса, но попали в окружение почти сразу, пришлось отбиваться от гадов. Я мутантов и раньше стрелял, но в этот раз все было как-то по-другому. Твари будто разговаривали, не знаю, как объяснить. Будто обсуждали нас на своем языке.\r\n\nЯ одного пришил и пока он кровью истекал, увидел в его глазах что-то. Искру какую-то, человечность что ли. Он, как и мы, помирать не хотел и до последнего, будто поверить не мог, что его час настал.\r\n\nА нам, что было делать? Либо мы, либо они.",
+      "____to_text": "Jotenkin askettain menin lajittelemaan, he olivat ylakerrassa puolen tunnin voimasta, mutta ne ymparoivat melkein heti, minun piti taistella matelijoita. Ammuin mutantteja aiemmin, mutta talla kertaa kaikki oli jotenkin erilainen. Olennot nayttivat puhuvan, en tieda kuinka selittaa. Ikaan kuin he keskustelevat meista omalla kielellani. \n \n Ompelin yhden ja kun han verenvuoto oli, nain jotain hanen silmissa. Jonkinlainen kipina, ihmiskunta tai jotain. Han, kuten me, ei halunnut kuolla edes viimeiseen, ikaan kuin han ei voisi uskoa tuntinsa tullut. \n \n ja me, mita tehda? Joko me tai he.                                                                                                                                                                                                                                                                                                                                                             "
+    },
+    {
+      "_________id": 204,
+      "_translator": "google",
+      "__from_text": "Помню одну странную вещь, думаю нужно ее записать. Еще до конца старого мира знала одного мальчика по имени Женя, ему всегда было пять лет. Все вокруг старели, заводили семьи, умирали, а Жене всегда было пять.\r\n\nМы познакомились во дворе, мне было лет десять, а ему пять. Я выросла, закончила школу и встретила Сережу, а Жене все еще было пять. У меня родились дети, выросли, им было по десять, а Жене все еще было пять. \r\n\nВ итоге лес нас прогнал, детей я потеряла, а Женю больше не видела.\r\n\nИнтересно, ему все еще пять?",
+      "____to_text": "Muistan yhden omituisen asian, mielestani minun on tallennettava se. Jo ennen vanhan maailman loppua han tiesi yhden Zhenya -nimisen pojan, han oli aina viisi vuotta vanha. Kaikkien vanhojen, perheiden ymparilla, kuolivat, ja hanen vaimonsa oli aina viisi. \n \n tapasimme pihalla, olin kymmenen vuotta vanha ja han oli viisi. Kasvasin, valmistuin koulusta ja tapasin Seryozhan, ja vaimoni oli viela viisi. Lapseni syntyivat, he kasvoivat, he olivat kymmenen ja hanen vaimonsa oli viela viisi. \n \n Seurauksena, ajoiin meidat ulos, menetin lapset, mutta en nahnyt Zheniaa enaa. \n \n ihmettelen, onko han viela viisi?                                                                                                                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 205,
+      "_translator": "google",
+      "__from_text": "Я долго размышлял о структурах жизни, порядке событий и их смыслах. Размышления эти навели меня на забавную мысль: мы все думали, что жизнь каждого индивида - небольшой мономиф, некий самостный путь героя. Миллиарды сюжетов, которые иногда пересекаются, а иногда - нет. Мы думали, что каждый - герой своей жизни. Но нифига. Мир, жизнь и воля зелени показали нам, что мы лишь статисты, массовка, а настоящий герой - природа. Сейчас она изменяется, как и положено любому хорошему герою, а мы, затаив дыхание, смотрим и ждем смерти как вид.",
+      "____to_text": "Ajattelin pitkaan elaman rakenteita, tapahtumien jarjestysta ja niiden merkityksia. Nama ajatukset saivat minut hauskaan ajatukseen: me kaikki ajattelimme, etta kunkin yksilon elama on pieni monomifa, sankarin tietty itsevalvoja. Miljardeja tontteja, jotka joskus leikkaavat, ja joskus ei. Ajattelimme, etta kaikki olivat hanen elamansa sankari. Mutta Nifiga. Greenery -maailma, elama ja tahto osoittivat meille, etta olemme vain statistit, vakijoukko ja todellinen sankari on luonto. Nyt se on muuttumassa, kuten jokaiselle hyvalle sankarille pitaisi olla, ja me, katsomme ja odotamme kuolemaa lajina.                                                                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 206,
+      "_translator": "google",
+      "__from_text": "Я всегда любила лес. Жила в городе, но постоянно ездила побродить между березок и лип. Только там все проблемы отступали и ничего в жизни больше не оставалось, кроме чистого горизонта и листвы.\r\n\nСейчас я живу под землей (в этом клоповнике), но точно знаю, что когда-нибудь я все-таки выберусь на поверхность и растворюсь там в лесу, который изменяет все и всех. Плевать, даже если превращусь в одно из этих чудовищ. Зато стану свободной.",
+      "____to_text": "Rakastin aina metsaa. Han asui kaupungissa, mutta meni jatkuvasti vaeltamaan koivujen ja huulten valilla. Vain siella kaikki ongelmat vetaytyivat ja mikaan muu ei jatetty elamassa, paitsi puhdas horisontti ja lehdet. \n \n Nyt asun maan alla (tassa leikkeessa), mutta tiedan varmasti, etta jonain paivana menen silti pintaan ja liukenen metsaan, joka muuttaa kaiken ja kaikki. Spit, vaikka muuttuisin yhdeksi naista hirvioista. Mutta minusta tulee vapaa.                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+      "_________id": 207,
+      "_translator": "google",
+      "__from_text": "Для вкл/выкл лазера/\nфонарика используйте  \nкурок второй руки,\nудерживая оружие\nобеими руками.\n\nНе забывайте чистить \nснаряжение после \nрейдов. Грязное оружие \nможет подвести вас в \nсамый ответственный \nмомент!",
+      "____to_text": "Laser /\n -tasalampun laulu /pois paalta kaytetaan toisen kaden \n -liipaisinta, \n pitamalla aseita \n molemmilla kasilla. \n \n ala unohda puhdistaa \n -laitteita \n raidien jalkeen. Likaiset aseet \n voivat tuoda sinut \n Vastuullisimpaan \n -hetkeen!                                                                                                                                         "
+    },
+    {
+      "_________id": 208,
+      "_translator": "google",
+      "__from_text": "Славься Зелень-мать, да будет всеобъемлюща сила твоя первородная, ничем не замутненная. Меняй нас, меняй все вокруг, по усмотрению своему переиначивай.\r\n\nВиденье твое скрыто от нас, но верим мы, что приведешь ты человека к миру новому, вратам райским и прощению. Верим мы, что от грехов наших души избавишь. Верим, что избавишь от диавола, ведь нет его там, где нет человека старого и страстей его.\r\n\nПрими нас в объятия свои. Дай войти нам в покои твои и жить там в благодати. Готовы мы отринуть все старое и принять новое. Готовы мы к изменениям, о Зелень-мать.",
+      "____to_text": "Kunnia aidin vihreat, olkoon ensisijainen voimallasi kattava, ei mutainen. Vaihda meita, vaihda kaikki ympari, tule uudelleen harkintasi. \n \n Visiosi on piilotettu meilta, mutta uskomme, etta tuot ihmisen uuteen maailmaan, paratiisin portit ja anteeksiannon. Uskomme, etta pelastat sielumme synnit. Uskomme, etta pelastat sinut paholaiselta, koska ei ole ketaan, jossa ei ole vanhaa miesta ja hanen intohimonsa. \n \n hyvaksy meidat sylissasi. Antakaamme kammioihimme ja elamme siella armossa. Olemme valmiita hylkaamaan kaiken vanhan ja hyvaksymaan uuden. Olemme valmiita muutoksiin, vihreista.                                                                                                                                                                                                                                                                                                                                                                                                                              "
+    },
+    {
+      "_________id": 209,
+      "_translator": "google",
+      "__from_text": "Помню, как меня в детстве травил и колотил один парнишка, несколько лет подряд. Я сильно его боялся тогда, аж коленки тряслись. Мне даже постоянно казалось, что он из-за любого угла выпрыгнет и побьет меня. Сдачи я дать не мог. То ли родители так воспитали, то ли трусил просто.\r\n\nВстретил его недавно в метро - старого, осунувшегося. Он сейчас охотой на артефакты промышляет - стал другим человеком, может уже и не помнит, как надо мною издевался. \r\n\nМне глаза его запомнились. Было что-то в них опустошающее. Будто он уже не понимает, кем становится. Я был на него обижен и зол, но эти глаза из меня как будто все выпили. Странно это все и страшно.",
+      "____to_text": "Muistan, kuinka yksi kaveri myrkytti minua ja lyo minua lapsuudessa useita vuosia perakkain. Pelkasin hanta silloin hyvin, polvet olivat jo vapina. Minusta jopa naytti jatkuvasti, etta han hyppaa mista tahansa nurkasta ja lyo minua. En voinut antaa muutosta. Joko vanhemmat kasvatettiin niin, tai pelkuri yksinkertaisesti. \n \n tapasi hanet askettain metrolla - vanha, haggard. Han metsastaa nyt esineita - hanesta on tullut erilainen henkilo, ehka han ei enaa muista kuinka han pilkkasi minua. \n \n muistan hanen silmansa. Heissa oli jotain tuhoisaa. Ikaan kuin han ei enaa ymmarra kuka hanesta tulee. Olin loukkaantunut ja vihainen hanelle, mutta nama silmat nayttivat juovan minulta. Se on kaikki outoa ja pelottavaa.                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 210,
+      "_translator": "google",
+      "__from_text": "Все считают меня сказочником, а я просто собираю истории метро о прошлом и настоящем. Некоторые презрительно смотрят на меня, но я не могу им объяснить, что если я не буду собирать эти истории - никто не будет, и мы умрем без доказательств того, что вообще жили. Люди даже дали мне насмешливое прозвище в честь древнегреческого философа. Как оно меня бесит, даже записывать не хочу.\r\n\nНо если я перестану заниматься своим делом, кто подхватит эту эстафету? Никому дела нет до сохранения прошлого и настоящего, а книги сейчас в основном используют, чтобы самокрутки вертеть, да подтираться. Может и не зря старый мир рухнул? Мы же всегда так относились к нему - брезгливо, как хапуги, и даже не давали ничего взамен.",
+      "____to_text": "Jokainen pitaa minua tarinankertojana, ja keran vain metrotarinoita menneisyydesta ja nykyisyydesta. Jotkut katsovat minua halveksivasti, mutta en voi selittaa heille, etta jos en keraa naita tarinoita, kukaan ei ole, ja me kuolemme ilman todisteita siita, etta olemme yleensa elaneet. Ihmiset jopa antoivat minulle pilkkaavan lempinimen muinaiskreikkalaisen filosofin kunniaksi. Kuinka se kiihdyttaa minua, en halua edes kirjoittaa minua. \n \n Mutta jos lopetan tyoni tekemisen, kuka poimii taman batonin? Kukaan ei valita menneisyyden ja nykyisyyden sailyttamisesta, ja kirjoja kaytetaan nyt paaasiassa kauhojen kaantamiseen ja jauhamiseen. Ehka se ei ole turhaan, etta vanha maailma romahti? Kasittelimme hanta aina sellaisena - hankalasti, kuten hapugs, emmeka edes antaneet mitaan vastineeksi.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+    },
+    {
+      "_________id": 211,
+      "_translator": "google",
+      "__from_text": "В подземке много людей и им снится много снов. Бесчисленное количество и каждый раз - новые. Они сейчас заменяют нам телевизор, радио и прочие мелкие радости.\r\n\nМне вот недавно женщина на белом коне приснилась. Бледная, голая, с алыми губами цвета спелого яблока. Ехала и молчала. Только звук копыт по снегу \"хрум-хрум\".\r\n\nИнтересно, к чему бы это?",
+      "____to_text": "Metrolla on monia ihmisia ja he haaveilevat monista unista. Lukemattomia ja joka kerta uusi. He korvaavat meidat nyt televisiolla, radiossa ja muilla pienilla iloilla. \n \n haaveilin askettain valkoisesta hevosesta. Vaalea, alasti, scarlet huulilla kypsaisen omenan vari. Ajoin ja hiljaa. Vain sormien aani lumessa \"krum-khrum\". \n \n ihmettelen, mihin se olisi?                                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 212,
+      "_translator": "google",
+      "__from_text": "У меня все из головы не идет одна история, слышал ее еще когда мир был старым. Тогда боец один американский, боксер вроде, не помню, как его звали, пусть будет Джон. Или Берни. В общем, он поднялся с самых низов и стал чемпионом, вроде как в среднем весе, причем несколько раз. Получил парень все, о чем мечтал, а потом на пике карьеры взял и повесился. Его дома нашли. В трусах своих боевых в петле болтался.\r\n\nИ вот я сижу, думаю, что ведь человечество в целом по стопам этого Берни пошло. Только у нас самих повеситься не получилось. Вот мы природу и попросили нам помочь. А она и рада стараться, во всем человеку всегда помогала и тут не отказала.",
+      "____to_text": "Minulla ei ole ketaan tarinaa paastani, kuulin sen jopa silloin, kun maailma olisi vanha. Sitten taistelija on yksi amerikkalainen, nyrkkeilija, en pida, en muista, mika oli hanen nimensa, anna John olla. Tai Bernie. Yleensa han nousi pohjasta ja tuli mestariksi, tavallaan kuin keskipainossa ja useita kertoja. Kaveri sai kaiken, josta han haaveili, ja sitten uransa huipussaan han otti ja ripusti itsensa. Hanet loydettiin kotona. Silmukan pikkuhousuissa roikkuu. \n \n ja tassa istun, luulen, etta ihmiskunta yleensa taman Bernien jalanjaljissa meni. Vain me itse emme voineet ripustaa itseaan. Taalla meilla on luonto ja pyysin meita auttamaan. Ja han on mielellaan yrittanyt, han auttoi aina koko henkilossa eika kieltaytynyt taalla.                                                                                                                                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 213,
+      "_translator": "google",
+      "__from_text": "Для установки прицелов \nи насадок на оружие -\nзажмите его в тиски\nна верстаке. \n\nПосле этого поднесите \nнасадку к нужному \nместу и отпустите ее.",
+      "____to_text": "Asentaaksesi nahtavyyksia \n ja aseita -\n napsauttamalla sita tyopoydalla \n. \n \n Sen jalkeen tuo \n suutin haluttuun \n -paikkaan ja vapauta se.                                                                                                                    "
+    },
+    {
+      "_________id": 214,
+      "_translator": "google",
+      "__from_text": "Сейчас в метро все кому не лень женятся уже через неделю-две после шуры-муры. То ли людям страшно, то ли скорее хочется отметины оставить, чтобы всем заявить, что, мол, \"мое и все тут\". Помню, как в старом мире мало кто торопился с этим делом и все жили в свое удовольствие. К чему нас это привело?\r\n\nБыла у меня тогда девушка, но я ее бросил. Назвал \"лучшей\" и сбежал. Даже не знаю сейчас, что с ней и жива ли вообще? До сих пор в лицах встречных ищу ее.\r\n\nКто знает, может, повезет?",
+      "____to_text": "Nyt metrolla kaikki, jotka eivat ole laiskoja naimisiin viikossa tai kahdessa Shura-Muran jalkeen. Joko ihmiset ovat peloissaan, tai haluan pikemminkin jattaa jalkia sanoakseni kaikille, etta he sanovat: \"Minun ja kaikki taalla.\" Muistan, kuinka vanhassa maailmassa harvat olivat kiireellisia taman liiketoiminnan kanssa ja kaikki asuivat nautinnon puolesta. Mita tama johti meihin? \n \n minulla oli silloin tyttoystava, mutta jatin hanet. Han kutsui \"parhaaksi\" ja pakeni. En edes tieda nyt mita hanen kanssaan on ja onko se ollenkaan elossa? Tahan asti etsin hanta tulevien ihmisten henkiloissa. \n \n Kuka tietaa, ehka han on onnekas?                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 215,
+      "_translator": "google",
+      "__from_text": "Я столько всего потерял. Жизнь отобрала у меня все, что я любил - жену и дочь, родителей, друзей. Только я терял кого-то и только приходил в себя, как жизнь снова забирала у меня что-то важное.\r\n\nТеперь я слоняюсь по тоннелям как шакал и забираю важные вещи у других. Я нападаю и беру все - патроны, лекарства, еду, а иногда и чужие жизни.\r\n\nПо-другому и быть не может. Я слишком много терял и теперь намерен лишь забирать. Таков порядок вещей в новом мире.",
+      "____to_text": "Menetin niin paljon. Elama otti kaiken, mita rakastin minulta - vaimoni ja tyttareni, vanhemmat, ystavat. Vain kadotin jonkun ja tulin vain aisteilleni, koska elama taas otti minulta jotain tarkeaa. \n \n Nyt vaeltan tunnelien ymparilla kuin sakkaali ja otan tarkeita asioita muilta. Hyokkaa ja otan kaiken - patruunoita, laakkeita, ruokaa ja joskus muiden ihmisten elamaa. \n \n ei voi olla muuta tapaa. Menetin liikaa ja nyt aion vain ottaa sen. Tama on asioiden jarjestys uudessa maailmassa.                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+      "_________id": 216,
+      "_translator": "google",
+      "__from_text": "Вот была же жизнь раньше, не то, что сейчас. Москва стояла как монолит, пивнушки уютные на каждом углу, ТЦ людные, Кремль громадой своей возвышался. А пирожки какие были, аж слюнки текут как вспоминаю!\r\n\nА сейчас что? Картошка ватная, хлеб с плесенью, а если повезет - консервы просроченные. И куда не глянь - везде рожи недовольные, слоняются туда-сюда, зыркают.\r\n\nЖаль, что все потеряли. Не сохранили. Ох, как жаль.",
+      "____to_text": "Se oli elama aikaisemmin, ei nyt. Moskova seisoi kuin monoliitti, olut ovat viihtyisia joka nurkassa, tungosta ostoskeskuksessa, Kremlissa oli valtava. Ja mitka olivat piirakat, kuolaus virtaa muistan! \n \n ja mita nyt? Perunat ovat puuvillaa, leipaa muottia, ja jos olet onnekas, sailykkeet ovat myohassa. Ja missa ala nayta - kaikkialla kasvot ovat tyytymattomia, he vaeltavat edestakaisin, nuuska. Ei sailynyt. Voi, mika saali.                                                                                                                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 217,
+      "_translator": "google",
+      "__from_text": "Выстрели в голову, \nчтобы начать",
+      "____to_text": "Ampua paahan \n aloittaaksesi                              "
+    },
+    {
+      "_________id": 218,
+      "_translator": "google",
+      "__from_text": "Загрузить последний чекпоинт",
+      "____to_text": "Lataa viimeinen tarkistuspiste                        "
+    },
+    {
+      "_________id": 219,
+      "_translator": "google",
+      "__from_text": "Чекбокс",
+      "____to_text": "Pois          "
+    },
+    {
+      "_________id": 220,
+      "_translator": "google",
+      "__from_text": "Потяните затвор, чтобы дослать патрон.",
+      "____to_text": "Veda ikkunalaukulta patruunan lahettamiseen.                          "
+    },
+    {
+      "_________id": 221,
+      "_translator": "google",
+      "__from_text": "Для  контроля отдачи удерживайте автомат двумя руками.",
+      "____to_text": "Palauttamisen hallitsemiseksi pida kone kahdella kadella.                                           "
+    },
+    {
+      "_________id": 222,
+      "_translator": "google",
+      "__from_text": "Отпустите зажигалку и она автоматически вернется на своё место в инвентаре.",
+      "____to_text": "Vapauta kevyempi ja se palaa automaattisesti paikkaan varastossa.                                                                          "
+    },
+    {
+      "_________id": 223,
+      "_translator": "google",
+      "__from_text": "Чтобы использовать зажигалку нажмите на подсвеченную кнопку.",
+      "____to_text": "Jos haluat kayttaa kevyempaa, painamalla valaistusta painiketta.                                                 "
+    },
+    {
+      "_________id": 224,
+      "_translator": "google",
+      "__from_text": "Отпустите пистолет и он автоматически вернется в кобуру.",
+      "____to_text": "Paasta irti aseesta ja se palaa automaattisesti koteloon.                                               "
+    },
+    {
+      "_________id": 225,
+      "_translator": "google",
+      "__from_text": "Не обязательно извлекать магазин вручную, можно просто нажать на подсвеченную кнопку \"A\".",
+      "____to_text": "Kauppaa ei tarvitse purkaa manuaalisesti, voit napsauttaa vain valaistua \"A\" -painiketta.                                                                         "
+    },
+    {
+      "_________id": 226,
+      "_translator": "google",
+      "__from_text": "Потяните затвор вперед, чтобы дослать патрон или просто нажмите на подсвеченную кнопку \"B\".",
+      "____to_text": "Veda suljin eteenpain lahettaaksesi patruunan tai napsauta vain valaistua painiketta \"B\".                                                                            "
+    },
+    {
+      "_________id": 227,
+      "_translator": "google",
+      "__from_text": "Возьмите автоматный магазин и вставьте в автомат.",
+      "____to_text": "Ota automaattinen myymala ja aseta koneeseen.                                              "
+    },
+    {
+      "_________id": 228,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет из кобуры на правой ноге.",
+      "____to_text": "Ota pistooli kotelosta oikealla jalalla.                                       "
+    },
+    {
+      "_________id": 229,
+      "_translator": "google",
+      "__from_text": "Чтобы извлечь магазин схватите его другой рукой и вытащите.",
+      "____to_text": "Voit poistaa kaupan tartu se toisella kadella ja veda se ulos.                                               "
+    },
+    {
+      "_________id": 230,
+      "_translator": "google",
+      "__from_text": "Достаньте зажигалку из правого нагрудного кармана.\n(Чтобы хватать предметы руками, поднесите к ним руку и зажимите подсвеченную кнопку на соответсвующем контроллере.)",
+      "____to_text": "Poista sytytin oikeasta rintataskusta. \n (tarttuaksesi esineisiin kasillasi, tuo kadet niihin ja purista vastaavan ohjaimen valaistu painike.)                                                                                                                                                                     "
+    },
+    {
+      "_________id": 231,
+      "_translator": "google",
+      "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.",
+      "____to_text": "Olet loukkaantunut. Ota ensimmainen AID -pakkaus vasemmasta rintataskusta.                               "
+    },
+    {
+      "_________id": 232,
+      "_translator": "google",
+      "__from_text": "Инвентарь",
+      "____to_text": "Varoitus          "
+    },
+    {
+      "_________id": 233,
+      "_translator": "google",
+      "__from_text": "Находки",
+      "____to_text": "Havainnot     "
+    },
+    {
+      "_________id": 234,
+      "_translator": "google",
+      "__from_text": "Найти топливо для генератора",
+      "____to_text": "Etsi polttoaine generaattorille                      "
+    },
+    {
+      "_________id": 235,
+      "_translator": "google",
+      "__from_text": "Найти 3 рулона туалетной бумаги",
+      "____to_text": "Etsi 3 rullapaperirullaa                                 "
+    },
+    {
+      "_________id": 236,
+      "_translator": "google",
+      "__from_text": "ТЕКУЩЕЕ ЗАДАНИЕ:",
+      "____to_text": "Nykyinen tehtava:             "
+    },
+    {
+      "_________id": 237,
+      "_translator": "google",
+      "__from_text": "Найти пропавшего сталкера",
+      "____to_text": "Loyda puuttuva stalker                          "
+    },
+    {
+      "_________id": 238,
+      "_translator": "google",
+      "__from_text": "Подзадачи:\n\n1) Найти ключ-карту",
+      "____to_text": "Subbales: \n \n 1) Etsi avainkortti                     "
+    },
+    {
+      "_________id": 239,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы можно продать.",
+      "____to_text": "Selvit! \n \n Kaikki tassa RAID -loydetyt esineet voidaan myyda.                                                  "
+    },
+    {
+      "_________id": 240,
+      "_translator": "google",
+      "__from_text": "Загрузка...",
+      "____to_text": "Lataaminen...      "
+    },
+    {
+      "_________id": 241,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Oletko varma, etta haluat menna paavalikkoon? \n \n menetat kaikki loydetyt asiat ja kaikki laitteet. Laitteiden tallentaminen - palaa takaisin vaunun turvakotiin.                                                                                                                                    "
+    },
+    {
+      "_________id": 242,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nПока загрузка не завершилась, вы не потеряете ничего из экипировки и вернетесь назад в убежище.",
+      "____to_text": "Oletko varma, etta haluat suorittaa hyokkayksen aikataulusta edella? \n kunnes lastaus on ohi, et meneta mitaan laitteista ja palaa takaisin turvakotiin.                                                                                                             "
+    },
+    {
+      "_________id": 243,
+      "_translator": "google",
+      "__from_text": "Начать",
+      "____to_text": "Alkaa       "
+    },
+    {
+      "_________id": 244,
+      "_translator": "google",
+      "__from_text": "Рейд завершен.",
+      "____to_text": "Raid on valmis.           "
+    },
+    {
+      "_________id": 245,
+      "_translator": "google",
+      "__from_text": "Выжить в первом рейде",
+      "____to_text": "Selviytya ensimmaisessa raidissa       "
+    },
+    {
+      "_________id": 246,
+      "_translator": "google",
+      "__from_text": "Подзадачи:\n\n\n- Включить генератор",
+      "____to_text": "Tekstitys: \n \n \n- Kytke generaattori paalle                "
+    },
+    {
+      "_________id": 247,
+      "_translator": "google",
+      "__from_text": "Рейд:",
+      "____to_text": "Raid:    "
+    },
+    {
+      "_________id": 248,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Oletko varma, etta haluat suorittaa hyokkayksen aikataulusta edella? \n \n menetat kaikki loydetyt asiat ja kaikki laitteet. Laitteiden tallentaminen - palaa takaisin vaunun turvakotiin.                                                                                                                    "
+    },
+    {
+      "_________id": 249,
+      "_translator": "google",
+      "__from_text": "Выжить и найти выход",
+      "____to_text": "Selviytya ja loyda tie ulos          "
+    },
+    {
+      "_________id": 250,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Oletko varma, etta haluat paasta pois pelista? \n \n menetat kaikki loydetyt asiat ja kaikki laitteet. Laitteiden tallentaminen - palaa takaisin vaunun turvakotiin.                                                                                                                      "
+    },
+    {
+      "_________id": 251,
+      "_translator": "google",
+      "__from_text": "Отсутсвует",
+      "____to_text": "Poissa              "
+    },
+    {
+      "_________id": 252,
+      "_translator": "google",
+      "__from_text": "Найти 6 лампочек",
+      "____to_text": "Etsi 6 sipulia               "
+    },
+    {
+      "_________id": 253,
+      "_translator": "google",
+      "__from_text": "Убить 5 мутантов",
+      "____to_text": "Tapa 5 mutanttia             "
+    },
+    {
+      "_________id": 254,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолетный магазин и вставьте в пистолет.",
+      "____to_text": "Ota pistoolikauppa ja aseta se aseeseen.                                                       "
+    },
+    {
+      "_________id": 255,
+      "_translator": "google",
+      "__from_text": "сентября 2041\n\n   Охота за артефактами прошлого - работа для людей не из робкого десятка. Покидая обжитые места, и оставаясь в одиночестве в темноте, за углом можно встретить не только кровожадного мутанта, но и, как поговаривают, что-то намного страшнее.\r\n\nЭто была далеко не первая моя вылазка, но меня все равно",
+      "____to_text": "Syyskuu 2041 \n \n Menneisyyden esineiden metsastys - ihmisten tyo ei ole arka kymmenesta. Jattaen asuttuja paikkoja ja pysyen yksin pimeassa, voit loytaa paitsi verenhimoisen mutantin nurkan takana, mutta kuten he sanovat, jotain on paljon pahempaa. \n \n tama oli kaukana ensimmaisesta lajistani, mutta en valittanyt                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 256,
+      "_translator": "google",
+      "__from_text": "сентября 2022\n\n    Мир изменился. Когда-то природа щедро дала нам все, и мы этим пользовались, однако, со временем ей надоело терпеть человека. Она забрала свои дары назад, разрушила привычный мир, а нам пришлось прятаться. От старой жизни остались лишь тоннели метро, пыль и артефакты. \r\n\r\n   Сейчас охота за такими артефактами - прибыльная работа, с которой мало кто может справиться. Покидая надоевшие, но обжитые тоннели, оставаясь одни в темноте, сталкеры будто шагают в пустоту. Кто знает, может в этом и заключается наша тяга к смерти, и мы, по своей же воле, идем прямо в ее объятия.",
+      "____to_text": "Syyskuu 2022 \n \n maailma on muuttunut. Kerran luonto antoi meille kaiken anteliaasti, ja kaytimme sita, mutta ajan myota han oli kyllastynyt kestamaan miesta. Han otti lahjansa takaisin, tuhosi tavanomaisen maailman, ja meidan piti piiloutua. Vain metrotunnelit, poly ja esineet pysyivat vanhasta elamasta. \n \n Tallaisten esineiden metsastys on kannattava tyo, jota harvat pystyvat kasittelemaan. Jattaen tylsat, mutta asutut tunnelit, jotka pysyivat yksin pimeassa, stalkerit nayttavat kavelevan tyhjyyteen. Kuka tietaa, ehka tama on haluamme kuolemasta, ja me omalla tahdollamme menemme suoraan hanen syliinsa.                                                                                                                                                                                                                                                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 257,
+      "_translator": "google",
+      "__from_text": "Это не первая моя вылазка, но меня все равно не покидает чувство тревоги. Заказчики - мутные ребята, и явно что-то недоговаривают. Если бы мне сейчас срочно не нужны были деньги, я бы точно не стал влезать в подобную авантюру.",
+      "____to_text": "Tama ei ole ensimmainen lajitteluni, mutta ahdistuksen tunne ei silti jata minua. Asiakkaat ovat mutaisia kavereita, ja tietysti he sanovat jotain. Jos en kiireellisesti tarvinnut rahaa, en todellakaan paase samanlaiseen seikkailuun.                                                                                                                                                                             "
+    },
+    {
+      "_________id": 258,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутсвует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".",
+      "____to_text": "Talla hetkella teknisten ongelmien vuoksi pelissa ei ole virallista tukiventtiilihakemistoa. \n \n normaalin ohjauksen pelaamiseksi (liikuttamalla sauvoilla jne.) Sinun on muutettava ohjaimien asettelua. Tata varten: \n \n 1. Avaa Steamvr -peittokuva. \n 2. Valitse \"Ohjaimen asetukset\". \n 3. Kytke \"ohjaimen aktiivinen asettelu\" \"kayttajalle\". \n 4. Napsauta\"Valitse toinen\" -painiketta. \n 5. Valitse Oculus -emulointiasettelu \"yhteison asettamiseen\".                                                                                                                                                                                                                                                                                                                                                                                                                             "
+    },
+    {
+      "_________id": 259,
+      "_translator": "google",
+      "__from_text": "не покидало чувство тревоги. \n\nЗаказчики были мутными ребятами, и явно что-то не договаривали, но мне очень были нужны деньги, и другого выбора у меня не оставалось...",
+      "____to_text": "Ahdistuksen tunne ei poistunut. \n \n asiakkaat olivat mutaisia kavereita, ja he eivat tietenkaan olleet samaa mielta jotain, mutta tarvitsin todella rahaa, ja minulla ei ollut muuta valintaa...                                                                                                           "
+    },
+    {
+      "_________id": 260,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите обнулить сохранение?",
+      "____to_text": "Oletko varma, etta haluat nollata saaston?                                     "
+    },
+    {
+      "_________id": 261,
+      "_translator": "google",
+      "__from_text": "Заказчик: Видел вон того, которого подбросило? На мою тёщу похож, земля ей пухом. Сейчас, поди, чертями в аду командует, старая ведьма.",
+      "____to_text": "Asiakas: Nain heitetyn? Nayttaa silta, etta aitini -laki, maa on han fluffed. Nyt, mene, se komentaa paholaisia helvetissa, vanha noita.                                                                                                         "
+    },
+    {
+      "_________id": 262,
+      "_translator": "google",
+      "__from_text": "Вы: Все в порядке. \nОдин мутант попался, и тот еле живой.",
+      "____to_text": "Sina: Kaikki on kunnossa. \n yksi mutantti kiinni, ja han on tuskin elossa.                         "
+    },
+    {
+      "_________id": 263,
+      "_translator": "google",
+      "__from_text": "Заказчик: Да пёс его знает, давно ж всё было, лет двадцать как.",
+      "____to_text": "Asiakas: Kylla, koira tuntee hanet, pitkaan kaikki oli noin kaksikymmenta vuotta.                              "
+    },
+    {
+      "_________id": 264,
+      "_translator": "google",
+      "__from_text": "Заказчик: Погнали! Ты давай хватай автомат, будем отбиваться.",
+      "____to_text": "Asiakas: Ajo! Tartu konekivaariin, taistelemme takaisin.                                                       "
+    },
+    {
+      "_________id": 265,
+      "_translator": "google",
+      "__from_text": "Вы: Да, бывало.",
+      "____to_text": "Sina: Kylla, se tapahtui."
+    },
+    {
+      "_________id": 266,
+      "_translator": "google",
+      "__from_text": "Заказчик: Рога им навертишь, найдёшь что надо, потом свалишь. Дельце плёвое. \nВсё, не гадим эфир. Отбой.",
+      "____to_text": "Asiakas: Loydat ehdottomasti sarvet, loydat tarvitsemasi, sitten jatat. Delce on fil. \n Kaikki, emme arvaa eetteria. Saranat.                                                           "
+    },
+    {
+      "_________id": 267,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Красная цена! Два автомата… по цене двух! (смеётся в голос)",
+      "____to_text": "Seryozha -seta: Punainen hinta! Kaksi konekivaaria... kahden hinnan! (nauraa aanella)                                            "
+    },
+    {
+      "_________id": 268,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну вот, а я что говорил? Зон-то нет поблизости. А уроды эти гнездятся дальше по тоннелю. Вот это, кстати, хреновая деталька.",
+      "____to_text": "Asiakas: No, mita sanoin? Lahella ei ole vyohyketta. Ja nama kummajaiset pesivat edelleen tunnelia pitkin. Tama on muuten paskaa osa.                                                                                                         "
+    },
+    {
+      "_________id": 269,
+      "_translator": "google",
+      "__from_text": "Начать с контрольной точки",
+      "____to_text": "Aloita ohjauspisteesta                           "
+    },
+    {
+      "_________id": 270,
+      "_translator": "google",
+      "__from_text": "Вы: Нужно найти ключ-карту.",
+      "____to_text": "Sina: Sinun on loydettava avainkortti.          "
+    },
+    {
+      "_________id": 271,
+      "_translator": "google",
+      "__from_text": "Я хочу быть как ты! Ты ведь мастер?",
+      "____to_text": "Haluan olla kuin sina! Oletko mestari?                       "
+    },
+    {
+      "_________id": 272,
+      "_translator": "google",
+      "__from_text": "Сейчас покажу. Дай-ка вон тот пустой цинк.",
+      "____to_text": "Naytan sinulle nyt. Anna sille tyhja sinkki.                               "
+    },
+    {
+      "_________id": 273,
+      "_translator": "google",
+      "__from_text": "Помню, как впервые столкнулся с новым \"лесом\". Мне было лет двадцать или чуть больше. Мы с Настей возвращались из кинотеатра и увидели, что прямо в центре города, раскурочивая асфальт и здания, вырос лес. Огромные кроны его вековых деревьев устремлялись вверх, фиолетовые цветы застилали взор, а птицы пели неземную музыку.\r\n\nНастя вошла внутрь, чтобы посмотреть. Я пытался ее остановить, но ей было слишком любопытно.\r\n\nС тех пор я ее больше не видел. Из леса вышло уже то, во что он ее превратил.",
+      "____to_text": "Muistan, kuinka tapasin ensin uuden \"metsan\". Olin kaksikymmenta tai vahan enemman. Nastya ja mina palasimme elokuvateatterista ja naimme sen aivan kaupungin keskustassa, hajauttaen asfaltin ja rakennukset, metsa kasvoi. Hanen vuosisatojensa valtavat kruunut -ikaiset puut kiirehtivat, violetti kukat peittivat silmansa ja linnut lauloivat epamiellyttavan musiikin. \n \n Nastya meni sisalle etsimaan. Yritin pysayttaa hanet, mutta han oli liian utelias. \n \n Siita lahtien en ole enaa nahnyt hanta. Metsasta tuli ulos, mista han muutti sen.                                                                                                                                                                                                                                                                                                                                                                   "
+    },
+    {
+      "_________id": 274,
+      "_translator": "google",
+      "__from_text": "Генераторная",
+      "____to_text": "Generaattori            "
+    },
+    {
+      "_________id": 275,
+      "_translator": "google",
+      "__from_text": "Ну, мне до мастера далеко, но пару занятных штук я сделать могу. \nДумаю, со временем ты меня превзойдёшь.",
+      "____to_text": "No, olen kaukana mestarista, mutta voin tehda pari mielenkiintoista asiaa. \n Luulen, etta ylitat minut ajan myota.                                                                         "
+    },
+    {
+      "_________id": 276,
+      "_translator": "google",
+      "__from_text": "По ночам я слышу тихий шепот \nна непонятном языке.\nВозможно, я уже просто понемногу схожу с ума в этой чёртовой лаборатории!",
+      "____to_text": "Yolla kuulen hiljaisen kuiskauksen \n kasittamattomalla kielella. \n Ehka olen vain hieman menettanyt mieleni tassa pirun laboratoriossa!                                                                                         "
+    },
+    {
+      "_________id": 277,
+      "_translator": "google",
+      "__from_text": "Заказчик: Смотри на их морды, сейчас они сильно удивятся!",
+      "____to_text": "Asiakas: Katso heidan kasvonsa, nyt he ovat hyvin yllattyneita!                                        "
+    },
+    {
+      "_________id": 278,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ничего такого, короче. Ты же должен понимать такие мутки, \nчай жмуриков видывал.",
+      "____to_text": "Asiakas: Ei mitaan, lyhyesti. Sinun on ymmarrettava tallaiset mutit, \n nait Zhmurikovin teeta.                                                                    "
+    },
+    {
+      "_________id": 279,
+      "_translator": "google",
+      "__from_text": "Пап, они тяжело идут. У меня плохо получается...",
+      "____to_text": "Isat, he menevat kovasti. Minusta tuntuu pahalta...                                 "
+    },
+    {
+      "_________id": 280,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?\nВесь несохраненный прогресс будет утерян.",
+      "____to_text": "Oletko varma, etta haluat menna paavalikkoon? \n Kaikki naamioitu edistyminen menetetaan.                                                                     "
+    },
+    {
+      "_________id": 281,
+      "_translator": "google",
+      "__from_text": "Вы: Так, я внутри. Как меня слышно? \nЖду инструкций.",
+      "____to_text": "Sina: Joten, olen sisalla. Kuinka kuulen minut? \n Odotan ohjeita.                         "
+    },
+    {
+      "_________id": 282,
+      "_translator": "google",
+      "__from_text": "Смотри, я вот сюда поставлю затворный механизм, а ты чуть-чуть затяни тиски. Не спеши.",
+      "____to_text": "Katso, laitan tanne kuplamekanismin, ja olet hieman kiristavat varapuheenjohtajaa. Ala kiirehdi.                                                          "
+    },
+    {
+      "_________id": 283,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была...",
+      "____to_text": "Seryozha -seta: Jos nain mojovan ghoulin tien varrella, niin todennakoisesti vaimoni oli...                                                                       "
+    },
+    {
+      "_________id": 284,
+      "_translator": "google",
+      "__from_text": "По-прежнему не могу выявить природу изменений, с помощью которых растительность из так называемых \"зон\" изменяет привычные и известные науке формы жизни.",
+      "____to_text": "En vielakaan pysty tunnistamaan muutosten luonnetta, jolla niin kutsuttujen \"vyohykkeiden\" kasvillisuus muuttaa tieteellisen elamanmuotojen tuttuja ja tunnetuita.                                                                                                                       "
+    },
+    {
+      "_________id": 285,
+      "_translator": "google",
+      "__from_text": "Заказчик: Бырее! Залезай, залезай!",
+      "____to_text": "Asiakas: Olisin enemman! Kiipea, kiipea!                     "
+    },
+    {
+      "_________id": 286,
+      "_translator": "google",
+      "__from_text": "Заказчик: Так это… тута они, конечно. \nМы же не кидалы какие.",
+      "____to_text": "Asiakas: Joten tama... tietysti Tuta. \n Emme ole mita ei ole pisteytys.                                     "
+    },
+    {
+      "_________id": 287,
+      "_translator": "google",
+      "__from_text": "Заказчик: Фартово, что так быстро добрался. Слухай сюда, твоя часть дела - найти защищённый контейнер.",
+      "____to_text": "Asiakas: Fartovo, joka sai niin nopeasti. Nouse taalta, asiaasi on loytaa suojattu sailio.                                                                                              "
+    },
+    {
+      "_________id": 288,
+      "_translator": "google",
+      "__from_text": "А какие штуки знаешь?",
+      "____to_text": "Tiedatko mita kappaleita?             "
+    },
+    {
+      "_________id": 289,
+      "_translator": "google",
+      "__from_text": "Не включай без нужды!\nЭкономь топливо!",
+      "____to_text": "Ala kaynnisty ilman tarvetta! \n Saasta polttoainetta!                "
+    },
+    {
+      "_________id": 290,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вроде бы болезнь у них там какая-то началась, Дрянь что-ли попала в систему фильтрации воды и померли все.",
+      "____to_text": "Asiakas: Vaikuttaa silta, etta heidan sairaudellaan on jonkinlainen sairaus, roskaa jotain paasi veden suodatusjarjestelmaan ja kaikki kuoli.                                                                    "
+    },
+    {
+      "_________id": 291,
+      "_translator": "google",
+      "__from_text": "Заказчик: Я же говорил, что затащишь! Мы, это... уже на месте, ждём тебя. Головняк был?",
+      "____to_text": "Asiakas: Sanoin, etta vedat sen! Me, tama... jo paikallaan, odotamme sinua. Oliko paata?                                                              "
+    },
+    {
+      "_________id": 292,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. А ты — молодец. Всегда возвращаешься!",
+      "____to_text": "Seryozha -seta: Minulla oli hyva ystava, meni vain ylakertaan eika palannut. Ja olet hyvin tehty. Tulet aina takaisin!                                                                              "
+    },
+    {
+      "_________id": 293,
+      "_translator": "google",
+      "__from_text": "Заказчик: Не ссы. По идее в самом комплексе их нет, \"зоны\" сюда ещё не проросли. Может одного или двух встретишь, но ты ж не маленький.",
+      "____to_text": "Asiakas: Ei sag. Teoriassa ne eivat ole itse kompleksissa, \"vyohykkeita\" ei ole viela itanyt taalla. Voit tavata yhden tai kaksi, mutta et ole pieni.                                                                                         "
+    },
+    {
+      "_________id": 294,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну вот и здесь пара сухих туловищ. Мелочёвка же. Отбой.",
+      "____to_text": "Asiakas: No, tassa on pari kuivaa vartaloa. Pienet asiat ovat samat. Saranat.                                       "
+    },
+    {
+      "_________id": 295,
+      "_translator": "google",
+      "__from_text": "Доктор исследовательской лаборатории \nМихаил Лотов, запись номер 22-14. \nПродолжаю наблюдение за образцом почвы с поверхности, того, что из четвёртого квадрата.",
+      "____to_text": "Tutkimuslaboratorion tohtori \n Mikhail LOTOV, tietueen numero 22-14. \n Seuraan edelleen maaperan naytetta pinnalta, neljannesta neliosta.                                                                                                                                                        "
+    },
+    {
+      "_________id": 296,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну чего загораешь? Гони!",
+      "____to_text": "Asiakas: No, mita sina aurinkoa? Ajaa!                       "
+    },
+    {
+      "_________id": 297,
+      "_translator": "google",
+      "__from_text": "Вы: А что тут случилось? Кругом трупы гражданских, а на нижних уровнях воздух заражён. Не похоже на \"плёвое дельце\".",
+      "____to_text": "Sina: Mita taalla tapahtui? Siviilien ruumiiden ymparilla ja alemmalla tasolla ilma on tartunnan saanut. Ei kuin \"laivastoliiketoiminta\".                                                                      "
+    },
+    {
+      "_________id": 298,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\n  Найдено хабара на:                  руб.",
+      "____to_text": "Selvit! \n \n Kaikki tassa RAID -loydetyt esineet myydaan ostajalle. \n \n \n \n \n loysi habara: hankaa.                                                                                                 "
+    },
+    {
+      "_________id": 299,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вот черти душные! Прут и прут, вообще не продохнуть!",
+      "____to_text": "Asiakas: Tassa ovat Devils -suihku! ROD ja ROD, ala hengita ollenkaan!                                         "
+    },
+    {
+      "_________id": 300,
+      "_translator": "google",
+      "__from_text": "Вы: Заперто с другой стороны.",
+      "____to_text": "Sina: lukittu toiselle puolelle.                    "
+    },
+    {
+      "_________id": 301,
+      "_translator": "google",
+      "__from_text": "Вы: Какого хрена?!",
+      "____to_text": "Sina: Mita helvettia?!         "
+    },
+    {
+      "_________id": 302,
+      "_translator": "google",
+      "__from_text": "Заказчик: Тут баррикада есть, но она долго не выдержит. И, смотри, не проеби контейнер, иначе всё зря будет!!",
+      "____to_text": "Asiakas: Taalla on barrikadi, mutta se ei kesta sita pitkaan. Ja katso, ala kesta sailoa, muuten kaikki on turhaa!!                                                                              "
+    },
+    {
+      "_________id": 303,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: (пропевает с диким акцентом) Ай ком алаааайввв... Эх, хорошая была песня...",
+      "____to_text": "Seryozha -seta: (laulaa villilla aksentilla) Ah -Alaaaavvv... Eh, kappale oli hyva...                                                                     "
+    },
+    {
+      "_________id": 304,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вот молодчик, от души! Всё нашёл и не очканул. Не зря тебя нахваливали, ровный пацан.",
+      "____to_text": "Asiakas: Tassa on kaveri, sydamesta! Loysin kaiken ja en piirtanyt. Ei ihme, etta sinua kiitettiin, jopa lapsi.                                                          "
+    },
+    {
+      "_________id": 305,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Жизнь странная штука. Всё всегда возвращается. Прямо как ты.",
+      "____to_text": "Seryozha -seta: Elama on outo asia. Kaikki palaa aina. Aivan kuten sina.                                                            "
+    },
+    {
+      "_________id": 306,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?\nВесь несохраненный прогресс будет утерян.",
+      "____to_text": "Haluatko varmasti poistua pelista? \n Kaikki naamioitu edistyminen menetetaan.                                                                   "
+    },
+    {
+      "_________id": 307,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Рад тебя видеть! Давай, рассказывай, где лазил...",
+      "____to_text": "Seryozha -seta: iloinen nahdessasi! Tule, kerro mihin kiipesit...                                            "
+    },
+    {
+      "_________id": 308,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ладно, дальше по тоннелю будет мост, похоже придётся решать проблему конкретным и действенным дедовским методом.",
+      "____to_text": "Asiakas: Okei, edelleen tunnelin varrella on silta, se nayttaa ratkaistavana ongelmalla tietylla ja tehokkaalla isoisamenetelmalla.                                                                                              "
+    },
+    {
+      "_________id": 309,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите начать с\nпоследней контрольной точки?",
+      "____to_text": "Oletko varma, etta haluat aloittaa \n viimeisella ohjauspisteella?                                             "
+    },
+    {
+      "_________id": 310,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Живой? Вот молодец! Я уж переживать начал, давно тебя не было.",
+      "____to_text": "Seryozha -seta: elossa? Hyvin tehty! Aloin todella huolehtia, et ole ollut pitkaan.                                                  "
+    },
+    {
+      "_________id": 311,
+      "_translator": "google",
+      "__from_text": "Вы: Контейнер у меня. Приём.",
+      "____to_text": "Sina: Minulla on sailio. Vastaanotto.            "
+    },
+    {
+      "_________id": 312,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ладно, это всё лирика, люблю пошутить, когда есть маза. Ты там живой? Не зацепили? Мы вроде оторвались.",
+      "____to_text": "Asiakas: Okei, tama on kaikki sanoitukset, haluan vitsailla, kun on Maz. Oletko elossa siella? Oletko koukussa? Naytimme tulevan pois.                                                                   "
+    },
+    {
+      "_________id": 313,
+      "_translator": "google",
+      "__from_text": "Последняя контрольная точка",
+      "____to_text": "Viimeinen ohjauspiste                               "
+    },
+    {
+      "_________id": 314,
+      "_translator": "google",
+      "__from_text": "Вы: Нет топлива.",
+      "____to_text": "Sina: Polttoainetta ei ole. "
+    },
+    {
+      "_________id": 315,
+      "_translator": "google",
+      "__from_text": "Заказчик: Мать твою, ты где там застрял?! Харэ сиси жмурить! \nПроисходит пиздец - твари нас учуяли!",
+      "____to_text": "Asiakas: Aitisi, missa olet jumissa siella?! Janis Sisi Shake! \n perseesta - olennot hymyilivat meille!                                                                        "
+    },
+    {
+      "_________id": 316,
+      "_translator": "google",
+      "__from_text": "Не переживай, руки наловчатся и ты на раз-два будешь такие штуки делать. А если освоишь конкретно - станешь мастером. Будешь сталкерам оружие улучшать и ремонтировать.",
+      "____to_text": "Ala huoli, kadet seisovat ja teet sellaisia asioita yhdelle tai kahdelle. Ja jos mestarit erityisesti, sinusta tulee mestari. Parannat ja korjaat aseet stalkereille.                                                                                                                                           "
+    },
+    {
+      "_________id": 317,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: О! Вернулся? А я тут как раз про тебя вспоминал.",
+      "____to_text": "Seryozha -seta: Voi! Palautettu? Ja muistan sinut vain sinusta.                                            "
+    },
+    {
+      "_________id": 318,
+      "_translator": "google",
+      "__from_text": "Водитель: Да не заводиться эта херня! Старая же, как бабкин фарфор! Есть!",
+      "____to_text": "Kuljettaja: Kylla, tama roskaa ei kaynnisty! Vanha, kuten Babkinin posliini! Syoda!                                               "
+    },
+    {
+      "_________id": 319,
+      "_translator": "google",
+      "__from_text": "Вы: Хорошо. Что тут по мутантам?",
+      "____to_text": "Sina: hyva. Enta mutantit?                              "
+    },
+    {
+      "_________id": 320,
+      "_translator": "google",
+      "__from_text": "Вы: Я свою часть сделки выполнил, \nгде мои деньги?",
+      "____to_text": "Sina: Olen tayttanyt osan tapahtumasta, \n missa on rahani?                              "
+    },
+    {
+      "_________id": 321,
+      "_translator": "google",
+      "__from_text": "Люблю работать руками. Приводит мысли в порядок. Ковыряюсь тут подолгу, перебираю, чищу. Есть в этом деле что-то такое, понимаешь, магическое, что ли. \nЕдва понятное. Я тебе покажу, сынок.",
+      "____to_text": "Tykkaan tyoskennella kasillani. Asettaa ajatukset jarjestykseen. Noutan taalta pitkaan, lajittelen, puhdistan. Tassa asiassa on jotain sellaista, tiedat, maaginen tai jotain. \n tuskin ymmarrettava. Naytan sinulle, poika.                                                                                                                   "
+    },
+    {
+      "_________id": 322,
+      "_translator": "google",
+      "__from_text": "Либо это бессмыслица, либо божественное вмешательство, но мне кажется, что почва не только меняет и смешивает структуру молекул любой органики, но и... разговаривает со мной.",
+      "____to_text": "Joko tama on holynpolya tai jumalallista interventiota, mutta minusta nayttaa silta, etta maapera ei vain muuta ja sekoittaa minka tahansa orgaanisen aineen molekyylien rakennetta, vaan myos... puhuu minulle.                                                                                                            "
+    },
+    {
+      "_________id": 323,
+      "_translator": "google",
+      "__from_text": "Заказчик: Извиняй, братела. Эта штука таких дел наделает, что мама не горюй, и лишние свидетели нам не нужны.",
+      "____to_text": "Asiakas: Anteeksi, veljeys. Tama asia tekee sellaiset tapaukset, joita aiti ei suru, emmeka tarvitse ylimaaraisia todistajia.                                                                      "
+    },
+    {
+      "_________id": 324,
+      "_translator": "google",
+      "__from_text": "Вы: Нет электричества.",
+      "____to_text": "Sina: Ei sahkoa.                        "
+    },
+    {
+      "_________id": 325,
+      "_translator": "google",
+      "__from_text": "Заказчик: Сзади в ящике есть патроны, постарайся поточнее палить. \nЯ тут откинуться не хочу!",
+      "____to_text": "Asiakas: Laatikossa on patruunoita, yrita haalistua tarkemmin. \n En halua nojata tanne!                                                                               "
+    },
+    {
+      "_________id": 326,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо. Чё притащил?",
+      "____to_text": "Seryozha -seta: No, miten saa on? Aurinkoinen? Hieno. Mika veti?                                                  "
+    },
+    {
+      "_________id": 327,
+      "_translator": "google",
+      "__from_text": "Вы: Всё нормально.",
+      "____to_text": "Sina: Kaikki on hyvin.          "
+    },
+    {
+      "_________id": 328,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите начать с последней контрольной точки?",
+      "____to_text": "Oletko varma, etta haluat aloittaa viimeisella ohjauspisteella?                                               "
+    },
+    {
+      "_________id": 329,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну раз нормально, надо про дела говорить. Давай сюда контейнер.",
+      "____to_text": "Asiakas: No, jos se on normaalia, meidan on puhuttava asioista. Tule tanne sailio.                                                  "
+    },
+    {
+      "_________id": 330,
+      "_translator": "google",
+      "__from_text": "Заказчик: Мы как раз тебя в конце тоннеля и ждём. Ты, давай, шевели булками, надо свалить поскорее, а то и нам что нибудь накрутят-навертят.",
+      "____to_text": "Asiakas: Olemme juuri tunnelin lopussa ja odotamme. Sina, tule, olet siirtynyt rullien kanssa, sinun on jatettava se mahdollisimman pian tai jopa haavoitettava meita jotain.                                                                            "
+    },
+    {
+      "_________id": 331,
+      "_translator": "google",
+      "__from_text": "Заказчик: Штука очень ценная, потому на видном месте валяться не будет. Придется прошерстить все шконки.",
+      "____to_text": "Asiakas: Asia on erittain arvokas, koska nakyvassa paikassa se ei valehtele. Meidan on lapaistava kaikki shconit.                                                                             "
+    },
+    {
+      "_________id": 332,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\" Или это не он был?",
+      "____to_text": "Seryozha -seta: Kuten Omar Hayam sanoi: \"Tule sisaan, jos han palasi!\" Vai eiko han ole han?                                            "
+    },
+    {
+      "_________id": 333,
+      "_translator": "google",
+      "__from_text": "СЕКТОР",
+      "____to_text": "Sektori     "
+    },
+    {
+      "_________id": 334,
+      "_translator": "google",
+      "__from_text": "Когда-то мир загнал нас в импровизированную тюрьму, которую мы сами себе и построили. С тех пор прошло уже много лет, но мы все еще здесь и лишь вспоминаем прежнюю жизнь. Многие из моих знакомых подавлены этим, но, лично я, смотрю на эту тюрьму как на спасение и откровение. \n\nМы должны тут быть, ведь природа \n(будь то животные, птицы, растения) развилась и эволюционировала, стала чем-то новым, а мы остались пережитком прошлого и тупиковой ветвью, как динозавры когда-то. \n\nЛично я вижу в этом красоту и порядок.\r\n\nЭто грустно, но я не перестаю улыбаться.",
+      "____to_text": "Kun maailma ajoi meidat ekspromptiseen vankilaan, jonka me itse rakensimme. Siita lahtien on kulunut monia vuosia, mutta olemme edelleen taalla ja muistamme vain edellisen elaman. Monet ystavistani tukahdutetaan tama, mutta henkilokohtaisesti katson tata vankilaa pelastuksena ja ilmoituksena. \n \n meidan on oltava taalla, koska luonteesta \n (onko elaimia, linnut, kasvit) kehittynyt ja kehittynyt, tuli jotain uutta, ja pysyimme menneisyyden ja umpikujan jaannoksena, kuten dinosaurukset kerran. \n \n henkilokohtaisesti naen tassa kauneudessa ja jarjestyksessa. \n \n Tama on surullista, mutta en lopeta hymyillen.                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    {
+      "_________id": 335,
+      "_translator": "google",
+      "__from_text": "Реплика4",
+      "____to_text": "Replika4       "
+    },
+    {
+      "_________id": 336,
+      "_translator": "google",
+      "__from_text": "Реплика1",
+      "____to_text": "Replica1       "
+    },
+    {
+      "_________id": 337,
+      "_translator": "google",
+      "__from_text": "КОНТРОЛЬНАЯ\nТОЧКА",
+      "____to_text": "Ohjaus \n piste                   "
+    },
+    {
+      "_________id": 338,
+      "_translator": "google",
+      "__from_text": "Реплика2",
+      "____to_text": "Replika2       "
+    },
+    {
+      "_________id": 339,
+      "_translator": "google",
+      "__from_text": "На прикури!",
+      "____to_text": "Ravisteilla!        "
+    },
+    {
+      "_________id": 340,
+      "_translator": "google",
+      "__from_text": "Вы уверены?",
+      "____to_text": "Oletko varma?       "
+    },
+    {
+      "_________id": 341,
+      "_translator": "google",
+      "__from_text": "Ах тыж, ёклмн... Тревога!",
+      "____to_text": "Ah Tyzh, yokmn... ahdistus!               "
+    },
+    {
+      "_________id": 342,
+      "_translator": "google",
+      "__from_text": "Папаша, прикурить не найдётся?",
+      "____to_text": "Isa, ei ole savuketta?                                 "
+    },
+    {
+      "_________id": 343,
+      "_translator": "google",
+      "__from_text": "Фух, пронесло!",
+      "____to_text": "Fuh, kuljetettu!         "
+    },
+    {
+      "_________id": 344,
+      "_translator": "google",
+      "__from_text": "Противник!",
+      "____to_text": "Vastusta!          "
+    },
+    {
+      "_________id": 345,
+      "_translator": "google",
+      "__from_text": "Возьмите шприц другой рукой и сделайте укол в тело.",
+      "____to_text": "Ota ruisku toisaalta ja tee injektio vartaloon.                                              "
+    },
+    {
+      "_________id": 346,
+      "_translator": "google",
+      "__from_text": "Текущая задача:\n\nПродержись\nкак можно\nдольше",
+      "____to_text": "Nykyinen tehtava: \n \n tikku \n, kuten voit \n pidempaan                            "
+    },
+    {
+      "_________id": 347,
+      "_translator": "google",
+      "__from_text": "Противогаз висит\nна поясе с правой\nстороны.\nвозьмите его",
+      "____to_text": "Kaasamaski roikkuu \n hihnalla oikealla \n -kaarilla. \n ota se                                           "
+    },
+    {
+      "_________id": 348,
+      "_translator": "google",
+      "__from_text": "В рюкзак можно \nкласть предметы,\nне снимая его\n\nВозьмите магазин\nс пояса",
+      "____to_text": "Reppuun voit \n laittaa objekteja, \n ottamatta sita pois \n \n Ota myymala \n hihnasta                                                "
+    },
+    {
+      "_________id": 349,
+      "_translator": "google",
+      "__from_text": "Поместите пистолет \nназад в кобуру",
+      "____to_text": "Aseta pistooli \n takaisin koteloon                             "
+    },
+    {
+      "_________id": 350,
+      "_translator": "google",
+      "__from_text": "Зеленый диод на часах \nзагорается, когда\nвы находитесь в\nзараженной зоне.\n\nПоднесите противогаз \nк лицу и отпустите, \nчтобы надеть его",
+      "____to_text": "Kellon vihrea diodi \n syttyy, kun \n olet \n tartunnan saaneessa vyohykkeessa. \n \n Tuo kaasimaski \n kasvoillesi ja vapauta se, \n laittaaksesi sen paalle                                                                                            "
+    },
+    {
+      "_________id": 351,
+      "_translator": "google",
+      "__from_text": "Оставшееся время\nактивного фильтра \nтакже отображается \nна ваших часах.\n\nА синий диод - \nэто датчик \nосвещенности",
+      "____to_text": "Aktiivisen suodattimen \n -sovelluksen \n -aika nakyy myos kellossa \n. \n \n ja sininen diodi - \n tama on anturi \n valaistus                                                                                    "
+    },
+    {
+      "_________id": 352,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы перехватить\n нож",
+      "____to_text": "Napsauta liipaisinta, \n siepata \n veitsi                                 "
+    },
+    {
+      "_________id": 353,
+      "_translator": "google",
+      "__from_text": "Ваше основное \nоружие хранится \nза правым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
+      "____to_text": "Paa \n -aseesi tallennetaan \n oikean olkapaan takana \n (nyt poissa) \n \n naet valikossa koko \n -kaavion                                                                                               "
+    },
+    {
+      "_________id": 354,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы поставить\nрюкзак",
+      "____to_text": "Napsauta liipaisinta, \n laittaaksesi \n reppu                              "
+    },
+    {
+      "_________id": 355,
+      "_translator": "google",
+      "__from_text": "Занесите его над\nправым плечом\nи отпустите",
+      "____to_text": "Tuo se \n oikealla olkapaallasi \n ja vapauta                                   "
+    },
+    {
+      "_________id": 356,
+      "_translator": "google",
+      "__from_text": "Замените старый \nфильтр на новый.\n\nСнимите и выкиньте\nстарый,\nподнесите новый\nи отпустите.",
+      "____to_text": "Vaihda vanha \n -suodatin uudella. \n \n poista ja heita pois \n vanha, \n Tuo uusi \n ja vapauta.                                                                       "
+    },
+    {
+      "_________id": 357,
+      "_translator": "google",
+      "__from_text": "Снимите рюкзак\nс правого плеча",
+      "____to_text": "Poista reppu \n oikealta olkapaasta                      "
+    },
+    {
+      "_________id": 358,
+      "_translator": "google",
+      "__from_text": "Занесите его над\nлевым плечом\nи отпустите",
+      "____to_text": "Tuo se \n vasemmalla olkapaalla \n ja vapauta                                 "
+    },
+    {
+      "_________id": 359,
+      "_translator": "google",
+      "__from_text": "Зеленый индикатор \nпогас - значит \nвы больше не в \nзараженной зоне.\n\nСхватите противогаз\nсбоку (возле уха), \nчтобы снять, \nа затем верните его\nобратно на пояс",
+      "____to_text": "Vihrea ilmaisin \n Signs - tarkoittaa \n et enaa \n tartunnan saaneessa vyohykkeessa. \n \n tartu kaasimaski \n sivulle (lahella korvaa), \n poistaaksesi \n ja palauta se sitten \n takaisin hihnaan hihnaan                                                                                    "
+    },
+    {
+      "_________id": 360,
+      "_translator": "google",
+      "__from_text": "Отпустите Нож\nи он автоматически\nвернется на место",
+      "____to_text": "Anna veitsen \n ja se automaattisesti \n palaa paikkaan                                        "
+    },
+    {
+      "_________id": 361,
+      "_translator": "google",
+      "__from_text": "Отпустите зажигалку\nи она автоматически\nвернется на место",
+      "____to_text": "Vapauta kevyempi \n ja se automaattisesti \n palaa paikkaan                                                  "
+    },
+    {
+      "_________id": 362,
+      "_translator": "google",
+      "__from_text": "Если вы далеко\nотойдете от рюкзака, \nон автоматически\nвернется за спину\n\nИли можете просто \nснова схватить его",
+      "____to_text": "Jos olet kaukana \n siirry pois reppusta, \n se automaattisesti \n palaa takana \n \n tai voit vain tarttua siihen uudelleen                                                                                 "
+    },
+    {
+      "_________id": 363,
+      "_translator": "google",
+      "__from_text": "В настоящий момент \nValve Index \nне поддерживается. \nПожалуйста \nпереключите \nраскладку через",
+      "____to_text": "Talla hetkella \n venttiilin hakemistoa \n ei tueta. \n Ole hyva \n kytkin \n asettelu lapi                                                                          "
+    },
+    {
+      "_________id": 364,
+      "_translator": "google",
+      "__from_text": "Отпустите рюкзак\nи он автоматически\nвернется на место",
+      "____to_text": "Vapauta reppu \n ja se palaa automaattisesti \n palaa paikkaan                                       "
+    },
+    {
+      "_________id": 365,
+      "_translator": "google",
+      "__from_text": "Достаньте нож\nиз левого \nнагрудного кармана",
+      "____to_text": "Poista veitsi \n vasemmalta \n Rintatasku                                         "
+    },
+    {
+      "_________id": 366,
+      "_translator": "google",
+      "__from_text": "Противогаз висит\nна поясе с левой\nстороны.\nвозьмите его",
+      "____to_text": "Kaasamaski roikkuu \n hihnalla vasemmalla \n -kaareilla. \n ota se                                      "
+    },
+    {
+      "_________id": 367,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет\nиз кобуры на\nлевом бедре",
+      "____to_text": "Ota pistooli \n kotelosta \n lonkalla                                           "
+    },
+    {
+      "_________id": 368,
+      "_translator": "google",
+      "__from_text": "Достаньте зажигалку\nиз правого \nнагрудного кармана",
+      "____to_text": "Poista kevyempi \n oikealta \n Rintatasku                                                       "
+    },
+    {
+      "_________id": 369,
+      "_translator": "google",
+      "__from_text": "Снимите рюкзак\nс левого плеча",
+      "____to_text": "Poista reppu \n vasemmalta olkapaasta                  "
+    },
+    {
+      "_________id": 370,
+      "_translator": "google",
+      "__from_text": "Ваше основное \nоружие хранится \nза левым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
+      "____to_text": "Paa \n -aseesi tallennetaan \n vasemman olkapaan takana \n (nyt poissa) \n \n Katso koko \n -kaavio valikossa                                                                                           "
+    },
+    {
+      "_________id": 371,
+      "_translator": "google",
+      "__from_text": "Достаньте пистолет\nиз кобуры на\nправом бедре",
+      "____to_text": "Poista pistooli \n kotelosta \n oikeaan reideksi                                    "
+    },
+    {
+      "_________id": 372,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы зажечь \nзажигалку",
+      "____to_text": "Napsauta liipaisinta, \n valaisemaan \n kevyempia                            "
+    }
+  ],
+  "next_id": 373
+}

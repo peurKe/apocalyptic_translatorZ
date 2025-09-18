@@ -1,0 +1,32 @@
+{
+  "source": {
+    "code": "ru",
+    "name": "RUSSIAN"
+  },
+  "target": {
+    "code": "zh",
+    "name": "CHINESE_SIMPLIFIED"
+  },
+  "fix_list": [
+    "_____peurKe"
+  ],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "google",
+      "__from_text": "КПК",
+      "____to_text": "掌~  ",
+      "_____peurKe": "手机",
+      "_comment_00": "PDA"
+    },
+    {
+      "_________id": 5,
+      "_translator": "deepl",
+      "__from_text": "КПК",
+      "____to_text": "掌~  ",
+      "_____peurKe": "手机",
+      "_comment_00": "PDA"
+    }
+  ],
+  "next_id": 2
+}

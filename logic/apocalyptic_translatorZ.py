@@ -315,7 +315,10 @@ class apocalyptic_translatorZ:
                                 try:
                                     translated_text = self.translators.translate(translator, self.text_processor.original_text)
                                 except Exception as e:
-                                    translated_text = self.text_processor.original_text
+                                    # In case of translation error, the original text is not positioned, but a specific error message that will be easy to find.
+                                    # translated_text = self.text_processor.original_text
+                                    translated_text = self.translators.translation_missing_string
+                                    
                                     # Display ONLINE error translation result
                                     log_msg = f"{Fore.LIGHTRED_EX}/!\\{translator.get('translator_name'):>6s};" + \
                                         f"{file_to_translate:s};" + \
@@ -326,7 +329,7 @@ class apocalyptic_translatorZ:
                                         f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text_len:d}{Style.RESET_ALL};" + \
                                         f"{Fore.GREEN}{self.text_processor.translated_text_len:d}{Style.RESET_ALL};" + \
                                         f"{Fore.LIGHTYELLOW_EX}{self.text_processor.original_text:s}{Style.RESET_ALL};" + \
-                                        f"{Fore.GREEN}{self.text_processor.translated_text:s}{Style.RESET_ALL};"
+                                        f"{Fore.GREEN}{translated_text:s}{Style.RESET_ALL};"
                                     self.logs.log(log_msg)
                                     self.translators_errors += 1 
 
@@ -375,6 +378,9 @@ class apocalyptic_translatorZ:
                     # Inject all bytes array in translation file
                     self.file_handler.inject_bytes_in_file()
 
+                    # Flush data in translation file
+                    self.db.flush()
+
                 # Close database
                 self.db.close()
 
@@ -390,9 +396,11 @@ class apocalyptic_translatorZ:
 
         # Display end translation with number translation errors
         c_color = 'OK'
+        error_message = ""
         if self.translators_errors:
             c_color = 'FAIL'
-        self.logs.log(f" • [Running apocalyptic_translatorZ] OK with {self.translators_errors} translation error(s)\n", c=c_color, force=True)
+            error_message = f"You can find the error(s) by searching for \"{self.translators.translation_missing_string}\" string in \"{self.db.database_fullpath}\" file."
+        self.logs.log(f" • [Running apocalyptic_translatorZ] OK with {self.translators_errors} translation error(s). {error_message}\n", c=c_color, force=True)
 
         # # Waiting for user input before exit
         # self.logs.input("Press enter to continue...")

@@ -1,1 +1,7 @@
 *__pycache__
+*.BAK
+tools_json_file/**/*.json
+pyinstaller/build/apocalyptic_translatorZ/*
+pyinstaller/dist/*.exe
+innosetup/**/*.json
+innosetup/**/*.exe

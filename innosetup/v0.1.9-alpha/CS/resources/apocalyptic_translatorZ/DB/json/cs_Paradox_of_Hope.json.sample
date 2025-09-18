@@ -1,0 +1,23 @@
+{
+  "source": {
+    "code": "auto",
+    "name": "AUTO"
+  },
+  "target": {
+    "code": "cs",
+    "name": "CZECH"
+  },
+  "fix_list": [
+    "_____peurKe"
+  ],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "deepl",
+      "__from_text": "Правая",
+      "____to_text": "Pravo      ",
+      "_____peurKe": "Pravo!      "
+    }
+  ],
+  "next_id": 1
+}

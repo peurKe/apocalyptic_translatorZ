@@ -1,0 +1,2253 @@
+{
+  "state": "DONE",
+  "source": {
+    "code": "auto",
+    "name": "AUTO"
+  },
+  "target": {
+    "code": "ro",
+    "name": "ROMANIAN"
+  },
+  "fix_list": [],
+  "translations": [
+    {
+      "_________id": 0,
+      "_translator": "google",
+      "__from_text": "Правая",
+      "____to_text": "Corect      "
+    },
+    {
+      "_________id": 1,
+      "_translator": "google",
+      "__from_text": "Нет",
+      "____to_text": "Nu    "
+    },
+    {
+      "_________id": 2,
+      "_translator": "google",
+      "__from_text": "Зажигалка",
+      "____to_text": "Mai usor          "
+    },
+    {
+      "_________id": 3,
+      "_translator": "google",
+      "__from_text": "Отлично, все готово! \n\nПомните, что вы можете изменить эти параметры \nи настроить их более детально в любое время, \nвыбрав \"Управление\" в Меню.",
+      "____to_text": "Grozav, totul este gata! \n \n Amintiti -va ca puteti modifica acesti parametri \n si sa le configurati mai detaliat in orice moment, \n alegand control\" in meniu.                                                                                               "
+    },
+    {
+      "_________id": 4,
+      "_translator": "google",
+      "__from_text": "вкл",
+      "____to_text": "GDL   "
+    },
+    {
+      "_________id": 5,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете плавное передвижение \nили телепорт?",
+      "____to_text": "Preferi o miscare lina \n sau teleport?                                                           "
+    },
+    {
+      "_________id": 6,
+      "_translator": "google",
+      "__from_text": "выкл",
+      "____to_text": "OFF     "
+    },
+    {
+      "_________id": 7,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете удержание или однократное нажатие кнопки для захвата предмета?",
+      "____to_text": "Preferi sa pastrezi sau un singur buton de apasare pentru a surprinde subiectul?                                                                    "
+    },
+    {
+      "_________id": 8,
+      "_translator": "google",
+      "__from_text": "Огонь/\nИспользовать",
+      "____to_text": "Fire /\n utilizati                   "
+    },
+    {
+      "_________id": 9,
+      "_translator": "google",
+      "__from_text": "Плавное",
+      "____to_text": "Netezi        "
+    },
+    {
+      "_________id": 10,
+      "_translator": "google",
+      "__from_text": "Интро",
+      "____to_text": "Intro     "
+    },
+    {
+      "_________id": 11,
+      "_translator": "google",
+      "__from_text": "Хват",
+      "____to_text": "Sol     "
+    },
+    {
+      "_________id": 12,
+      "_translator": "google",
+      "__from_text": "Далее",
+      "____to_text": "Urmatorul "
+    },
+    {
+      "_________id": 13,
+      "_translator": "google",
+      "__from_text": "Назад",
+      "____to_text": "Spate     "
+    },
+    {
+      "_________id": 14,
+      "_translator": "google",
+      "__from_text": "Меню",
+      "____to_text": "Meniu   "
+    },
+    {
+      "_________id": 15,
+      "_translator": "google",
+      "__from_text": "Аватар",
+      "____to_text": "Avatar      "
+    },
+    {
+      "_________id": 16,
+      "_translator": "google",
+      "__from_text": "Скорость поворота",
+      "____to_text": "Viteza de rotatie                "
+    },
+    {
+      "_________id": 17,
+      "_translator": "google",
+      "__from_text": "Низкая",
+      "____to_text": "Scazut      "
+    },
+    {
+      "_________id": 18,
+      "_translator": "google",
+      "__from_text": "Затвор",
+      "____to_text": "Inchisoare  "
+    },
+    {
+      "_________id": 19,
+      "_translator": "google",
+      "__from_text": "в желаемое",
+      "____to_text": "La cele dorite     "
+    },
+    {
+      "_________id": 20,
+      "_translator": "google",
+      "__from_text": "Перемещение",
+      "____to_text": "In miscare            "
+    },
+    {
+      "_________id": 21,
+      "_translator": "google",
+      "__from_text": "Завершить",
+      "____to_text": "Complet           "
+    },
+    {
+      "_________id": 22,
+      "_translator": "google",
+      "__from_text": "Основное оруж.",
+      "____to_text": "Arma principala.          "
+    },
+    {
+      "_________id": 23,
+      "_translator": "google",
+      "__from_text": "Громкость музыки",
+      "____to_text": "Volumul muzicii                "
+    },
+    {
+      "_________id": 24,
+      "_translator": "google",
+      "__from_text": "Телепорт",
+      "____to_text": "Teleport        "
+    },
+    {
+      "_________id": 25,
+      "_translator": "google",
+      "__from_text": "Графика",
+      "____to_text": "Grafica       "
+    },
+    {
+      "_________id": 26,
+      "_translator": "google",
+      "__from_text": "Высокая",
+      "____to_text": "Ridicat       "
+    },
+    {
+      "_________id": 27,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?",
+      "____to_text": "Esti sigur ca vrei sa parasesti jocul?                            "
+    },
+    {
+      "_________id": 28,
+      "_translator": "google",
+      "__from_text": "Нажатие",
+      "____to_text": "Presare       "
+    },
+    {
+      "_________id": 29,
+      "_translator": "google",
+      "__from_text": "Настройки",
+      "____to_text": "Setari            "
+    },
+    {
+      "_________id": 30,
+      "_translator": "google",
+      "__from_text": "Сохранить",
+      "____to_text": "Salva             "
+    },
+    {
+      "_________id": 31,
+      "_translator": "google",
+      "__from_text": "Вращение/Присед",
+      "____to_text": "Rotatie/ghemuit              "
+    },
+    {
+      "_________id": 32,
+      "_translator": "google",
+      "__from_text": "Язык",
+      "____to_text": "Limba   "
+    },
+    {
+      "_________id": 33,
+      "_translator": "google",
+      "__from_text": "Стоя",
+      "____to_text": "Permane~"
+    },
+    {
+      "_________id": 34,
+      "_translator": "google",
+      "__from_text": "Используется -",
+      "____to_text": "Folosit -                 "
+    },
+    {
+      "_________id": 35,
+      "_translator": "google",
+      "__from_text": "Рейды",
+      "____to_text": "Raiduri   "
+    },
+    {
+      "_________id": 36,
+      "_translator": "google",
+      "__from_text": "Удержание",
+      "____to_text": "Retentie          "
+    },
+    {
+      "_________id": 37,
+      "_translator": "google",
+      "__from_text": "Русский",
+      "____to_text": "Rusa          "
+    },
+    {
+      "_________id": 38,
+      "_translator": "google",
+      "__from_text": "анкету",
+      "____to_text": "chestionar  "
+    },
+    {
+      "_________id": 39,
+      "_translator": "google",
+      "__from_text": "Выброс магазина",
+      "____to_text": "Epuizand magazinul           "
+    },
+    {
+      "_________id": 40,
+      "_translator": "google",
+      "__from_text": "Нож",
+      "____to_text": "Cutit "
+    },
+    {
+      "_________id": 41,
+      "_translator": "google",
+      "__from_text": "Левая",
+      "____to_text": "Stanga    "
+    },
+    {
+      "_________id": 42,
+      "_translator": "google",
+      "__from_text": "Создатели",
+      "____to_text": "Creatori          "
+    },
+    {
+      "_________id": 43,
+      "_translator": "google",
+      "__from_text": "Схватить                       Схватить",
+      "____to_text": "Apuca                                                  "
+    },
+    {
+      "_________id": 44,
+      "_translator": "google",
+      "__from_text": "Управление",
+      "____to_text": "Management          "
+    },
+    {
+      "_________id": 45,
+      "_translator": "google",
+      "__from_text": "Рюкзак",
+      "____to_text": "Rucsac      "
+    },
+    {
+      "_________id": 46,
+      "_translator": "google",
+      "__from_text": "Резкое",
+      "____to_text": "Ascutit     "
+    },
+    {
+      "_________id": 47,
+      "_translator": "google",
+      "__from_text": "Разработчик : Никита Журавлёв",
+      "____to_text": "Dezvoltator: Nikita Zhuravlev                         "
+    },
+    {
+      "_________id": 48,
+      "_translator": "google",
+      "__from_text": "Средняя",
+      "____to_text": "Medie         "
+    },
+    {
+      "_________id": 49,
+      "_translator": "google",
+      "__from_text": "Какой рукой вы предпочитаете держать оружие?",
+      "____to_text": "Ce mana preferati sa pastrati o arma?                                             "
+    },
+    {
+      "_________id": 50,
+      "_translator": "google",
+      "__from_text": "Добавить в желаемое",
+      "____to_text": "Adaugati la cele dorite             "
+    },
+    {
+      "_________id": 51,
+      "_translator": "google",
+      "__from_text": "Общая громкость",
+      "____to_text": "Volum total                  "
+    },
+    {
+      "_________id": 52,
+      "_translator": "google",
+      "__from_text": "Обратите внимание, что \"Ранний доступ\" означает, что игра все еще находится в стадии разработки. В дальнейшем в нее регулярно будет добавляться новый контент, а многие ее аспекты будут улучшены.\n\r\nЕсли у вас есть идеи, предложения или вы просто столкнулись с ошибкой, о которой хотите сообщить - присоединяйтесь к нашему Discord. Я прислушиваюсь к мнению каждого и стараюсь отвечать на все вопросы лично. Давайте вместе сделаем эту игру еще лучше!",
+      "____to_text": "Va rugam sa retineti ca acces timpuriu\" inseamna ca jocul este inca in curs de dezvoltare. In viitor, continut nou va fi adaugat in mod regulat si multe dintre aspectele sale vor fi imbunatatite. \n \n Daca aveti idei, sugestii sau doar intalniti eroarea pe care doriti sa o raportati - alaturati -va discordiei noastre. Ascult opinia tuturor si incerc sa raspund personal la toate intrebarile. Sa facem acest joc impreuna si mai bun!                                                                                                                                                                                                                                                                                                                                                                                    "
+    },
+    {
+      "_________id": 53,
+      "_translator": "google",
+      "__from_text": "Положение",
+      "____to_text": "Pozitie           "
+    },
+    {
+      "_________id": 54,
+      "_translator": "google",
+      "__from_text": "Сюжет",
+      "____to_text": "Complot   "
+    },
+    {
+      "_________id": 55,
+      "_translator": "google",
+      "__from_text": "голова",
+      "____to_text": "cap         "
+    },
+    {
+      "_________id": 56,
+      "_translator": "google",
+      "__from_text": "Вы будете играть стоя или сидя?",
+      "____to_text": "Te vei juca in picioare sau stai?                       "
+    },
+    {
+      "_________id": 57,
+      "_translator": "google",
+      "__from_text": "Сидя",
+      "____to_text": "Stand   "
+    },
+    {
+      "_________id": 58,
+      "_translator": "google",
+      "__from_text": "Громкость",
+      "____to_text": "Volum             "
+    },
+    {
+      "_________id": 59,
+      "_translator": "google",
+      "__from_text": "Открыть внутриигровое меню можно также \nсхватитив наручные часы другой рукой",
+      "____to_text": "Puteti deschide, de asemenea, meniul intra -joc \n prinzand ceasul incheieturii cu cealalta mana                                               "
+    },
+    {
+      "_________id": 60,
+      "_translator": "google",
+      "__from_text": "Анкета",
+      "____to_text": "Studiu      "
+    },
+    {
+      "_________id": 61,
+      "_translator": "google",
+      "__from_text": "Затемнение экрана",
+      "____to_text": "Intunecarea parohiei             "
+    },
+    {
+      "_________id": 62,
+      "_translator": "google",
+      "__from_text": "Налобный фонарь / ПНВ",
+      "____to_text": "Lanterna de sange / PNV               "
+    },
+    {
+      "_________id": 63,
+      "_translator": "google",
+      "__from_text": "Перезарядка \nкурком",
+      "____to_text": "Repornire \n declansator             "
+    },
+    {
+      "_________id": 64,
+      "_translator": "google",
+      "__from_text": "Направление",
+      "____to_text": "Directie              "
+    },
+    {
+      "_________id": 65,
+      "_translator": "google",
+      "__from_text": "предоставляет широкий спектр опций, позволяющих настроить игру в соответствии с вашим личным уровнем \nVR-комфорта.\r\n\r\nДавайте ответим на несколько вопросов.",
+      "____to_text": "Ofera o gama larga de optiuni care va permit sa configurati jocul in conformitate cu nivelul dvs. personal \n vr-compoon. \n \n hai sa raspundem la cateva intrebari.                                                                                                                          "
+    },
+    {
+      "_________id": 66,
+      "_translator": "google",
+      "__from_text": "Да",
+      "____to_text": "Da  "
+    },
+    {
+      "_________id": 67,
+      "_translator": "google",
+      "__from_text": "Демо показалось слишком коротким? \nСтань тестером и сыграй в полную версию игры раньше других.",
+      "____to_text": "Demonul parea prea scurt? \n Opriti testerul si jucati versiunea completa a jocului inaintea altora.                                                                         "
+    },
+    {
+      "_________id": 68,
+      "_translator": "google",
+      "__from_text": "Тело",
+      "____to_text": "Corp    "
+    },
+    {
+      "_________id": 69,
+      "_translator": "google",
+      "__from_text": "Ок",
+      "____to_text": "Bine"
+    },
+    {
+      "_________id": 70,
+      "_translator": "google",
+      "__from_text": "рука",
+      "____to_text": "mana    "
+    },
+    {
+      "_________id": 71,
+      "_translator": "google",
+      "__from_text": "Вы предпочитаете плавное или резкое вращение?",
+      "____to_text": "Preferi o rotatie neteda sau ascutita?                                              "
+    },
+    {
+      "_________id": 72,
+      "_translator": "google",
+      "__from_text": "Новая игра",
+      "____to_text": "Joc nou            "
+    },
+    {
+      "_________id": 73,
+      "_translator": "google",
+      "__from_text": "Автобег",
+      "____to_text": "Autry         "
+    },
+    {
+      "_________id": 74,
+      "_translator": "google",
+      "__from_text": "Пистолет",
+      "____to_text": "Arma            "
+    },
+    {
+      "_________id": 75,
+      "_translator": "google",
+      "__from_text": "пока что официально не поддерживается.\nТекущая раскладка является временным решением.",
+      "____to_text": "Pana acum, nu este sustinut oficial. \n Aspectul curent este o solutie temporara.                                                                               "
+    },
+    {
+      "_________id": 76,
+      "_translator": "google",
+      "__from_text": "Если кисти рук вывернуты в неестественном положении, в этом меню можно задать нужный угол",
+      "____to_text": "Daca mainile sunt rasucite intr -o pozitie nefireasca, in acest meniu puteti seta unghiul drept                                                                     "
+    },
+    {
+      "_________id": 77,
+      "_translator": "google",
+      "__from_text": "Вращение",
+      "____to_text": "Rotatie         "
+    },
+    {
+      "_________id": 78,
+      "_translator": "google",
+      "__from_text": "Пожалуйста заполните                    и присоединяйтесь к                    , чтобы оставить отзыв.\nДобавьте игру                                 , чтобы не пропустить её релиз и сыграть в:",
+      "____to_text": "Va rugam sa completati si sa va alaturati pentru a lasa o recenzie. \n Adaugati jocul pentru a nu pierde lansarea si jocul:                                                                                                                                                                         "
+    },
+    {
+      "_________id": 79,
+      "_translator": "google",
+      "__from_text": "Привет, это Никита - разработчик Paradox of Hope. \nСпасибо за ваш интерес к моей игре!",
+      "____to_text": "Buna, acesta este Nikita - Paradoxul dezvoltatorului Sperantei. \n Va multumim pentru interesul dvs. pentru jocul meu!                       "
+    },
+    {
+      "_________id": 80,
+      "_translator": "google",
+      "__from_text": "Схватить                           Схватить",
+      "____to_text": "Apuca                                                      "
+    },
+    {
+      "_________id": 81,
+      "_translator": "google",
+      "__from_text": "Схватить            Схватить",
+      "____to_text": "Apuca                                       "
+    },
+    {
+      "_________id": 82,
+      "_translator": "google",
+      "__from_text": "Но ваше приключение только начинается!\r\n\nСыграйте в \"Рейды\" - бесконечный игровой режим, в котором вам \nпредстоит искать выход с  локации, собирая хабар и отбиваясь от мутантов.\r\n\nБлагодаря процедурной генерации, игра подарит вам \nнеповторимый игровой опыт в каждом из ваших забегов.",
+      "____to_text": "Dar aventura ta abia incepe! \n \n joaca raidurile - un mod de joc nesfarsit in care trebuie sa cauti o iesire din locatie, colectand un habar si luptand cu mutantii. \n \n datorita generatiei procedurale, jocul va va oferi o experienta unica de joc in fiecare dintre minereurile dvs.                                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 83,
+      "_translator": "google",
+      "__from_text": "Рейды\" станут доступны после \nпрохождения первой сюжетной миссии.",
+      "____to_text": "Raidurile vor deveni disponibile dupa \n trecerea primei misiuni de poveste.                                             "
+    },
+    {
+      "_________id": 84,
+      "_translator": "google",
+      "__from_text": "Левая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "Mana stanga\n\nX:\n\nY:\n\nZ:"
+    },
+    {
+      "_________id": 85,
+      "_translator": "google",
+      "__from_text": "Обучение",
+      "____to_text": "Instruire       "
+    },
+    {
+      "_________id": 86,
+      "_translator": "google",
+      "__from_text": "Вы потеряете текущий прогресс Сюжета, вы уверены?",
+      "____to_text": "Veti pierde progresul actual al complotului, sunteti sigur?                               "
+    },
+    {
+      "_________id": 87,
+      "_translator": "google",
+      "__from_text": "Противогаз",
+      "____to_text": "Masca               "
+    },
+    {
+      "_________id": 88,
+      "_translator": "google",
+      "__from_text": "Магазины",
+      "____to_text": "Magazine        "
+    },
+    {
+      "_________id": 89,
+      "_translator": "google",
+      "__from_text": "Настроить положение рук",
+      "____to_text": "Configurati pozitia mainilor                "
+    },
+    {
+      "_________id": 90,
+      "_translator": "google",
+      "__from_text": "По умолчанию",
+      "____to_text": "la implicit            "
+    },
+    {
+      "_________id": 91,
+      "_translator": "google",
+      "__from_text": "Отдельная благодарность:",
+      "____to_text": "Recunostinta separata:                        "
+    },
+    {
+      "_________id": 92,
+      "_translator": "google",
+      "__from_text": "Процедурно генерируемые Рейды",
+      "____to_text": "Raiduri generate procedural                             "
+    },
+    {
+      "_________id": 93,
+      "_translator": "google",
+      "__from_text": "Продолжить",
+      "____to_text": "Continua            "
+    },
+    {
+      "_________id": 94,
+      "_translator": "google",
+      "__from_text": "Угол поворота",
+      "____to_text": "Unghiul de rotatie       "
+    },
+    {
+      "_________id": 95,
+      "_translator": "google",
+      "__from_text": "Добро пожаловать в закрытую альфу Paradox of Hope!\n\n\nПосле тестирования пожалуйста заполните анкету.\n\nНапоминаю, что делиться какими-либо материалами из закрытой альфы за пределами подканала для тестировщиков запрещено!\n\n\nВажная информация для создателей контента. \r\n\nЭмбарго на обзор сюжетного режима установлено на 15 сентября. Пожалуйста не размещайте никаких видеоматериалов по \"Сюжету\" до этой даты. \"Рейды\" можно выкладывать сразу без каких-либо ограничений. \nНадеюсь на ваше понимание :)",
+      "____to_text": "Bine ati venit la Paradoxul Alpha inchis al sperantei! \n \n \n Dupa testare, va rugam sa completati chestionarul. \n \n Imi amintesc ca este interzis sa impartasesti orice materiale de la alfa inchisa pentru testeri! \n \n Embargoul pentru o revizuire a modului de complot este setat pe 15 septembrie. Va rugam sa nu plasati materiale video de complot\" inainte de aceasta data. Raids\" pot fi expuse imediat fara restrictii. \n sper sa intelegeti:)                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+    },
+    {
+      "_________id": 96,
+      "_translator": "google",
+      "__from_text": "Сюжет продолжится в будущих обновлениях",
+      "____to_text": "Complotul va continua in actualizarile viitoare                           "
+    },
+    {
+      "_________id": 97,
+      "_translator": "google",
+      "__from_text": "Выбор направления",
+      "____to_text": "Alegerea directiei               "
+    },
+    {
+      "_________id": 98,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутствует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".\n6. Перезапустите игру.\r\n7. Скорректируйте положение рук в Настройках.",
+      "____to_text": "In prezent, din cauza problemelor tehnice, jocul nu are sprijin oficial pentru indicele de supapa. \n \n pentru a juca cu un control normal (mutarea folosind bastoane etc.) trebuie sa schimbati aspectul controlerelor. Pentru aceasta: \n \n 1. Deschideti suprapunerea SteamVR. \n 2. Selectati Setari controler\". \n 3. Comutati aspectul activ al controlerului\" la utilizator\". \n 4. Faceti clic pe butonul Selectati altul\". \n 5. Selectati aspectul emulationului Oculus in Lifs of the Community\". \n 6. Restaurati jocul. \n 7. Reglati pozitia mainilor in setari.                                                                                                                                                                                                                                                                                                                                                                                                                                                   "
+    },
+    {
+      "_________id": 99,
+      "_translator": "google",
+      "__from_text": "Правая рука\n\nX:\n\nY:\n\nZ:",
+      "____to_text": "Mana dreapta\n\nX:\n\nY:\n\nZ:"
+    },
+    {
+      "_________id": 100,
+      "_translator": "google",
+      "__from_text": "В желаемое",
+      "____to_text": "La cele dorite     "
+    },
+    {
+      "_________id": 101,
+      "_translator": "google",
+      "__from_text": "Субтитры",
+      "____to_text": "Subtitrare      "
+    },
+    {
+      "_________id": 102,
+      "_translator": "google",
+      "__from_text": "Атмосферную сюжетную кампанию",
+      "____to_text": "Campania de complot atmosferica                         "
+    },
+    {
+      "_________id": 103,
+      "_translator": "google",
+      "__from_text": "Главы",
+      "____to_text": "Capitole  "
+    },
+    {
+      "_________id": 104,
+      "_translator": "google",
+      "__from_text": "Спасибо за игру в Paradox of Hope Demo!",
+      "____to_text": "Va multumim pentru jocul din Paradox of Hope Demo!   "
+    },
+    {
+      "_________id": 105,
+      "_translator": "google",
+      "__from_text": "Выйти из игры",
+      "____to_text": "Iesiti din joc          "
+    },
+    {
+      "_________id": 106,
+      "_translator": "google",
+      "__from_text": "Пройти опрос",
+      "____to_text": "Trece sondajul         "
+    },
+    {
+      "_________id": 107,
+      "_translator": "google",
+      "__from_text": "В этой демо-версии вы познакомитесь с Рейдами -\nбесконечным игровым режимом с прогрессией и процедурной генерацией уровней (доступно только Убежище).\n\nПрисоединяйтесь к Discord, чтобы поделиться фидбэком, сообщить об ошибках и просто быть в курсе всех событий.\nА также не забудьте добавить игру в свой список желаемого!",
+      "____to_text": "In aceasta versiune demo, veti face cunostinta cu RAIDS -\n un mod de joc interminabil, cu progresie si generare procedurala de niveluri (numai azil este disponibil). \n \n acte discord pentru a impartasi un feedback, a raporta erorile si a tine la curent cu toate evenimentele. \n si, de asemenea, nu uitati sa adaugati jocul pe lista dvs. de dorita!                                                                                                                                                                                                                                     "
+    },
+    {
+      "_________id": 108,
+      "_translator": "google",
+      "__from_text": "Ведущая рука",
+      "____to_text": "Mana de conducere      "
+    },
+    {
+      "_________id": 109,
+      "_translator": "google",
+      "__from_text": "Сценарий, нарративный дизайн - Владимир Шумилов\r\n\r---------------------------------------------------------------------------\n\r\nКомьюнити-менеджер - Eri\n\r---------------------------------------------------------------------------\n\nОзвучка - R.G MVO\r\n\r\nГлавный герой - Дмитрий Зубарев\r\nЗаказчик - Петр (Гланц) Иващенко\r\nВодитель дрезины - Станислав Олейников\r\nТорговец дядя Сережа - Алексей Щегорский\r\n\r\nАудиодневники:\r\nОтец - Иван Савоськин\r\nСын - Рута Няттиева\r\nУченый (Михаил Лотов) - Станислав Олейников\r\n\r\nРабота со звуком - Екатерина Дмитрова\r\nКуратор озвучки, кастинг - spider91\r\n\r---------------------------------------------------------------------------\n\r\nМузыка для радио: \r\nPunch Deck - I Cant Stop\r\nPunch Deck - Maximalism\r\n\r\r---------------------------------------------------------------------------\n\r\nМузыка в конец рейда - Professional Daydreamer\r\n\r\r---------------------------------------------------------------------------\n\r\n3D модели рюкзаков - Надежда Бурштынович \r\n\r\r---------------------------------------------------------------------------\n\r\nТестеры:\r\n\r\nEmperorPalpatine\r\nMorozic\r\nEchoe87\r\nDr. K\r\nThalchanka\r\nMr-Tektite\r\nLGS\r\nUncle Dolan\r\nExtremerecker69\r\nHeclak\r\nLaff\r\nKorry (Ярик)",
+      "____to_text": "Scenariu, design narativ-vladimir Shumilov \n -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- / DREZINA DRIVER - Stanislav oleinikov \n rochie seryozha - Alexei Scheshchersky \n \n Day Audio: \n tata - Ivan Savoskin \n son - Ruta Nuttieva \n United (Mikhail Lotov) - Stanislav Oleinikov \n lf) - Stanislav tesa Ekaterina dmitrova \n curator de actiune vocala, turnare-Spider91 \n -------------------------------------------------------------------------------- \n \n M M (---------- /---------------------------------------------------------------------------\n\nМузыкa в конец реидa - Professional Daydreamer \n -------------------------------------------------------------------------------------------- Burshtanovich \n -------------------------------------------------------------- / EMPERIPALPATINE \n Morozic \n echoe87 \n dr. K \n thalchanka \n mr-tektite \n lgs \n unchiul Dolan \n extremerecker69 \n heclak \n laff \n korry (Yarik)                                                                                                                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 110,
+      "_translator": "google",
+      "__from_text": "Ярик)",
+      "____to_text": "Yarik)   "
+    },
+    {
+      "_________id": 111,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолетный магазин из разгрузки на поясе \nи вставьте в пистолет.",
+      "____to_text": "Luati un magazin de pistol din descarcare pe centura \n si introduceti in pistol.                                                        "
+    },
+    {
+      "_________id": 112,
+      "_translator": "google",
+      "__from_text": "Для вращения используйте джойстик на правом контроллере.",
+      "____to_text": "Pentru rotatie, folositi joystick -ul de pe controlerul din dreapta.                                     "
+    },
+    {
+      "_________id": 113,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет из кобуры на правой ноге. (Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.)",
+      "____to_text": "Luati un pistol de la toc de pe piciorul drept. (Pentru a apuca obiecte cu mainile, fixati si tineti butonul iluminat pe controlerul corespunzator.)                                                                                                                                   "
+    },
+    {
+      "_________id": 114,
+      "_translator": "google",
+      "__from_text": "Вставьте в пистолет еще один магазин.",
+      "____to_text": "Introduceti un alt magazin in arma.                                 "
+    },
+    {
+      "_________id": 115,
+      "_translator": "google",
+      "__from_text": "Нажмите на подсвеченную кнопку, чтобы выстрелить.",
+      "____to_text": "Faceti clic pe butonul iluminat pentru a filma.                                            "
+    },
+    {
+      "_________id": 116,
+      "_translator": "google",
+      "__from_text": "Для перемещения испольуйте джойстик на левом контроллере.",
+      "____to_text": "Pentru a va deplasa, folositi joystick -ul de pe controlerul din stanga.                                   "
+    },
+    {
+      "_________id": 117,
+      "_translator": "google",
+      "__from_text": "Достаньте пистолет из кобуры на правой ноге. Чтобы хватать предметы руками, зажимайте и удерживайте подсвеченную кнопку на соответсвующем контроллере.",
+      "____to_text": "Scoateti pistolul de pe toc de pe piciorul drept. Pentru a apuca obiecte cu mainile, fixati si tineti butonul iluminat pe controlerul corespunzator.                                                                                                                                   "
+    },
+    {
+      "_________id": 118,
+      "_translator": "google",
+      "__from_text": "Тяжелое вооружение хранится на спине.\n(Занесите руку над правым плечом и схватите.)",
+      "____to_text": "Armele grele sunt depozitate pe spate. \n (aduceti mana peste umarul drept si apucati -o.)                                                              "
+    },
+    {
+      "_________id": 119,
+      "_translator": "google",
+      "__from_text": "Для перемещения используйте джойстик на левом контроллере.",
+      "____to_text": "Pentru a va deplasa, folositi joystick -ul de pe controlerul din stanga.                                     "
+    },
+    {
+      "_________id": 120,
+      "_translator": "google",
+      "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.\n(Поднесите руку и схватите.)",
+      "____to_text": "Esti ranit. Luati un prim kit de la buzunarul pieptului stang. \n (aduceti mana si apucati -va.)                                                             "
+    },
+    {
+      "_________id": 121,
+      "_translator": "google",
+      "__from_text": "Возьмите автоматный магазин из разгрузки на поясе \nи вставьте в автомат.",
+      "____to_text": "Luati un magazin automat de la descarcare pe centura \n si introduceti in masina.                                                    "
+    },
+    {
+      "_________id": 122,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там улов? Зефир есть?",
+      "____to_text": "Unchiul Seryozha: Ei bine, cum este captura? Exista o marshmallow?      "
+    },
+    {
+      "_________id": 123,
+      "_translator": "google",
+      "__from_text": "ОТСУТСТВУЕТ",
+      "____to_text": "ABSENT                "
+    },
+    {
+      "_________id": 124,
+      "_translator": "google",
+      "__from_text": "Иногда лучше избежать боя и прокрасться незамеченным. \r\n\r\nВыкручивайте лампочки, тушите свечи и используйте электрощиты, чтобы проложить себе путь в тенях.",
+      "____to_text": "Uneori este mai bine sa evitati batalia si sa va strecurati neobservati. \n \n Infasurati becurile, fierbeti lumanarile si folositi panouri electrice pentru a va deschide drumul in umbra.                                                                                                  "
+    },
+    {
+      "_________id": 125,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: О! Вернулся? \nА я тут как раз про тебя вспоминал.",
+      "____to_text": "Unchiul Seryozha: Oh! Intors? \n si mi -am amintit doar de tine.                                             "
+    },
+    {
+      "_________id": 126,
+      "_translator": "google",
+      "__from_text": "Если высота игрового аватара \nне соответствует действительности, \nв этом меню можно ее настроить",
+      "____to_text": "Daca inaltimea jocului avatar \n nu este adevarata, \n in acest meniu il puteti configura                                                                                          "
+    },
+    {
+      "_________id": 127,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Раз пришёл - значит не съели!",
+      "____to_text": "Unchiul Seryozha: Odata ce a venit, atunci nu au mancat!                  "
+    },
+    {
+      "_________id": 128,
+      "_translator": "google",
+      "__from_text": "разблок. АКМ, \nнабрав 12 очков \nв тире",
+      "____to_text": "imprastia. AKM, \n marcand 12 puncte \n in bord                   "
+    },
+    {
+      "_________id": 129,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Жизнь странная штука. \nВсё всегда возвращается. Прямо как ты.",
+      "____to_text": "Unchiul Seryozha: Viata este un lucru ciudat. \n totul se intoarce intotdeauna. La fel ca tine.                                       "
+    },
+    {
+      "_________id": 130,
+      "_translator": "google",
+      "__from_text": "Время рейда :            мин.          сек.\n\nМонстров убито:",
+      "____to_text": "Timp de raid: min.          Sec. \n \n monstri ucisi:                                      "
+    },
+    {
+      "_________id": 131,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Важные вещи буду скидывать на этот компьютер, смотри по возможности.",
+      "____to_text": "Unchiul Seryozha: Voi arunca lucruri importante pe acest computer, privesc daca este posibil.                                                       "
+    },
+    {
+      "_________id": 132,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Здарова! Это ты значит новый сталкер? Смотрю - совсем зелёный ещё, но это ладно, всему обучим, всё покажем.",
+      "____to_text": "Unchiul Seryozha: Zdarova! Te referi la un nou stalker? Ma uit - este complet verde, dar este in regula, vom invata totul, vom arata totul.                                                                          "
+    },
+    {
+      "_________id": 133,
+      "_translator": "google",
+      "__from_text": "БАЛАНС:                      РУБ.",
+      "____to_text": "Echilibru: freca.                         "
+    },
+    {
+      "_________id": 134,
+      "_translator": "google",
+      "__from_text": "Добро пожаловать в Убежище! \n\nОтсюда вы сможете отправиться в рейды в самые отдалённые уголки метро, обменять найденный хабар на новое снаряжение, отточить навыки стрельбы в тире и просто отдохнуть между вылазками. \n\n\"Даже если жизнь - коротка и опасна, в Убежище она становится чуть спокойнее и теплее!\"",
+      "____to_text": "Bine ati venit la adapost! \n \n De aici puteti merge la raiduri la cele mai indepartate colturi ale metroului, schimbati habarul gasit pentru echipamente noi, perfectionati abilitatile de tragere in linie si relaxati -va doar intre sorturi. \n \n \"Chiar daca viata este scurta si periculoasa, in adapost devine putin mai calm si mai cald!\"                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 135,
+      "_translator": "google",
+      "__from_text": "Имя                Целей в тире поражено:",
+      "____to_text": "Numele obiectivelor din bord este uimit:                      "
+    },
+    {
+      "_________id": 136,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 3",
+      "____to_text": "Obligatoriu \n rep. 3        "
+    },
+    {
+      "_________id": 137,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. \nА ты - молодец. Всегда возвращаешься!",
+      "____to_text": "Unchiul Seryozha: Am avut un bun prieten, am urcat doar la etaj si nu m -am intors. \n si esti bine facut. Te intorci mereu!                                                                        "
+    },
+    {
+      "_________id": 138,
+      "_translator": "google",
+      "__from_text": "Нет необходимости исследовать всю рейдовую локацию, чтобы выполнить задачу или найти выход. \n\nОднако настоящий сталкер всегда сможет найти в каждом рейде что-то особенное.",
+      "____to_text": "Nu este necesar sa explorati intreaga locatie RAID pentru a finaliza sarcina sau pentru a gasi o cale de iesire. \n \n Cu toate acestea, un adevarat stalker va putea intotdeauna sa gaseasca ceva special in fiecare raid.                                                                                                 "
+    },
+    {
+      "_________id": 139,
+      "_translator": "google",
+      "__from_text": "Фонарик",
+      "____to_text": "Lanterna      "
+    },
+    {
+      "_________id": 140,
+      "_translator": "google",
+      "__from_text": "Улучшения снаряжения (отмеченные специальным ценником) не нужно покупать каждый раз заново - они разблокируются навсегда. \n\nПосле единоразовой покупки ценник исчезнет.",
+      "____to_text": "Imbunatatirile echipamentelor (marcate cu un pret special) nu trebuie sa fie cumparate din nou - sunt deblocate pentru totdeauna. \n \n Dupa o achizitie de timp, pretul va disparea.                                                                                                                                 "
+    },
+    {
+      "_________id": 141,
+      "_translator": "google",
+      "__from_text": "Выйти из рейда",
+      "____to_text": "Parasiti raidul           "
+    },
+    {
+      "_________id": 142,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 2",
+      "____to_text": "Obligatoriu \n rep. 2        "
+    },
+    {
+      "_________id": 143,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб.",
+      "____to_text": "Ai supravietuit! \n \n Toate obiectele gasite in acest atac vor fi vandute cumparatorului. \n \n \n \n \n am gasit o habara pentru: frecare.                                                          "
+    },
+    {
+      "_________id": 144,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\". Или это не он был?",
+      "____to_text": "Unchiul Seryozha: Dupa cum a spus Omar Hayam: Intra, daca s -a intors!\" Sau nu a fost el?                                                "
+    },
+    {
+      "_________id": 145,
+      "_translator": "google",
+      "__from_text": "шт.",
+      "____to_text": "PC -~"
+    },
+    {
+      "_________id": 146,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ай ком алаааайв... \nЭх, хорошая была песня...",
+      "____to_text": "Unchiul Seryozha: ah l com alaaave... \n eh, melodia a fost buna...                                 "
+    },
+    {
+      "_________id": 147,
+      "_translator": "google",
+      "__from_text": "ЗАКР                   ОТКР",
+      "____to_text": "Wkr                                "
+    },
+    {
+      "_________id": 148,
+      "_translator": "google",
+      "__from_text": "Лучшие стрелки:",
+      "____to_text": "Cele mai bune sageti:       "
+    },
+    {
+      "_________id": 149,
+      "_translator": "google",
+      "__from_text": "АКТИВНОЕ ЗАДАНИЕ:",
+      "____to_text": "Sarcina activa:                 "
+    },
+    {
+      "_________id": 150,
+      "_translator": "google",
+      "__from_text": "Выйти в главное меню",
+      "____to_text": "Accesati meniul principal            "
+    },
+    {
+      "_________id": 151,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите обнулить сохранение? \nЭто также коснется прогресса прохождения сюжета, и выбранных настроек.",
+      "____to_text": "Esti sigur ca vrei sa resetezi economisirea? \n va afecta, de asemenea, progresul trecerii parcelei si setarile selectate.                                                                                          "
+    },
+    {
+      "_________id": 152,
+      "_translator": "google",
+      "__from_text": "Последняя попытка:",
+      "____to_text": "Ultima incercare:                 "
+    },
+    {
+      "_________id": 153,
+      "_translator": "google",
+      "__from_text": "Лучшие сталкеры:",
+      "____to_text": "Cei mai buni stalkers:        "
+    },
+    {
+      "_________id": 154,
+      "_translator": "google",
+      "__from_text": "Для покупки предмета просто возьмите его с полки. Чтобы продать предмет - положите его на стол торговцу. \n\nВаш текущий баланс отображается на экране компьютера.",
+      "____to_text": "Pentru a cumpara un articol, trebuie doar sa -l luati de pe raft. Pentru a vinde articolul - puneti -l pe masa comerciantului. \n \n bilantul dvs. curent este afisat pe ecranul computerului.                                                                                                       "
+    },
+    {
+      "_________id": 155,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо! Что притащил?",
+      "____to_text": "Unchiul Seryozha: Ei bine, cum este vremea? Sunny? Amenda! Ce ai tras?                                              "
+    },
+    {
+      "_________id": 156,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Про задания тоже тут можешь почитать, полезно это. Хотя для глаз - не очень.",
+      "____to_text": "Unchiul Seryozha: Puteti citi despre sarcini si aici, este util. Desi pentru ochi - nu foarte.                                                                "
+    },
+    {
+      "_________id": 157,
+      "_translator": "google",
+      "__from_text": "Хабар в рейде можно найти где угодно, внимательно \nсмотрите по \nсторонам и, \nвозможно, вам \nдаже повезет \nнаткнутся на сталкерский тайник с самой ценной добычей.",
+      "____to_text": "Khabar in raid poate fi gasit oriunde, cu atentie \n Vezi partile \n si, \n poate ca \n vei avea chiar norocos \n veti intalni un cache mai inradacinat cu cea mai valoroasa prada.                                                                                                                    "
+    },
+    {
+      "_________id": 158,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Красная цена! Два автомата... по цене двух! (смеётся в голос)",
+      "____to_text": "Unchiul Seryozha: Pret rosu! Doua mitraliere... la pretul a doua! (rade cu voce)                                                 "
+    },
+    {
+      "_________id": 159,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Здарова!",
+      "____to_text": "High Itage: Bine!                     "
+    },
+    {
+      "_________id": 160,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Привет!",
+      "____to_text": "Unchiul Seryozha: Buna ziua!        "
+    },
+    {
+      "_________id": 161,
+      "_translator": "google",
+      "__from_text": "УБИТЬ 5 МУТАНТОВ  \n(   /5)",
+      "____to_text": "Ucide 5 mutanti \n ( /5)                "
+    },
+    {
+      "_________id": 162,
+      "_translator": "google",
+      "__from_text": "ПО ВОЗМОЖНОСТИ НЕ ИСПОЛЬЗУЙТЕ ЭТИ ЧИТЫ,\nТ.К. В ФИНАЛЬНОЙ ВЕРСИИ ИГРЫ ИХ НЕ БУДЕТ,\nИ СЕЙЧАС НАДО ПОЛУЧИТЬ РЕАЛЬНЫЙ ФИДБЭК\nПО ПОВОДУ СЛОЖНОСТИ ИГРОВОГО РЕЖИМА",
+      "____to_text": "Daca este posibil, nu folositi aceste trucuri, \n t. In versiunea finala a jocului, acestea nu vor fi, \n si acum trebuie sa obtineti un feedback real \n despre complexitatea modului de joc                                                                                                  "
+    },
+    {
+      "_________id": 163,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Рад тебя видеть! \nДавай, рассказывай, где лазил?",
+      "____to_text": "Unchiul Seryozha: Ma bucur sa te vad! \n hai, spune -mi unde ai urcat?                                       "
+    },
+    {
+      "_________id": 164,
+      "_translator": "google",
+      "__from_text": "Заполнить \nанкету",
+      "____to_text": "Completati \n un chestionar      "
+    },
+    {
+      "_________id": 165,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?",
+      "____to_text": "Esti sigur ca vrei sa mergi la meniul principal?                               "
+    },
+    {
+      "_________id": 166,
+      "_translator": "google",
+      "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки, патроны. \n\nТщательная подготовка - залог успешного рейда!",
+      "____to_text": "Tovaras, pregateste -te pentru un sortie: Nu uita sa iei filtre, kituri de prim rang, cartuse. \n \n Pregatire atenta - Cheia unui raid de succes!                                                                              "
+    },
+    {
+      "_________id": 167,
+      "_translator": "google",
+      "__from_text": "Лазер",
+      "____to_text": "Lasder    "
+    },
+    {
+      "_________id": 168,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Живой? Вот молодец! \nЯ уж переживать начал, давно тебя не было.",
+      "____to_text": "Unchiul Seryozha: Viu? Bine facut! \n am inceput sa -mi fac griji, nu ai fost de mult timp.                                            "
+    },
+    {
+      "_________id": 169,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: А то бывало продашь кому-то, а они не возвращаются, остаются гнить где-то в туннелях, а у нас и так с вооружением дефицит, сам понимаешь.",
+      "____to_text": "Unchiul Seryozha: In caz contrar, veti vinde cuiva si nu se intorc, ei raman sa putrezeasca undeva in tuneluri si intelegem deja deficitul cu arme.                                                                                                                        "
+    },
+    {
+      "_________id": 170,
+      "_translator": "google",
+      "__from_text": "Присоединиться\nк",
+      "____to_text": "Alaturati -va \n k              "
+    },
+    {
+      "_________id": 171,
+      "_translator": "google",
+      "__from_text": "Требуется\nреп. 4",
+      "____to_text": "Obligatoriu \n rep. 4        "
+    },
+    {
+      "_________id": 172,
+      "_translator": "google",
+      "__from_text": "Требуется реп. 2\n\nНаберите 12 очков \nв тире",
+      "____to_text": "Rep este necesar. 2 \n \n formeaza 12 puncte \n in bord                     "
+    },
+    {
+      "_________id": 173,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: В общем, весь хабар, что в рейдах найдёшь - тащи сюда. А если снаряжение или оружие какое понадобится, его тоже можно купить у меня.",
+      "____to_text": "Unchiul Seryozha: In general, intregul khabar, ceea ce gasesti in raiduri - trage aici. Si daca este nevoie de echipament sau arma, acesta poate fi cumparat si de la mine.                                                                                       "
+    },
+    {
+      "_________id": 174,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну показывай, что притащил!",
+      "____to_text": "Unchiul Seryozha: Ei bine, arata ca ai tarat!                           "
+    },
+    {
+      "_________id": 175,
+      "_translator": "google",
+      "__from_text": "Используйте схрон для хранения нужных предметов. \n\nОбратите внимание, что все предметы за пределами вашего схрона и инвентаря не будут сохранены!",
+      "____to_text": "Folositi un cache pentru a stoca articolele necesare. \n \n Retineti ca toate articolele din afara cache -urilor si inventarului dvs. nu vor fi salvate!                                                                                                                    "
+    },
+    {
+      "_________id": 176,
+      "_translator": "google",
+      "__from_text": "Лучшая попытка:",
+      "____to_text": "Cea mai buna incercare:     "
+    },
+    {
+      "_________id": 177,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как пелось в одной старой песне: \"Раздевайся, раз пришёл\". Только раздеваться не надо. Хабар лучше покажи.",
+      "____to_text": "Unchiul Seryozha: Cum a fost intr -o singura melodie veche: dezbracati, a venit odata\". Doar nu va dezbracati. Arata -l mai bine habar.                                                                              "
+    },
+    {
+      "_________id": 178,
+      "_translator": "google",
+      "__from_text": "Выполняйте поручения торговца, чтобы повышать свой уровень репутации. \n\nС новыми уровнями репутации становится доступно новое снаряжение.",
+      "____to_text": "Urmati instructiunile comerciantului pentru a va creste nivelul de reputatie. \n \n Cu noi niveluri de reputatie, echipamentele noi devin disponibile.                                                                                                          "
+    },
+    {
+      "_________id": 179,
+      "_translator": "google",
+      "__from_text": "Хорошо подготовьтесь к рейду: запаситесь фильтрами, аптечками и патронами. Если повезет, их можно будет найти и в самом рейде, но ведь глупо полагаться на одну удачу?",
+      "____to_text": "Pregatiti -va bine pentru raid: stocati -va la filtre, kituri si cartuse pentru primul. Daca aveti noroc, pot fi gasiti in raidul in sine, dar este nechibzuit sa va bazati pe un noroc?                                                                                                                     "
+    },
+    {
+      "_________id": 180,
+      "_translator": "google",
+      "__from_text": "РЕПУТАЦИЯ:",
+      "____to_text": "Reputatie:         "
+    },
+    {
+      "_________id": 181,
+      "_translator": "google",
+      "__from_text": "Вы погибли...\n\nВсе найденные в этом рейде предметы были потеряны.",
+      "____to_text": "Ai murit... \n \n Toate obiectele gasite in acest raid s -au pierdut.                                                 "
+    },
+    {
+      "_________id": 182,
+      "_translator": "google",
+      "__from_text": "БЕССМЕРТИЕ\n\n\n\nДОБАВИТЬ 1000 РУБ.\n\n\n\nВЫПОЛНИТЬ ТЕКУЩЕЕ ЗАДАНИЕ\n\n\n\nРЕПУТАЦИЯ УРОВЕНЬ 3\n\n\n\nОБНУЛИТЬ СОХРАНЕНИЕ",
+      "____to_text": "Nemurirea \n \n \n \n adauga 1000 de ruble. \n \n \n \n Completati sarcina curenta \n \n \n nivelul de reputatie 3 \n \n \n \n pentru a preveni conservarea conservarii                                 "
+    },
+    {
+      "_________id": 183,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была.",
+      "____to_text": "Unchiul Seryozha: Daca am vazut un ghoul puternic de -a lungul drumului, atunci cel mai probabil era sotia mea.                                                 "
+    },
+    {
+      "_________id": 184,
+      "_translator": "google",
+      "__from_text": "Настроить высоту",
+      "____to_text": "Configurati inaltimea          "
+    },
+    {
+      "_________id": 185,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Только сразу я тебе крутые волыны не доверю, сначала покажи себя - выполни пару заданий.",
+      "____to_text": "Unchiul Seryozha: Doar imediat nu am incredere in tine cu Volys cool, mai intai arata -ti - fa cateva sarcini.                                                                        "
+    },
+    {
+      "_________id": 186,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Звать меня Сергей Станиславович, но можно и дядя Серёжа. Так даже лучше будет. Я тут главный по тыловому обеспечению.",
+      "____to_text": "Unchiul Seryozha: Sergey Stanislavovici ma suna, dar poti si unchiul Seryozha. Deci va fi si mai bine. Sunt principalul pentru suportul din spate.                                                                                         "
+    },
+    {
+      "_________id": 187,
+      "_translator": "google",
+      "__from_text": "ВЫЖИТЬ В ПЕРВОМ \nРЕЙДЕ",
+      "____to_text": "Supravietuieste in primul \n raid        "
+    },
+    {
+      "_________id": 188,
+      "_translator": "google",
+      "__from_text": "Товарищ, подготовься к вылазке: не забудь взять фильтры, аптечки и патроны. \n\nТщательная подготовка - залог успешного рейда!\r\n\nРейдовые локации недоступны в Демо.",
+      "____to_text": "Tovaras, pregateste -te pentru un sortie: Nu uita sa iei filtre, kituri si cartuse pentru primul -Said. \n \n Pregatire atenta - Cheia unui raid de succes! \n \n locatiile de raid nu sunt disponibile pentru demo.                                                                                    "
+    },
+    {
+      "_________id": 189,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nВы потеряете все найденные вещи и вернетесь назад в убежище.",
+      "____to_text": "Sunteti sigur ca doriti sa completati raidul inainte de termen? \n veti pierde toate lucrurile gasite si va veti intoarce inapoi la adapost.                                                          "
+    },
+    {
+      "_________id": 190,
+      "_translator": "google",
+      "__from_text": "Вернуться в игру",
+      "____to_text": "Intoarce -te la joc           "
+    },
+    {
+      "_________id": 191,
+      "_translator": "google",
+      "__from_text": "Имя                Хабара за раз вынесено на:",
+      "____to_text": "Numele lui Khabar este facut la un moment dat:                       "
+    },
+    {
+      "_________id": 192,
+      "_translator": "google",
+      "__from_text": "Сбросить прогресс",
+      "____to_text": "Resetati progresul               "
+    },
+    {
+      "_________id": 193,
+      "_translator": "google",
+      "__from_text": "НАЙТИ ПРОПАВШЕГО\nСТАЛКЕРА",
+      "____to_text": "Gasiti Stalker -ul \n                            "
+    },
+    {
+      "_________id": 194,
+      "_translator": "google",
+      "__from_text": "ПРИНЕСТИ 3 ТБшки\n(   /3)",
+      "____to_text": "Aduceti 3 tbshki \n ( /3)             "
+    },
+    {
+      "_________id": 195,
+      "_translator": "google",
+      "__from_text": "Вернуться в убежище",
+      "____to_text": "Intoarce -te la adapost             "
+    },
+    {
+      "_________id": 196,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если нашёл абрикосы в банке - забирай лучшую волыну бесплатно!",
+      "____to_text": "Unchiul Seryozha: Daca ati gasit caise in banca, luati cea mai buna coada gratuit!                                                      "
+    },
+    {
+      "_________id": 197,
+      "_translator": "google",
+      "__from_text": "ПРИНЕСТИ 6 лампочек\n(   /6)",
+      "____to_text": "Aduceti 6 becuri \n ( /6)                   "
+    },
+    {
+      "_________id": 198,
+      "_translator": "google",
+      "__from_text": "Вождь наш, Никита Андреич Лебедев - хорош. В старой жизни полканом был, первым сообразил, что людей спасать надо, вот всех в метро и собрал, ну, кого нашел. Святой человек, спас нас. Как за него не голосовать теперь, а? Да и довольствие присылает в срок, все понимает мужик. Никогда не говорил \"потерпите\" или \"пояса надо затянуть\". Еще и школы открыл, детей учит.\r\n\nА про любовниц его - это все кривотолки. Коммунисты эти болтают что ни попадя, языки у них без костей. Вот правили они в мире старом, и к чему это нас привело?",
+      "____to_text": "Liderul nostru, Nikita Andreich Lebedev, este bun. Intr -o viata veche, el a fost un adapost, primul care si -a dat seama ca oamenii trebuiau salvati si i -a strans pe toti in metrou, bine, pe care l -a gasit. Sfantul om ne -a salvat. Cum sa nu -l votezi acum, nu? Da, iar indemnizatia trimite la timp, barbatul intelege totul. Nu am spus niciodata tolereaza\" sau centurile trebuie stranse\". De asemenea, a deschis scolile, invata copiii. \n \n si despre amantele sale - toate acestea sunt strambe. Acesti comunisti care vorbesc pe care nu le pot obtine, limbile lor sunt fara oase. Au condus in Lumea Veche si la ce ne -a condus?                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+      "_________id": 199,
+      "_translator": "google",
+      "__from_text": "Мы все слишком зациклены на этой поганой жратве. Мы постоянно хотим есть, будто у нас внутри - дыра, которую нужно постоянно затыкать. Даже когда еды нет, мы ее ищем и готовы делать ради этого страшные вещи.\r\n\nЯ и сам из-за еды делал непоправимое, мне никогда не отмыться. Также видел я, как это делают и другие - мужчины бросали женщин, матери - своих детей, а иногда происходило и кое-что похуже. Я не хочу, чтобы это оставалось на бумаге.\r\n\nИ вот мы живем в жалких тоннелях, пока наверху растет новый мир. Мы продолжаем искать еду, выращивать ее, готовить, иногда нападать друг на друга. Интересно, мутанты с поверхности приходят к нам тоже в поисках жратвы?",
+      "____to_text": "Suntem cu totii prea fixati pe aceasta groaza murdara. Vrem constant sa mancam, ca si cum am avea in interior - o gaura care trebuie sa fie conectata constant. Chiar si atunci cand nu exista mancare, il cautam si suntem gata sa facem lucruri groaznice pentru asta. \n \n eu insumi am facut ireparabil din cauza mancarii, nu ma voi spala niciodata. Am vazut, de asemenea, cum au facut -o altii - barbatii au aruncat femei, mame - copiii lor si, uneori, s -a intamplat ceva mai rau. Nu vreau sa ramana pe hartie. \n \n Si aici traim in tuneluri mizerabile, in timp ce Lumea Noua creste la etaj. Continuam sa cautam mancare, sa o crestem, sa gatim, sa ne atacam uneori. Interesant este ca mutantii de la suprafata vin si la noi in cautarea unei gropi?                                                                                                                                                                                                                                                                                                                                                                                                                                                    "
+    },
+    {
+      "_________id": 200,
+      "_translator": "google",
+      "__from_text": "Она говорила, что ее звали Тексиз. \r\n\nОчень странное имя, особенно для нашей местности. Все думали, что она из Америки, откуда-то из Техаса или другого южного штата, но она говорила, что в штатах никогда не была.\r\n\nМы жили вместе полтора года, и каждый день с Тексиз казался мне открытием, нес что-то новое. Но я видел, что ей со мной не очень, хотя она этого не говорила никогда. Да я и не спрашивал. Боялся спугнуть свое счастье.\r\n\nОднажды утром она разбудила меня и сказала ровно одну фразу: \"Я чувствую себя так, будто сегодня ночью умру\". После этого собрала вещи и молча ушла, а ее слова... они меня до сих пор пугают.\r\n\nЧто тебя так напугало, милая Тексиз? Почему ты ушла?",
+      "____to_text": "Ea a spus ca numele ei este Teksiz. \n \n Un nume foarte ciudat, in special pentru zona noastra. Toata lumea a crezut ca este din America, de undeva in Texas sau in alt stat din sud, dar a spus ca nu a fost niciodata in state. \n \n am trait impreuna un an si jumatate, iar in fiecare zi cu Teksiz mi s -a parut o descoperire, a purtat ceva nou. Dar am vazut ca nu este foarte buna cu mine, desi nu a spus niciodata asta. Da, nu am intrebat. Ii era frica sa -si sperie fericirea. \n \n Intr -o dimineata m -a trezit si mi -a spus exact o fraza: Simt ca as muri in seara asta\". Dupa aceea, a colectat lucruri si a plecat in tacere, si cuvintele ei... inca ma sperie. \n \n ce te -a speriat, draga teksiz? De ce ai plecat?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 201,
+      "_translator": "google",
+      "__from_text": "Не пойду я на эти выборы вождя нового, подписано уж все. Как в мире старом, поговорка была: \"Голосуй, не голосуй - все равно получишь то же самое\". Да и ходить туда-сюда ноги уже не дают.\r\n\nТакую страну развалили, да и мир тоже в целом, эх. Живем тут как крысы в подполье, за вождя голосуем, а там, наверху, лес растет этот, волшебный, бляха.\r\n\nПойду лучше самогонки наверну.",
+      "____to_text": "Nu voi merge la aceste alegeri ale liderului noului, totul a fost semnat. Ca si in Lumea Veche, zicala a fost: Voteaza, nu vota - inca mai primesti la fel\". Da, iar picioarele lor nu mai permit sa mearga inainte si inapoi. \n \n O astfel de tara a fost distrusa, iar lumea este, de asemenea, in general, eh. Locuim aici ca sobolani in subteran, votam pentru lider, iar acolo, la etaj, aceasta padure creste, magica, placi. \n \n Probabil ca voi merge mai bine decat Moonshine.                                                                                                                                                                                           "
+    },
+    {
+      "_________id": 202,
+      "_translator": "google",
+      "__from_text": "Вот сейчас сижу и вспоминаю, как в прошлой жизни книжки любил читать. И ведь полно литературы было про конец всего, про поверхность отравленную, про метро и выживание. Чувствовали люди, наверное, что что-то такое будет. Что накроется все, вот и фантазировали, как оно произойдет. А мы сидели в теплых квартирах, да за продуктами ходили, иногда книжки эти покупали.\n\r\nСейчас же в них надобности нет, ничего фантазировать не надо - вот оно все, руками можно потрогать. Правда фантастичнее любого вымысла.",
+      "____to_text": "Acum stau si imi amintesc cum mi -a placut sa citesc o carte intr -o ultima viata. Si pana la urma, a fost multa literatura despre sfarsitul tuturor, despre suprafata otravita, despre metrou si supravietuire. Oamenii au simtit, probabil, ca se va intampla ceva. Ca totul va fi acoperit si au fantasizat cum se va intampla. Si ne -am asezat in apartamente calde, dar am mers pentru produse, uneori am cumparat aceste carti. \n \n Acum nu este nevoie de ei, nu este nimic de fantezat - asta este totul, cu mainile noastre pe care le puteti atinge. Adevarat fantastic mai mult decat orice fictiune.                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 203,
+      "_translator": "google",
+      "__from_text": "Как-то недавно ходил на вылазку, были наверху от силы полчаса, но попали в окружение почти сразу, пришлось отбиваться от гадов. Я мутантов и раньше стрелял, но в этот раз все было как-то по-другому. Твари будто разговаривали, не знаю, как объяснить. Будто обсуждали нас на своем языке.\r\n\nЯ одного пришил и пока он кровью истекал, увидел в его глазах что-то. Искру какую-то, человечность что ли. Он, как и мы, помирать не хотел и до последнего, будто поверить не мог, что его час настал.\r\n\nА нам, что было делать? Либо мы, либо они.",
+      "____to_text": "Intr -un fel de curand am mers la un sortie, erau la etaj de la forta de o jumatate de ora, dar au fost inconjurati aproape imediat, a trebuit sa lupt impotriva reptilelor. Am mai impuscat mutanti inainte, dar de data aceasta totul a fost cumva diferit. Creaturile pareau sa vorbeasca, nu stiu cum sa explic. Ca si cum ar discuta in propria mea limba. \n \n am cusut unul si, in timp ce el sangera, am vazut ceva in ochi. Un fel de scanteie, umanitate sau ceva de genul. El, ca si noi, nu a vrut sa moara nici pana la ultimul, ca si cum nu ar putea sa creada ca a venit ora lui. \n \n si noi, ce sa facem? Fie noi, fie ei.                                                                                                                                                                                                                                                                                                                                  "
+    },
+    {
+      "_________id": 204,
+      "_translator": "google",
+      "__from_text": "Помню одну странную вещь, думаю нужно ее записать. Еще до конца старого мира знала одного мальчика по имени Женя, ему всегда было пять лет. Все вокруг старели, заводили семьи, умирали, а Жене всегда было пять.\r\n\nМы познакомились во дворе, мне было лет десять, а ему пять. Я выросла, закончила школу и встретила Сережу, а Жене все еще было пять. У меня родились дети, выросли, им было по десять, а Жене все еще было пять. \r\n\nВ итоге лес нас прогнал, детей я потеряла, а Женю больше не видела.\r\n\nИнтересно, ему все еще пять?",
+      "____to_text": "Imi amintesc de un lucru ciudat, cred ca trebuie sa -l inregistrez. Chiar inainte de sfarsitul lumii vechi, stia un baiat pe nume Zhenya, el avea intotdeauna cinci ani. Toti cei din jurul batranilor, au avut familii, au murit si au fost intotdeauna cinci la sotia sa. \n \n ne -am intalnit in curte, aveam zece ani, iar el avea cinci ani. Am crescut, am absolvit scoala si am cunoscut -o pe Seryozha, iar sotia mea era inca cinci. Copiii mei s -au nascut, au crescut, au fost zece fiecare, iar sotia lui era inca cinci. \n \n Drept urmare, ne -am alungat, am pierdut copiii, dar nu am mai vazut Zhenya. \n \n ma intreb daca mai are cinci cinci?                                                                                                                                                                                                                                                                                             "
+    },
+    {
+      "_________id": 205,
+      "_translator": "google",
+      "__from_text": "Я долго размышлял о структурах жизни, порядке событий и их смыслах. Размышления эти навели меня на забавную мысль: мы все думали, что жизнь каждого индивида - небольшой мономиф, некий самостный путь героя. Миллиарды сюжетов, которые иногда пересекаются, а иногда - нет. Мы думали, что каждый - герой своей жизни. Но нифига. Мир, жизнь и воля зелени показали нам, что мы лишь статисты, массовка, а настоящий герой - природа. Сейчас она изменяется, как и положено любому хорошему герою, а мы, затаив дыхание, смотрим и ждем смерти как вид.",
+      "____to_text": "M -am gandit mult timp la structurile vietii, la ordinea evenimentelor si la semnificatiile lor. Aceste ganduri m -au adus intr -un gand amuzant: cu totii am crezut ca viata fiecarui individ este o mica monomifa, o anumita cale propusa de sine a eroului. Miliarde de parcele care uneori se intersecteaza si alteori nu. Ne -am gandit ca toata lumea este un erou al vietii sale. Dar Nifiga. Lumea, viata si vointa de verdeata ne -au aratat ca suntem doar statisti, o multime si un adevarat erou este natura. Acum se schimba, asa cum ar trebui sa fie pentru orice erou bun, iar noi, cu o respiratie luminoasa, privim si asteptam moartea ca specie.                                                                                                                                                                                                                                                                                                                              "
+    },
+    {
+      "_________id": 206,
+      "_translator": "google",
+      "__from_text": "Я всегда любила лес. Жила в городе, но постоянно ездила побродить между березок и лип. Только там все проблемы отступали и ничего в жизни больше не оставалось, кроме чистого горизонта и листвы.\r\n\nСейчас я живу под землей (в этом клоповнике), но точно знаю, что когда-нибудь я все-таки выберусь на поверхность и растворюсь там в лесу, который изменяет все и всех. Плевать, даже если превращусь в одно из этих чудовищ. Зато стану свободной.",
+      "____to_text": "Intotdeauna am iubit padurea. A locuit in oras, dar a mers constant sa rataceasca intre mesteacan si buze. Doar toate problemele s -au retras si nimic altceva nu a mai ramas in viata, cu exceptia unui orizont pur si a frunzelor. \n \n Acum locuiesc in subteran (in acest clip), dar stiu sigur ca intr -o zi voi merge in continuare la suprafata si voi dizolva acolo in padure care schimba totul si toata lumea. Spit, chiar daca ma transform intr -unul dintre acesti monstri. Dar voi deveni liber.                                                                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 207,
+      "_translator": "google",
+      "__from_text": "Для вкл/выкл лазера/\nфонарика используйте  \nкурок второй руки,\nудерживая оружие\nобеими руками.\n\nНе забывайте чистить \nснаряжение после \nрейдов. Грязное оружие \nможет подвести вас в \nсамый ответственный \nмомент!",
+      "____to_text": "Pentru vocala /off of the Laser /\n lanterna, utilizati \n declansatorul mainii second -hand, \n tineti arma \n cu ambele maini. \n \n Nu uitati sa curatati \n echipamente dupa \n raiduri. Arme murdare \n va pot aduce la \n cel mai responsabil \n moment!                                                                                                                                         "
+    },
+    {
+      "_________id": 208,
+      "_translator": "google",
+      "__from_text": "Славься Зелень-мать, да будет всеобъемлюща сила твоя первородная, ничем не замутненная. Меняй нас, меняй все вокруг, по усмотрению своему переиначивай.\r\n\nВиденье твое скрыто от нас, но верим мы, что приведешь ты человека к миру новому, вратам райским и прощению. Верим мы, что от грехов наших души избавишь. Верим, что избавишь от диавола, ведь нет его там, где нет человека старого и страстей его.\r\n\nПрими нас в объятия свои. Дай войти нам в покои твои и жить там в благодати. Готовы мы отринуть все старое и принять новое. Готовы мы к изменениям, о Зелень-мать.",
+      "____to_text": "Slava pentru verdeata mamei, ca puterea ta prim-nascuta sa fie cuprinzatoare, nu norocoasa. Schimbati -ne, schimbati totul in jur, reinterizati la discretia dvs. \n \n Viziunea ta este ascunsa de noi, dar credem ca vei aduce o persoana in lumea noua, portile paradisului si iertarea. Credem ca veti salva de pacatele sufletelor noastre. Credem ca te vei salva de diavol, pentru ca nu exista nimeni in care nu exista niciun om batran si pasiunile lui. \n \n Acceptati -ne in bratele voastre. Sa intram in camerele noastre si sa traim acolo in har. Suntem gata sa respingem totul vechi si sa acceptam noul. Suntem pregatiti pentru schimbari, despre verzi.                                                                                                                                                                                                                                                                                                                                                                      "
+    },
+    {
+      "_________id": 209,
+      "_translator": "google",
+      "__from_text": "Помню, как меня в детстве травил и колотил один парнишка, несколько лет подряд. Я сильно его боялся тогда, аж коленки тряслись. Мне даже постоянно казалось, что он из-за любого угла выпрыгнет и побьет меня. Сдачи я дать не мог. То ли родители так воспитали, то ли трусил просто.\r\n\nВстретил его недавно в метро - старого, осунувшегося. Он сейчас охотой на артефакты промышляет - стал другим человеком, может уже и не помнит, как надо мною издевался. \r\n\nМне глаза его запомнились. Было что-то в них опустошающее. Будто он уже не понимает, кем становится. Я был на него обижен и зол, но эти глаза из меня как будто все выпили. Странно это все и страшно.",
+      "____to_text": "Imi amintesc cum un tip m -a otravit si m -a batut in copilarie, cativa ani la rand. Atunci mi -a fost foarte frica de el, deja genunchii tremurau. Mi s -a parut constant ca va sari din orice colt si ma va bate. Nu puteam da schimbari. Fie parintii au crescut asa, fie lasul pur si simplu. \n \n l -a intalnit recent in metrou - vechiul, haggard. Acum vaneaza artefacte - a devenit o persoana diferita, poate ca nu -si mai aminteste cum m -a batjocorit. \n \n mi -am amintit de ochii lui. Era ceva devastator in ele. Ca si cum nu mai intelege cine devine el. Am fost jignit si suparat pe el, dar acesti ochi pareau sa bea de la mine. Totul este ciudat si infricosator.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
+    },
+    {
+      "_________id": 210,
+      "_translator": "google",
+      "__from_text": "Все считают меня сказочником, а я просто собираю истории метро о прошлом и настоящем. Некоторые презрительно смотрят на меня, но я не могу им объяснить, что если я не буду собирать эти истории - никто не будет, и мы умрем без доказательств того, что вообще жили. Люди даже дали мне насмешливое прозвище в честь древнегреческого философа. Как оно меня бесит, даже записывать не хочу.\r\n\nНо если я перестану заниматься своим делом, кто подхватит эту эстафету? Никому дела нет до сохранения прошлого и настоящего, а книги сейчас в основном используют, чтобы самокрутки вертеть, да подтираться. Может и не зря старый мир рухнул? Мы же всегда так относились к нему - брезгливо, как хапуги, и даже не давали ничего взамен.",
+      "____to_text": "Toata lumea ma considera un povestitor si colectez doar povestile metroului despre trecut si prezent. Unii se uita cu dispret la mine, dar nu le pot explica ca, daca nu colectez aceste povesti, nimeni nu va fi si vom muri fara dovezi ca am trait in general. Oamenii chiar mi -au dat o porecla batjocoritoare in onoarea filozofului grec antic. Cum ma infurie, nici macar nu vreau sa ma scriu. \n \n dar daca nu mai fac treaba mea, cine va ridica acest baston? Nimanui nu -i pasa de conservarea trecutului si a prezentului, iar cartile sunt acum folosite in principal pentru a transforma buzunare si pentru a macina. Poate ca nu este degeaba ca lumea veche s -a prabusit? L -am tratat intotdeauna asa - cu siguranta, ca hapgs si nici nu am dat nimic in schimb.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     "
+    },
+    {
+      "_________id": 211,
+      "_translator": "google",
+      "__from_text": "В подземке много людей и им снится много снов. Бесчисленное количество и каждый раз - новые. Они сейчас заменяют нам телевизор, радио и прочие мелкие радости.\r\n\nМне вот недавно женщина на белом коне приснилась. Бледная, голая, с алыми губами цвета спелого яблока. Ехала и молчала. Только звук копыт по снегу \"хрум-хрум\".\r\n\nИнтересно, к чему бы это?",
+      "____to_text": "Exista multi oameni in metrou si viseaza la multe vise. Nenumarate si de fiecare data noi. Acum ne inlocuiesc cu un televizor, radio si alte mici bucurii. \n \n am visat recent la un cal alb. Pale, dezbracat, cu buze stacojii culoarea unui mar copt. Conduceam si taceam. Doar sunetul copitelor in zapada Krum-Khrum\". \n \n Ma intreb pentru ce ar fi?                                                                                                                                                                                                                                                                                    "
+    },
+    {
+      "_________id": 212,
+      "_translator": "google",
+      "__from_text": "У меня все из головы не идет одна история, слышал ее еще когда мир был старым. Тогда боец один американский, боксер вроде, не помню, как его звали, пусть будет Джон. Или Берни. В общем, он поднялся с самых низов и стал чемпионом, вроде как в среднем весе, причем несколько раз. Получил парень все, о чем мечтал, а потом на пике карьеры взял и повесился. Его дома нашли. В трусах своих боевых в петле болтался.\r\n\nИ вот я сижу, думаю, что ведь человечество в целом по стопам этого Берни пошло. Только у нас самих повеситься не получилось. Вот мы природу и попросили нам помочь. А она и рада стараться, во всем человеку всегда помогала и тут не отказала.",
+      "____to_text": "Nu am nicio poveste din cap, am auzit -o chiar si cand lumea era veche. Atunci The Fighter este un american, un boxer, nu -mi place, nu -mi amintesc care era numele lui, lasa -l pe John sa fie. Sau Bernie. In general, s -a ridicat de jos si a devenit campion, un fel de asemanator in greutatea mijlocie si de mai multe ori. Tipul a primit tot ce a visat, iar apoi in varful carierei sale a luat si s -a spanzurat. El a fost gasit acasa. In chilotii lui in bucla s -a aruncat. \n \n Si aici stau, cred ca umanitatea, in general, pe urmele acestui Bernie a mers. Doar noi insine nu ne -am putut agata de sine. Aici avem natura si ne -a cerut sa ajutam. Si este bucuroasa sa incerce, a ajutat intotdeauna la intreaga persoana si nu a refuzat aici.                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+    },
+    {
+      "_________id": 213,
+      "_translator": "google",
+      "__from_text": "Для установки прицелов \nи насадок на оружие -\nзажмите его в тиски\nна верстаке. \n\nПосле этого поднесите \nнасадку к нужному \nместу и отпустите ее.",
+      "____to_text": "Pentru a instala obiectivele \n si duze pentru arme -\n, faceti clic pe el in vise \n de pe bancul de lucru. \n \n Dupa aceea, aduceti duza \n la \n loc si eliberati -o.                                                                                               "
+    },
+    {
+      "_________id": 214,
+      "_translator": "google",
+      "__from_text": "Сейчас в метро все кому не лень женятся уже через неделю-две после шуры-муры. То ли людям страшно, то ли скорее хочется отметины оставить, чтобы всем заявить, что, мол, \"мое и все тут\". Помню, как в старом мире мало кто торопился с этим делом и все жили в свое удовольствие. К чему нас это привело?\r\n\nБыла у меня тогда девушка, но я ее бросил. Назвал \"лучшей\" и сбежал. Даже не знаю сейчас, что с ней и жива ли вообще? До сих пор в лицах встречных ищу ее.\r\n\nКто знает, может, повезет?",
+      "____to_text": "Acum, in metrou, toti cei care nu sunt lene sa se casatoreasca intr-o saptamana sau doua dupa Shura-Mura. Fie oamenii sunt speriati, sau mai degraba vreau sa parasesc urme pentru a spune tuturor ca, ei spun: Al meu si totul aici\". Imi amintesc cum, in lumea veche, putini se grabeau cu aceasta afacere si toata lumea traia pentru placerea lor. Ce ne -a dus asta? \n \n am avut o prietena atunci, dar am parasit -o. A numit cel mai bun\" si a fugit. Nici nu stiu acum ce este cu ea si este deloc viu? Pana acum, in persoanele care urmeaza, o caut. \n \n Cine stie, poate are norocul?                                                                                                                                                                                                                                                                                 "
+    },
+    {
+      "_________id": 215,
+      "_translator": "google",
+      "__from_text": "Я столько всего потерял. Жизнь отобрала у меня все, что я любил - жену и дочь, родителей, друзей. Только я терял кого-то и только приходил в себя, как жизнь снова забирала у меня что-то важное.\r\n\nТеперь я слоняюсь по тоннелям как шакал и забираю важные вещи у других. Я нападаю и беру все - патроны, лекарства, еду, а иногда и чужие жизни.\r\n\nПо-другому и быть не может. Я слишком много терял и теперь намерен лишь забирать. Таков порядок вещей в новом мире.",
+      "____to_text": "Am pierdut atat de mult. Viata a luat tot ce am iubit de la mine - sotia si fiica mea, parintii, prietenii. Doar eu am pierdut pe cineva si am venit doar la simturile mele, deoarece viata a luat din nou ceva important de la mine. \n \n Acum ma ratacesc prin tuneluri ca un sacal si iau lucruri importante de la ceilalti. Atac si iau totul - cartuse, medicamente, alimente si uneori viata altor oameni. \n \n nu poate exista alta cale. Am pierdut prea mult si acum intentionez sa o iau doar. Aceasta este ordinea lucrurilor din Lumea Noua.                                                                                                                                                                                                                                                                                   "
+    },
+    {
+      "_________id": 216,
+      "_translator": "google",
+      "__from_text": "Вот была же жизнь раньше, не то, что сейчас. Москва стояла как монолит, пивнушки уютные на каждом углу, ТЦ людные, Кремль громадой своей возвышался. А пирожки какие были, аж слюнки текут как вспоминаю!\r\n\nА сейчас что? Картошка ватная, хлеб с плесенью, а если повезет - консервы просроченные. И куда не глянь - везде рожи недовольные, слоняются туда-сюда, зыркают.\r\n\nЖаль, что все потеряли. Не сохранили. Ох, как жаль.",
+      "____to_text": "Asta a fost viata mai devreme, nu ceea ce este acum. Moscova statea ca un monolit, berea este confortabila in fiecare colt, centrul comercial aglomerat, Kremlinul turnat cu uriasul lor. Si care au fost placintele, droolul curge asa cum imi amintesc! \n \n si acum ce? Cartofii sunt bumbac, paine cu mucegai, iar daca aveti noroc, marfurile din conserve sunt intarziate. Si unde nu se uita - peste tot, fetele sunt nemultumite, se ratacesc inainte si inapoi, adulmeca. Nu pastrat. Oh, ce mila.                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 217,
+      "_translator": "google",
+      "__from_text": "Выстрели в голову, \nчтобы начать",
+      "____to_text": "Impusca in cap \n pentru a incepe                          "
+    },
+    {
+      "_________id": 218,
+      "_translator": "google",
+      "__from_text": "Загрузить последний чекпоинт",
+      "____to_text": "Descarcati ultimul punct de control                   "
+    },
+    {
+      "_________id": 219,
+      "_translator": "google",
+      "__from_text": "Чекбокс",
+      "____to_text": "OFF           "
+    },
+    {
+      "_________id": 220,
+      "_translator": "google",
+      "__from_text": "Потяните затвор, чтобы дослать патрон.",
+      "____to_text": "Trageti obturatorul pentru a trimite cartusul.                        "
+    },
+    {
+      "_________id": 221,
+      "_translator": "google",
+      "__from_text": "Для  контроля отдачи удерживайте автомат двумя руками.",
+      "____to_text": "Pentru a controla intoarcerea, tineti masina cu doua maini.                                         "
+    },
+    {
+      "_________id": 222,
+      "_translator": "google",
+      "__from_text": "Отпустите зажигалку и она автоматически вернется на своё место в инвентаре.",
+      "____to_text": "Eliberati bricheta si se va intoarce automat la locul sau in inventar.                                                                     "
+    },
+    {
+      "_________id": 223,
+      "_translator": "google",
+      "__from_text": "Чтобы использовать зажигалку нажмите на подсвеченную кнопку.",
+      "____to_text": "Pentru a utiliza bricheta, apasati butonul iluminat.                                                             "
+    },
+    {
+      "_________id": 224,
+      "_translator": "google",
+      "__from_text": "Отпустите пистолет и он автоматически вернется в кобуру.",
+      "____to_text": "Da drumul pistolului si se va intoarce automat la toc.                                                  "
+    },
+    {
+      "_________id": 225,
+      "_translator": "google",
+      "__from_text": "Не обязательно извлекать магазин вручную, можно просто нажать на подсвеченную кнопку \"A\".",
+      "____to_text": "Nu este necesar sa extrageti magazinul manual, puteti doar sa faceti clic pe butonul A\" iluminat.                                                                 "
+    },
+    {
+      "_________id": 226,
+      "_translator": "google",
+      "__from_text": "Потяните затвор вперед, чтобы дослать патрон или просто нажмите на подсвеченную кнопку \"B\".",
+      "____to_text": "Trageti obturatorul inainte pentru a trimite cartusul sau doar faceti clic pe butonul iluminat B\".                                                                   "
+    },
+    {
+      "_________id": 227,
+      "_translator": "google",
+      "__from_text": "Возьмите автоматный магазин и вставьте в автомат.",
+      "____to_text": "Luati un magazin automat si introduceti in masina.                                         "
+    },
+    {
+      "_________id": 228,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет из кобуры на правой ноге.",
+      "____to_text": "Luati un pistol de la toc de pe piciorul drept.                                "
+    },
+    {
+      "_________id": 229,
+      "_translator": "google",
+      "__from_text": "Чтобы извлечь магазин схватите его другой рукой и вытащите.",
+      "____to_text": "Pentru a indeparta magazinul, apucati -l cu cealalta mana si scoateti -l.                                    "
+    },
+    {
+      "_________id": 230,
+      "_translator": "google",
+      "__from_text": "Достаньте зажигалку из правого нагрудного кармана.\n(Чтобы хватать предметы руками, поднесите к ним руку и зажимите подсвеченную кнопку на соответсвующем контроллере.)",
+      "____to_text": "Indepartati bricheta din buzunarul drept al sanului. \n (pentru a apuca obiecte cu mainile, aduceti mana la ele si prindeti butonul iluminat de pe controlerul corespunzator.)                                                                                                                                      "
+    },
+    {
+      "_________id": 231,
+      "_translator": "google",
+      "__from_text": "Вы ранены. Возьмите аптечку из левого нагрудного кармана.",
+      "____to_text": "Esti ranit. Luati un prim kit de la buzunarul pieptului stang.                                           "
+    },
+    {
+      "_________id": 232,
+      "_translator": "google",
+      "__from_text": "Инвентарь",
+      "____to_text": "Inventar          "
+    },
+    {
+      "_________id": 233,
+      "_translator": "google",
+      "__from_text": "Находки",
+      "____to_text": "Constatari    "
+    },
+    {
+      "_________id": 234,
+      "_translator": "google",
+      "__from_text": "Найти топливо для генератора",
+      "____to_text": "Gasiti combustibilul pentru generator                "
+    },
+    {
+      "_________id": 235,
+      "_translator": "google",
+      "__from_text": "Найти 3 рулона туалетной бумаги",
+      "____to_text": "Gasiti 3 rulouri de hartie cu role                       "
+    },
+    {
+      "_________id": 236,
+      "_translator": "google",
+      "__from_text": "ТЕКУЩЕЕ ЗАДАНИЕ:",
+      "____to_text": "Sarcina curenta:              "
+    },
+    {
+      "_________id": 237,
+      "_translator": "google",
+      "__from_text": "Найти пропавшего сталкера",
+      "____to_text": "Gasiti Stalker -ul disparut                     "
+    },
+    {
+      "_________id": 238,
+      "_translator": "google",
+      "__from_text": "Подзадачи:\n\n1) Найти ключ-карту",
+      "____to_text": "Subbalies: \n \n 1) Gasiti cardul cheie                 "
+    },
+    {
+      "_________id": 239,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы можно продать.",
+      "____to_text": "Ai supravietuit! \n \n Toate obiectele gasite in acest raid pot fi vandute.                                       "
+    },
+    {
+      "_________id": 240,
+      "_translator": "google",
+      "__from_text": "Загрузка...",
+      "____to_text": "Incarcare...       "
+    },
+    {
+      "_________id": 241,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Esti sigur ca vrei sa mergi la meniul principal? \n \n veti pierde toate lucrurile gasite si toate echipamentele. Pentru a salva echipamentul - intoarceti -va la adapostul de pe carucior.                                                                                                            "
+    },
+    {
+      "_________id": 242,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\nПока загрузка не завершилась, вы не потеряете ничего из экипировки и вернетесь назад в убежище.",
+      "____to_text": "Sunteti sigur ca doriti sa completati raidul inainte de termen? \n pana cand incarcarea se va termina, nu veti pierde nimic din echipament si nu veti reveni la adapost.                                                                                              "
+    },
+    {
+      "_________id": 243,
+      "_translator": "google",
+      "__from_text": "Начать",
+      "____to_text": "INCEPE      "
+    },
+    {
+      "_________id": 244,
+      "_translator": "google",
+      "__from_text": "Рейд завершен.",
+      "____to_text": "Raidul este finalizat.    "
+    },
+    {
+      "_________id": 245,
+      "_translator": "google",
+      "__from_text": "Выжить в первом рейде",
+      "____to_text": "Supravietuieste in primul raid         "
+    },
+    {
+      "_________id": 246,
+      "_translator": "google",
+      "__from_text": "Подзадачи:\n\n\n- Включить генератор",
+      "____to_text": "Subtitrare: \n \n \n- porniti generatorul                     "
+    },
+    {
+      "_________id": 247,
+      "_translator": "google",
+      "__from_text": "Рейд:",
+      "____to_text": "Raid:    "
+    },
+    {
+      "_________id": 248,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите досрочно завершить рейд?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Sunteti sigur ca doriti sa finalizati raidul inainte de termen? \n \n veti pierde toate lucrurile gasite si toate echipamentele. Pentru a salva echipamentul - intoarceti -va la adapostul de pe carucior.                                                                                                    "
+    },
+    {
+      "_________id": 249,
+      "_translator": "google",
+      "__from_text": "Выжить и найти выход",
+      "____to_text": "Supravietuieste si gaseste o cale de~"
+    },
+    {
+      "_________id": 250,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?\n\nВы потеряете все найденные вещи и всю экипировку. Чтобы сохранить экипировку - вернитесь назад в убежище на дрезине.",
+      "____to_text": "Esti sigur ca vrei sa iesi din joc? \n \n veti pierde toate lucrurile gasite si toate echipamentele. Pentru a salva echipamentul - intoarceti -va la adapostul de pe carucior.                                                                                                            "
+    },
+    {
+      "_________id": 251,
+      "_translator": "google",
+      "__from_text": "Отсутсвует",
+      "____to_text": "Absent              "
+    },
+    {
+      "_________id": 252,
+      "_translator": "google",
+      "__from_text": "Найти 6 лампочек",
+      "____to_text": "Gasiti 6 becuri              "
+    },
+    {
+      "_________id": 253,
+      "_translator": "google",
+      "__from_text": "Убить 5 мутантов",
+      "____to_text": "Ucide 5 mutanti              "
+    },
+    {
+      "_________id": 254,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолетный магазин и вставьте в пистолет.",
+      "____to_text": "Luati un magazin de pistol si introduceti -l in arma.                                          "
+    },
+    {
+      "_________id": 255,
+      "_translator": "google",
+      "__from_text": "сентября 2041\n\n   Охота за артефактами прошлого - работа для людей не из робкого десятка. Покидая обжитые места, и оставаясь в одиночестве в темноте, за углом можно встретить не только кровожадного мутанта, но и, как поговаривают, что-то намного страшнее.\r\n\nЭто была далеко не первая моя вылазка, но меня все равно",
+      "____to_text": "Septembrie 2041 \n \n Vanatoarea pentru artefacte din trecut - munca pentru oameni nu este dintr -o duzina timida. Lasand locurile locuite si ramanand singuri in intuneric, puteti gasi nu numai un mutant sangeros in jurul coltului, dar, asa cum spun ei, ceva este mult mai rau. \n \n asta a fost departe de primul meu sortare, dar nu mi -a interesat                                                                                                                                                                                                                       "
+    },
+    {
+      "_________id": 256,
+      "_translator": "google",
+      "__from_text": "сентября 2022\n\n    Мир изменился. Когда-то природа щедро дала нам все, и мы этим пользовались, однако, со временем ей надоело терпеть человека. Она забрала свои дары назад, разрушила привычный мир, а нам пришлось прятаться. От старой жизни остались лишь тоннели метро, пыль и артефакты. \r\n\r\n   Сейчас охота за такими артефактами - прибыльная работа, с которой мало кто может справиться. Покидая надоевшие, но обжитые тоннели, оставаясь одни в темноте, сталкеры будто шагают в пустоту. Кто знает, может в этом и заключается наша тяга к смерти, и мы, по своей же воле, идем прямо в ее объятия.",
+      "____to_text": "Septembrie 2022 \n \n Lumea s -a schimbat. Odata ce natura ne -a oferit cu generozitate totul si am folosit -o, cu toate acestea, de -a lungul timpului s -a saturat sa indure un barbat. Si -a luat cadourile inapoi, a distrus lumea obisnuita si a trebuit sa ne ascundem. Doar tunelurile de metrou, praful si artefactele au ramas din viata veche. \n \n acum Vanatoarea pentru astfel de artefacte este o munca profitabila pe care putini o pot face fata. Lasand tunelurile plictisitoare, dar locuite, ramanand singure in intuneric, stalkers par sa mearga in gol. Cine stie, poate ca aceasta este pofta noastra de moarte, iar noi, prin propria noastra vointa, mergem chiar in bratele ei.                                                                                                                                                                                                                                                                                                                                                                                     "
+    },
+    {
+      "_________id": 257,
+      "_translator": "google",
+      "__from_text": "Это не первая моя вылазка, но меня все равно не покидает чувство тревоги. Заказчики - мутные ребята, и явно что-то недоговаривают. Если бы мне сейчас срочно не нужны были деньги, я бы точно не стал влезать в подобную авантюру.",
+      "____to_text": "Acesta nu este primul meu sortie, dar un sentiment de anxietate inca nu ma paraseste. Clientii sunt baieti noroiosi si, evident, spun ceva. Daca de urgenta nu aveam nevoie de bani, cu siguranta nu as intra intr -o aventura similara.                                                                                                                                                                              "
+    },
+    {
+      "_________id": 258,
+      "_translator": "google",
+      "__from_text": "В настоящее время, из-за технических проблем, у игры отсутсвует официальная поддержка Valve Index.\n\nЧтобы поиграть с нормальным управлением (перемещение с помощью стиков и т.д.) вам необходимо изменить раскладку контроллеров. Для этого:\r\n\n1. Откройте SteamVR Overlay.\r\n2. Выберите пункт \"Настройки контроллера\".\r\n3. Переключите \"Активную раскладку контроллера\" на \"Пользовательскую\".\r\n4. Нажмите появившуюся кнопку \"Выбрать другую\".\r\n5. Выберите раскладку \"Oculus Emulation\" в \"Раскладках сообщества\".",
+      "____to_text": "In prezent, din cauza problemelor tehnice, jocul nu are un indice oficial de supapa de sprijin. \n \n pentru a juca un control normal (mutarea folosind bastoane etc.), trebuie sa schimbati aspectul controlerelor. Pentru aceasta: \n \n 1. Deschideti suprapunerea SteamVR. \n 2. Selectati Setari controler\". \n 3. Comutati aspectul activ al controlerului\" la utilizator\". \n 4. Faceti clic pe butonul Selectati altul\". \n 5. Selectati aspectul emulationului Oculus in Lays of the Community\".                                                                                                                                                                                                                                                                                                                                                                                          "
+    },
+    {
+      "_________id": 259,
+      "_translator": "google",
+      "__from_text": "не покидало чувство тревоги. \n\nЗаказчики были мутными ребятами, и явно что-то не договаривали, но мне очень были нужны деньги, и другого выбора у меня не оставалось...",
+      "____to_text": "Sentimentul de anxietate nu a plecat. \n \n Clientii erau baieti noroiosi si, evident, nu au fost de acord cu ceva, dar chiar aveam nevoie de bani si nu am avut alta optiune...                                                                                                                             "
+    },
+    {
+      "_________id": 260,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите обнулить сохранение?",
+      "____to_text": "Esti sigur ca vrei sa resetezi economisirea?                                   "
+    },
+    {
+      "_________id": 261,
+      "_translator": "google",
+      "__from_text": "Заказчик: Видел вон того, которого подбросило? На мою тёщу похож, земля ей пухом. Сейчас, поди, чертями в аду командует, старая ведьма.",
+      "____to_text": "Client: L -am vazut pe cel care a fost aruncat? Se pare ca mama mea -in care, pamantul este pufos de ea. Acum, du -te, ii porunceste diavolilor din iad, vechea vrajitoare.                                                                      "
+    },
+    {
+      "_________id": 262,
+      "_translator": "google",
+      "__from_text": "Вы: Все в порядке. \nОдин мутант попался, и тот еле живой.",
+      "____to_text": "Tu: Totul este in ordine. \n Un mutant a fost prins si abia este in viata.                          "
+    },
+    {
+      "_________id": 263,
+      "_translator": "google",
+      "__from_text": "Заказчик: Да пёс его знает, давно ж всё было, лет двадцать как.",
+      "____to_text": "Client: Da, un caine il cunoaste, mult timp, totul a fost, aproximativ douazeci de ani.                        "
+    },
+    {
+      "_________id": 264,
+      "_translator": "google",
+      "__from_text": "Заказчик: Погнали! Ты давай хватай автомат, будем отбиваться.",
+      "____to_text": "Client: a condus! Prinde mitraliera, ne vom lupta inapoi.                                                      "
+    },
+    {
+      "_________id": 265,
+      "_translator": "google",
+      "__from_text": "Вы: Да, бывало.",
+      "____to_text": "Tu: Da, s -a intamplat.  "
+    },
+    {
+      "_________id": 266,
+      "_translator": "google",
+      "__from_text": "Заказчик: Рога им навертишь, найдёшь что надо, потом свалишь. Дельце плёвое. \nВсё, не гадим эфир. Отбой.",
+      "____to_text": "Client: veti gasi cu siguranta coarnele, veti gasi ceea ce aveti nevoie, apoi veti arunca. Delce este fil. \n totul, nu ghicim eterul. Balamale.                                         "
+    },
+    {
+      "_________id": 267,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Красная цена! Два автомата… по цене двух! (смеётся в голос)",
+      "____to_text": "Unchiul Seryozha: Pret rosu! Doua mitraliere... la pretul a doua! (rade cu voce)                                                 "
+    },
+    {
+      "_________id": 268,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну вот, а я что говорил? Зон-то нет поблизости. А уроды эти гнездятся дальше по тоннелю. Вот это, кстати, хреновая деталька.",
+      "____to_text": "Client: Ei bine, ce am spus? Nu exista nicio zona in apropiere. Si aceste freaks cuibaresc mai departe de -a lungul tunelului. Aceasta, apropo, este o parte rahat.                                                                           "
+    },
+    {
+      "_________id": 269,
+      "_translator": "google",
+      "__from_text": "Начать с контрольной точки",
+      "____to_text": "Incepeti de la punctul de control                "
+    },
+    {
+      "_________id": 270,
+      "_translator": "google",
+      "__from_text": "Вы: Нужно найти ключ-карту.",
+      "____to_text": "Tu: trebuie sa gasiti cardul cheie.             "
+    },
+    {
+      "_________id": 271,
+      "_translator": "google",
+      "__from_text": "Я хочу быть как ты! Ты ведь мастер?",
+      "____to_text": "Vreau sa fiu ca tine! Esti maestru?                          "
+    },
+    {
+      "_________id": 272,
+      "_translator": "google",
+      "__from_text": "Сейчас покажу. Дай-ка вон тот пустой цинк.",
+      "____to_text": "Iti voi arata acum. Da -i acel zinc gol.                                   "
+    },
+    {
+      "_________id": 273,
+      "_translator": "google",
+      "__from_text": "Помню, как впервые столкнулся с новым \"лесом\". Мне было лет двадцать или чуть больше. Мы с Настей возвращались из кинотеатра и увидели, что прямо в центре города, раскурочивая асфальт и здания, вырос лес. Огромные кроны его вековых деревьев устремлялись вверх, фиолетовые цветы застилали взор, а птицы пели неземную музыку.\r\n\nНастя вошла внутрь, чтобы посмотреть. Я пытался ее остановить, но ей было слишком любопытно.\r\n\nС тех пор я ее больше не видел. Из леса вышло уже то, во что он ее превратил.",
+      "____to_text": "Imi amintesc cum am intalnit prima data o noua padure\". Aveam douazeci sau putin. Nastya si cu mine ne -am intors de la cinema si am vazut asta chiar in centrul orasului, dispersand asfaltul si cladirile, padurea a crescut. Coroanele uriase ale secolelor sale -copacii din care s -au repezit, florile purpurii si -au acoperit ochii, iar pasarile au cantat muzica neobisnuita. \n \n nastya a intrat in interior. Am incercat sa o opresc, dar era prea curioasa. \n \n De atunci nu am mai vazut -o. Din padure a iesit in ce a transformat -o.                                                                                                                                                                                                                                                                                                                                                                        "
+    },
+    {
+      "_________id": 274,
+      "_translator": "google",
+      "__from_text": "Генераторная",
+      "____to_text": "Generator               "
+    },
+    {
+      "_________id": 275,
+      "_translator": "google",
+      "__from_text": "Ну, мне до мастера далеко, но пару занятных штук я сделать могу. \nДумаю, со временем ты меня превзойдёшь.",
+      "____to_text": "Ei bine, sunt departe de stapan, dar pot face cateva lucruri interesante. \n cred ca ma veti depasi de -a lungul timpului.                                                                  "
+    },
+    {
+      "_________id": 276,
+      "_translator": "google",
+      "__from_text": "По ночам я слышу тихий шепот \nна непонятном языке.\nВозможно, я уже просто понемногу схожу с ума в этой чёртовой лаборатории!",
+      "____to_text": "Noaptea, aud o soapta linistita \n intr -un limbaj de neinteles. \n poate ca ma pierd putin in acest laborator al naibii!                                                                                                         "
+    },
+    {
+      "_________id": 277,
+      "_translator": "google",
+      "__from_text": "Заказчик: Смотри на их морды, сейчас они сильно удивятся!",
+      "____to_text": "Client: Uita -te la fetele lor, acum vor fi foarte surprinsi!                                          "
+    },
+    {
+      "_________id": 278,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ничего такого, короче. Ты же должен понимать такие мутки, \nчай жмуриков видывал.",
+      "____to_text": "Client: Nimic, pe scurt. Trebuie sa intelegeti astfel de muturi, \n ati vazut ceaiul Zhmurikov.                                                                    "
+    },
+    {
+      "_________id": 279,
+      "_translator": "google",
+      "__from_text": "Пап, они тяжело идут. У меня плохо получается...",
+      "____to_text": "Tati, merg greu. Ma simt prost...                                                   "
+    },
+    {
+      "_________id": 280,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти в главное меню?\nВесь несохраненный прогресс будет утерян.",
+      "____to_text": "Esti sigur ca vrei sa mergi la meniul principal? \n toate progresele deghizate se vor pierde.                                                                 "
+    },
+    {
+      "_________id": 281,
+      "_translator": "google",
+      "__from_text": "Вы: Так, я внутри. Как меня слышно? \nЖду инструкций.",
+      "____to_text": "Tu: Deci, sunt inauntru. Cum pot sa ma aud? \n astept instructiuni.                        "
+    },
+    {
+      "_________id": 282,
+      "_translator": "google",
+      "__from_text": "Смотри, я вот сюда поставлю затворный механизм, а ты чуть-чуть затяни тиски. Не спеши.",
+      "____to_text": "Uite, voi pune aici un mecanism cu bule si esti putin sa strangi viciul. Nu te grabi.                                                                     "
+    },
+    {
+      "_________id": 283,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Если видел по дороге упыря здоровенного - то это скорее всего моя жена была...",
+      "____to_text": "Unchiul Seryozha: Daca am vazut un ghoul puternic de -a lungul drumului, atunci cel mai probabil era sotia mea...                                                 "
+    },
+    {
+      "_________id": 284,
+      "_translator": "google",
+      "__from_text": "По-прежнему не могу выявить природу изменений, с помощью которых растительность из так называемых \"зон\" изменяет привычные и известные науке формы жизни.",
+      "____to_text": "Inca nu pot identifica natura schimbarilor prin care vegetatia din asa-numitele zone\" schimba familiile si cunoscute formelor stiintifice ale vietii.                                                                                                                                    "
+    },
+    {
+      "_________id": 285,
+      "_translator": "google",
+      "__from_text": "Заказчик: Бырее! Залезай, залезай!",
+      "____to_text": "Client: As fi mai mult! Urca, urca!                          "
+    },
+    {
+      "_________id": 286,
+      "_translator": "google",
+      "__from_text": "Заказчик: Так это… тута они, конечно. \nМы же не кидалы какие.",
+      "____to_text": "Client: Deci asta... Tuta, desigur. \n nu suntem ceea ce nu marcheaza.                                       "
+    },
+    {
+      "_________id": 287,
+      "_translator": "google",
+      "__from_text": "Заказчик: Фартово, что так быстро добрался. Слухай сюда, твоя часть дела - найти защищённый контейнер.",
+      "____to_text": "Client: Fartovo, care a devenit atat de rapid. Ridicati -va aici, partea dvs. din problema este sa gasiti un container protejat.                                                        "
+    },
+    {
+      "_________id": 288,
+      "_translator": "google",
+      "__from_text": "А какие штуки знаешь?",
+      "____to_text": "Stii ce piese?                        "
+    },
+    {
+      "_________id": 289,
+      "_translator": "google",
+      "__from_text": "Не включай без нужды!\nЭкономь топливо!",
+      "____to_text": "Nu porniti fara nevoie! \n Economisiti combustibil!                   "
+    },
+    {
+      "_________id": 290,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вроде бы болезнь у них там какая-то началась, Дрянь что-ли попала в систему фильтрации воды и померли все.",
+      "____to_text": "Client: Se pare ca boala lor are un fel de boala, gunoaie ceva a intrat in sistemul de filtrare a apei si toti au murit.                                                                                         "
+    },
+    {
+      "_________id": 291,
+      "_translator": "google",
+      "__from_text": "Заказчик: Я же говорил, что затащишь! Мы, это... уже на месте, ждём тебя. Головняк был?",
+      "____to_text": "Client: Am spus ca il veti trage! Noi, asta... deja in loc, va asteptam. A fost un cap?                                                               "
+    },
+    {
+      "_________id": 292,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Был у меня друг хороший, только наверх ушёл и не вернулся. А ты — молодец. Всегда возвращаешься!",
+      "____to_text": "Unchiul Seryozha: Am avut un bun prieten, am urcat doar la etaj si nu m -am intors. Si esti bine facut. Te intorci mereu!                                                                           "
+    },
+    {
+      "_________id": 293,
+      "_translator": "google",
+      "__from_text": "Заказчик: Не ссы. По идее в самом комплексе их нет, \"зоны\" сюда ещё не проросли. Может одного или двух встретишь, но ты ж не маленький.",
+      "____to_text": "Client: Nu Sag. In teorie, ele nu sunt in complexul in sine, zonele\" nu au fost inca incoltite aici. Puteti intalni unul sau doua, dar nu sunteti mici.                                                                                       "
+    },
+    {
+      "_________id": 294,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну вот и здесь пара сухих туловищ. Мелочёвка же. Отбой.",
+      "____to_text": "Client: Ei bine, iata o pereche de tors uscat. Lucrurile marunte sunt la fel. Balamale.                             "
+    },
+    {
+      "_________id": 295,
+      "_translator": "google",
+      "__from_text": "Доктор исследовательской лаборатории \nМихаил Лотов, запись номер 22-14. \nПродолжаю наблюдение за образцом почвы с поверхности, того, что из четвёртого квадрата.",
+      "____to_text": "Doctor al Laboratorului de Cercetare \n Mikhail Lotov, numar record 22-14. \n continuu sa monitorizez esantionul solului de la suprafata, cea din a patra patrat.                                                                                                                                  "
+    },
+    {
+      "_________id": 296,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну чего загораешь? Гони!",
+      "____to_text": "Client: Ei bine, ce faci bai de soare? Conduce!              "
+    },
+    {
+      "_________id": 297,
+      "_translator": "google",
+      "__from_text": "Вы: А что тут случилось? Кругом трупы гражданских, а на нижних уровнях воздух заражён. Не похоже на \"плёвое дельце\".",
+      "____to_text": "Tu: Ce s -a intamplat aici? In jurul cadavrelor civile, iar la nivelurile inferioare, aerul este infectat. Nu ca o afacere de flota\".                                                                          "
+    },
+    {
+      "_________id": 298,
+      "_translator": "google",
+      "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\n  Найдено хабара на:                  руб.",
+      "____to_text": "Ai supravietuit! \n \n Toate obiectele gasite in acest atac vor fi vandute cumparatorului. \n \n \n \n \n am gasit o habara pentru: frecare.                                                              "
+    },
+    {
+      "_________id": 299,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вот черти душные! Прут и прут, вообще не продохнуть!",
+      "____to_text": "Client: Iata dusul Diavolilor! ROD si ROD, nu inspirati deloc!                                                 "
+    },
+    {
+      "_________id": 300,
+      "_translator": "google",
+      "__from_text": "Вы: Заперто с другой стороны.",
+      "____to_text": "Tu: blocat pe cealalta parte.                       "
+    },
+    {
+      "_________id": 301,
+      "_translator": "google",
+      "__from_text": "Вы: Какого хрена?!",
+      "____to_text": "Tu: Ce naiba?!                 "
+    },
+    {
+      "_________id": 302,
+      "_translator": "google",
+      "__from_text": "Заказчик: Тут баррикада есть, но она долго не выдержит. И, смотри, не проеби контейнер, иначе всё зря будет!!",
+      "____to_text": "Client: Exista o baricada aici, dar nu o va suporta mult timp. Si, uite, nu du -te un recipient, altfel totul va fi in zadar!!                                                                   "
+    },
+    {
+      "_________id": 303,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: (пропевает с диким акцентом) Ай ком алаааайввв... Эх, хорошая была песня...",
+      "____to_text": "Unchiul Seryozha: (canta cu accent salbatic) ah -alaaaavvv... eh, melodia a fost buna...                                                                  "
+    },
+    {
+      "_________id": 304,
+      "_translator": "google",
+      "__from_text": "Заказчик: Вот молодчик, от души! Всё нашёл и не очканул. Не зря тебя нахваливали, ровный пацан.",
+      "____to_text": "Client: Iata un coleg, din inima! Am gasit totul si nu am asediat. Nu e de mirare ca ai fost laudat, chiar si copil.                                                     "
+    },
+    {
+      "_________id": 305,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Жизнь странная штука. Всё всегда возвращается. Прямо как ты.",
+      "____to_text": "Unchiul Seryozha: Viata este un lucru ciudat. Totul se intoarce intotdeauna. La fel ca tine.                                        "
+    },
+    {
+      "_________id": 306,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите выйти из игры?\nВесь несохраненный прогресс будет утерян.",
+      "____to_text": "Esti sigur ca vrei sa parasesti jocul? \n toate progresele deghizate se vor pierde.                                                              "
+    },
+    {
+      "_________id": 307,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Рад тебя видеть! Давай, рассказывай, где лазил...",
+      "____to_text": "Unchiul Seryozha: Ma bucur sa te vad! Haide, spune -mi unde ai urcat...                                      "
+    },
+    {
+      "_________id": 308,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ладно, дальше по тоннелю будет мост, похоже придётся решать проблему конкретным и действенным дедовским методом.",
+      "____to_text": "Client: Bine, mai departe de -a lungul tunelului, va exista un pod, pare sa fie rezolvat prin problema cu o metoda de bunic specifica si eficienta.                                                                              "
+    },
+    {
+      "_________id": 309,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите начать с\nпоследней контрольной точки?",
+      "____to_text": "Esti sigur ca vrei sa incepi cu \n ultimul punct de control?                                                   "
+    },
+    {
+      "_________id": 310,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Живой? Вот молодец! Я уж переживать начал, давно тебя не было.",
+      "____to_text": "Unchiul Seryozha: Viu? Bine facut! Chiar am inceput sa -mi fac griji, nu ai fost de mult timp.                                       "
+    },
+    {
+      "_________id": 311,
+      "_translator": "google",
+      "__from_text": "Вы: Контейнер у меня. Приём.",
+      "____to_text": "Tu: am un container. Receptie.                   "
+    },
+    {
+      "_________id": 312,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ладно, это всё лирика, люблю пошутить, когда есть маза. Ты там живой? Не зацепили? Мы вроде оторвались.",
+      "____to_text": "Client: Bine, acestea sunt toate versurile, imi place sa glumesc cand exista un maz. Esti in viata acolo? Te -ai agatat? Se pare ca ne -am oprit.                                                        "
+    },
+    {
+      "_________id": 313,
+      "_translator": "google",
+      "__from_text": "Последняя контрольная точка",
+      "____to_text": "Ultimul punct de control                            "
+    },
+    {
+      "_________id": 314,
+      "_translator": "google",
+      "__from_text": "Вы: Нет топлива.",
+      "____to_text": "Tu: Nu exista combustibil.  "
+    },
+    {
+      "_________id": 315,
+      "_translator": "google",
+      "__from_text": "Заказчик: Мать твою, ты где там застрял?! Харэ сиси жмурить! \nПроисходит пиздец - твари нас учуяли!",
+      "____to_text": "Client: Mama ta, unde esti blocat acolo?! Hare Sisi Shake! \n futut - creaturile ne -au zambit!                                                                                 "
+    },
+    {
+      "_________id": 316,
+      "_translator": "google",
+      "__from_text": "Не переживай, руки наловчатся и ты на раз-два будешь такие штуки делать. А если освоишь конкретно - станешь мастером. Будешь сталкерам оружие улучшать и ремонтировать.",
+      "____to_text": "Nu va faceti griji, mainile voastre vor sta si veti face astfel de lucruri pentru unul sau doua. Si daca stapanesti in mod special, vei deveni un maestru. Veti imbunatati si repara armele catre stalkers.                                                                                                     "
+    },
+    {
+      "_________id": 317,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: О! Вернулся? А я тут как раз про тебя вспоминал.",
+      "____to_text": "Unchiul Seryozha: Oh! Intors? Si mi -am amintit doar de tine despre tine.                                  "
+    },
+    {
+      "_________id": 318,
+      "_translator": "google",
+      "__from_text": "Водитель: Да не заводиться эта херня! Старая же, как бабкин фарфор! Есть!",
+      "____to_text": "Sofer: Da, acest gunoi nu incepe! Vechi, ca portelanul Babkin! Manca!                                                             "
+    },
+    {
+      "_________id": 319,
+      "_translator": "google",
+      "__from_text": "Вы: Хорошо. Что тут по мутантам?",
+      "____to_text": "TU: Bine. Dar mutantii?                                 "
+    },
+    {
+      "_________id": 320,
+      "_translator": "google",
+      "__from_text": "Вы: Я свою часть сделки выполнил, \nгде мои деньги?",
+      "____to_text": "Tu: mi -am indeplinit partea mea din tranzactie, \n unde sunt banii mei?                 "
+    },
+    {
+      "_________id": 321,
+      "_translator": "google",
+      "__from_text": "Люблю работать руками. Приводит мысли в порядок. Ковыряюсь тут подолгу, перебираю, чищу. Есть в этом деле что-то такое, понимаешь, магическое, что ли. \nЕдва понятное. Я тебе покажу, сынок.",
+      "____to_text": "Imi place sa lucrez cu mainile mele. Pune ganduri in ordine. Ridic aici mult timp, sortez, curat. Exista ceva de genul acesta, stiti, magic sau ceva. \n abia inteligibil. Iti voi arata, fiule.                                                                                                                                                "
+    },
+    {
+      "_________id": 322,
+      "_translator": "google",
+      "__from_text": "Либо это бессмыслица, либо божественное вмешательство, но мне кажется, что почва не только меняет и смешивает структуру молекул любой органики, но и... разговаривает со мной.",
+      "____to_text": "Fie aceasta este o prostie, fie o interventie divina, dar mi se pare ca solul nu numai ca schimba si amesteca structura moleculelor oricarei materii organice, dar si... vorbeste cu mine.                                                                                                                                  "
+    },
+    {
+      "_________id": 323,
+      "_translator": "google",
+      "__from_text": "Заказчик: Извиняй, братела. Эта штука таких дел наделает, что мама не горюй, и лишние свидетели нам не нужны.",
+      "____to_text": "Client: Scuzati -ma, fratern. Acest lucru va face astfel de cazuri incat mama nu se intristeaza si nu avem nevoie de martori suplimentari.                                                         "
+    },
+    {
+      "_________id": 324,
+      "_translator": "google",
+      "__from_text": "Вы: Нет электричества.",
+      "____to_text": "Tu: Fara energie electrica.             "
+    },
+    {
+      "_________id": 325,
+      "_translator": "google",
+      "__from_text": "Заказчик: Сзади в ящике есть патроны, постарайся поточнее палить. \nЯ тут откинуться не хочу!",
+      "____to_text": "Client: Exista cartuse in spate in cutie, incearca sa se estompeze mai precis. \n nu vreau sa ma aplec aici!                                                           "
+    },
+    {
+      "_________id": 326,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Ну как там погодка? Солнечная? Хорошо. Чё притащил?",
+      "____to_text": "Unchiul Seryozha: Ei bine, cum este vremea? Sunny? Amenda. Ce a tarat?                                            "
+    },
+    {
+      "_________id": 327,
+      "_translator": "google",
+      "__from_text": "Вы: Всё нормально.",
+      "____to_text": "Tu: Totul este in regula.       "
+    },
+    {
+      "_________id": 328,
+      "_translator": "google",
+      "__from_text": "Вы уверены, что хотите начать с последней контрольной точки?",
+      "____to_text": "Esti sigur ca vrei sa incepi cu ultimul punct de control?                                                     "
+    },
+    {
+      "_________id": 329,
+      "_translator": "google",
+      "__from_text": "Заказчик: Ну раз нормально, надо про дела говорить. Давай сюда контейнер.",
+      "____to_text": "Client: Ei bine, daca este normal, trebuie sa vorbim despre lucruri. Vino aici un recipient.                                        "
+    },
+    {
+      "_________id": 330,
+      "_translator": "google",
+      "__from_text": "Заказчик: Мы как раз тебя в конце тоннеля и ждём. Ты, давай, шевели булками, надо свалить поскорее, а то и нам что нибудь накрутят-навертят.",
+      "____to_text": "Client: Suntem doar la capatul tunelului si asteptam. Tu, haide, te -ai mutat cu rulouri, trebuie sa -l arunci cat mai curand posibil, sau chiar sa ne ranesti ceva.                                                                                     "
+    },
+    {
+      "_________id": 331,
+      "_translator": "google",
+      "__from_text": "Заказчик: Штука очень ценная, потому на видном месте валяться не будет. Придется прошерстить все шконки.",
+      "____to_text": "Client: Lucrul este foarte valoros, deoarece intr -un loc proeminent nu va minti. Va trebui sa trecem toate shconii.                                                                          "
+    },
+    {
+      "_________id": 332,
+      "_translator": "google",
+      "__from_text": "Дядя Серёжа: Как говорил Омар Хаям: \"Заходи, раз вернулся!\" Или это не он был?",
+      "____to_text": "Unchiul Seryozha: Dupa cum a spus Omar Hayam: Intra, daca s -a intors!\" Sau nu a fost el?                                               "
+    },
+    {
+      "_________id": 333,
+      "_translator": "google",
+      "__from_text": "СЕКТОР",
+      "____to_text": "Sector      "
+    },
+    {
+      "_________id": 334,
+      "_translator": "google",
+      "__from_text": "Когда-то мир загнал нас в импровизированную тюрьму, которую мы сами себе и построили. С тех пор прошло уже много лет, но мы все еще здесь и лишь вспоминаем прежнюю жизнь. Многие из моих знакомых подавлены этим, но, лично я, смотрю на эту тюрьму как на спасение и откровение. \n\nМы должны тут быть, ведь природа \n(будь то животные, птицы, растения) развилась и эволюционировала, стала чем-то новым, а мы остались пережитком прошлого и тупиковой ветвью, как динозавры когда-то. \n\nЛично я вижу в этом красоту и порядок.\r\n\nЭто грустно, но я не перестаю улыбаться.",
+      "____to_text": "Odata ce lumea ne -a condus intr -o inchisoare improvizata, pe care am construit -o noi insine. Au trecut multi ani de atunci, dar suntem inca aici si ne amintim doar de viata anterioara. Multi dintre prietenii mei sunt suprimati de aceasta, dar, personal, privesc aceasta inchisoare ca mantuire si revelatie. \n \n trebuie sa fim aici, pentru ca natura \n (indiferent daca animale, pasari, plante) s -au dezvoltat si a evoluat, a devenit ceva nou si am ramas o relicva a trecutului si mortului, precum dinozaurii. \n \n Personal, vad in aceasta frumusete si ordine. \n \n Acest lucru este trist, dar nu incetez sa zambesc.                                                                                                                                                                                                                                                                                                                                                                                            "
+    },
+    {
+      "_________id": 335,
+      "_translator": "google",
+      "__from_text": "Реплика4",
+      "____to_text": "Replica4       "
+    },
+    {
+      "_________id": 336,
+      "_translator": "google",
+      "__from_text": "Реплика1",
+      "____to_text": "Replica1       "
+    },
+    {
+      "_________id": 337,
+      "_translator": "google",
+      "__from_text": "КОНТРОЛЬНАЯ\nТОЧКА",
+      "____to_text": "Control \n punct                  "
+    },
+    {
+      "_________id": 338,
+      "_translator": "google",
+      "__from_text": "Реплика2",
+      "____to_text": "Replica2       "
+    },
+    {
+      "_________id": 339,
+      "_translator": "google",
+      "__from_text": "На прикури!",
+      "____to_text": "Pe shake -uri!      "
+    },
+    {
+      "_________id": 340,
+      "_translator": "google",
+      "__from_text": "Вы уверены?",
+      "____to_text": "Esti sigur?         "
+    },
+    {
+      "_________id": 341,
+      "_translator": "google",
+      "__from_text": "Ах тыж, ёклмн... Тревога!",
+      "____to_text": "Ah Tyzh, Yokmn... Anxietate!              "
+    },
+    {
+      "_________id": 342,
+      "_translator": "google",
+      "__from_text": "Папаша, прикурить не найдётся?",
+      "____to_text": "Tata, nu exista tigara?                                "
+    },
+    {
+      "_________id": 343,
+      "_translator": "google",
+      "__from_text": "Фух, пронесло!",
+      "____to_text": "Fuh, purtat!             "
+    },
+    {
+      "_________id": 344,
+      "_translator": "google",
+      "__from_text": "Противник!",
+      "____to_text": "Opozitia!          "
+    },
+    {
+      "_________id": 345,
+      "_translator": "google",
+      "__from_text": "Возьмите шприц другой рукой и сделайте укол в тело.",
+      "____to_text": "Luati seringa cu cealalta mana si faceti o injectie in corp.                                 "
+    },
+    {
+      "_________id": 346,
+      "_translator": "google",
+      "__from_text": "Текущая задача:\n\nПродержись\nкак можно\nдольше",
+      "____to_text": "Sarcina curenta: \n \n stick \n asa cum puteti \n mai lung                           "
+    },
+    {
+      "_________id": 347,
+      "_translator": "google",
+      "__from_text": "Противогаз висит\nна поясе с правой\nстороны.\nвозьмите его",
+      "____to_text": "Masca de gaz atarna \n pe curea cu rapoartele din dreapta \n. \n ia -l                                    "
+    },
+    {
+      "_________id": 348,
+      "_translator": "google",
+      "__from_text": "В рюкзак можно \nкласть предметы,\nне снимая его\n\nВозьмите магазин\nс пояса",
+      "____to_text": "Intr -un rucsac, puteti \n obiecte, \n fara sa -l scoateti \n \n luati magazinul \n de la curea                                        "
+    },
+    {
+      "_________id": 349,
+      "_translator": "google",
+      "__from_text": "Поместите пистолет \nназад в кобуру",
+      "____to_text": "Puneti pistolul \n inapoi in toc                                "
+    },
+    {
+      "_________id": 350,
+      "_translator": "google",
+      "__from_text": "Зеленый диод на часах \nзагорается, когда\nвы находитесь в\nзараженной зоне.\n\nПоднесите противогаз \nк лицу и отпустите, \nчтобы надеть его",
+      "____to_text": "Dioda verde de pe ceas \n se aprinde cand \n sunteti in \n zona infectata. \n \n aduceti masca de gaz \n pe fata si eliberati                                                                                                                           "
+    },
+    {
+      "_________id": 351,
+      "_translator": "google",
+      "__from_text": "Оставшееся время\nактивного фильтра \nтакже отображается \nна ваших часах.\n\nА синий диод - \nэто датчик \nосвещенности",
+      "____to_text": "Timpul ramas de \n filtrul activ \n este de asemenea afisat \n pe ceas. \n \n si dioda albastra - \n acesta este senzorul \n iluminarea                                                                            "
+    },
+    {
+      "_________id": 352,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы перехватить\n нож",
+      "____to_text": "Faceti clic pe declansator, \n pentru a intercepta \n cutit                "
+    },
+    {
+      "_________id": 353,
+      "_translator": "google",
+      "__from_text": "Ваше основное \nоружие хранится \nза правым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
+      "____to_text": "Arma dvs. principala \n este stocata \n in spatele umarului drept \n (acum absent) \n \n puteti vedea schema completa \n din meniu                                                                        "
+    },
+    {
+      "_________id": 354,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы поставить\nрюкзак",
+      "____to_text": "Faceti clic pe declansator, \n pentru a pune \n rucsac                      "
+    },
+    {
+      "_________id": 355,
+      "_translator": "google",
+      "__from_text": "Занесите его над\nправым плечом\nи отпустите",
+      "____to_text": "Aduceti -l peste \n cu umarul drept \n si eliberati                             "
+    },
+    {
+      "_________id": 356,
+      "_translator": "google",
+      "__from_text": "Замените старый \nфильтр на новый.\n\nСнимите и выкиньте\nстарый,\nподнесите новый\nи отпустите.",
+      "____to_text": "Inlocuiti filtrul vechi \n cu unul nou. \n \n Scoateti si aruncati \n vechi, \n aduceti un nou \n si eliberati.                                                          "
+    },
+    {
+      "_________id": 357,
+      "_translator": "google",
+      "__from_text": "Снимите рюкзак\nс правого плеча",
+      "____to_text": "Scoateti rucsacul \n de pe umarul drept                  "
+    },
+    {
+      "_________id": 358,
+      "_translator": "google",
+      "__from_text": "Занесите его над\nлевым плечом\nи отпустите",
+      "____to_text": "Aduceti -l peste \n cu umarul stang \n si eliberati                           "
+    },
+    {
+      "_________id": 359,
+      "_translator": "google",
+      "__from_text": "Зеленый индикатор \nпогас - значит \nвы больше не в \nзараженной зоне.\n\nСхватите противогаз\nсбоку (возле уха), \nчтобы снять, \nа затем верните его\nобратно на пояс",
+      "____to_text": "Indicator verde \n semne - inseamna \n nu mai aveti in \n zona infectata. \n \n apucati masca de gaz \n pe lateral (langa ureche), \n pentru a indeparta, \n si apoi returnati -o \n inapoi la curea la centura                                                                                  "
+    },
+    {
+      "_________id": 360,
+      "_translator": "google",
+      "__from_text": "Отпустите Нож\nи он автоматически\nвернется на место",
+      "____to_text": "Lasati cutitul \n si acesta automat \n se va intoarce in loc                                   "
+    },
+    {
+      "_________id": 361,
+      "_translator": "google",
+      "__from_text": "Отпустите зажигалку\nи она автоматически\nвернется на место",
+      "____to_text": "Eliberati bricheta \n si automat \n va reveni la locul respectiv                                             "
+    },
+    {
+      "_________id": 362,
+      "_translator": "google",
+      "__from_text": "Если вы далеко\nотойдете от рюкзака, \nон автоматически\nвернется за спину\n\nИли можете просто \nснова схватить его",
+      "____to_text": "Daca sunteti departe de \n indepartati -va de rucsac, \n se va intoarce automat \n se va intoarce in spatele \n \n sau il puteti apuca din nou                                                               "
+    },
+    {
+      "_________id": 363,
+      "_translator": "google",
+      "__from_text": "В настоящий момент \nValve Index \nне поддерживается. \nПожалуйста \nпереключите \nраскладку через",
+      "____to_text": "In acest moment, \n indicele valvei \n nu este acceptat. \n va rugam \n comutati \n aspectul prin                                                                    "
+    },
+    {
+      "_________id": 364,
+      "_translator": "google",
+      "__from_text": "Отпустите рюкзак\nи он автоматически\nвернется на место",
+      "____to_text": "Eliberati rucsacul \n si acesta va reveni automat \n va reveni la locul                              "
+    },
+    {
+      "_________id": 365,
+      "_translator": "google",
+      "__from_text": "Достаньте нож\nиз левого \nнагрудного кармана",
+      "____to_text": "Scoateti cutitul \n din stanga \n buzunarul pieptului                             "
+    },
+    {
+      "_________id": 366,
+      "_translator": "google",
+      "__from_text": "Противогаз висит\nна поясе с левой\nстороны.\nвозьмите его",
+      "____to_text": "Masca de gaz atarna \n pe curea cu stanga \n wrapps. \n ia -l                                           "
+    },
+    {
+      "_________id": 367,
+      "_translator": "google",
+      "__from_text": "Возьмите пистолет\nиз кобуры на\nлевом бедре",
+      "____to_text": "Luati un pistol \n de la un toc pe \n sold                                      "
+    },
+    {
+      "_________id": 368,
+      "_translator": "google",
+      "__from_text": "Достаньте зажигалку\nиз правого \nнагрудного кармана",
+      "____to_text": "Scoateti bricheta \n din dreapta \n buzunarul pieptului                                         "
+    },
+    {
+      "_________id": 369,
+      "_translator": "google",
+      "__from_text": "Снимите рюкзак\nс левого плеча",
+      "____to_text": "Scoateti rucsacul \n de pe umarul stang                "
+    },
+    {
+      "_________id": 370,
+      "_translator": "google",
+      "__from_text": "Ваше основное \nоружие хранится \nза левым плечом \n(сейчас отсутствует)\n\nпосмотреть полную\nсхему можно в меню",
+      "____to_text": "Arma dvs. principala \n este stocata \n in spatele umarului stang \n (acum absent) \n \n Consultati schema completa \n din meniu                                                                        "
+    },
+    {
+      "_________id": 371,
+      "_translator": "google",
+      "__from_text": "Достаньте пистолет\nиз кобуры на\nправом бедре",
+      "____to_text": "Scoateti pistolul \n de pe toc la \n coapsa dreapta                                 "
+    },
+    {
+      "_________id": 372,
+      "_translator": "google",
+      "__from_text": "Нажмите на КУРОК,\nчтобы зажечь \nзажигалку",
+      "____to_text": "Faceti clic pe declansator, \n la lumina \n brichete                         "
+    }
+  ],
+  "next_id": 373
+}
