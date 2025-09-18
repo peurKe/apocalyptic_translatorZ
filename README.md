@@ -6,7 +6,7 @@ Mod for translating all Ukrainian or Russian texts of the following Steam games:
 - '**Z.O.N.A Origin**' by AGaming+
 - '**Z.O.N.A Project X**' by AGaming+
 
-And enjoy Ukrainian or Russian voices while having all the texts in your native language!
+And enjoy Ukrainian or Russian voices while having all the texts in your native subtitle language!
 
 This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA_translator](https://github.com/peurKe/auto_ZONA_translator) mod
 
@@ -16,7 +16,7 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 - [Discord](#Discord)
 - [Steam community](#Steam-community)
 - [Prerequisites](#Prerequisites)
-- [Currently supported languages](#Currently-supported-languages)
+- [Currently-supported-subtitle-languages](#Currently-supported-subtitle-languages)
 - [Usage from executable installer](#Usage-from-executable-installer)
 - [Release notes](#Release-notes)
 <!-- /TOC -->
@@ -41,13 +41,13 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
   (Only when new game updates containing new original text have not yet been translated by this mod and the translations of these new texts are not included in the mod installer).
 
-# Currently supported games and translators by language
+# Currently-supported-subtitle-languages
 
-  📌 **Chinese Simplified**, **Japanese Hiragana** and **Korean** languages are currently only available for **CONVRGENCE** game.
+  📌 **Chinese Simplified**, **Japanese Hiragana** and **Korean** subtitle languages are currently only available for **CONVRGENCE** game.
 
-  📌 **Deepl** translations are currently only available for **Czech**, **Chinese Simplified**, **French**, **German**, **Japanese Hiragana** and **Korean** languages.
+  📌 **Deepl** translations are currently only available for **Czech**, **Chinese Simplified**, **French**, **German**, **Japanese Hiragana** and **Korean** subtitle languages.
 
-  📌 **Google** translations are currently available for all languages.
+  📌 **Google** translations are currently available for all subtitle languages
 
 | SUBTITLE LANGUAGES                  | DOWNLOAD                                                  | SUPPORTED GAMES                                     | DEEPL                            | GOOGLE                           |
 |:------------------------------------|:---------------------------------------------------------:|:----------------------------------------------------|:--------------------------------:|:--------------------------------:|
@@ -73,7 +73,7 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
 ## Download the EXE installer
 
-Download the **installer** executable file from the link corresponding to your native language in the list above.
+Download the **installer** executable file from the link corresponding to your native subtitle language in the list above.
 
 ## Copy the downloaded executable file into game folder
 
@@ -104,15 +104,15 @@ Download the **installer** executable file from the link corresponding to your n
 
   ![Additional information](./images/install_01.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_02.png)
 
-- Tick the box corresponding to the language of the TEXT and SUBTITLES you wish to read in the game and clic on "Next" button:
+- Tick the box corresponding to the subtitle language you wish to read in the game and clic on "Next" button:
 
-  📌 If a language is disabled, it means that it is not yet supported for the current game.
+  📌 If a subtitle language is disabled, it means that it is not yet supported for the current game.
 
   ![Additional information](./images/install_03.png)
 
-- Tick the box corresponding to the VOICE language you wish to hear in the game and clic on "Next" button:
+- Tick the box corresponding to the translation service you want to use (DeepL or Google) and clic on "Next" button:
 
-  📌 If the option is disabled, it means that it is not yet supported for the current game and language.
+  📌 If the option is disabled, it means that it is not yet supported for the current game and subtitle language.
 
   ![Additional information](./images/install_04.png)
 
@@ -134,10 +134,10 @@ Download the **installer** executable file from the link corresponding to your n
 
   ![Additional information](./images/install_07.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_08.png)
 
-## Enjoy Russian or Ukrainian or voices while having all the texts in your native language!
+## Enjoy Russian or Ukrainian or voices while having all the texts in your native subtitle language!
 
 - Just launch your game from your Steam library as usual.
-- Make sure you select the '**Russian**' or '**Ukrainian**' language in your your game settings.
+- Make sure you select the '**Russian**' or '**Ukrainian**' subtitle language in your your game settings.
 
 ## Restoring original subtitles procedure
 
@@ -188,14 +188,14 @@ Download the **installer** executable file from the link corresponding to your n
   - Added CS JSON translation DB files
 
 - v0.2.0
-  - ⚠️ Now, a single executable installer for all games and all languages
+  - ⚠️ Now, a single executable installer for all games and all subtitle languages
   - 🚀 Added detailed installation procedure with screenshots to the README.md file
   - 🚀 Added JSON translation database files in Japanese and Korean processed by DeepL and Google
   - 🚀 Added JSON translation database file in German processed by DeepL (request from @blankfx on Discord)
   - 🚀 Updated all JSON translation DB files
   - 🚀 Added a translation missing string (default '(!)') used when a translation is failed
   - 🚀 Added count for translation failed at the very end of script execution
-  - 🚀 Added flush for JSON data into the JSON file after each language has been processed
+  - 🚀 Added flush for JSON data into the JSON file after each subtitle language has been processed
   - 🚀 Added a JSON 'state' key in JSON database file with the current state ('IN PROGRESS' or 'DONE')
   - 🚀 Added a context value for ZONAORIGIN translation and DeepL translator
   - 🚀 Added a tool to check for unsupported Latin characters in JSON database files and ensure that translation IDs into JSON database file are compliant
