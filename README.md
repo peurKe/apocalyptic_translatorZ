@@ -199,7 +199,7 @@ Download the **installer** executable file from the link corresponding to your n
   - The source language is now automatic
   - Added CS JSON translation DB files
 
-- v0.2.0-alpha
+- v0.2.0
   - ⚠️ Now, a single executable installer for all games and all languages
   - 🚀 Added JSON translation database files in Japanese and Korean processed by DeepL and Google
   - 🚀 Added JSON translation database file in German processed by DeepL (request from @blankfx on Discord)
