@@ -55,31 +55,36 @@ var
   SourceDir: String;
 begin
   SourceDir := ExpandConstant('{src}');
-  // Vérifie si le chemin contient un jeux supportés par le traductions DeepL (en ignorant la casse)
-  if (Pos('CONVRGENCE', UpperCase(SourceDir)) > 0) or
-     (Pos('ZONAORIGIN', UpperCase(SourceDir)) > 0) then
+
+  // Désactiver DeepL (index 0 dans TranslationServicePage)
+  TranslationServicePage.CheckListBox.ItemEnabled[0] := False;
+  TranslationServicePage.Values[0] := False;  // le décocher si actif
+  TranslationServicePage.Values[1] := True;   // forcer Google
+  
+  // Vérifie si le chemin contient CONVRGENCE (en ignorant la casse) et les langues supportées par les traductions DeepL
+  if (Pos('CONVRGENCE', UpperCase(SourceDir)) > 0) and
+     ((DST_Page.Values[0]) or     // Chinese Simplified
+      (DST_Page.Values[1]) or     // Czech
+      (DST_Page.Values[3]) or     // German
+      (DST_Page.Values[8]) or     // Japanese Hiragana
+      (DST_Page.Values[9]) or     // Korean
+      (DST_Page.Values[6])) then  // French
   begin
-    //  Chinese Simplified      Czech                   Japanese                Korean                  Français            
-    if (DST_Page.Values[0]) or (DST_Page.Values[1]) or (DST_Page.Values[8]) or (DST_Page.Values[9]) or (DST_Page.Values[6]) then
-    begin
-      // Réactiver DeepL si autre langue
-      TranslationServicePage.CheckListBox.ItemEnabled[0] := True;
-    end
-    else
-    begin
-      // Désactiver DeepL (index 0 dans TranslationServicePage)
-      TranslationServicePage.CheckListBox.ItemEnabled[0] := False;
-      TranslationServicePage.Values[0] := False;  // le décocher si actif
-      TranslationServicePage.Values[1] := True;   // forcer Google
-    end
-  end
-  else
-  begin
-    // Désactiver DeepL (index 0 dans TranslationServicePage)
-    TranslationServicePage.CheckListBox.ItemEnabled[0] := False;
-    TranslationServicePage.Values[0] := False;  // le décocher si actif
-    TranslationServicePage.Values[1] := True;   // forcer Google
+    // Réactiver DeepL si autre langue
+    TranslationServicePage.Values[0] := True;   // forcer DeepL
+    TranslationServicePage.CheckListBox.ItemEnabled[0] := True;
   end;
+
+  // Vérifie si le chemin contient ZONAORIGIN (en ignorant la casse) et les langues supportées par les traductions DeepL
+  if (Pos('ZONAORIGIN', UpperCase(SourceDir)) > 0) and
+     ((DST_Page.Values[1]) or     // Czech
+      (DST_Page.Values[6])) then  // French
+  begin
+    // Réactiver DeepL si autre langue
+    TranslationServicePage.Values[0] := True;   // forcer DeepL
+    TranslationServicePage.CheckListBox.ItemEnabled[0] := True;
+  end;
+
 end;
 
 procedure InitializeWizard;

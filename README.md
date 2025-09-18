@@ -14,6 +14,7 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
 <!-- TOC -->
 - [Discord](#Discord)
+- [Steam community](#Steam-community)
 - [Prerequisites](#Prerequisites)
 - [Currently supported languages](#Currently-supported-languages)
 - [Usage from executable installer](#Usage-from-executable-installer)
@@ -22,8 +23,13 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
 # Discord
 
-- **CONVRGENCE**: [16 additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
+- **CONVRGENCE**: [Additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
 - **ZONA Origin**: [Welcome to #zona-translate-deepl!](https://discord.com/channels/1113935727202410691/1302585407308955690)
+
+# Steam community
+
+- **CONVRGENCE**: [Additional subtitle languages to play with Russian voices](https://steamcommunity.com/app/2609610/discussions/0/4629233379372516911)
+- **ZONA Origin**: [Automatic translations for ZONA Origin and ProjectX](https://steamcommunity.com/app/2539520/discussions/0/4638238419731880745)
 
 # Prerequisites
 
@@ -39,7 +45,7 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
   📌 **Chinese Simplified**, **Japanese Hiragana** and **Korean** languages are currently only available for **CONVRGENCE** game.
 
-  📌 **Deepl** translations are currently only available for **Czech**, **French**, **Chinese Simplified**, **Japanese Hiragana** and **Korean** languages.
+  📌 **Deepl** translations are currently only available for **Czech**, **Chinese Simplified**, **French**, **German**, **Japanese Hiragana** and **Korean** languages.
 
   📌 **Google** translations are currently available for all languages.
 
@@ -48,7 +54,7 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 | 中国語（簡体字）(Chinese Simplified) | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE                                          | **X**                            | **X**                            |
 | Čeština (Czech)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN | **X**<br>     <br>     <br>**X** | **X**<br>**X**<br>**X**<br>**X** |
 | Dansk (Danish)                      | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
-| Deutsch (German)                    | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
+| Deutsch (German)                    | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN | **X**<br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 | English (English)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 | Español (Spanish)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 | Français (French)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN | **X**<br>     <br>     <br>**X** | **X**<br>**X**<br>**X**<br>**X** |
@@ -194,8 +200,9 @@ Download the **installer** executable file from the link corresponding to your n
   - Added CS JSON translation DB files
 
 - v0.2.0-alpha
-  - ⚠️ Now, a single executable installer for all games and all languages.
-  - 🚀 Added Japanese and Korean JSON translation DB files
+  - ⚠️ Now, a single executable installer for all games and all languages
+  - 🚀 Added JSON translation database files in Japanese and Korean processed by DeepL and Google
+  - 🚀 Added JSON translation database file in German processed by DeepL (request from @blankfx on Discord)
   - 🚀 Updated all JSON translation DB files
   - 🚀 Added a translation missing string (default '(!)') used when a translation is failed
   - 🚀 Added count for translation failed at the very end of script execution
@@ -208,3 +215,4 @@ Download the **installer** executable file from the link corresponding to your n
   - 🐞 Fixed the replacement for specific extended latin characters with corresponding regular latin characters
   - 🐞 Fixed exception message to show the error details when DeepL fails
   - 🐞 Fixed a condition to use glossary only for DeepL translator (There is no glossary feature with Google translator)
+seuilseuil personn
