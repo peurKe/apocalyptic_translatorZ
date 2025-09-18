@@ -1076,7 +1076,7 @@
       "_________id": 177,
       "_translator": "deepl",
       "__from_text": "Реворк Гаражного кооператива",
-      "____to_text": "Rework der Garagenkooperative                         "
+      "____to_text": "Rework der Garagenkoop                         "
     },
     {
       "_________id": 178,
@@ -1166,13 +1166,13 @@
       "_________id": 192,
       "_translator": "google",
       "__from_text": "Исследуйте новую таинственную\nлокацию - Мертвый город.",
-      "____to_text": "Entdecken Sie den neuen mysteriosen \n -Ort - eine tote Stadt.                                       "
+      "____to_text": "Entdecken Sie den neuen mysteriosen \n -Ort - die Tote Stadt.                                        "
     },
     {
       "_________id": 193,
       "_translator": "deepl",
       "__from_text": "Исследуйте новую таинственную\nлокацию - Мертвый город.",
-      "____to_text": "Erforsche einen neuen geheimnisvollen Ort – die Tote Stadt.                                       "
+      "____to_text": "Erforschen Sie einen neuen geheimnisvollen Ort – die Tote Stadt.                                     "
     },
     {
       "_________id": 194,
@@ -1316,7 +1316,7 @@
       "_________id": 217,
       "_translator": "deepl",
       "__from_text": "Новая угроза: В Гаражном Кооперативе замечена повышенная активность демонов, среди которых выделяется особенно крупная особь.",
-      "____to_text": "Neue Gefahr: In der Garagenkooperative wurde vermehrt Aktivitat von Damonen beobachtet, unter denen ein besonders grosses Exemplar auffallt.                                                                                             "
+      "____to_text": "Neue Gefahr: In der Garagenkoop wurde vermehrt Aktivitat von Damonen beobachtet, unter denen ein besonders grosses Exemplar auffallt.                                                                                             "
     },
     {
       "_________id": 218,
@@ -1832,7 +1832,7 @@
       "_________id": 303,
       "_translator": "deepl",
       "__from_text": "Сильнее, опаснее и живучее обычных демонов. Можно встретить на локации Гаражный кооператив.",
-      "____to_text": "Sie sind starker, gefahrlicher und widerstandsfahiger als normale Damonen. Man kann ihnen an der Location Garagenkooperative\" begegnen.                                 "
+      "____to_text": "Sie sind starker, gefahrlicher und widerstandsfahiger als normale Damonen. Man kann ihnen an der Location Garagenkoop\" begegnen.                                 "
     },
     {
       "_________id": 304,
@@ -3170,13 +3170,13 @@
       "_________id": 526,
       "_translator": "google",
       "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб.",
-      "____to_text": "Du hast uberlebt! \n \n Alle in diesem RAID gefundenen Objekte werden an den Kaufer verkauft. \n \n \n \n \n Fand ein Habara fur: rub.                                                                "
+      "____to_text": "Du hast uberlebt! \n \n Alle in diesem RAID gefundenen Objekte werden an den Kaufer verkauft. \n \n \n \n \n Fand ein Habara fur:                RUB.                                                  "
     },
     {
       "_________id": 527,
       "_translator": "deepl",
       "__from_text": "Вы выжили!\n\nВсе найденные в этом рейде предметы будут проданы скупщику.\n\n\n\n\n\nНайдено хабара на:                руб.",
-      "____to_text": "Du hast uberlebt!\n\nAlle in diesem Raid gefundenen Gegenstande werden an einen Aufkaufer verkauft.\n\n\n\n\n\nGefundenes Bestechungsgeld:                Rubel.                                       "
+      "____to_text": "Du hast uberlebt!\n\nAlle in diesem Raid gefundenen Gegenstande werden an einen Aufkaufer verkauft.\n\n\n\n\n\nGefundenes Bestechungsgeld:                RUB.                                         "
     },
     {
       "_________id": 528,
@@ -5090,13 +5090,13 @@
       "_________id": 846,
       "_translator": "google",
       "__from_text": "Убейте альфа демона \n(Гаражный кооператив)",
-      "____to_text": "Tote Alpha Damon \n (Garage Cooperative)                                      "
+      "____to_text": "Tote Alpha Damon \n (Garagenkoop)                                      "
     },
     {
       "_________id": 847,
       "_translator": "deepl",
       "__from_text": "Убейте альфа демона \n(Гаражный кооператив)",
-      "____to_text": "Tote den Alpha-Damon \n(Garagenkooperative)                                   "
+      "____to_text": "Tote den Alpha-Damon \n(Garagenkoop)                                   "
     },
     {
       "_________id": 848,
@@ -5306,13 +5306,13 @@
       "_________id": 882,
       "_translator": "google",
       "__from_text": "НАЙТИ ТАЙНИК ОХОТНИКА\n(ПОДЗЕМНЫЙ КОМПЛЕКС)",
-      "____to_text": "Finden Sie den Jager -Versteck \n (unterirdischer Komplex)                     "
+      "____to_text": "Finden Sie den Jager -Versteck \n (Kellerraume)                                "
     },
     {
       "_________id": 883,
       "_translator": "deepl",
       "__from_text": "НАЙТИ ТАЙНИК ОХОТНИКА\n(ПОДЗЕМНЫЙ КОМПЛЕКС)",
-      "____to_text": "FIND THE HUNTER'S HIDING PLACE (UNDERGROUND COMPLEX)                          "
+      "____to_text": "Findet das versteck des Jagers\n(Kellerraume)                                  "
     },
     {
       "_________id": 884,
@@ -5678,13 +5678,13 @@
       "_________id": 944,
       "_translator": "google",
       "__from_text": "Подземный комплекс",
-      "____to_text": "Unterirdischer Komplex             "
+      "____to_text": "Kellerraume                        "
     },
     {
       "_________id": 945,
       "_translator": "deepl",
       "__from_text": "Подземный комплекс",
-      "____to_text": "Unterirdischer Komplex             "
+      "____to_text": "Kellerraume                        "
     },
     {
       "_________id": 946,
@@ -6182,13 +6182,13 @@
       "_________id": 1028,
       "_translator": "google",
       "__from_text": "БАЛАНС:                                     РУБ.",
-      "____to_text": "Balance: Rub.                                            "
+      "____to_text": "Balance:                               RUB.              "
     },
     {
       "_________id": 1029,
       "_translator": "deepl",
       "__from_text": "БАЛАНС:                                     РУБ.",
-      "____to_text": "BALANCE:                                     RUB.        "
+      "____to_text": "BALANCE:                               RUB.              "
     },
     {
       "_________id": 1030,
@@ -6656,7 +6656,7 @@
       "_________id": 1107,
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 5",
-      "____to_text": "Benotigt werden 5 ruf       "
+      "____to_text": "Ruf 5\nerforderlich         "
     },
     {
       "_________id": 1108,
@@ -7130,13 +7130,13 @@
       "_________id": 1186,
       "_translator": "google",
       "__from_text": "Имя                           Руб.",
-      "____to_text": "Name reiben.                            "
+      "____to_text": "Name                           RUB.     "
     },
     {
       "_________id": 1187,
       "_translator": "deepl",
       "__from_text": "Имя                           Руб.",
-      "____to_text": "Name                           Rub.     "
+      "____to_text": "Name                           RUB.     "
     },
     {
       "_________id": 1188,
@@ -7160,19 +7160,19 @@
       "_________id": 1191,
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 2",
-      "____to_text": "Benotigt werden 2 ruf       "
+      "____to_text": "Ruf 2\nerforderlich         "
     },
     {
       "_________id": 1192,
       "_translator": "google",
       "__from_text": "Гаражный кооператив ночь",
-      "____to_text": "Garage Cooperative Night                      "
+      "____to_text": "Garagenkoop Night                      "
     },
     {
       "_________id": 1193,
       "_translator": "deepl",
       "__from_text": "Гаражный кооператив ночь",
-      "____to_text": "Garagenkooperative Nacht                      "
+      "____to_text": "Garagenkoop Nacht                      "
     },
     {
       "_________id": 1194,
@@ -7232,7 +7232,7 @@
       "_________id": 1203,
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 3",
-      "____to_text": "Benotigt werden 3 ruf       "
+      "____to_text": "Ruf 3\nerforderlich         "
     },
     {
       "_________id": 1204,
@@ -7832,7 +7832,7 @@
       "_________id": 1303,
       "_translator": "deepl",
       "__from_text": "Требуется\nарбалет",
-      "____to_text": "Benotigt wird eine Armbrust      "
+      "____to_text": "Armbrust\nerforderliche           "
     },
     {
       "_________id": 1304,
@@ -8144,7 +8144,7 @@
       "_________id": 1355,
       "_translator": "deepl",
       "__from_text": "Требуется\nреп. 4",
-      "____to_text": "Benotigt werden 4 ruf       "
+      "____to_text": "Ruf 4\nerforderlich         "
     },
     {
       "_________id": 1356,
@@ -8288,7 +8288,7 @@
       "_________id": 1379,
       "_translator": "deepl",
       "__from_text": "Завершите рейд в Лесу, чтобы получить доступ к Гаражному Кооперативу.",
-      "____to_text": "Beende den Raid im Wald, um Zugang zur Garagenkooperative zu erhalten.                                                         "
+      "____to_text": "Beende den Raid im Wald, um Zugang zur Garagenkoop zu erhalten.                                                         "
     },
     {
       "_________id": 1380,
@@ -8342,13 +8342,13 @@
       "_________id": 1388,
       "_translator": "google",
       "__from_text": "ВЫЖИТЬ В ПЕРВОМ \nРЕЙДЕ (ЛЕС)",
-      "____to_text": "Uberleben Sie im ersten \n RAID (Wald)            "
+      "____to_text": "UBERLEBEN IM ERSTEN RAID\n(WALD)                 "
     },
     {
       "_________id": 1389,
       "_translator": "deepl",
       "__from_text": "ВЫЖИТЬ В ПЕРВОМ \nРЕЙДЕ (ЛЕС)",
-      "____to_text": "UBERLEBEN IM ERSTEN RAID (WALD)                  "
+      "____to_text": "UBERLEBEN IM ERSTEN RAID\n(WALD)                 "
     },
     {
       "_________id": 1390,
@@ -8504,7 +8504,7 @@
       "_________id": 1415,
       "_translator": "deepl",
       "__from_text": "ВЫЖИТЬ В ПЕРВОМ РЕЙДЕ\n(ЛОКАЦИЯ ЛЕС)",
-      "____to_text": "UBERLEBEN IM ERSTEN RAID (ORT: WALD)                           "
+      "____to_text": "UBERLEBEN IM ERSTEN RAID\n(ORT: WALD)                          "
     },
     {
       "_________id": 1416,
@@ -8618,25 +8618,25 @@
       "_________id": 1434,
       "_translator": "google",
       "__from_text": "Мертвый город ночь",
-      "____to_text": "Tote Stadtnacht                   "
+      "____to_text": "Tote Stadt Nacht                  "
     },
     {
       "_________id": 1435,
       "_translator": "deepl",
       "__from_text": "Мертвый город ночь",
-      "____to_text": "Die tote Stadt bei Nacht          "
+      "____to_text": "Tote Stadt Nacht                  "
     },
     {
       "_________id": 1436,
       "_translator": "google",
       "__from_text": "Подземный комплекс день",
-      "____to_text": "Unterirdischer Komplexag                    "
+      "____to_text": "Kellerraume Tag                             "
     },
     {
       "_________id": 1437,
       "_translator": "deepl",
       "__from_text": "Подземный комплекс день",
-      "____to_text": "Unterirdischer Komplex Tag                  "
+      "____to_text": "Kellerraume Tag                             "
     },
     {
       "_________id": 1438,
@@ -8978,13 +8978,13 @@
       "_________id": 1494,
       "_translator": "google",
       "__from_text": "Рейдовая локация:\nСпутник:\nВремя суток:",
-      "____to_text": "RAID -Standort: \n Satelliten: \n Die Tageszeit:                         "
+      "____to_text": "Ort des Raids:\nFreund:\nZeitplan:                                     "
     },
     {
       "_________id": 1495,
       "_translator": "deepl",
       "__from_text": "Рейдовая локация:\nСпутник:\nВремя суток:",
-      "____to_text": "Raid-Ort:\nBegleiter:\nTageszeit:                                        "
+      "____to_text": "Ort des Raids:\nFreund:\nZeitplan:                                     "
     },
     {
       "_________id": 1496,
@@ -9356,7 +9356,7 @@
       "_________id": 1557,
       "_translator": "deepl",
       "__from_text": "Пес",
-      "____to_text": "Pes   "
+      "____to_text": "Hund  "
     },
     {
       "_________id": 1558,
@@ -9800,7 +9800,7 @@
       "_________id": 1631,
       "_translator": "deepl",
       "__from_text": "УЛУЧШЕНИЕ УБЕЖИЩА: БАР\n\nТРЕБУЕТСЯ:\n1. МОЛОТОК\n2. ПЛОСКОГУБЦЫ\n3. ОТВЕРТКА\n4. ГАЕЧНЫЙ КЛЮЧ\n5. КИСТЬ",
-      "____to_text": "VERBESSERUNG DES BUNKERS: BAR\n\nBENOTIGT:\n1. HAMMER\n2. FLACHSZANGE\n3. SCHRAUBENDREHER\n4. SCHRAUBENSCHLUSSEL\n5. BURSTE                                                   "
+      "____to_text": "BUNKER-UPGRADE: BAR\n\nERFORDERLICH:\n1. HAMMER\n2. FLACHSZANGE\n3. SCHRAUBENDREHER\n4. SCHRAUBENSCHLUSSEL\n5. BURSTE                                                             "
     },
     {
       "_________id": 1632,
@@ -9854,13 +9854,13 @@
       "_________id": 1640,
       "_translator": "google",
       "__from_text": "Требуется реп. 2\n\nНаберите 12 очков \nв тире",
-      "____to_text": "Ruf erforderlich. 2\n\nSammle 12 Punkte \nim Dashboard                      "
+      "____to_text": "Ruf 2 erforderlich.\n\nSammle 12 Punkte \nim Dashboard                      "
     },
     {
       "_________id": 1641,
       "_translator": "deepl",
       "__from_text": "Требуется реп. 2\n\nНаберите 12 очков \nв тире",
-      "____to_text": "Ruf erforderlich. 2\n\nSammle 12 Punkte \nim Dashboard                      "
+      "____to_text": "Ruf 2 erforderlich\n\nSammle 12 Punkte \nim Dashboard                      "
     },
     {
       "_________id": 1642,
@@ -9890,13 +9890,13 @@
       "_________id": 1646,
       "_translator": "google",
       "__from_text": "Подземный комплекс ночь",
-      "____to_text": "Untergrundkomplexe Nacht                    "
+      "____to_text": "Kellerraume Nacht                           "
     },
     {
       "_________id": 1647,
       "_translator": "deepl",
       "__from_text": "Подземный комплекс ночь",
-      "____to_text": "Unterirdischer Komplex Nacht                "
+      "____to_text": "Kellerraume Nacht                           "
     },
     {
       "_________id": 1648,
@@ -9956,7 +9956,7 @@
       "_________id": 1657,
       "_translator": "deepl",
       "__from_text": "Мертвый город",
-      "____to_text": "Die tote Stadt           "
+      "____to_text": "Tote Stadt               "
     },
     {
       "_________id": 1658,
@@ -10658,13 +10658,13 @@
       "_________id": 1774,
       "_translator": "google",
       "__from_text": "РЕПУТАЦИЯ:",
-      "____to_text": "Ruf:               "
+      "____to_text": "RUF:               "
     },
     {
       "_________id": 1775,
       "_translator": "deepl",
       "__from_text": "РЕПУТАЦИЯ:",
-      "____to_text": "REPUTATION:        "
+      "____to_text": "RUF:               "
     },
     {
       "_________id": 1776,
@@ -10880,7 +10880,7 @@
       "_________id": 1811,
       "_translator": "deepl",
       "__from_text": "Завершите рейд в Гаражном Кооперативе, чтобы получить доступ к Подземному Комплексу.",
-      "____to_text": "Schliess den Raid in der Garagenkooperative ab, um Zugang zum Untergrundkomplex zu erhalten.                                                                "
+      "____to_text": "Schliess den Raid in der Garagenkoop ab, um Zugang zum Untergrundkomplex zu erhalten.                                                                "
     },
     {
       "_________id": 1812,
@@ -11000,7 +11000,7 @@
       "_________id": 1831,
       "_translator": "deepl",
       "__from_text": "Гаражный кооператив",
-      "____to_text": "Garagenkooperative                   "
+      "____to_text": "Garagenkoop                   "
     },
     {
       "_________id": 1832,
@@ -11570,13 +11570,13 @@
       "_________id": 1926,
       "_translator": "google",
       "__from_text": "Гаражный кооператив день",
-      "____to_text": "Garage Cooperative Tag                        "
+      "____to_text": "Garagenkoop Tag                        "
     },
     {
       "_________id": 1927,
       "_translator": "deepl",
       "__from_text": "Гаражный кооператив день",
-      "____to_text": "Garagenkooperative Tag                        "
+      "____to_text": "Garagenkoop Tag                        "
     },
     {
       "_________id": 1928,
@@ -11852,7 +11852,7 @@
       "_________id": 1973,
       "_translator": "deepl",
       "__from_text": "Требуется\nогнемет",
-      "____to_text": "Benotigt wird ein Flammenwerfer  "
+      "____to_text": "Flammenwerfer\nerforderlich       "
     },
     {
       "_________id": 1974,
@@ -12386,13 +12386,13 @@
       "_________id": 2062,
       "_translator": "google",
       "__from_text": "ПРОГРЕСС РЕПУТАЦИИ:",
-      "____to_text": "Reputationsfortschritt:             "
+      "____to_text": "Ruf fortschritte:                   "
     },
     {
       "_________id": 2063,
       "_translator": "deepl",
       "__from_text": "ПРОГРЕСС РЕПУТАЦИИ:",
-      "____to_text": "REPUTATIONSPROGRESS:                "
+      "____to_text": "Ruf fortschritte:                   "
     },
     {
       "_________id": 2064,
@@ -12404,7 +12404,7 @@
       "_________id": 2065,
       "_translator": "deepl",
       "__from_text": "Требуется\nэнергетическая\nвинтовка",
-      "____to_text": "Benotigt wird ein Energiewaffen-Gewehr                          "
+      "____to_text": "Energiegewehr\nerforderlich.                                      "
     },
     {
       "_________id": 2066,
@@ -14096,7 +14096,7 @@
       "_________id": 2347,
       "_translator": "deepl",
       "__from_text": "Выжить в \nпервом рейде",
-      "____to_text": "Uberleben im ersten Raid                "
+      "____to_text": "Uberleben im\nersten Raid                "
     },
     {
       "_________id": 2348,
