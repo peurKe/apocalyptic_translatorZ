@@ -202,7 +202,7 @@ Download the **installer** executable file from the link corresponding to your n
   - Added CS JSON translation DB files
 
 - v0.2.0
-  - ⚠️ Now, a single executable installer for all games and all subtitle languages
+  - ✅ Now, a single executable installer for all games and all subtitle languages
   - 🚀 Added detailed installation procedure with screenshots to the README.md file
   - 🚀 Added JSON translation database files in Japanese and Korean processed by DeepL and Google
   - 🚀 Added JSON translation database file in German processed by DeepL (request from @blankfx on Discord)
