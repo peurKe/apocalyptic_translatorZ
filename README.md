@@ -21,15 +21,23 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 - [Release notes](#Release-notes)
 <!-- /TOC -->
 
-# Discord
+# Communities
 
-- **CONVRGENCE**: [Additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
-- **ZONA Origin**: [Welcome to #zona-translate-deepl!](https://discord.com/channels/1113935727202410691/1302585407308955690)
+### Discord
 
-# Steam community
+- **CONVRGENCE**:&nbsp;&nbsp;[Additional subtitle languages to play with Russian voices](https://discord.com/channels/869881583635664946/1309965989462544395)
+- **ZONA Origin**:&nbsp;&nbsp;[Welcome to #zona-translate-deepl!](https://discord.com/channels/1113935727202410691/1302585407308955690)
 
-- **CONVRGENCE**: [Additional subtitle languages to play with Russian voices](https://steamcommunity.com/app/2609610/discussions/0/4629233379372516911)
-- **ZONA Origin**: [Automatic translations for ZONA Origin and ProjectX](https://steamcommunity.com/app/2539520/discussions/0/4638238419731880745)
+### Steam community
+
+- **CONVRGENCE**:&nbsp;&nbsp;[Additional subtitle languages to play with Russian voices](https://steamcommunity.com/app/2609610/discussions/0/4629233379372516911)
+- **ZONA Origin**:&nbsp;&nbsp;[Automatic translations for ZONA Origin and ProjectX](https://steamcommunity.com/app/2539520/discussions/0/4638238419731880745)
+
+### MODDB
+
+- **CONVRGENCE**:&nbsp;&nbsp;[apocalyptic-translatorz](https://www.moddb.com/mods/apocalyptic-translatorz)
+
+<br />
 
 # Prerequisites
 
@@ -40,6 +48,8 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 - Your PC must have an Internet connection for API requests to online translators
 
   (Only when new game updates containing new original text have not yet been translated by this mod and the translations of these new texts are not included in the mod installer).
+
+<br />
 
 # Currently-supported-subtitle-languages
 
@@ -69,13 +79,15 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 | Suomi (Finnish)                     | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 | Svenska (Swedish)                   | [installer](https://tinyurl.com/apocalyptic-translator-Z) | CONVRGENCE<br>Paradox_of_Hope<br>ZONA<br>ZONAORIGIN |      <br>     <br>     <br>      | **X**<br>**X**<br>**X**<br>**X** |
 
+<br />
+
 # Usage
 
-## Download the EXE installer
+### Download the EXE installer
 
 Download the **installer** executable file from the link corresponding to your native subtitle language in the list above.
 
-## Copy the downloaded executable file into game folder
+### Copy the downloaded executable file into game folder
 
 - Copy it to your **CONVRGENCE** or **Paradox of Hope** or **Z.O.N.A Project X** or **Z.O.N.A Origin** game folder in your Steam library.
   By default in :
@@ -96,9 +108,9 @@ Download the **installer** executable file from the link corresponding to your n
     - Click on 'Browse...'
    An explorer window will appear showing the folder for your game.
  
-## Go to your game directory.
+### Go to your game directory.
 
-## Double-clic on EXE installer
+### Double-clic on EXE installer
 
 - Click on 'Additional information' and 'Execute anyway':
 
@@ -116,36 +128,38 @@ Download the **installer** executable file from the link corresponding to your n
 
   ![Additional information](./images/install_04.png)
 
-## The installer displays the main information about the installation process that will be carried out.
+### The installer displays the main information about the installation process that will be carried out.
 
 - Clic on 'Install' button.
 
   ![Additional information](./images/install_05.png)
 
-## The installation python script then starts automatically
+### The installation python script then starts automatically
 
 - Wait for the translation ending
 
   ![Additional information](./images/install_06.png)
 
-## Approve the final message
+### Approve the final message
 
 - Read the message, clic on "OK" button, then clic on 'Finish" button:
 
   ![Additional information](./images/install_07.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_08.png)
 
-## Enjoy Russian or Ukrainian or voices while having all the texts in your native subtitle language!
+### Enjoy Russian or Ukrainian or voices while having all the texts in your native subtitle language!
 
 - Just launch your game from your Steam library as usual.
 - Make sure you select the '**Russian**' or '**Ukrainian**' subtitle language in your your game settings.
 
-## Restoring original subtitles procedure
+### Restoring original subtitles procedure
 
 - There are two methods available:
   - Either select '**English**' in your game settings,
   - Or run the shortcut '**apocalyptic_translatorZ (restore)**' created by the executable in your game directory, the restoration will start, and you will need to press "Enter" to close the window.
 
   ![Additional information](./images/install_09.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Additional information](./images/install_10.png)
+
+<br />
 
 # Release notes
 
