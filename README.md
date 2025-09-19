@@ -83,6 +83,12 @@ This **apocalyptic_translatorZ** mod is an evolution of my deprecated [auto_ZONA
 
 # Usage
 
+## Complete instalation guide in Steam community
+
+- You can find a complete installation guide with screenshots in this [Steam community guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3570674991)
+
+## Complete instalation guide in this README file
+
 ### Download the EXE installer
 
 Download the **installer** executable file from the link corresponding to your native subtitle language in the list above.
